@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Armonía Funcional I: módulo teórico con cuestionario autocalificable.">
+  <title>Armonía Funcional I</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/data.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#homeView" aria-label="Armonía Funcional I">
+        <span class="logo">AF</span>
+        <span>
+          <span class="brand-title">Armonía Funcional I</span>
+          <span class="brand-subtitle">Prof. Jaime Jaramillo Arias - UNIVERSIDAD DE CALDAS</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-btn active" data-view="home">Inicio</button>
+        <button class="nav-btn" data-view="theory">Módulo teórico</button>
+        <button class="nav-btn" data-view="quiz">Cuestionario</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="lockBanner" class="panel lock-banner hidden">
+      <b>Modo cuestionario activo.</b> El módulo teórico está bloqueado hasta entregar. Si se recarga la página, el intento se reabre automáticamente.
+    </div>
+
+    <section id="homeView" class="view">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="kicker">Prof. Jaime Jaramillo Arias · Universidad de Caldas</div>
+          <h1>Teoría musical con estudio guiado y evaluación automática.</h1>
+          <p>App web local para trabajar escalas, intervalos, acordes, enlace, tonalidad y rearmonización. Incluye módulo teórico por temas y cuestionario autocorregible con nota final de 0 a 5.0.</p>
+          <div class="hero-actions">
+            <button id="goTheoryBtn" class="primary-btn">Entrar al módulo teórico</button>
+            <button id="startQuizBtn2" class="ghost-btn">Ir al cuestionario</button>
+          </div>
+        </div>
+        <aside class="overview-panel" aria-label="Resumen del curso">
+          <div class="stats-grid">
+            <div class="stat"><strong id="topicCount">0</strong><span>temas teóricos</span></div>
+            <div class="stat"><strong id="questionCount">0</strong><span>preguntas</span></div>
+            <div class="stat"><strong id="autoGrade">0–5.0</strong><span>escala de calificación</span></div>
+            <div class="stat"><strong id="sourceCount">2</strong><span>documentos fuente</span></div>
+          </div>
+          <div class="study-progress">
+            <div class="progress-bar"><div id="studyBar"></div></div>
+            <div id="studyProgressText" class="small-note">0/0 temas estudiados</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="theoryView" class="view hidden">
+      <div class="view-title">
+        <div>
+          <p class="kicker">Módulo teórico</p>
+          <h2>Módulo teórico por temas</h2>
+          <p>Resumen organizado para estudio previo. Estos contenidos quedan bloqueados durante el cuestionario.</p>
+        </div>
+        <button id="resetStudyBtn" class="ghost-btn">Reiniciar progreso</button>
+      </div>
+      <div id="topicGrid" class="topic-grid"></div>
+      <div class="view-title detail-title">
+        <div>
+          <p class="kicker">Repaso</p>
+          <h2>Desarrollo completo</h2>
+          <p>Los mismos temas en formato desplegable para repaso más detallado.</p>
+        </div>
+      </div>
+      <div id="theoryDetail" class="detail-stack"></div>
+    </section>
+
+    <section id="quizView" class="view hidden">
+      <div class="view-title">
+        <div>
+          <p class="kicker">Evaluacion</p>
+          <h2>Cuestionario autocorregible</h2>
+          <p>La nota se calcula automáticamente sobre 5.0. Las preguntas abiertas se evalúan por conceptos clave.</p>
+        </div>
+      </div>
+
+      <div id="quizStartPanel" class="quiz-start">
+        <div class="panel">
+          <h3>Datos del estudiante</h3>
+          <p class="small-note">Ingrese los datos antes de iniciar. Al iniciar se bloquea el acceso interno al módulo teórico.</p>
+          <div class="form-grid">
+            <label class="field"><span>Nombre del estudiante</span><input id="studentName" autocomplete="name" placeholder="Nombre completo"></label>
+            <label class="field"><span>Curso</span><input id="studentCourse" placeholder="Curso o grupo"></label>
+            <label class="field"><span>Fecha</span><input id="studentDate" type="date"></label>
+          </div>
+          <div class="form-actions"><button id="startQuizBtn" class="primary-btn">Iniciar cuestionario bloqueado</button></div>
+        </div>
+        <div class="lock-panel">
+          <h3>Bloqueo durante el cuestionario</h3>
+          <p>Mientras el intento esté activo, la app oculta el módulo teórico, bloquea la navegación interna y conserva el intento si se recarga la página. También registra pérdidas de foco de la ventana.</p>
+        </div>
+      </div>
+
+      <div id="quizActivePanel" class="hidden">
+        <div class="quiz-toolbar panel">
+          <div class="quiz-status">
+            <span class="pill ok">Estudiante: <span id="activeStudent">-</span></span>
+            <span class="pill" id="answeredCount">0/64 respondidas</span>
+            <span class="pill warn">Salidas de foco: <span id="focusWarnings">0</span></span>
+          </div>
+          <button id="submitQuizBtn" class="primary-btn">Entregar y calificar</button>
+        </div>
+        <div class="quiz-progress progress-bar"><div id="quizBar"></div></div>
+        <div id="questionList" class="question-list"></div>
+        <div class="panel submit-strip">
+          <button class="primary-btn" onclick="document.getElementById('submitQuizBtn').click()">Entregar y calificar</button>
+        </div>
+      </div>
+
+      <div id="quizResultPanel" class="hidden result-card">
+        <div class="result-score">
+          <div id="scoreCircle" class="score-circle"><div><strong id="finalScore">0.0</strong><br><span>/ 5.0</span></div></div>
+          <div>
+            <h2>Resultado del cuestionario</h2>
+            <p class="small-note">Estudiante: <b id="resultStudent">-</b> · Curso: <b id="resultCourse">-</b> · Fecha: <b id="resultDate">-</b></p>
+            <p><b id="rawPoints">0/64 puntos</b> · Salidas de foco registradas: <b id="resultWarnings">0</b></p>
+            <div class="result-actions">
+              <button id="downloadCsvBtn" class="soft-btn">Descargar resultado CSV</button>
+              <button id="printResultBtn" class="ghost-btn">Imprimir / guardar PDF</button>
+              <button id="newAttemptBtn" class="danger-btn">Nuevo intento</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-note">La corrección automática de respuestas abiertas usa coincidencias por conceptos clave. Para evaluaciones de alto impacto conviene revisar manualmente las respuestas parciales.</div>
+        <div id="reviewList" class="review-list"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

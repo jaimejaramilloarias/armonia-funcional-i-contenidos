@@ -63,27 +63,22 @@
         <div>
           <p class="kicker">Módulo teórico</p>
           <h2>Módulo teórico por temas</h2>
-          <p>Resumen organizado para estudio previo. Estos contenidos quedan bloqueados durante el cuestionario.</p>
+          <p>Lectura guiada para estudio previo. Estos contenidos quedan bloqueados durante el cuestionario.</p>
         </div>
         <button id="resetStudyBtn" class="ghost-btn">Reiniciar progreso</button>
       </div>
-      <div id="topicGrid" class="topic-grid"></div>
-      <div class="view-title detail-title">
-        <div>
-          <p class="kicker">Repaso</p>
-          <h2>Desarrollo completo</h2>
-          <p>Los mismos temas en formato desplegable para repaso más detallado.</p>
-        </div>
+      <div class="theory-layout">
+        <aside id="topicGrid" class="topic-grid" aria-label="Índice de temas"></aside>
+        <div id="theoryDetail" class="detail-stack"></div>
       </div>
-      <div id="theoryDetail" class="detail-stack"></div>
     </section>
 
     <section id="quizView" class="view hidden">
       <div class="view-title">
         <div>
-          <p class="kicker">Evaluacion</p>
+          <p class="kicker">Evaluación</p>
           <h2>Cuestionario autocorregible</h2>
-          <p>La nota se calcula automáticamente sobre 5.0. Las preguntas abiertas se evalúan por conceptos clave.</p>
+          <p>La nota se calcula automáticamente sobre 5.0. Las preguntas usan formatos cerrados para evitar ambigüedades en la calificación.</p>
         </div>
       </div>
 

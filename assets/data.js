@@ -2014,40 +2014,40 @@ window.APP_DATA = {
           "sampleAnswer": "D6: D F# A B; F#m6: F# A C# D#; Bb°7: Bb Db Fb Abb; E6sus4: E A B C#; Ab6sus2: Ab Bb Eb F; G6(b5): G B Db E",
           "optionsByItem": {
             "D6": [
-              "E A B C#",
-              "G B Db E",
-              "F# A C# D#",
-              "D F# A B"
+              "D F# A B",
+              "D F A B",
+              "D F# Ab B",
+              "D F# A Bb"
             ],
             "F#m6": [
-              "D F# A B",
-              "Ab Bb Eb F",
-              "E A B C#",
-              "F# A C# D#"
+              "F# A C# D#",
+              "F# A# C# D#",
+              "F# A C D#",
+              "F# A C# E"
             ],
             "Bb°7": [
               "Bb Db Fb Abb",
-              "D F# A B",
-              "G B Db E",
-              "Ab Bb Eb F"
+              "Bb Db F Abb",
+              "Bb D Fb Abb",
+              "Bb Db Fb Ab"
             ],
             "E6sus4": [
-              "D F# A B",
               "E A B C#",
-              "G B Db E",
-              "F# A C# D#"
+              "E G# B C#",
+              "E A Bb C#",
+              "E A B C"
             ],
             "Ab6sus2": [
-              "Bb Db Fb Abb",
-              "D F# A B",
-              "E A B C#",
-              "Ab Bb Eb F"
+              "Ab Bb Eb F",
+              "Ab C Eb F",
+              "Ab Bb Ebb F",
+              "Ab Bb Eb Gb"
             ],
             "G6(b5)": [
-              "Bb Db Fb Abb",
-              "E A B C#",
               "G B Db E",
-              "D F# A B"
+              "G Bb Db E",
+              "G B D E",
+              "G B Db Eb"
             ]
           }
         },
@@ -2204,46 +2204,46 @@ window.APP_DATA = {
           "sampleAnswer": "Eb∆ / Ebmaj7 / Ebma7: Eb G Bb D; Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7): G Bb D F#; A+∆ / A+maj7 / A∆(#5) / Amaj7(#5): A C# E# G#; F°∆ / Fdim∆ / F°maj7: F Ab Cb E; Db∆sus4 / Dbmaj7(sus4): Db Gb Ab C; B∆sus2 / Bmaj7(sus2): B C# F# A#; Ab∆(b5) / Abmaj7(b5): Ab C Ebb G",
           "optionsByItem": {
             "Eb∆ / Ebmaj7 / Ebma7": [
-              "G Bb D F#",
-              "A C# E# G#",
               "Eb G Bb D",
-              "Ab C Ebb G"
+              "Eb Gb Bb D",
+              "Eb G B D",
+              "Eb G Bb Db"
             ],
             "Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7)": [
               "G Bb D F#",
-              "Eb G Bb D",
-              "Ab C Ebb G",
-              "B C# F# A#"
+              "G B D F#",
+              "G Bb Db F#",
+              "G Bb D F"
             ],
             "A+∆ / A+maj7 / A∆(#5) / Amaj7(#5)": [
-              "B C# F# A#",
-              "Db Gb Ab C",
               "A C# E# G#",
-              "Ab C Ebb G"
+              "A C E# G#",
+              "A C# E G#",
+              "A C# E# G"
             ],
             "F°∆ / Fdim∆ / F°maj7": [
-              "Db Gb Ab C",
-              "A C# E# G#",
-              "Ab C Ebb G",
-              "F Ab Cb E"
+              "F Ab Cb E",
+              "F A Cb E",
+              "F Ab C E",
+              "F Ab Cb Eb"
             ],
             "Db∆sus4 / Dbmaj7(sus4)": [
-              "A C# E# G#",
               "Db Gb Ab C",
-              "Ab C Ebb G",
-              "F Ab Cb E"
+              "Db F Ab C",
+              "Db Gb Abb C",
+              "Db Gb Ab Cb"
             ],
             "B∆sus2 / Bmaj7(sus2)": [
-              "A C# E# G#",
-              "Ab C Ebb G",
               "B C# F# A#",
-              "G Bb D F#"
+              "B D# F# A#",
+              "B C# F A#",
+              "B C# F# A"
             ],
             "Ab∆(b5) / Abmaj7(b5)": [
               "Ab C Ebb G",
-              "F Ab Cb E",
-              "Eb G Bb D",
-              "Db Gb Ab C"
+              "Ab C Eb G",
+              "Ab Cb Ebb G",
+              "Ab C Ebb Gb"
             ]
           }
         },
@@ -2484,34 +2484,34 @@ window.APP_DATA = {
           "sampleAnswer": "F6(9): F A C D G; Bbm6(9): Bb Db F G C; G°7(9): G Bb Db Fb A; A6sus4(9): A D E F# B; Eb6(9)b5: Eb G Bbb C F",
           "optionsByItem": {
             "F6(9)": [
-              "Bb Db F G C",
-              "A D E F# B",
-              "Eb G Bbb C F",
-              "F A C D G"
+              "F A C D G",
+              "F Ab C D G",
+              "F A C# D G",
+              "F A C Db G"
             ],
             "Bbm6(9)": [
               "Bb Db F G C",
-              "Eb G Bbb C F",
-              "F A C D G",
-              "G Bb Db Fb A"
+              "Bb D F G C",
+              "Bb Db Fb G C",
+              "Bb Db F Ab C"
             ],
             "G°7(9)": [
-              "A D E F# B",
               "G Bb Db Fb A",
-              "Bb Db F G C",
-              "F A C D G"
+              "G B Db Fb A",
+              "G Bb D Fb A",
+              "G Bb Db F A"
             ],
             "A6sus4(9)": [
-              "F A C D G",
-              "G Bb Db Fb A",
-              "Bb Db F G C",
-              "A D E F# B"
+              "A D E F# B",
+              "A C# E F# B",
+              "A D Eb F# B",
+              "A D E F B"
             ],
             "Eb6(9)b5": [
-              "Bb Db F G C",
               "Eb G Bbb C F",
-              "G Bb Db Fb A",
-              "F A C D G"
+              "Eb Gb Bbb C F",
+              "Eb G Bb C F",
+              "Eb G Bbb Cb F"
             ]
           }
         },
@@ -2622,52 +2622,52 @@ window.APP_DATA = {
           "sampleAnswer": "D∆9: D F# A C# E; Ab∆(#9): Ab C Eb G B; Em∆(9): E G B D# F#; F+∆(9): F A C# E G; Bb+∆(#9): Bb D F# A C#; G°∆9: G Bb Db F# A; E∆sus4(9): E A B D# F#; Db∆(b5)9: Db F Abb C Eb",
           "optionsByItem": {
             "D∆9": [
-              "E A B D# F#",
-              "F A C# E G",
               "D F# A C# E",
-              "Bb D F# A C#"
+              "D F A C# E",
+              "D F# Ab C# E",
+              "D F# A C E"
             ],
             "Ab∆(#9)": [
-              "Db F Abb C Eb",
-              "E A B D# F#",
               "Ab C Eb G B",
-              "E G B D# F#"
+              "Ab Cb Eb G B",
+              "Ab C Ebb G B",
+              "Ab C Eb Gb B"
             ],
             "Em∆(9)": [
-              "E A B D# F#",
-              "D F# A C# E",
-              "Ab C Eb G B",
-              "E G B D# F#"
+              "E G B D# F#",
+              "E G# B D# F#",
+              "E G Bb D# F#",
+              "E G B D F#"
             ],
             "F+∆(9)": [
               "F A C# E G",
-              "Bb D F# A C#",
-              "E A B D# F#",
-              "D F# A C# E"
+              "F Ab C# E G",
+              "F A C E G",
+              "F A C# Eb G"
             ],
             "Bb+∆(#9)": [
-              "D F# A C# E",
-              "G Bb Db F# A",
-              "E A B D# F#",
-              "Bb D F# A C#"
+              "Bb D F# A C#",
+              "Bb Db F# A C#",
+              "Bb D F A C#",
+              "Bb D F# Ab C#"
             ],
             "G°∆9": [
-              "E A B D# F#",
               "G Bb Db F# A",
-              "Bb D F# A C#",
-              "D F# A C# E"
+              "G B Db F# A",
+              "G Bb D F# A",
+              "G Bb Db F A"
             ],
             "E∆sus4(9)": [
-              "E G B D# F#",
-              "Bb D F# A C#",
               "E A B D# F#",
-              "D F# A C# E"
+              "E G# B D# F#",
+              "E A Bb D# F#",
+              "E A B D F#"
             ],
             "Db∆(b5)9": [
               "Db F Abb C Eb",
-              "F A C# E G",
-              "G Bb Db F# A",
-              "Ab C Eb G B"
+              "Db Fb Abb C Eb",
+              "Db F Ab C Eb",
+              "Db F Abb Cb Eb"
             ]
           }
         },
@@ -3030,64 +3030,64 @@ window.APP_DATA = {
           "sampleAnswer": "F7(b9)b13: F A C Eb Gb B opcional Db; A9(b13): A C# E G B D# F; Eb7(#9)b13: Eb G Bb Db F# A Cb; B°7(b13): B D F Ab C# opcional E opcional G; F#øb13: F# A C E G# opcional B opcional D; D7sus4(9)b13: D G A C E Bb; Ab7sus4(b9)b13: Ab Db Eb Gb Bbb Fb; G7(b5)b9(b13): G B Db F Ab Eb; Bb9(b5)b13: Bb D Fb Ab C Gb; E7(#9)b5(b13): E G# Bb D F## C",
           "optionsByItem": {
             "F7(b9)b13": [
-              "G B Db F Ab Eb",
               "F A C Eb Gb B opcional Db",
-              "Ab Db Eb Gb Bbb Fb",
-              "F# A C E G# opcional B opcional D"
+              "F A C Eb G B opcional Db",
+              "F A C E Gb B opcional Db",
+              "F Ab C Eb Gb B opcional Db"
             ],
             "A9(b13)": [
-              "G B Db F Ab Eb",
               "A C# E G B D# F",
-              "B D F Ab C# opcional E opcional G",
-              "D G A C E Bb"
+              "A C E G B D# F",
+              "A C# E G Bb D# F",
+              "A C# E G B D F"
             ],
             "Eb7(#9)b13": [
-              "D G A C E Bb",
               "Eb G Bb Db F# A Cb",
-              "F A C Eb Gb B opcional Db",
-              "G B Db F Ab Eb"
+              "Eb Gb Bb Db F# A Cb",
+              "Eb G Bb D F# A Cb",
+              "Eb G Bb Db F A Cb"
             ],
             "B°7(b13)": [
               "B D F Ab C# opcional E opcional G",
-              "A C# E G B D# F",
-              "G B Db F Ab Eb",
-              "F# A C E G# opcional B opcional D"
+              "B D# F Ab C# opcional E opcional G",
+              "B D F# Ab C# opcional E opcional G",
+              "B D F A C# opcional E opcional G"
             ],
             "F#øb13": [
-              "E G# Bb D F## C",
-              "B D F Ab C# opcional E opcional G",
-              "D G A C E Bb",
-              "F# A C E G# opcional B opcional D"
+              "F# A C E G# opcional B opcional D",
+              "F# A# C E G# opcional B opcional D",
+              "F# A C# E G# opcional B opcional D",
+              "F# A C E# G# opcional B opcional D"
             ],
             "D7sus4(9)b13": [
               "D G A C E Bb",
-              "F# A C E G# opcional B opcional D",
-              "Bb D Fb Ab C Gb",
-              "E G# Bb D F## C"
+              "D F# A C E Bb",
+              "D G Ab C E Bb",
+              "D G A C Eb Bb"
             ],
             "Ab7sus4(b9)b13": [
-              "G B Db F Ab Eb",
-              "F A C Eb Gb B opcional Db",
-              "Bb D Fb Ab C Gb",
-              "Ab Db Eb Gb Bbb Fb"
+              "Ab Db Eb Gb Bbb Fb",
+              "Ab C Eb Gb Bbb Fb",
+              "Ab Db Ebb Gb Bbb Fb",
+              "Ab Db Eb G Bbb Fb"
             ],
             "G7(b5)b9(b13)": [
               "G B Db F Ab Eb",
-              "F A C Eb Gb B opcional Db",
-              "Ab Db Eb Gb Bbb Fb",
-              "B D F Ab C# opcional E opcional G"
+              "G Bb Db F Ab Eb",
+              "G B D F Ab Eb",
+              "G B Db F A Eb"
             ],
             "Bb9(b5)b13": [
-              "Ab Db Eb Gb Bbb Fb",
-              "D G A C E Bb",
-              "E G# Bb D F## C",
-              "Bb D Fb Ab C Gb"
+              "Bb D Fb Ab C Gb",
+              "Bb Db Fb Ab C Gb",
+              "Bb D F Ab C Gb",
+              "Bb D Fb A C Gb"
             ],
             "E7(#9)b5(b13)": [
-              "Bb D Fb Ab C Gb",
               "E G# Bb D F## C",
-              "D G A C E Bb",
-              "F# A C E G# opcional B opcional D"
+              "E G Bb D F## C",
+              "E G# B D F## C",
+              "E G# Bb D F# C"
             ]
           }
         },

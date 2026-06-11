@@ -296,11 +296,11 @@ function conceptBlocks(body) {
   const chunks = splitConceptChunks(body);
   const blocks = [];
   chunks.forEach(chunk => {
-    const row = chordRowFromChunk(chunk.text);
+    const row = chordRowFromChunk(chunk.text) || noteCipherRowFromChunk(chunk.text);
     if (row) {
       const last = blocks[blocks.length - 1];
-      if (last?.type === "table") last.rows.push(row);
-      else blocks.push({ type: "table", rows: [row] });
+      if (last?.type === "table" && last.tableKind === row.kind) last.rows.push(row);
+      else blocks.push({ type: "table", tableKind: row.kind, rows: [row] });
       return;
     }
     if (chunk.text) {
@@ -332,7 +332,18 @@ function chordRowFromChunk(chunk) {
   const before = chunk.slice(0, formulaStart).trim();
   const afterNotes = afterFormula.slice(notes.raw.length).trim();
   const label = chordLabel(before, afterNotes);
-  return { label, formula, notes: notes.value };
+  return { kind: "chord", label, formula, notes: notes.value };
+}
+function noteCipherRowFromChunk(chunk) {
+  const note = "(?:[A-G](?:bb|##|b|#)?)";
+  const notesRe = new RegExp(`^((?:${note}(?:,\\s*|\\s+)){2,}${note})\\s+corresponde a\\s+(.+)$`, "i");
+  const match = notesRe.exec(chunk.trim());
+  if (!match) return null;
+  return {
+    kind: "noteCipher",
+    notes: match[1].replace(/,\s*/g, " ").replace(/\s+/g, " ").trim(),
+    cipher: match[2].replace(/[.;]$/, "").trim()
+  };
 }
 function readBalancedNotes(text) {
   if (!text.startsWith("(")) return null;
@@ -357,8 +368,17 @@ function chordLabel(before, afterNotes) {
     .trim() || "Ejemplo en C";
 }
 function renderChordTable(rows) {
+  if (rows[0]?.kind === "noteCipher") {
+    return `<div class="chord-table-wrap"><table class="chord-table note-cipher-table">
+      <thead><tr><th>Notas</th><th>Cifrado</th></tr></thead>
+      <tbody>${rows.map(row => `<tr>
+        <td><code>${escapeHtml(row.notes)}</code></td>
+        <td>${escapeHtml(row.cipher)}</td>
+      </tr>`).join("")}</tbody>
+    </table></div>`;
+  }
   return `<div class="chord-table-wrap"><table class="chord-table">
-    <thead><tr><th>Acorde o caso</th><th>Intervalos</th><th>Notas en C</th></tr></thead>
+    <thead><tr><th>Acorde o caso</th><th>Intervalos</th><th>Notas del ejemplo</th></tr></thead>
     <tbody>${rows.map(row => `<tr>
       <td>${escapeHtml(row.label)}</td>
       <td><code>${escapeHtml(row.formula)}</code></td>
@@ -445,6 +465,9 @@ function renderQuestion(q) {
 function val(qid, suffix="") { return state.quiz.answers[`q${qid}${suffix}`] ?? ""; }
 function optionValue(option) { return typeof option === "object" ? option.value : option; }
 function optionLabel(option) { return typeof option === "object" ? option.label : option; }
+function dropdownOptions(q, item) {
+  return q.optionsByItem?.[item] || q.options || [];
+}
 function renderQuestionBody(q) {
   if (q.type === "selectBlanks") {
     return `<div class="inline-grid">${q.labels.map((label,i) => `<label class="field"><span>${escapeHtml(label)}</span><select data-answer="q${q.id}_${i}"><option value="">Seleccione</option>${q.options.map(opt => `<option value="${escapeHtml(optionValue(opt))}" ${val(q.id,`_${i}`)===optionValue(opt)?"selected":""}>${escapeHtml(optionLabel(opt))}</option>`).join("")}</select></label>`).join("")}</div>`;
@@ -456,10 +479,10 @@ function renderQuestionBody(q) {
     return `<div class="multi-note">Seleccione todas las respuestas correctas.</div><div class="options">${q.choices.map((choice,i) => `<label class="option"><input type="checkbox" data-answer="q${q.id}_${i}" value="${escapeHtml(choice)}" ${val(q.id,`_${i}`) ? "checked" : ""}><span>${escapeHtml(choice)}</span></label>`).join("")}</div>`;
   }
   if (q.type === "classify") {
-    return `<div>${q.items.map(item => `<label class="classify-row"><span>${escapeHtml(item)}</span><select data-answer="q${q.id}_${escapeAttr(item)}"><option value="">Seleccione</option>${q.options.map(opt => `<option value="${escapeHtml(opt)}" ${val(q.id,`_${item}`)===opt?"selected":""}>${escapeHtml(opt)}</option>`).join("")}</select></label>`).join("")}</div>`;
+    return `<div>${q.items.map(item => `<label class="classify-row"><span>${escapeHtml(item)}</span><select data-answer="q${q.id}_${escapeAttr(item)}"><option value="">Seleccione</option>${dropdownOptions(q, item).map(opt => `<option value="${escapeHtml(opt)}" ${val(q.id,`_${item}`)===opt?"selected":""}>${escapeHtml(opt)}</option>`).join("")}</select></label>`).join("")}</div>`;
   }
   if (q.type === "match") {
-    return `<div>${q.items.map(item => `<label class="match-row"><span>${escapeHtml(item)}</span><select data-answer="q${q.id}_${escapeAttr(item)}"><option value="">Seleccione</option>${q.options.map(opt => `<option value="${escapeHtml(opt)}" ${val(q.id,`_${item}`)===opt?"selected":""}>${escapeHtml(opt)}</option>`).join("")}</select></label>`).join("")}</div>`;
+    return `<div>${q.items.map(item => `<label class="match-row"><span>${escapeHtml(item)}</span><select data-answer="q${q.id}_${escapeAttr(item)}"><option value="">Seleccione</option>${dropdownOptions(q, item).map(opt => `<option value="${escapeHtml(opt)}" ${val(q.id,`_${item}`)===opt?"selected":""}>${escapeHtml(opt)}</option>`).join("")}</select></label>`).join("")}</div>`;
   }
   if (q.type === "trueFalse") {
     return `<div class="options"><label class="option"><input type="radio" name="q${q.id}" data-answer="q${q.id}" value="true" ${val(q.id)==="true"?"checked":""}><span>V</span></label><label class="option"><input type="radio" name="q${q.id}" data-answer="q${q.id}" value="false" ${val(q.id)==="false"?"checked":""}><span>F</span></label></div>`;

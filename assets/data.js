@@ -1237,8 +1237,39 @@ window.APP_DATA = {
           ]
         },
         {
+          "id": "nivel-2-sistema-americano-cifrado",
+          "title": "2. Sistema americano y cifrado",
+          "subtitle": "Fundamentales, alteraciones y símbolos de triada.",
+          "items": [
+            {
+              "term": "Fundamentales del sistema americano",
+              "body": "Las fundamentales posibles incluyen C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb y B."
+            },
+            {
+              "term": "Escritura de la fundamental",
+              "body": "La fundamental se escribe con letra mayúscula en el sistema americano. Si la nota está alterada, debe incluir su sostenido o bemol."
+            },
+            {
+              "term": "Cifrados de triada mayor y menor",
+              "body": "C indica mayor. Cm, C-, Cmi y Cmin indican menor."
+            },
+            {
+              "term": "Cifrados de triada aumentada y disminuida",
+              "body": "C+, C(#5) y Caug indican aumentada. C° y Cdim indican disminuida."
+            },
+            {
+              "term": "Cifrados de triadas suspendidas",
+              "body": "Csus y Csus4 indican suspendida 4. Csus2 indica suspendida 2."
+            },
+            {
+              "term": "Cifrado con quinta disminuida",
+              "body": "C(b5) significa C mayor con quinta disminuida: 1 3 b5 (C E Gb)."
+            }
+          ]
+        },
+        {
           "id": "nivel-2-triadas",
-          "title": "2. Triadas",
+          "title": "3. Triadas",
           "subtitle": "Estructuras básicas y cifrados comunes sobre C.",
           "items": [
             {
@@ -1265,7 +1296,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-soportes",
-          "title": "3. Soportes",
+          "title": "4. Soportes",
           "subtitle": "Sextas, séptimas y acordes con soporte.",
           "items": [
             {
@@ -1292,7 +1323,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-septimas",
-          "title": "4. Séptimas menores y séptimas mayores",
+          "title": "5. Séptimas menores y séptimas mayores",
           "subtitle": "Construcción y cifrado de acordes con b7 y 7.",
           "items": [
             {
@@ -1319,7 +1350,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-reglas-extensiones",
-          "title": "5. Reglas generales de extensiones",
+          "title": "6. Reglas generales de extensiones",
           "subtitle": "Uso de b9, 9, #9, 11, #11, b13 y 13.",
           "items": [
             {
@@ -1354,7 +1385,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-novenas",
-          "title": "6. Novenas",
+          "title": "7. Novenas",
           "subtitle": "Novenas menores, mayores y aumentadas en acordes con 6, b7 o 7.",
           "items": [
             {
@@ -1381,7 +1412,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-onceavas",
-          "title": "7. Onceavas",
+          "title": "8. Onceavas",
           "subtitle": "Onceava justa y onceava aumentada.",
           "items": [
             {
@@ -1416,7 +1447,7 @@ window.APP_DATA = {
         },
         {
           "id": "nivel-2-treceavas",
-          "title": "8. Treceavas",
+          "title": "9. Treceavas",
           "subtitle": "Treceava menor, treceava mayor y sus condiciones.",
           "items": [
             {
@@ -1438,37 +1469,6 @@ window.APP_DATA = {
             {
               "term": "Comparaciones de treceava",
               "body": "C13, C13(b9) y C13(#9) cambian la novena. C13 tiene b7 y C∆13 tiene 7. Cm13 tiene b7 y Cm∆13 tiene 7. En C13(b5), C13(b5)b9 y C13(b5)#9 cambia la novena asumida o alterada."
-            }
-          ]
-        },
-        {
-          "id": "nivel-2-sistema-americano-cifrado",
-          "title": "9. Sistema americano y cifrado",
-          "subtitle": "Fundamentales, alteraciones y símbolos de triada.",
-          "items": [
-            {
-              "term": "Fundamentales del sistema americano",
-              "body": "Las fundamentales posibles incluyen C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb y B."
-            },
-            {
-              "term": "Escritura de la fundamental",
-              "body": "La fundamental se escribe con letra mayúscula en el sistema americano. Si la nota está alterada, debe incluir su sostenido o bemol."
-            },
-            {
-              "term": "Cifrados de triada mayor y menor",
-              "body": "C indica mayor. Cm, C-, Cmi y Cmin indican menor."
-            },
-            {
-              "term": "Cifrados de triada aumentada y disminuida",
-              "body": "C+, C(#5) y Caug indican aumentada. C° y Cdim indican disminuida."
-            },
-            {
-              "term": "Cifrados de triadas suspendidas",
-              "body": "Csus y Csus4 indican suspendida 4. Csus2 indica suspendida 2."
-            },
-            {
-              "term": "Cifrado con quinta disminuida",
-              "body": "C(b5) significa C mayor con quinta disminuida: 1 3 b5 (C E Gb)."
             }
           ]
         },
@@ -1506,27 +1506,23 @@ window.APP_DATA = {
         {
           "id": "nivel-2-aplicacion",
           "title": "11. Aplicación",
-          "subtitle": "Construcción de acordes y lectura inversa de intervalos a cifrado.",
+          "subtitle": "Traslado de fórmulas a distintas fundamentales y lectura inversa de notas a cifrado.",
           "items": [
             {
-              "term": "Construcciones con C",
-              "body": "C6(9) = 1 3 5 6 9 (C E G A D). Cm6(11) aplicado = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F). C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab). C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
+              "term": "Cifrado a notas en distintas fundamentales",
+              "body": "Db7(b9)#11 = 1 3 5 b7 b9 #11 (Db F Ab Cb Ebb G). F#ø9 = 1 b3 b5 b7 9 (F# A C E G#). G7sus4(b9)b13 = 1 4 5 b7 b9 b13 (G C D F Ab Eb). E13(b5)b9 = 1 3 b5 b7 b9 13 (E G# Bb D F C#). D+7(#11) = 1 3 #5 b7 (9) #11 (D F# A# C (E) G#). Bb∆(#11) con 9 = 1 3 5 7 9 #11 (Bb D F A C E)."
             },
             {
-              "term": "Construcciones disminuidas y suspendidas",
-              "body": "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D). C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab). C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A). C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)."
+              "term": "Notas a cifrado",
+              "body": "D F# A# C Eb G# corresponde a D+7(b9)#11. E G Bb D F# corresponde a Eø9. F A C Eb Gb Db corresponde a F7(b9)b13. B D# F A C# G# corresponde a B13(b5). C# E G B D# corresponde a C#ø9. Bb D F A C E corresponde a Bb∆(#11) con 9."
             },
             {
-              "term": "Construcciones con séptima mayor",
-              "body": "Cm∆13 aplicado = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A). C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#)."
+              "term": "Procedimiento de lectura",
+              "body": "Para construir desde el cifrado, primero identifica la fundamental y luego traslada cada intervalo con su ortografía correcta. Para leer desde las notas, toma la primera nota como fundamental del ejemplo, mide tercera, quinta, soporte y extensiones, y después escribe el cifrado con las alteraciones necesarias."
             },
             {
-              "term": "Intervalos a cifrado",
-              "body": "1 3 5 b7 9 13 (C E G Bb D A) corresponde a C13. 1 b3 5 b7 9 11 13 (C Eb G Bb D F A) corresponde a Cm13. 1 3 b5 b7 b9 13 (C E Gb Bb Db A) corresponde a C13(b5)b9. 1 4 5 b7 b9 13 (C F G Bb Db A) corresponde a C13sus4(b9)."
-            },
-            {
-              "term": "Más lecturas de intervalos",
-              "body": "1 b3 b5 b7 9 (C Eb Gb Bb D) corresponde a Cø9. 1 3 #5 7 9 #11 (C E G# B D F#) corresponde a C+∆(#11). 1 b3 5 7 9 11 13 (C Eb G B D F A) corresponde a Cm∆13."
+              "term": "Control de ortografía musical",
+              "body": "Conserva la escritura interválica: una bb7 debe leerse como séptima doble bemol, aunque suene enarmónicamente como 6; una #5 debe escribirse como quinta aumentada, no como sexta menor; y una b9 debe aparecer como segunda menor sobre la fundamental."
             }
           ]
         },
@@ -1573,33 +1569,61 @@ window.APP_DATA = {
             "6",
             "7"
           ],
-          "options": [
-            "1 = fundamental.",
-            "2 = 2M, segunda mayor.",
-            "3 = 3M, tercera mayor.",
-            "4 = 4j, cuarta justa.",
-            "5 = 5j, quinta justa.",
-            "6 = 6M, sexta mayor.",
-            "7 = 7M, séptima mayor.",
-            "La triada mayor tiene 3; la menor tiene b3.",
-            "Cm13 tiene b7; Cm∆13 tiene 7.",
-            "Cm, C-, Cmi, Cmin.",
-            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab).",
-            "Indican séptima mayor.",
-            "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7.",
-            "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida.",
-            "C7(b5) = 1 3 b5 b7 (C E Gb Bb)."
-          ],
+          "options": [],
           "answers": {
-            "1": "1 = fundamental.",
-            "2": "2 = 2M, segunda mayor.",
-            "3": "3 = 3M, tercera mayor.",
-            "4": "4 = 4j, cuarta justa.",
-            "5": "5 = 5j, quinta justa.",
-            "6": "6 = 6M, sexta mayor.",
-            "7": "7 = 7M, séptima mayor."
+            "1": "fundamental",
+            "2": "2M, segunda mayor",
+            "3": "3M, tercera mayor",
+            "4": "4j, cuarta justa",
+            "5": "5j, quinta justa",
+            "6": "6M, sexta mayor",
+            "7": "7M, séptima mayor"
           },
-          "sampleAnswer": "1: 1 = fundamental.; 2: 2 = 2M, segunda mayor.; 3: 3 = 3M, tercera mayor.; 4: 4 = 4j, cuarta justa.; 5: 5 = 5j, quinta justa.; 6: 6 = 6M, sexta mayor.; 7: 7 = 7M, séptima mayor."
+          "sampleAnswer": "1: fundamental; 2: 2M, segunda mayor; 3: 3M, tercera mayor; 4: 4j, cuarta justa; 5: 5j, quinta justa; 6: 6M, sexta mayor; 7: 7M, séptima mayor",
+          "optionsByItem": {
+            "1": [
+              "2M, segunda mayor",
+              "5j, quinta justa",
+              "fundamental",
+              "3M, tercera mayor"
+            ],
+            "2": [
+              "2M, segunda mayor",
+              "2m, segunda menor",
+              "3M, tercera mayor",
+              "1j, unísono"
+            ],
+            "3": [
+              "3m, tercera menor",
+              "4j, cuarta justa",
+              "2M, segunda mayor",
+              "3M, tercera mayor"
+            ],
+            "4": [
+              "4j, cuarta justa",
+              "5j, quinta justa",
+              "3M, tercera mayor",
+              "4+, cuarta aumentada"
+            ],
+            "5": [
+              "6M, sexta mayor",
+              "5j, quinta justa",
+              "5b, quinta disminuida",
+              "4j, cuarta justa"
+            ],
+            "6": [
+              "5j, quinta justa",
+              "6m, sexta menor",
+              "6M, sexta mayor",
+              "7M, séptima mayor"
+            ],
+            "7": [
+              "7m, séptima menor",
+              "6M, sexta mayor",
+              "8j, octava justa",
+              "7M, séptima mayor"
+            ]
+          }
         },
         {
           "id": 2,
@@ -1625,24 +1649,33 @@ window.APP_DATA = {
             "11 = mismo grado que",
             "13 = mismo grado que"
           ],
-          "options": [
-            "9 = 2.",
-            "11 = 4.",
-            "13 = 6.",
-            "La 5j.",
-            "Porque la 9 es la misma 2, y el acorde sus2 ya contiene 2.",
-            "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9.",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
-            "Cm6(#11) = 1 b3 5 6 (9) #11 (C Eb G A (D) F#).",
-            "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#)."
-          ],
+          "options": [],
           "answers": {
-            "9 = mismo grado que": "9 = 2.",
-            "11 = mismo grado que": "11 = 4.",
-            "13 = mismo grado que": "13 = 6."
+            "9 = mismo grado que": "2",
+            "11 = mismo grado que": "4",
+            "13 = mismo grado que": "6"
           },
-          "sampleAnswer": "9 = mismo grado que: 9 = 2.; 11 = mismo grado que: 11 = 4.; 13 = mismo grado que: 13 = 6."
+          "sampleAnswer": "9 = mismo grado que: 2; 11 = mismo grado que: 4; 13 = mismo grado que: 6",
+          "optionsByItem": {
+            "9 = mismo grado que": [
+              "3",
+              "7",
+              "6",
+              "2"
+            ],
+            "11 = mismo grado que": [
+              "4",
+              "5",
+              "2",
+              "7"
+            ],
+            "13 = mismo grado que": [
+              "6",
+              "7",
+              "5",
+              "4"
+            ]
+          }
         },
         {
           "id": 4,
@@ -1672,33 +1705,61 @@ window.APP_DATA = {
             "Suspendida 2:",
             "Mayor con quinta disminuida:"
           ],
-          "options": [
-            "Mayor: 1 3 5 (C E G).",
-            "Menor: 1 b3 5 (C Eb G).",
-            "Aumentada: 1 3 #5 (C E G#).",
-            "Disminuida: 1 b3 b5 (C Eb Gb).",
-            "Suspendida 4: 1 4 5 (C F G).",
-            "Suspendida 2: 1 2 5 (C D G).",
-            "Mayor con quinta disminuida: 1 3 b5 (C E Gb).",
-            "V",
-            "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).",
-            "La b7 se agrega a cualquier triada.",
-            "11 = 4.",
-            "Csus2 = suspendida 2.",
-            "Cø11 = 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F).",
-            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)."
-          ],
+          "options": [],
           "answers": {
-            "Mayor:": "Mayor: 1 3 5 (C E G).",
-            "Menor:": "Menor: 1 b3 5 (C Eb G).",
-            "Aumentada:": "Aumentada: 1 3 #5 (C E G#).",
-            "Disminuida:": "Disminuida: 1 b3 b5 (C Eb Gb).",
-            "Suspendida 4:": "Suspendida 4: 1 4 5 (C F G).",
-            "Suspendida 2:": "Suspendida 2: 1 2 5 (C D G).",
-            "Mayor con quinta disminuida:": "Mayor con quinta disminuida: 1 3 b5 (C E Gb)."
+            "Mayor:": "1 3 5 (C E G)",
+            "Menor:": "1 b3 5 (C Eb G)",
+            "Aumentada:": "1 3 #5 (C E G#)",
+            "Disminuida:": "1 b3 b5 (C Eb Gb)",
+            "Suspendida 4:": "1 4 5 (C F G)",
+            "Suspendida 2:": "1 2 5 (C D G)",
+            "Mayor con quinta disminuida:": "1 3 b5 (C E Gb)"
           },
-          "sampleAnswer": "Mayor:: Mayor: 1 3 5 (C E G).; Menor:: Menor: 1 b3 5 (C Eb G).; Aumentada:: Aumentada: 1 3 #5 (C E G#).; Disminuida:: Disminuida: 1 b3 b5 (C Eb Gb).; Suspendida 4:: Suspendida 4: 1 4 5 (C F G).; Suspendida 2:: Suspendida 2: 1 2 5 (C D G).; Mayor con quinta disminuida:: Mayor con quinta disminuida: 1 3 b5 (C E Gb)."
+          "sampleAnswer": "Mayor: 1 3 5 (C E G); Menor: 1 b3 5 (C Eb G); Aumentada: 1 3 #5 (C E G#); Disminuida: 1 b3 b5 (C Eb Gb); Suspendida 4: 1 4 5 (C F G); Suspendida 2: 1 2 5 (C D G); Mayor con quinta disminuida: 1 3 b5 (C E Gb)",
+          "optionsByItem": {
+            "Mayor:": [
+              "1 3 #5 (C E G#)",
+              "1 2 5 (C D G)",
+              "1 3 5 (C E G)",
+              "1 3 b5 (C E Gb)"
+            ],
+            "Menor:": [
+              "1 4 5 (C F G)",
+              "1 2 5 (C D G)",
+              "1 3 5 (C E G)",
+              "1 b3 5 (C Eb G)"
+            ],
+            "Aumentada:": [
+              "1 3 #5 (C E G#)",
+              "1 3 5 (C E G)",
+              "1 3 b5 (C E Gb)",
+              "1 2 5 (C D G)"
+            ],
+            "Disminuida:": [
+              "1 b3 5 (C Eb G)",
+              "1 2 5 (C D G)",
+              "1 b3 b5 (C Eb Gb)",
+              "1 3 b5 (C E Gb)"
+            ],
+            "Suspendida 4:": [
+              "1 4 5 (C F G)",
+              "1 b3 5 (C Eb G)",
+              "1 2 5 (C D G)",
+              "1 3 5 (C E G)"
+            ],
+            "Suspendida 2:": [
+              "1 4 5 (C F G)",
+              "1 3 5 (C E G)",
+              "1 2 5 (C D G)",
+              "1 b3 5 (C Eb G)"
+            ],
+            "Mayor con quinta disminuida:": [
+              "1 3 b5 (C E Gb)",
+              "1 3 #5 (C E G#)",
+              "1 3 5 (C E G)",
+              "1 b3 b5 (C Eb Gb)"
+            ]
+          }
         },
         {
           "id": 6,
@@ -1798,32 +1859,61 @@ window.APP_DATA = {
             "Suspendida con 2ª:",
             "Mayor con quinta disminuida:"
           ],
-          "options": [
-            "C.",
-            "Cm, C-, Cmi, Cmin.",
-            "C+, C(#5), Caug.",
-            "C°, Cdim.",
-            "Csus, Csus4.",
-            "Csus2.",
-            "C(b5).",
-            "No. En C13(b9), la b9 aparece explícitamente en el cifrado.",
-            "Cm13.",
-            "La b7 se agrega a cualquier triada.",
-            "C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).",
-            "Mayor: 1 3 5 (C E G).",
-            "Cmi = menor.",
-            "Siempre debe ir acompañada por una 9ª cualquiera."
-          ],
+          "options": [],
           "answers": {
-            "Mayor:": "C.",
-            "Menor:": "Cm, C-, Cmi, Cmin.",
-            "Aumentada:": "C+, C(#5), Caug.",
-            "Disminuida:": "C°, Cdim.",
-            "Suspendida con 4ª:": "Csus, Csus4.",
-            "Suspendida con 2ª:": "Csus2.",
-            "Mayor con quinta disminuida:": "C(b5)."
+            "Mayor:": "C",
+            "Menor:": "Cm, C-, Cmi, Cmin",
+            "Aumentada:": "C+, C(#5), Caug",
+            "Disminuida:": "C°, Cdim",
+            "Suspendida con 4ª:": "Csus, Csus4",
+            "Suspendida con 2ª:": "Csus2",
+            "Mayor con quinta disminuida:": "C(b5)"
           },
-          "sampleAnswer": "Mayor:: C.; Menor:: Cm, C-, Cmi, Cmin.; Aumentada:: C+, C(#5), Caug.; Disminuida:: C°, Cdim.; Suspendida con 4ª:: Csus, Csus4.; Suspendida con 2ª:: Csus2.; Mayor con quinta disminuida:: C(b5)."
+          "sampleAnswer": "Mayor: C; Menor: Cm, C-, Cmi, Cmin; Aumentada: C+, C(#5), Caug; Disminuida: C°, Cdim; Suspendida con 4ª: Csus, Csus4; Suspendida con 2ª: Csus2; Mayor con quinta disminuida: C(b5)",
+          "optionsByItem": {
+            "Mayor:": [
+              "C+, C(#5), Caug",
+              "C(b5)",
+              "C",
+              "Cm, C-, Cmi, Cmin"
+            ],
+            "Menor:": [
+              "C",
+              "Csus, Csus4",
+              "C°, Cdim",
+              "Cm, C-, Cmi, Cmin"
+            ],
+            "Aumentada:": [
+              "C+, C(#5), Caug",
+              "C°, Cdim",
+              "C(b5)",
+              "C"
+            ],
+            "Disminuida:": [
+              "Cm, C-, Cmi, Cmin",
+              "C(b5)",
+              "C+, C(#5), Caug",
+              "C°, Cdim"
+            ],
+            "Suspendida con 4ª:": [
+              "Csus, Csus4",
+              "C",
+              "Csus2",
+              "Cm, C-, Cmi, Cmin"
+            ],
+            "Suspendida con 2ª:": [
+              "Csus2",
+              "Cm, C-, Cmi, Cmin",
+              "C",
+              "Csus, Csus4"
+            ],
+            "Mayor con quinta disminuida:": [
+              "C+",
+              "C",
+              "C°, Cdim",
+              "C(b5)"
+            ]
+          }
         },
         {
           "id": 13,
@@ -1843,34 +1933,47 @@ window.APP_DATA = {
           "id": 14,
           "section": "III. Soportes",
           "type": "match",
-          "prompt": "Complete:",
+          "prompt": "Complete las reglas de uso de los soportes:",
           "items": [
-            "La 6M se agrega a acordes .",
-            "La bb7 se agrega a acordes .",
-            "La b7 se agrega a .",
-            "La 7 se agrega a ."
+            "6M",
+            "bb7",
+            "b7",
+            "7"
           ],
-          "options": [
-            "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida.",
-            "La bb7 se agrega a acordes disminuidos.",
-            "La b7 se agrega a cualquier triada.",
-            "La 7 se agrega a cualquier triada.",
-            "La bb7 equivale enarmónicamente a la 6.",
-            "Porque la 11 es la misma 4; si el acorde ya tiene 4 suspendida, esa nota ya está presente como parte estructural.",
-            "C6sus2 = 1 2 5 6 (C D G A).",
-            "1 = fundamental.",
-            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C+ = aumentada.",
-            "C = mayor.",
-            "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2."
-          ],
+          "options": [],
           "answers": {
-            "La 6M se agrega a acordes .": "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida.",
-            "La bb7 se agrega a acordes .": "La bb7 se agrega a acordes disminuidos.",
-            "La b7 se agrega a .": "La b7 se agrega a cualquier triada.",
-            "La 7 se agrega a .": "La 7 se agrega a cualquier triada."
+            "7": "cualquier triada",
+            "6M": "mayores, menores, suspendidos y mayores con quinta disminuida",
+            "bb7": "disminuidos",
+            "b7": "cualquier triada"
           },
-          "sampleAnswer": "La 6M se agrega a acordes .: La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida.; La bb7 se agrega a acordes .: La bb7 se agrega a acordes disminuidos.; La b7 se agrega a .: La b7 se agrega a cualquier triada.; La 7 se agrega a .: La 7 se agrega a cualquier triada."
+          "sampleAnswer": "6M: mayores, menores, suspendidos y mayores con quinta disminuida; bb7: disminuidos; b7: cualquier triada; 7: cualquier triada",
+          "optionsByItem": {
+            "7": [
+              "solo acordes mayores",
+              "solo acordes disminuidos",
+              "solo acordes suspendidos",
+              "cualquier triada"
+            ],
+            "6M": [
+              "disminuidos solamente",
+              "cualquier triada con b7",
+              "mayores y menores solamente",
+              "mayores, menores, suspendidos y mayores con quinta disminuida"
+            ],
+            "bb7": [
+              "suspendidos",
+              "cualquier triada",
+              "mayores con sexta",
+              "disminuidos"
+            ],
+            "b7": [
+              "solo acordes con 3M",
+              "cualquier triada",
+              "solo acordes mayores",
+              "solo acordes disminuidos"
+            ]
+          }
         },
         {
           "id": 15,
@@ -1899,30 +2002,54 @@ window.APP_DATA = {
             "C6sus2",
             "C6(b5)"
           ],
-          "options": [
-            "C6 = 1 3 5 6 (C E G A).",
-            "Cm6 = 1 b3 5 6 (C Eb G A).",
-            "C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).",
-            "C6sus4 = 1 4 5 6 (C F G A).",
-            "C6sus2 = 1 2 5 6 (C D G A).",
-            "C6(b5) = 1 3 b5 6 (C E Gb A).",
-            "C13(b5)#9 = 1 3 b5 b7 #9 13 (C E Gb Bb D# A).",
-            "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.",
-            "C9(#11) = 1 3 5 b7 9 #11 (C E G Bb D F#).",
-            "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7.",
-            "En acordes con 3M.",
-            "C+9(#11) = 1 3 #5 b7 9 #11 (C E G# Bb D F#).",
-            "C°7(9) = 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D)."
-          ],
+          "options": [],
           "answers": {
-            "C6": "C6 = 1 3 5 6 (C E G A).",
-            "Cm6": "Cm6 = 1 b3 5 6 (C Eb G A).",
-            "C°7": "C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).",
-            "C6sus4": "C6sus4 = 1 4 5 6 (C F G A).",
-            "C6sus2": "C6sus2 = 1 2 5 6 (C D G A).",
-            "C6(b5)": "C6(b5) = 1 3 b5 6 (C E Gb A)."
+            "C6": "1 3 5 6 (C E G A)",
+            "Cm6": "1 b3 5 6 (C Eb G A)",
+            "C°7": "1 b3 b5 bb7(6) (C Eb Gb Bbb)",
+            "C6sus4": "1 4 5 6 (C F G A)",
+            "C6sus2": "1 2 5 6 (C D G A)",
+            "C6(b5)": "1 3 b5 6 (C E Gb A)"
           },
-          "sampleAnswer": "C6: C6 = 1 3 5 6 (C E G A).; Cm6: Cm6 = 1 b3 5 6 (C Eb G A).; C°7: C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).; C6sus4: C6sus4 = 1 4 5 6 (C F G A).; C6sus2: C6sus2 = 1 2 5 6 (C D G A).; C6(b5): C6(b5) = 1 3 b5 6 (C E Gb A)."
+          "sampleAnswer": "C6: 1 3 5 6 (C E G A); Cm6: 1 b3 5 6 (C Eb G A); C°7: 1 b3 b5 bb7(6) (C Eb Gb Bbb); C6sus4: 1 4 5 6 (C F G A); C6sus2: 1 2 5 6 (C D G A); C6(b5): 1 3 b5 6 (C E Gb A)",
+          "optionsByItem": {
+            "C6": [
+              "1 3 b5 6 (C E Gb A)",
+              "1 4 5 6 (C F G A)",
+              "1 3 5 6 (C E G A)",
+              "1 2 5 6 (C D G A)"
+            ],
+            "Cm6": [
+              "1 3 5 6 (C E G A)",
+              "1 b3 5 6 (C Eb G A)",
+              "1 2 5 6 (C D G A)",
+              "1 4 5 6 (C F G A)"
+            ],
+            "C°7": [
+              "1 b3 5 6 (C Eb G A)",
+              "1 3 b5 6 (C E Gb A)",
+              "1 b3 b5 bb7(6) (C Eb Gb Bbb)",
+              "1 2 5 6 (C D G A)"
+            ],
+            "C6sus4": [
+              "1 4 5 6 (C F G A)",
+              "1 b3 5 6 (C Eb G A)",
+              "1 2 5 6 (C D G A)",
+              "1 3 5 6 (C E G A)"
+            ],
+            "C6sus2": [
+              "1 2 5 6 (C D G A)",
+              "1 3 5 6 (C E G A)",
+              "1 4 5 6 (C F G A)",
+              "1 b3 5 6 (C Eb G A)"
+            ],
+            "C6(b5)": [
+              "1 2 5 6 (C D G A)",
+              "1 3 b5 6 (C E Gb A)",
+              "1 4 5 6 (C F G A)",
+              "1 3 5 6 (C E G A)"
+            ]
+          }
         },
         {
           "id": 17,
@@ -1966,32 +2093,61 @@ window.APP_DATA = {
             "C7sus2",
             "C7(b5)"
           ],
-          "options": [
-            "C7 = 1 3 5 b7 (C E G Bb).",
-            "Cm7 / C-7 / Cmi7 / Cmin7 = 1 b3 5 b7 (C Eb G Bb).",
-            "C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).",
-            "Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "C7sus4 = 1 4 5 b7 (C F G Bb).",
-            "C7sus2 = 1 2 5 b7 (C D G Bb).",
-            "C7(b5) = 1 3 b5 b7 (C E Gb Bb).",
-            "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9.",
-            "Csus = suspendida 4.",
-            "C+9 tiene #5; C9 tiene 5.",
-            "Cdim = disminuida.",
-            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F).",
-            "C = mayor.",
-            "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2."
-          ],
+          "options": [],
           "answers": {
-            "C7": "C7 = 1 3 5 b7 (C E G Bb).",
-            "Cm7 / C-7 / Cmi7 / Cmin7": "Cm7 / C-7 / Cmi7 / Cmin7 = 1 b3 5 b7 (C Eb G Bb).",
-            "C+7 / Caug7 / C7(#5)": "C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).",
-            "Cø / Cm7(b5)": "Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "C7sus4": "C7sus4 = 1 4 5 b7 (C F G Bb).",
-            "C7sus2": "C7sus2 = 1 2 5 b7 (C D G Bb).",
-            "C7(b5)": "C7(b5) = 1 3 b5 b7 (C E Gb Bb)."
+            "C7": "1 3 5 b7 (C E G Bb)",
+            "Cm7 / C-7 / Cmi7 / Cmin7": "1 b3 5 b7 (C Eb G Bb)",
+            "C+7 / Caug7 / C7(#5)": "1 3 #5 b7 (C E G# Bb)",
+            "Cø / Cm7(b5)": "1 b3 b5 b7 (C Eb Gb Bb)",
+            "C7sus4": "1 4 5 b7 (C F G Bb)",
+            "C7sus2": "1 2 5 b7 (C D G Bb)",
+            "C7(b5)": "1 3 b5 b7 (C E Gb Bb)"
           },
-          "sampleAnswer": "C7: C7 = 1 3 5 b7 (C E G Bb).; Cm7 / C-7 / Cmi7 / Cmin7: Cm7 / C-7 / Cmi7 / Cmin7 = 1 b3 5 b7 (C Eb G Bb).; C+7 / Caug7 / C7(#5): C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).; Cø / Cm7(b5): Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb).; C7sus4: C7sus4 = 1 4 5 b7 (C F G Bb).; C7sus2: C7sus2 = 1 2 5 b7 (C D G Bb).; C7(b5): C7(b5) = 1 3 b5 b7 (C E Gb Bb)."
+          "sampleAnswer": "C7: 1 3 5 b7 (C E G Bb); Cm7 / C-7 / Cmi7 / Cmin7: 1 b3 5 b7 (C Eb G Bb); C+7 / Caug7 / C7(#5): 1 3 #5 b7 (C E G# Bb); Cø / Cm7(b5): 1 b3 b5 b7 (C Eb Gb Bb); C7sus4: 1 4 5 b7 (C F G Bb); C7sus2: 1 2 5 b7 (C D G Bb); C7(b5): 1 3 b5 b7 (C E Gb Bb)",
+          "optionsByItem": {
+            "C7": [
+              "1 3 b5 b7 (C E Gb Bb)",
+              "1 2 5 b7 (C D G Bb)",
+              "1 3 5 b7 (C E G Bb)",
+              "1 3 #5 b7 (C E G# Bb)"
+            ],
+            "Cm7 / C-7 / Cmi7 / Cmin7": [
+              "1 3 5 b7 (C E G Bb)",
+              "1 2 5 b7 (C D G Bb)",
+              "1 b3 5 b7 (C Eb G Bb)",
+              "1 4 5 b7 (C F G Bb)"
+            ],
+            "C+7 / Caug7 / C7(#5)": [
+              "1 3 b5 b7 (C E Gb Bb)",
+              "1 3 5 b7 (C E G Bb)",
+              "1 3 #5 b7 (C E G# Bb)",
+              "1 2 5 b7 (C D G Bb)"
+            ],
+            "Cø / Cm7(b5)": [
+              "1 b3 5 b7 (C Eb G Bb)",
+              "1 3 b5 b7 (C E Gb Bb)",
+              "1 b3 b5 b7 (C Eb Gb Bb)",
+              "1 2 5 b7 (C D G Bb)"
+            ],
+            "C7sus4": [
+              "1 3 5 b7 (C E G Bb)",
+              "1 2 5 b7 (C D G Bb)",
+              "1 4 5 b7 (C F G Bb)",
+              "1 b3 5 b7 (C Eb G Bb)"
+            ],
+            "C7sus2": [
+              "1 b3 5 b7 (C Eb G Bb)",
+              "1 3 5 b7 (C E G Bb)",
+              "1 2 5 b7 (C D G Bb)",
+              "1 4 5 b7 (C F G Bb)"
+            ],
+            "C7(b5)": [
+              "1 3 b5 b7 (C E Gb Bb)",
+              "1 3 5 b7 (C E G Bb)",
+              "1 3 #5 b7 (C E G# Bb)",
+              "1 b3 b5 b7 (C Eb Gb Bb)"
+            ]
+          }
         },
         {
           "id": 20,
@@ -2011,15 +2167,15 @@ window.APP_DATA = {
           "id": 21,
           "section": "IV. Séptimas menores y séptimas mayores",
           "type": "multipleChoice",
-          "prompt": "¿Cuál es la diferencia entre C°7 y Cø?",
+          "prompt": "¿Cuál es la diferencia principal entre C°7 y Cø?",
           "choices": [
-            "C°7 = 1 b3 b5 b7 (C Eb Gb Bb). Cø = 1 b3 b5 bb7 (C Eb Gb Bbb).",
-            "C°7 = 1 b3 5 bb7 (C Eb G Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "C°7 = 1 b3 b5 7 (C Eb Gb B). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb)."
+            "C°7 usa b7 y Cø usa bb7.",
+            "C°7 usa bb7 y Cø usa b7.",
+            "C°7 usa 7 y Cø usa b7.",
+            "Ambos usan b7; la diferencia está en la quinta."
           ],
-          "answer": 3,
-          "sampleAnswer": "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb)."
+          "answer": 1,
+          "sampleAnswer": "C°7 usa bb7 (Bbb en C); Cø usa b7 (Bb en C)."
         },
         {
           "id": 22,
@@ -2035,33 +2191,61 @@ window.APP_DATA = {
             "C∆sus2 / Cmaj7(sus2)",
             "C∆(b5) / Cmaj7(b5)"
           ],
-          "options": [
-            "C∆ / Cmaj7 / Cma7 = 1 3 5 7 (C E G B).",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7) = 1 b3 5 7 (C Eb G B).",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5) = 1 3 #5 7 (C E G# B).",
-            "C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
-            "C∆sus2 / Cmaj7(sus2) = 1 2 5 7 (C D G B).",
-            "C∆(b5) / Cmaj7(b5) = 1 3 b5 7 (C E Gb B).",
-            "Disminuida: 1 b3 b5 (C Eb Gb).",
-            "C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).",
-            "C+9(#11) = 1 3 #5 b7 9 #11 (C E G# Bb D F#).",
-            "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).",
-            "La bb7 se agrega a acordes disminuidos.",
-            "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "Csus4 = suspendida 4.",
-            "Se asume 9."
-          ],
+          "options": [],
           "answers": {
-            "C∆ / Cmaj7 / Cma7": "C∆ / Cmaj7 / Cma7 = 1 3 5 7 (C E G B).",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7) = 1 b3 5 7 (C Eb G B).",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5) = 1 3 #5 7 (C E G# B).",
-            "C°∆ / Cdim∆ / C°maj7": "C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).",
-            "C∆sus4 / Cmaj7(sus4)": "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
-            "C∆sus2 / Cmaj7(sus2)": "C∆sus2 / Cmaj7(sus2) = 1 2 5 7 (C D G B).",
-            "C∆(b5) / Cmaj7(b5)": "C∆(b5) / Cmaj7(b5) = 1 3 b5 7 (C E Gb B)."
+            "C∆ / Cmaj7 / Cma7": "1 3 5 7 (C E G B)",
+            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "1 b3 5 7 (C Eb G B)",
+            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "1 3 #5 7 (C E G# B)",
+            "C°∆ / Cdim∆ / C°maj7": "1 b3 b5 7 (C Eb Gb B)",
+            "C∆sus4 / Cmaj7(sus4)": "1 4 5 7 (C F G B)",
+            "C∆sus2 / Cmaj7(sus2)": "1 2 5 7 (C D G B)",
+            "C∆(b5) / Cmaj7(b5)": "1 3 b5 7 (C E Gb B)"
           },
-          "sampleAnswer": "C∆ / Cmaj7 / Cma7: C∆ / Cmaj7 / Cma7 = 1 3 5 7 (C E G B).; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7) = 1 b3 5 7 (C Eb G B).; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5) = 1 3 #5 7 (C E G# B).; C°∆ / Cdim∆ / C°maj7: C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).; C∆sus4 / Cmaj7(sus4): C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).; C∆sus2 / Cmaj7(sus2): C∆sus2 / Cmaj7(sus2) = 1 2 5 7 (C D G B).; C∆(b5) / Cmaj7(b5): C∆(b5) / Cmaj7(b5) = 1 3 b5 7 (C E Gb B)."
+          "sampleAnswer": "C∆ / Cmaj7 / Cma7: 1 3 5 7 (C E G B); Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): 1 b3 5 7 (C Eb G B); C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): 1 3 #5 7 (C E G# B); C°∆ / Cdim∆ / C°maj7: 1 b3 b5 7 (C Eb Gb B); C∆sus4 / Cmaj7(sus4): 1 4 5 7 (C F G B); C∆sus2 / Cmaj7(sus2): 1 2 5 7 (C D G B); C∆(b5) / Cmaj7(b5): 1 3 b5 7 (C E Gb B)",
+          "optionsByItem": {
+            "C∆ / Cmaj7 / Cma7": [
+              "1 3 5 7 (C E G B)",
+              "1 3 #5 7 (C E G# B)",
+              "1 2 5 7 (C D G B)",
+              "1 3 b5 7 (C E Gb B)"
+            ],
+            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": [
+              "1 2 5 7 (C D G B)",
+              "1 b3 5 7 (C Eb G B)",
+              "1 4 5 7 (C F G B)",
+              "1 3 5 7 (C E G B)"
+            ],
+            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": [
+              "1 3 #5 7 (C E G# B)",
+              "1 3 5 7 (C E G B)",
+              "1 3 b5 7 (C E Gb B)",
+              "1 2 5 7 (C D G B)"
+            ],
+            "C°∆ / Cdim∆ / C°maj7": [
+              "1 2 5 7 (C D G B)",
+              "1 b3 5 7 (C Eb G B)",
+              "1 3 b5 7 (C E Gb B)",
+              "1 b3 b5 7 (C Eb Gb B)"
+            ],
+            "C∆sus4 / Cmaj7(sus4)": [
+              "1 4 5 7 (C F G B)",
+              "1 3 5 7 (C E G B)",
+              "1 2 5 7 (C D G B)",
+              "1 b3 5 7 (C Eb G B)"
+            ],
+            "C∆sus2 / Cmaj7(sus2)": [
+              "1 4 5 7 (C F G B)",
+              "1 2 5 7 (C D G B)",
+              "1 3 5 7 (C E G B)",
+              "1 b3 5 7 (C Eb G B)"
+            ],
+            "C∆(b5) / Cmaj7(b5)": [
+              "1 3 5 7 (C E G B)",
+              "1 b3 b5 7 (C Eb Gb B)",
+              "1 3 b5 7 (C E Gb B)",
+              "1 3 #5 7 (C E G# B)"
+            ]
+          }
         },
         {
           "id": 23,
@@ -2123,43 +2307,71 @@ window.APP_DATA = {
           "id": 27,
           "section": "V. Reglas generales de extensiones",
           "type": "match",
-          "prompt": "Complete:",
+          "prompt": "Complete las reglas generales de uso de las extensiones:",
           "items": [
-            "La b9 solo se agrega a acordes con  y , o con  y .",
-            "La 9 se agrega a .",
-            "La #9 se agrega a acordes con  y , aunque excepcionalmente puede aparecer en acordes con  y .",
-            "La 11 se agrega a acordes con  que no tengan .",
-            "La #11 se agrega a acordes con , aunque excepcionalmente puede aparecer en acordes menores con .",
-            "La 13 se agrega a acordes con  que tengan  o , y siempre va acompañada por .",
-            "La b13 se agrega a acordes  con cualquier 7ª, o a acordes con  y ."
+            "b9",
+            "9",
+            "#9",
+            "11",
+            "#11",
+            "13",
+            "b13"
           ],
-          "options": [
-            "La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7.",
-            "La 9 se agrega a cualquier acorde.",
-            "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.",
-            "La 11 se agrega a acordes con b3 que no tengan 4 suspendida.",
-            "La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.",
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7.",
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "4 = 4j, cuarta justa.",
-            "V",
-            "Sí. En Cm11 la 9 aparece como opcional.",
-            "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2.",
-            "Debe incluir su alteración: sostenido o bemol.",
-            "C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).",
-            "La 6ª y la 7ª."
-          ],
+          "options": [],
           "answers": {
-            "La b9 solo se agrega a acordes con  y , o con  y .": "La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7.",
-            "La 9 se agrega a .": "La 9 se agrega a cualquier acorde.",
-            "La #9 se agrega a acordes con  y , aunque excepcionalmente puede aparecer en acordes con  y .": "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.",
-            "La 11 se agrega a acordes con  que no tengan .": "La 11 se agrega a acordes con b3 que no tengan 4 suspendida.",
-            "La #11 se agrega a acordes con , aunque excepcionalmente puede aparecer en acordes menores con .": "La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.",
-            "La 13 se agrega a acordes con  que tengan  o , y siempre va acompañada por .": "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "La b13 se agrega a acordes  con cualquier 7ª, o a acordes con  y .": "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+            "9": "cualquier acorde",
+            "11": "b3, sin 4 suspendida",
+            "13": "quinta justa o disminuida, con 7 o b7, y una 9ª cualquiera",
+            "b9": "3 y b7, o con 4 y b7",
+            "#9": "3 y b7; excepcionalmente 3 y 7",
+            "#11": "3M; excepcionalmente en menores con quinta justa",
+            "b13": "disminuidos con cualquier 7ª, o con 3 y b7"
           },
-          "sampleAnswer": "La b9 solo se agrega a acordes con  y , o con  y .: La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7.; La 9 se agrega a .: La 9 se agrega a cualquier acorde.; La #9 se agrega a acordes con  y , aunque excepcionalmente puede aparecer en acordes con  y .: La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.; La 11 se agrega a acordes con  que no tengan .: La 11 se agrega a acordes con b3 que no tengan 4 suspendida.; La #11 se agrega a acordes con , aunque excepcionalmente puede aparecer en acordes menores con .: La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.; La 13 se agrega a acordes con  que tengan  o , y siempre va acompañada por .: La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.; La b13 se agrega a acordes  con cualquier 7ª, o a acordes con  y .: La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+          "sampleAnswer": "b9: 3 y b7, o con 4 y b7; 9: cualquier acorde; #9: 3 y b7; excepcionalmente 3 y 7; 11: b3, sin 4 suspendida; #11: 3M; excepcionalmente en menores con quinta justa; 13: quinta justa o disminuida, con 7 o b7, y una 9ª cualquiera; b13: disminuidos con cualquier 7ª, o con 3 y b7",
+          "optionsByItem": {
+            "9": [
+              "solo acordes con b7",
+              "solo acordes con 7",
+              "solo acordes con 3M",
+              "cualquier acorde"
+            ],
+            "11": [
+              "b3, sin 4 suspendida",
+              "3M, sin #11",
+              "b3, sin b7",
+              "4 suspendida, sin b3"
+            ],
+            "13": [
+              "quinta justa o disminuida, con 7 o b7, y una 9ª cualquiera",
+              "quinta justa o disminuida, con 6 o bb7, y una 9ª cualquiera",
+              "quinta justa o disminuida, con 7 o b7, y una 11ª cualquiera",
+              "quinta aumentada, con 7 o b7, y una 9ª cualquiera"
+            ],
+            "b9": [
+              "3 y 7, o con 4 y 7",
+              "3 y b7, o con 5 y b7",
+              "3 y b7, o con 4 y b7",
+              "b3 y b7, o con 4 y b7"
+            ],
+            "#9": [
+              "3 y b7; excepcionalmente 3 y 7",
+              "b3 y b7; excepcionalmente 3 y 7",
+              "4 y b7; excepcionalmente 3 y 7",
+              "3 y 7; excepcionalmente 3 y b7"
+            ],
+            "#11": [
+              "b3; excepcionalmente en mayores con quinta justa",
+              "3M; excepcionalmente en menores con quinta justa",
+              "4 suspendida; excepcionalmente en menores con quinta justa",
+              "3M; excepcionalmente en menores con quinta disminuida"
+            ],
+            "b13": [
+              "disminuidos con cualquier 7ª, o con 3 y b7",
+              "mayores con cualquier 7ª, o con 3 y 7",
+              "disminuidos con cualquier 7ª, o con b3 y b7",
+              "suspendidos con cualquier 7ª, o con 3 y b7"
+            ]
+          }
         },
         {
           "id": 28,
@@ -2214,27 +2426,40 @@ window.APP_DATA = {
             "C7sus4(b9)",
             "C7(b9)b5"
           ],
-          "options": [
-            "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
-            "C+7(b9) = 1 3 #5 b7 b9 (C E G# Bb Db).",
-            "C7sus4(b9) = 1 4 5 b7 b9 (C F G Bb Db).",
-            "C7(b9)b5 = 1 3 b5 b7 b9 (C E Gb Bb Db).",
-            "Porque la 11 es la misma 4; si el acorde ya tiene 4 suspendida, esa nota ya está presente como parte estructural.",
-            "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
-            "Cm6(#11) = 1 b3 5 6 (9) #11 (C Eb G A (D) F#).",
-            "C°∆9 = 1 b3 b5 7 9 (C Eb Gb B D).",
-            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C = mayor.",
-            "Cm∆13.",
-            "Porque en cifrados extendidos como 9, 11 o 13, si no se indica explícitamente otra séptima, la séptima asumida es b7."
-          ],
+          "options": [],
           "answers": {
-            "C7(b9)": "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
-            "C+7(b9)": "C+7(b9) = 1 3 #5 b7 b9 (C E G# Bb Db).",
-            "C7sus4(b9)": "C7sus4(b9) = 1 4 5 b7 b9 (C F G Bb Db).",
-            "C7(b9)b5": "C7(b9)b5 = 1 3 b5 b7 b9 (C E Gb Bb Db)."
+            "C7(b9)": "1 3 5 b7 b9 (C E G Bb Db)",
+            "C+7(b9)": "1 3 #5 b7 b9 (C E G# Bb Db)",
+            "C7sus4(b9)": "1 4 5 b7 b9 (C F G Bb Db)",
+            "C7(b9)b5": "1 3 b5 b7 b9 (C E Gb Bb Db)"
           },
-          "sampleAnswer": "C7(b9): C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).; C+7(b9): C+7(b9) = 1 3 #5 b7 b9 (C E G# Bb Db).; C7sus4(b9): C7sus4(b9) = 1 4 5 b7 b9 (C F G Bb Db).; C7(b9)b5: C7(b9)b5 = 1 3 b5 b7 b9 (C E Gb Bb Db)."
+          "sampleAnswer": "C7(b9): 1 3 5 b7 b9 (C E G Bb Db); C+7(b9): 1 3 #5 b7 b9 (C E G# Bb Db); C7sus4(b9): 1 4 5 b7 b9 (C F G Bb Db); C7(b9)b5: 1 3 b5 b7 b9 (C E Gb Bb Db)",
+          "optionsByItem": {
+            "C7(b9)": [
+              "1 4 5 b7 b9 (C F G Bb Db)",
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 b5 b7 b9 (C E Gb Bb Db)",
+              "1 3 #5 b7 b9 (C E G# Bb Db)"
+            ],
+            "C+7(b9)": [
+              "1 3 b5 b7 b9 (C E Gb Bb Db)",
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 #5 b7 b9 (C E G# Bb Db)",
+              "1 4 5 b7 b9 (C F G Bb Db)"
+            ],
+            "C7sus4(b9)": [
+              "1 4 5 b7 b9 (C F G Bb Db)",
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 #5 b7 b9 (C E G# Bb Db)",
+              "1 3 b5 b7 b9 (C E Gb Bb Db)"
+            ],
+            "C7(b9)b5": [
+              "1 3 b5 b7 b9 (C E Gb Bb Db)",
+              "1 3 #5 b7 b9 (C E G# Bb Db)",
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 4 5 b7 b9 (C F G Bb Db)"
+            ]
+          }
         },
         {
           "id": 32,
@@ -2248,29 +2473,47 @@ window.APP_DATA = {
             "C6sus4(9)",
             "C6(9)b5"
           ],
-          "options": [
-            "C6(9) = 1 3 5 6 9 (C E G A D).",
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "C°7(9) = 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D).",
-            "C6sus4(9) = 1 4 5 6 9 (C F G A D).",
-            "C6(9)b5 = 1 3 b5 6 9 (C E Gb A D).",
-            "Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9.",
-            "La triada menor tiene 5; la disminuida tiene b5.",
-            "No. En C13(b9), la b9 aparece explícitamente en el cifrado.",
-            "La bb7 equivale enarmónicamente a la 6.",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
-            "C(b5) = mayor con quinta disminuida.",
-            "C°7(11) = 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)."
-          ],
+          "options": [],
           "answers": {
-            "C6(9)": "C6(9) = 1 3 5 6 9 (C E G A D).",
-            "Cm6(9)": "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "C°7(9)": "C°7(9) = 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D).",
-            "C6sus4(9)": "C6sus4(9) = 1 4 5 6 9 (C F G A D).",
-            "C6(9)b5": "C6(9)b5 = 1 3 b5 6 9 (C E Gb A D)."
+            "C6(9)": "1 3 5 6 9 (C E G A D)",
+            "Cm6(9)": "1 b3 5 6 9 (C Eb G A D)",
+            "C°7(9)": "1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D)",
+            "C6sus4(9)": "1 4 5 6 9 (C F G A D)",
+            "C6(9)b5": "1 3 b5 6 9 (C E Gb A D)"
           },
-          "sampleAnswer": "C6(9): C6(9) = 1 3 5 6 9 (C E G A D).; Cm6(9): Cm6(9) = 1 b3 5 6 9 (C Eb G A D).; C°7(9): C°7(9) = 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D).; C6sus4(9): C6sus4(9) = 1 4 5 6 9 (C F G A D).; C6(9)b5: C6(9)b5 = 1 3 b5 6 9 (C E Gb A D)."
+          "sampleAnswer": "C6(9): 1 3 5 6 9 (C E G A D); Cm6(9): 1 b3 5 6 9 (C Eb G A D); C°7(9): 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D); C6sus4(9): 1 4 5 6 9 (C F G A D); C6(9)b5: 1 3 b5 6 9 (C E Gb A D)",
+          "optionsByItem": {
+            "C6(9)": [
+              "1 4 5 6 9 (C F G A D)",
+              "1 3 b5 6 9 (C E Gb A D)",
+              "1 b3 5 6 9 (C Eb G A D)",
+              "1 3 5 6 9 (C E G A D)"
+            ],
+            "Cm6(9)": [
+              "1 4 5 6 9 (C F G A D)",
+              "1 3 5 6 9 (C E G A D)",
+              "1 b3 5 6 9 (C Eb G A D)",
+              "1 3 b5 6 9 (C E Gb A D)"
+            ],
+            "C°7(9)": [
+              "1 b3 5 6 9 (C Eb G A D)",
+              "1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D)",
+              "1 3 b5 6 9 (C E Gb A D)",
+              "1 3 5 6 9 (C E G A D)"
+            ],
+            "C6sus4(9)": [
+              "1 4 5 6 9 (C F G A D)",
+              "1 3 5 6 9 (C E G A D)",
+              "1 b3 5 6 9 (C Eb G A D)",
+              "1 3 b5 6 9 (C E Gb A D)"
+            ],
+            "C6(9)b5": [
+              "1 4 5 6 9 (C F G A D)",
+              "1 3 5 6 9 (C E G A D)",
+              "1 3 b5 6 9 (C E Gb A D)",
+              "1 b3 5 6 9 (C Eb G A D)"
+            ]
+          }
         },
         {
           "id": 33,
@@ -2287,35 +2530,68 @@ window.APP_DATA = {
             "C9sus4",
             "C9(b5)"
           ],
-          "options": [
-            "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
-            "C9 = 1 3 5 b7 9 (C E G Bb D).",
-            "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#).",
-            "Cm9 = 1 b3 5 b7 9 (C Eb G Bb D).",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D).",
-            "C9sus4 = 1 4 5 b7 9 (C F G Bb D).",
-            "C9(b5) = 1 3 b5 b7 9 (C E Gb Bb D).",
-            "La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.",
-            "C = mayor.",
-            "Con letra mayúscula en el sistema americano.",
-            "C(#5) = aumentada.",
-            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab).",
-            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F).",
-            "C13sus2 = 1 2 5 b7 13 (C D G Bb A).",
-            "Indica acorde semidisminuido: triada disminuida con séptima menor."
-          ],
+          "options": [],
           "answers": {
-            "C7(b9)": "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
-            "C9": "C9 = 1 3 5 b7 9 (C E G Bb D).",
-            "C7(#9)": "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#).",
-            "Cm9": "Cm9 = 1 b3 5 b7 9 (C Eb G Bb D).",
-            "C+9": "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "Cø9": "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D).",
-            "C9sus4": "C9sus4 = 1 4 5 b7 9 (C F G Bb D).",
-            "C9(b5)": "C9(b5) = 1 3 b5 b7 9 (C E Gb Bb D)."
+            "C7(b9)": "1 3 5 b7 b9 (C E G Bb Db)",
+            "C9": "1 3 5 b7 9 (C E G Bb D)",
+            "C7(#9)": "1 3 5 b7 #9 (C E G Bb D#)",
+            "Cm9": "1 b3 5 b7 9 (C Eb G Bb D)",
+            "C+9": "1 3 #5 b7 9 (C E G# Bb D)",
+            "Cø9": "1 b3 b5 b7 9 (C Eb Gb Bb D)",
+            "C9sus4": "1 4 5 b7 9 (C F G Bb D)",
+            "C9(b5)": "1 3 b5 b7 9 (C E Gb Bb D)"
           },
-          "sampleAnswer": "C7(b9): C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).; C9: C9 = 1 3 5 b7 9 (C E G Bb D).; C7(#9): C7(#9) = 1 3 5 b7 #9 (C E G Bb D#).; Cm9: Cm9 = 1 b3 5 b7 9 (C Eb G Bb D).; C+9: C+9 = 1 3 #5 b7 9 (C E G# Bb D).; Cø9: Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D).; C9sus4: C9sus4 = 1 4 5 b7 9 (C F G Bb D).; C9(b5): C9(b5) = 1 3 b5 b7 9 (C E Gb Bb D)."
+          "sampleAnswer": "C7(b9): 1 3 5 b7 b9 (C E G Bb Db); C9: 1 3 5 b7 9 (C E G Bb D); C7(#9): 1 3 5 b7 #9 (C E G Bb D#); Cm9: 1 b3 5 b7 9 (C Eb G Bb D); C+9: 1 3 #5 b7 9 (C E G# Bb D); Cø9: 1 b3 b5 b7 9 (C Eb Gb Bb D); C9sus4: 1 4 5 b7 9 (C F G Bb D); C9(b5): 1 3 b5 b7 9 (C E Gb Bb D)",
+          "optionsByItem": {
+            "C7(b9)": [
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 #5 b7 9 (C E G# Bb D)",
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 5 b7 #9 (C E G Bb D#)"
+            ],
+            "C9": [
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 5 b7 #9 (C E G Bb D#)",
+              "1 3 #5 b7 9 (C E G# Bb D)"
+            ],
+            "C7(#9)": [
+              "1 3 5 b7 b9 (C E G Bb Db)",
+              "1 3 5 b7 #9 (C E G Bb D#)",
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 #5 b7 9 (C E G# Bb D)"
+            ],
+            "Cm9": [
+              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 b3 5 b7 9 (C Eb G Bb D)",
+              "1 4 5 b7 9 (C F G Bb D)"
+            ],
+            "C+9": [
+              "1 3 #5 b7 9 (C E G# Bb D)",
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 b5 b7 9 (C E Gb Bb D)",
+              "1 3 5 b7 #9 (C E G Bb D#)"
+            ],
+            "Cø9": [
+              "1 b3 5 b7 9 (C Eb G Bb D)",
+              "1 3 #5 b7 9 (C E G# Bb D)",
+              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
+              "1 3 b5 b7 9 (C E Gb Bb D)"
+            ],
+            "C9sus4": [
+              "1 b3 5 b7 9 (C Eb G Bb D)",
+              "1 4 5 b7 9 (C F G Bb D)",
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 #5 b7 9 (C E G# Bb D)"
+            ],
+            "C9(b5)": [
+              "1 3 5 b7 9 (C E G Bb D)",
+              "1 3 b5 b7 9 (C E Gb Bb D)",
+              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
+              "1 3 #5 b7 9 (C E G# Bb D)"
+            ]
+          }
         },
         {
           "id": 34,
@@ -2332,35 +2608,68 @@ window.APP_DATA = {
             "C∆sus4(9)",
             "C∆(b5)9"
           ],
-          "options": [
-            "C∆9 = 1 3 5 7 9 (C E G B D).",
-            "C∆(#9) = 1 3 5 7 #9 (C E G B D#).",
-            "Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).",
-            "C+∆(9) = 1 3 #5 7 9 (C E G# B D).",
-            "C+∆(#9) = 1 3 #5 7 #9 (C E G# B D#).",
-            "C°∆9 = 1 b3 b5 7 9 (C Eb Gb B D).",
-            "C∆sus4(9) = 1 4 5 7 9 (C F G B D).",
-            "C∆(b5)9 = 1 3 b5 7 9 (C E Gb B D).",
-            "Menor: 1 b3 5 (C Eb G).",
-            "Mayor: 1 3 5 (C E G).",
-            "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
-            "Cm7 tiene b7; Cm∆ tiene 7.",
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "Csus, Csus4.",
-            "Cm13 tiene b7; Cm∆13 tiene 7.",
-            "6 = 6M, sexta mayor."
-          ],
+          "options": [],
           "answers": {
-            "C∆9": "C∆9 = 1 3 5 7 9 (C E G B D).",
-            "C∆(#9)": "C∆(#9) = 1 3 5 7 #9 (C E G B D#).",
-            "Cm∆(9)": "Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).",
-            "C+∆(9)": "C+∆(9) = 1 3 #5 7 9 (C E G# B D).",
-            "C+∆(#9)": "C+∆(#9) = 1 3 #5 7 #9 (C E G# B D#).",
-            "C°∆9": "C°∆9 = 1 b3 b5 7 9 (C Eb Gb B D).",
-            "C∆sus4(9)": "C∆sus4(9) = 1 4 5 7 9 (C F G B D).",
-            "C∆(b5)9": "C∆(b5)9 = 1 3 b5 7 9 (C E Gb B D)."
+            "C∆9": "1 3 5 7 9 (C E G B D)",
+            "C∆(#9)": "1 3 5 7 #9 (C E G B D#)",
+            "Cm∆(9)": "1 b3 5 7 9 (C Eb G B D)",
+            "C+∆(9)": "1 3 #5 7 9 (C E G# B D)",
+            "C+∆(#9)": "1 3 #5 7 #9 (C E G# B D#)",
+            "C°∆9": "1 b3 b5 7 9 (C Eb Gb B D)",
+            "C∆sus4(9)": "1 4 5 7 9 (C F G B D)",
+            "C∆(b5)9": "1 3 b5 7 9 (C E Gb B D)"
           },
-          "sampleAnswer": "C∆9: C∆9 = 1 3 5 7 9 (C E G B D).; C∆(#9): C∆(#9) = 1 3 5 7 #9 (C E G B D#).; Cm∆(9): Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).; C+∆(9): C+∆(9) = 1 3 #5 7 9 (C E G# B D).; C+∆(#9): C+∆(#9) = 1 3 #5 7 #9 (C E G# B D#).; C°∆9: C°∆9 = 1 b3 b5 7 9 (C Eb Gb B D).; C∆sus4(9): C∆sus4(9) = 1 4 5 7 9 (C F G B D).; C∆(b5)9: C∆(b5)9 = 1 3 b5 7 9 (C E Gb B D)."
+          "sampleAnswer": "C∆9: 1 3 5 7 9 (C E G B D); C∆(#9): 1 3 5 7 #9 (C E G B D#); Cm∆(9): 1 b3 5 7 9 (C Eb G B D); C+∆(9): 1 3 #5 7 9 (C E G# B D); C+∆(#9): 1 3 #5 7 #9 (C E G# B D#); C°∆9: 1 b3 b5 7 9 (C Eb Gb B D); C∆sus4(9): 1 4 5 7 9 (C F G B D); C∆(b5)9: 1 3 b5 7 9 (C E Gb B D)",
+          "optionsByItem": {
+            "C∆9": [
+              "1 3 5 7 #9 (C E G B D#)",
+              "1 3 #5 7 9 (C E G# B D)",
+              "1 3 5 7 9 (C E G B D)",
+              "1 3 b5 7 9 (C E Gb B D)"
+            ],
+            "C∆(#9)": [
+              "1 3 5 7 9 (C E G B D)",
+              "1 3 5 7 #9 (C E G B D#)",
+              "1 3 #5 7 #9 (C E G# B D#)",
+              "1 3 #5 7 9 (C E G# B D)"
+            ],
+            "Cm∆(9)": [
+              "1 4 5 7 9 (C F G B D)",
+              "1 b3 5 7 9 (C Eb G B D)",
+              "1 3 5 7 9 (C E G B D)",
+              "1 b3 b5 7 9 (C Eb Gb B D)"
+            ],
+            "C+∆(9)": [
+              "1 3 #5 7 9 (C E G# B D)",
+              "1 3 #5 7 #9 (C E G# B D#)",
+              "1 3 b5 7 9 (C E Gb B D)",
+              "1 3 5 7 9 (C E G B D)"
+            ],
+            "C+∆(#9)": [
+              "1 3 5 7 9 (C E G B D)",
+              "1 3 #5 7 9 (C E G# B D)",
+              "1 3 #5 7 #9 (C E G# B D#)",
+              "1 3 5 7 #9 (C E G B D#)"
+            ],
+            "C°∆9": [
+              "1 b3 b5 7 9 (C Eb Gb B D)",
+              "1 b3 5 7 9 (C Eb G B D)",
+              "1 3 b5 7 9 (C E Gb B D)",
+              "1 3 #5 7 9 (C E G# B D)"
+            ],
+            "C∆sus4(9)": [
+              "1 4 5 7 9 (C F G B D)",
+              "1 3 5 7 9 (C E G B D)",
+              "1 b3 5 7 9 (C Eb G B D)",
+              "1 3 #5 7 9 (C E G# B D)"
+            ],
+            "C∆(b5)9": [
+              "1 3 b5 7 9 (C E Gb B D)",
+              "1 3 5 7 9 (C E G B D)",
+              "1 3 #5 7 9 (C E G# B D)",
+              "1 b3 b5 7 9 (C Eb Gb B D)"
+            ]
+          }
         },
         {
           "id": 35,
@@ -2444,26 +2753,47 @@ window.APP_DATA = {
             "C°7(11)",
             "Cø11"
           ],
-          "options": [
-            "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).",
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
-            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F).",
-            "C°7(11) = 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F).",
-            "Cø11 = 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F).",
-            "C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).",
-            "Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).",
-            "La 11 se agrega a acordes con b3 que no tengan 4 suspendida.",
-            "C7(b9)b5 = 1 3 b5 b7 b9 (C E Gb Bb Db).",
-            "Menor: 1 b3 5 (C Eb G)."
-          ],
+          "options": [],
           "answers": {
-            "Cm6(11)": "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).",
-            "Cm11": "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
-            "Cm∆11": "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F).",
-            "C°7(11)": "C°7(11) = 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F).",
-            "Cø11": "Cø11 = 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)."
+            "Cm6(11)": "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
+            "Cm11": "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
+            "Cm∆11": "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
+            "C°7(11)": "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)",
+            "Cø11": "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
           },
-          "sampleAnswer": "Cm6(11): Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).; Cm11: Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).; Cm∆11: Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F).; C°7(11): C°7(11) = 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F).; Cø11: Cø11 = 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)."
+          "sampleAnswer": "Cm6(11): 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F); Cm11: 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F); Cm∆11: 1 b3 5 7 (9) 11 (C Eb G B (D) F); C°7(11): 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F); Cø11: 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
+          "optionsByItem": {
+            "Cm6(11)": [
+              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
+              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
+              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
+              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
+            ],
+            "Cm11": [
+              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
+              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
+              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
+              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
+            ],
+            "Cm∆11": [
+              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
+              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
+              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
+              "1 b3 5 7 (9) 11 (C Eb G B (D) F)"
+            ],
+            "C°7(11)": [
+              "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)",
+              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
+              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
+              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)"
+            ],
+            "Cø11": [
+              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
+              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
+              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
+              "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)"
+            ]
+          }
         },
         {
           "id": 41,
@@ -2513,44 +2843,103 @@ window.APP_DATA = {
             "C+7(#9)#11",
             "C+∆(#11)"
           ],
-          "options": [
-            "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#).",
-            "C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#).",
-            "C9(#11) = 1 3 5 b7 9 #11 (C E G Bb D F#).",
-            "C7(#9)#11 = 1 3 5 b7 #9 #11 (C E G Bb D# F#).",
-            "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
-            "Cm6(#11) = 1 b3 5 6 (9) #11 (C Eb G A (D) F#).",
-            "Cm7(#11) = 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#).",
-            "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#).",
-            "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).",
-            "C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#).",
-            "C+9(#11) = 1 3 #5 b7 9 #11 (C E G# Bb D F#).",
-            "C+7(#9)#11 = 1 3 #5 b7 #9 #11 (C E G# Bb D# F#).",
-            "C+∆(#11) = 1 3 #5 7 9 #11 (C E G# B D F#).",
-            "Cmi = menor.",
-            "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
-            "C9(b5) = 1 3 b5 b7 9 (C E Gb Bb D).",
-            "C.",
-            "Disminuida: 1 b3 b5 (C Eb Gb).",
-            "C∆(b5) / Cmaj7(b5) = 1 3 b5 7 (C E Gb B).",
-            "Cø9 tiene b5; Cm9 tiene 5."
-          ],
+          "options": [],
           "answers": {
-            "C6(#11)": "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#).",
-            "C7(b9)#11": "C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#).",
-            "C9(#11)": "C9(#11) = 1 3 5 b7 9 #11 (C E G Bb D F#).",
-            "C7(#9)#11": "C7(#9)#11 = 1 3 5 b7 #9 #11 (C E G Bb D# F#).",
-            "C∆(#11)": "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
-            "Cm6(#11)": "Cm6(#11) = 1 b3 5 6 (9) #11 (C Eb G A (D) F#).",
-            "Cm7(#11)": "Cm7(#11) = 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#).",
-            "Cm∆(#11)": "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#).",
-            "C+7(#11)": "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).",
-            "C+7(b9)#11": "C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#).",
-            "C+9(#11)": "C+9(#11) = 1 3 #5 b7 9 #11 (C E G# Bb D F#).",
-            "C+7(#9)#11": "C+7(#9)#11 = 1 3 #5 b7 #9 #11 (C E G# Bb D# F#).",
-            "C+∆(#11)": "C+∆(#11) = 1 3 #5 7 9 #11 (C E G# B D F#)."
+            "C6(#11)": "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
+            "C7(b9)#11": "1 3 5 b7 b9 #11 (C E G Bb Db F#)",
+            "C9(#11)": "1 3 5 b7 9 #11 (C E G Bb D F#)",
+            "C7(#9)#11": "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
+            "C∆(#11)": "1 3 5 7 (9) #11 (C E G B (D) F#)",
+            "Cm6(#11)": "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
+            "Cm7(#11)": "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)",
+            "Cm∆(#11)": "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
+            "C+7(#11)": "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+            "C+7(b9)#11": "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
+            "C+9(#11)": "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
+            "C+7(#9)#11": "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
+            "C+∆(#11)": "1 3 #5 7 9 #11 (C E G# B D F#)"
           },
-          "sampleAnswer": "C6(#11): C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#).; C7(b9)#11: C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#).; C9(#11): C9(#11) = 1 3 5 b7 9 #11 (C E G Bb D F#).; C7(#9)#11: C7(#9)#11 = 1 3 5 b7 #9 #11 (C E G Bb D# F#).; C∆(#11): C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).; Cm6(#11): Cm6(#11) = 1 b3 5 6 (9) #11 (C Eb G A (D) F#).; Cm7(#11): Cm7(#11) = 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#).; Cm∆(#11): Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#).; C+7(#11): C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).; C+7(b9)#11: C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#).; C+9(#11): C+9(#11) = 1 3 #5 b7 9 #11 (C E G# Bb D F#).; C+7(#9)#11: C+7(#9)#11 = 1 3 #5 b7 #9 #11 (C E G# Bb D# F#).; C+∆(#11): C+∆(#11) = 1 3 #5 7 9 #11 (C E G# B D F#)."
+          "sampleAnswer": "C6(#11): 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#); C7(b9)#11: 1 3 5 b7 b9 #11 (C E G Bb Db F#); C9(#11): 1 3 5 b7 9 #11 (C E G Bb D F#); C7(#9)#11: 1 3 5 b7 #9 #11 (C E G Bb D# F#); C∆(#11): 1 3 5 7 (9) #11 (C E G B (D) F#); Cm6(#11): 1 b3 5 6 (9) #11 (C Eb G A (D) F#); Cm7(#11): 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#); Cm∆(#11): 1 b3 5 7 (9) #11 (C Eb G B (D) F#); C+7(#11): 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#); C+7(b9)#11: 1 3 #5 b7 b9 #11 (C E G# Bb Db F#); C+9(#11): 1 3 #5 b7 9 #11 (C E G# Bb D F#); C+7(#9)#11: 1 3 #5 b7 #9 #11 (C E G# Bb D# F#); C+∆(#11): 1 3 #5 7 9 #11 (C E G# B D F#)",
+          "optionsByItem": {
+            "C6(#11)": [
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
+              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
+              "1 3 5 7 (9) #11 (C E G B (D) F#)"
+            ],
+            "C7(b9)#11": [
+              "1 3 5 b7 b9 #11 (C E G Bb Db F#)",
+              "1 3 5 b7 9 #11 (C E G Bb D F#)",
+              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
+              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)"
+            ],
+            "C9(#11)": [
+              "1 3 5 b7 9 #11 (C E G Bb D F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
+              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
+              "1 3 5 b7 b9 #11 (C E G Bb Db F#)"
+            ],
+            "C7(#9)#11": [
+              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
+              "1 3 5 b7 9 #11 (C E G Bb D F#)",
+              "1 3 5 b7 b9 #11 (C E G Bb Db F#)"
+            ],
+            "C∆(#11)": [
+              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
+              "1 3 #5 7 9 #11 (C E G# B D F#)",
+              "1 3 5 7 (9) #11 (C E G B (D) F#)",
+              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)"
+            ],
+            "Cm6(#11)": [
+              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
+              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
+              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
+              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)"
+            ],
+            "Cm7(#11)": [
+              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
+              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)"
+            ],
+            "Cm∆(#11)": [
+              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
+              "1 3 5 7 (9) #11 (C E G B (D) F#)",
+              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
+              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)"
+            ],
+            "C+7(#11)": [
+              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)"
+            ],
+            "C+7(b9)#11": [
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)"
+            ],
+            "C+9(#11)": [
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 #5 7 9 #11 (C E G# B D F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)"
+            ],
+            "C+7(#9)#11": [
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)"
+            ],
+            "C+∆(#11)": [
+              "1 3 #5 7 9 #11 (C E G# B D F#)",
+              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
+              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
+              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)"
+            ]
+          }
         },
         {
           "id": 44,
@@ -2625,38 +3014,82 @@ window.APP_DATA = {
             "C9(b5)b13",
             "C7(#9)b5(b13)"
           ],
-          "options": [
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C9(b13) = 1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab).",
-            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab).",
-            "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab).",
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
-            "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
-            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C7(b5)b9(b13) = 1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab).",
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
-            "C7sus2 = 1 2 5 b7 (C D G Bb).",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
-            "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
-            "C°7(11) = 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F).",
-            "C°, Cdim.",
-            "C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A).",
-            "C6(b5) = 1 3 b5 6 (C E Gb A)."
-          ],
+          "options": [],
           "answers": {
-            "C7(b9)b13": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C9(b13)": "C9(b13) = 1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab).",
-            "C7(#9)b13": "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab).",
-            "C°7(b13)": "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab).",
-            "Cøb13": "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
-            "C7sus4(9)b13": "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
-            "C7sus4(b9)b13": "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C7(b5)b9(b13)": "C7(b5)b9(b13) = 1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab).",
-            "C9(b5)b13": "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
-            "C7(#9)b5(b13)": "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)."
+            "C7(b9)b13": "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
+            "C9(b13)": "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
+            "C7(#9)b13": "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
+            "C°7(b13)": "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
+            "Cøb13": "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
+            "C7sus4(9)b13": "1 4 5 b7 9 b13 (C F G Bb D Ab)",
+            "C7sus4(b9)b13": "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
+            "C7(b5)b9(b13)": "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
+            "C9(b5)b13": "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
+            "C7(#9)b5(b13)": "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)"
           },
-          "sampleAnswer": "C7(b9)b13: C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).; C9(b13): C9(b13) = 1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab).; C7(#9)b13: C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab).; C°7(b13): C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab).; Cøb13: Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).; C7sus4(9)b13: C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).; C7sus4(b9)b13: C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).; C7(b5)b9(b13): C7(b5)b9(b13) = 1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab).; C9(b5)b13: C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).; C7(#9)b5(b13): C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)."
+          "sampleAnswer": "C7(b9)b13: 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab); C9(b13): 1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab); C7(#9)b13: 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab); C°7(b13): 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab); Cøb13: 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab); C7sus4(9)b13: 1 4 5 b7 9 b13 (C F G Bb D Ab); C7sus4(b9)b13: 1 4 5 b7 b9 b13 (C F G Bb Db Ab); C7(b5)b9(b13): 1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab); C9(b5)b13: 1 3 b5 b7 9 b13 (C E Gb Bb D Ab); C7(#9)b5(b13): 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+          "optionsByItem": {
+            "C7(b9)b13": [
+              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
+              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
+              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
+              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)"
+            ],
+            "C9(b13)": [
+              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
+              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
+              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+            ],
+            "C7(#9)b13": [
+              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
+              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
+              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)"
+            ],
+            "C°7(b13)": [
+              "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
+              "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+            ],
+            "Cøb13": [
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+              "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
+              "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+            ],
+            "C7sus4(9)b13": [
+              "1 4 5 b7 9 b13 (C F G Bb D Ab)",
+              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
+              "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+            ],
+            "C7sus4(b9)b13": [
+              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
+              "1 4 5 b7 9 b13 (C F G Bb D Ab)",
+              "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
+              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)"
+            ],
+            "C7(b5)b9(b13)": [
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
+              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)"
+            ],
+            "C9(b5)b13": [
+              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
+              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)"
+            ],
+            "C7(#9)b5(b13)": [
+              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
+              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
+              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)"
+            ]
+          }
         },
         {
           "id": 49,
@@ -2691,42 +3124,96 @@ window.APP_DATA = {
             "C13(b5)b9",
             "C13(b5)#9"
           ],
-          "options": [
-            "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A).",
-            "C13(b9) = 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A).",
-            "C13(#9) = 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A).",
-            "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
-            "Cm13 = 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A).",
-            "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
-            "C13sus4 = 1 4 5 b7 (9) 13 (C F G Bb (D) A).",
-            "C13sus2 = 1 2 5 b7 13 (C D G Bb A).",
-            "C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A).",
-            "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).",
-            "C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A).",
-            "C13(b5)#9 = 1 3 b5 b7 #9 13 (C E Gb Bb D# A).",
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#).",
-            "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab).",
-            "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#).",
-            "La triada menor tiene 5; la disminuida tiene b5.",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "Cm = menor."
-          ],
+          "options": [],
           "answers": {
-            "C13": "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A).",
-            "C13(b9)": "C13(b9) = 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A).",
-            "C13(#9)": "C13(#9) = 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A).",
-            "C∆13": "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
-            "Cm13": "Cm13 = 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A).",
-            "Cm∆13": "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
-            "C13sus4": "C13sus4 = 1 4 5 b7 (9) 13 (C F G Bb (D) A).",
-            "C13sus2": "C13sus2 = 1 2 5 b7 13 (C D G Bb A).",
-            "C13sus4(b9)": "C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A).",
-            "C13(b5)": "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).",
-            "C13(b5)b9": "C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A).",
-            "C13(b5)#9": "C13(b5)#9 = 1 3 b5 b7 #9 13 (C E Gb Bb D# A)."
+            "C13": "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
+            "C13(b9)": "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
+            "C13(#9)": "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+            "C∆13": "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
+            "Cm13": "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
+            "Cm∆13": "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)",
+            "C13sus4": "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
+            "C13sus2": "1 2 5 b7 13 (C D G Bb A)",
+            "C13sus4(b9)": "1 4 5 b7 b9 13 (C F G Bb Db A)",
+            "C13(b5)": "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
+            "C13(b5)b9": "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
+            "C13(b5)#9": "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
           },
-          "sampleAnswer": "C13: C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A).; C13(b9): C13(b9) = 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A).; C13(#9): C13(#9) = 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A).; C∆13: C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).; Cm13: Cm13 = 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A).; Cm∆13: Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).; C13sus4: C13sus4 = 1 4 5 b7 (9) 13 (C F G Bb (D) A).; C13sus2: C13sus2 = 1 2 5 b7 13 (C D G Bb A).; C13sus4(b9): C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A).; C13(b5): C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).; C13(b5)b9: C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A).; C13(b5)#9: C13(b5)#9 = 1 3 b5 b7 #9 13 (C E Gb Bb D# A)."
+          "sampleAnswer": "C13: 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A); C13(b9): 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A); C13(#9): 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A); C∆13: 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A); Cm13: 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A); Cm∆13: 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A); C13sus4: 1 4 5 b7 (9) 13 (C F G Bb (D) A); C13sus2: 1 2 5 b7 13 (C D G Bb A); C13sus4(b9): 1 4 5 b7 b9 13 (C F G Bb Db A); C13(b5): 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A); C13(b5)b9: 1 3 b5 b7 b9 13 (C E Gb Bb Db A); C13(b5)#9: 1 3 b5 b7 #9 13 (C E Gb Bb D# A)",
+          "optionsByItem": {
+            "C13": [
+              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
+              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)"
+            ],
+            "C13(b9)": [
+              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
+              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
+              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)"
+            ],
+            "C13(#9)": [
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
+              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
+              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)"
+            ],
+            "C∆13": [
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
+              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
+              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)"
+            ],
+            "Cm13": [
+              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
+              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)"
+            ],
+            "Cm∆13": [
+              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)",
+              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
+              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
+              "1 4 5 b7 (9) 13 (C F G Bb (D) A)"
+            ],
+            "C13sus4": [
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 4 5 b7 b9 13 (C F G Bb Db A)",
+              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
+              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)"
+            ],
+            "C13sus2": [
+              "1 2 5 b7 13 (C D G Bb A)",
+              "1 4 5 b7 b9 13 (C F G Bb Db A)",
+              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
+              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)"
+            ],
+            "C13sus4(b9)": [
+              "1 4 5 b7 b9 13 (C F G Bb Db A)",
+              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
+              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
+              "1 2 5 b7 13 (C D G Bb A)"
+            ],
+            "C13(b5)": [
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
+              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
+              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
+            ],
+            "C13(b5)b9": [
+              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)",
+              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
+              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
+              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)"
+            ],
+            "C13(b5)#9": [
+              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
+              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
+              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
+              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
+            ]
+          }
         },
         {
           "id": 51,
@@ -2875,59 +3362,124 @@ window.APP_DATA = {
             "Csus2",
             "C(b5)"
           ],
-          "options": [
-            "C = mayor.",
-            "Cm = menor.",
-            "C- = menor.",
-            "Cmi = menor.",
-            "Cmin = menor.",
-            "C+ = aumentada.",
-            "C(#5) = aumentada.",
-            "Caug = aumentada.",
-            "C° = disminuida.",
-            "Cdim = disminuida.",
-            "Csus = suspendida 4.",
-            "Csus4 = suspendida 4.",
-            "Csus2 = suspendida 2.",
-            "C(b5) = mayor con quinta disminuida.",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
-            "Que es la nota base desde la cual se construye y se nombra el acorde.",
-            "Se pueden suprimir 9 y 11 a menos que aparezcan en el cifrado.",
-            "C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#).",
-            "Siempre debe ir acompañada por una 9ª cualquiera.",
-            "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)."
-          ],
+          "options": [],
           "answers": {
-            "C": "C = mayor.",
-            "Cm": "Cm = menor.",
-            "C-": "C- = menor.",
-            "Cmi": "Cmi = menor.",
-            "Cmin": "Cmin = menor.",
-            "C+": "C+ = aumentada.",
-            "C(#5)": "C(#5) = aumentada.",
-            "Caug": "Caug = aumentada.",
-            "C°": "C° = disminuida.",
-            "Cdim": "Cdim = disminuida.",
-            "Csus": "Csus = suspendida 4.",
-            "Csus4": "Csus4 = suspendida 4.",
-            "Csus2": "Csus2 = suspendida 2.",
-            "C(b5)": "C(b5) = mayor con quinta disminuida."
+            "C": "mayor",
+            "Cm": "menor",
+            "C-": "menor",
+            "Cmi": "menor",
+            "Cmin": "menor",
+            "C+": "aumentada",
+            "C(#5)": "aumentada",
+            "Caug": "aumentada",
+            "C°": "disminuida",
+            "Cdim": "disminuida",
+            "Csus": "suspendida 4",
+            "Csus4": "suspendida 4",
+            "Csus2": "suspendida 2",
+            "C(b5)": "mayor con quinta disminuida"
           },
-          "sampleAnswer": "C: C = mayor.; Cm: Cm = menor.; C-: C- = menor.; Cmi: Cmi = menor.; Cmin: Cmin = menor.; C+: C+ = aumentada.; C(#5): C(#5) = aumentada.; Caug: Caug = aumentada.; C°: C° = disminuida.; Cdim: Cdim = disminuida.; Csus: Csus = suspendida 4.; Csus4: Csus4 = suspendida 4.; Csus2: Csus2 = suspendida 2.; C(b5): C(b5) = mayor con quinta disminuida."
+          "sampleAnswer": "C: mayor; Cm: menor; C-: menor; Cmi: menor; Cmin: menor; C+: aumentada; C(#5): aumentada; Caug: aumentada; C°: disminuida; Cdim: disminuida; Csus: suspendida 4; Csus4: suspendida 4; Csus2: suspendida 2; C(b5): mayor con quinta disminuida",
+          "optionsByItem": {
+            "C": [
+              "mayor",
+              "aumentada",
+              "menor",
+              "mayor con quinta disminuida"
+            ],
+            "Cm": [
+              "mayor",
+              "disminuida",
+              "suspendida 2",
+              "menor"
+            ],
+            "C-": [
+              "mayor",
+              "suspendida 2",
+              "disminuida",
+              "menor"
+            ],
+            "Cmi": [
+              "disminuida",
+              "mayor",
+              "menor",
+              "suspendida 2"
+            ],
+            "Cmin": [
+              "menor",
+              "suspendida 2",
+              "disminuida",
+              "mayor"
+            ],
+            "C+": [
+              "mayor",
+              "mayor con quinta disminuida",
+              "aumentada",
+              "disminuida"
+            ],
+            "C(#5)": [
+              "mayor",
+              "mayor con quinta disminuida",
+              "aumentada",
+              "disminuida"
+            ],
+            "Caug": [
+              "mayor",
+              "aumentada",
+              "mayor con quinta disminuida",
+              "disminuida"
+            ],
+            "C°": [
+              "disminuida",
+              "menor",
+              "aumentada",
+              "mayor con quinta disminuida"
+            ],
+            "Cdim": [
+              "disminuida",
+              "aumentada",
+              "menor",
+              "mayor con quinta disminuida"
+            ],
+            "Csus": [
+              "suspendida 2",
+              "menor",
+              "mayor",
+              "suspendida 4"
+            ],
+            "Csus4": [
+              "suspendida 2",
+              "menor",
+              "suspendida 4",
+              "mayor"
+            ],
+            "Csus2": [
+              "mayor",
+              "menor",
+              "suspendida 4",
+              "suspendida 2"
+            ],
+            "C(b5)": [
+              "mayor con quinta disminuida",
+              "mayor",
+              "aumentada",
+              "disminuida"
+            ]
+          }
         },
         {
           "id": 61,
           "section": "IX. Sistema americano y cifrado",
           "type": "multipleChoice",
-          "prompt": "Escriba tres cifrados posibles para una triada menor sobre C.",
+          "prompt": "Elija una lista correcta de cifrados posibles para una triada menor sobre C.",
           "choices": [
-            "C, Cmaj, Cma. Cualquier tres son correctos.",
-            "C+, C(#5), Caug. Cualquier tres son correctos.",
-            "Cm, C-, Cmi, Cmin. Cualquier tres son correctos.",
-            "C°, Cdim, Cø. Cualquier tres son correctos."
+            "C, Cmaj, Cma.",
+            "C+, C(#5), Caug.",
+            "Cm, C-, Cmi, Cmin.",
+            "C°, Cdim."
           ],
           "answer": 2,
-          "sampleAnswer": "Cm, C-, Cmi, Cmin. Cualquier tres son correctos."
+          "sampleAnswer": "Cm, C-, Cmi, Cmin."
         },
         {
           "id": 62,
@@ -3367,7 +3919,7 @@ window.APP_DATA = {
           "id": 93,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 9 es la misma 2, pero entendida como extensión._",
+          "prompt": "La 9 es la misma 2, pero entendida como extensión.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3375,7 +3927,7 @@ window.APP_DATA = {
           "id": 94,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 11 es la misma 4, pero entendida como extensión._",
+          "prompt": "La 11 es la misma 4, pero entendida como extensión.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3383,7 +3935,7 @@ window.APP_DATA = {
           "id": 95,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 13 es la misma 6, pero entendida como extensión._",
+          "prompt": "La 13 es la misma 6, pero entendida como extensión.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3391,7 +3943,7 @@ window.APP_DATA = {
           "id": 96,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada mayor está formada por 1 b3 5 (C Eb G)._",
+          "prompt": "La triada mayor está formada por 1 b3 5 (C Eb G).",
           "answer": false,
           "sampleAnswer": "F"
         },
@@ -3399,7 +3951,7 @@ window.APP_DATA = {
           "id": 97,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada aumentada está formada por 1 3 #5 (C E G#)._",
+          "prompt": "La triada aumentada está formada por 1 3 #5 (C E G#).",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3407,7 +3959,7 @@ window.APP_DATA = {
           "id": 98,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada disminuida está formada por 1 b3 b5 (C Eb Gb)._",
+          "prompt": "La triada disminuida está formada por 1 b3 b5 (C Eb Gb).",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3415,7 +3967,7 @@ window.APP_DATA = {
           "id": 99,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada suspendida 4 está formada por 1 4 5 (C F G)._",
+          "prompt": "La triada suspendida 4 está formada por 1 4 5 (C F G).",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3423,7 +3975,7 @@ window.APP_DATA = {
           "id": 100,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La b7 solo se puede agregar a acordes mayores._",
+          "prompt": "La b7 solo se puede agregar a acordes mayores.",
           "answer": false,
           "sampleAnswer": "F"
         },
@@ -3431,7 +3983,7 @@ window.APP_DATA = {
           "id": 101,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 7 se puede agregar a cualquier triada._",
+          "prompt": "La 7 se puede agregar a cualquier triada.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3439,7 +3991,7 @@ window.APP_DATA = {
           "id": 102,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La b9 se agrega libremente a cualquier acorde._",
+          "prompt": "La b9 se agrega libremente a cualquier acorde.",
           "answer": false,
           "sampleAnswer": "F"
         },
@@ -3447,7 +3999,7 @@ window.APP_DATA = {
           "id": 103,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 9 se agrega a cualquier acorde._",
+          "prompt": "La 9 se agrega a cualquier acorde.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3455,7 +4007,7 @@ window.APP_DATA = {
           "id": 104,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La #9 se agrega normalmente a acordes con 3 y b7._",
+          "prompt": "La #9 se agrega normalmente a acordes con 3 y b7.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3463,7 +4015,7 @@ window.APP_DATA = {
           "id": 105,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 11 se agrega a acordes con b3 que no tengan 4 suspendida._",
+          "prompt": "La 11 se agrega a acordes con b3 que no tengan 4 suspendida.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3471,7 +4023,7 @@ window.APP_DATA = {
           "id": 106,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La #11 se agrega principalmente a acordes con 3M._",
+          "prompt": "La #11 se agrega principalmente a acordes con 3M.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3479,7 +4031,7 @@ window.APP_DATA = {
           "id": 107,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 13 siempre va acompañada por una 9ª cualquiera._",
+          "prompt": "La 13 siempre va acompañada por una 9ª cualquiera.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3487,7 +4039,7 @@ window.APP_DATA = {
           "id": 108,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La b13 puede agregarse a acordes disminuidos con cualquier 7ª._",
+          "prompt": "La b13 puede agregarse a acordes disminuidos con cualquier 7ª.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3495,7 +4047,7 @@ window.APP_DATA = {
           "id": 109,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "En acordes con 9, 11 o 13, si no aparece especificada la séptima, se asume b7._",
+          "prompt": "En acordes con 9, 11 o 13, si no aparece especificada la séptima, se asume b7.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3503,7 +4055,7 @@ window.APP_DATA = {
           "id": 110,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "En acordes mayores, menores y suspendidos, se puede suprimir la quinta justa._",
+          "prompt": "En acordes mayores, menores y suspendidos, se puede suprimir la quinta justa.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3511,7 +4063,7 @@ window.APP_DATA = {
           "id": 111,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "En acordes disminuidos y aumentados, se puede suprimir la tercera._",
+          "prompt": "En acordes disminuidos y aumentados, se puede suprimir la tercera.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3519,7 +4071,7 @@ window.APP_DATA = {
           "id": 112,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La 6ª y la 7ª pueden suprimirse libremente._",
+          "prompt": "La 6ª y la 7ª pueden suprimirse libremente.",
           "answer": false,
           "sampleAnswer": "F"
         },
@@ -3527,7 +4079,7 @@ window.APP_DATA = {
           "id": 113,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "En acordes con 11 se puede suprimir la 9, salvo que aparezca en el cifrado._",
+          "prompt": "En acordes con 11 se puede suprimir la 9, salvo que aparezca en el cifrado.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3535,7 +4087,7 @@ window.APP_DATA = {
           "id": 114,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "En acordes con 13 se pueden suprimir 9 y 11, salvo que aparezcan en el cifrado._",
+          "prompt": "En acordes con 13 se pueden suprimir 9 y 11, salvo que aparezcan en el cifrado.",
           "answer": true,
           "sampleAnswer": "V"
         },

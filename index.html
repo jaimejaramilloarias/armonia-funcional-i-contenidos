@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Armonía Funcional I: módulo teórico con cuestionario autocalificable.">
-  <title>Armonía Funcional I</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20260611-note-distractors">
-  <script defer src="assets/data.js?v=20260611-note-distractors"></script>
-  <script defer src="assets/app.js?v=20260611-note-distractors"></script>
+  <meta name="description" content="Armonía Funcional: módulo teórico con cuestionario autocalificable.">
+  <title>Armonía Funcional</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260611-hero-module-summary">
+  <script defer src="assets/data.js?v=20260611-hero-module-summary"></script>
+  <script defer src="assets/app.js?v=20260611-hero-module-summary"></script>
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="#homeView" aria-label="Armonía Funcional I">
+      <a class="brand" href="#homeView" aria-label="Armonía Funcional">
         <span class="logo">AF</span>
         <span>
-          <span class="brand-title">Armonía Funcional I</span>
+          <span class="brand-title">Armonía Funcional</span>
           <span class="brand-subtitle">Prof. Jaime Jaramillo Arias - UNIVERSIDAD DE CALDAS</span>
         </span>
       </a>
@@ -36,8 +36,10 @@
       <div class="hero">
         <div class="hero-copy">
           <div class="kicker">Prof. Jaime Jaramillo Arias · Universidad de Caldas</div>
-          <h1>Teoría musical con estudio guiado y evaluación automática.</h1>
-          <p id="moduleIntro">App web local para trabajar contenidos teóricos por módulos, con lectura guiada y cuestionarios autocorregibles con nota final de 0 a 5.0.</p>
+          <h1 class="page-title">Armonía Funcional</h1>
+          <p class="page-subtitle">Teoría musical con estudio guiado y evaluación automática.</p>
+          <p id="moduleLabel" class="module-label">Nivel 1 · Conocimientos esenciales</p>
+          <p id="moduleIntro" class="hero-summary">Escalas, intervalos, acordes, enlace, tonalidad y rearmonización.</p>
           <div class="hero-actions">
             <button id="goTheoryBtn" class="primary-btn">Entrar al módulo teórico</button>
             <button id="startQuizBtn2" class="ghost-btn">Ir al cuestionario</button>
@@ -48,7 +50,6 @@
             <div class="stat"><strong id="topicCount">0</strong><span>temas teóricos</span></div>
             <div class="stat"><strong id="questionCount">0</strong><span>preguntas</span></div>
             <div class="stat"><strong id="autoGrade">0–5.0</strong><span>escala de calificación</span></div>
-            <div class="stat"><strong id="sourceCount">2</strong><span>documentos fuente</span></div>
           </div>
           <div class="study-progress">
             <div class="progress-bar"><div id="studyBar"></div></div>

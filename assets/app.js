@@ -10,7 +10,7 @@ function normalizeData() {
   if (!DATA.modules) {
     DATA.modules = [{
       id: "armonia-funcional-i",
-      title: "Armonía Funcional I",
+      title: "Armonía Funcional",
       subtitle: "Escalas, intervalos, acordes, enlace, tonalidad y rearmonización.",
       theory: DATA.theory || [],
       quiz: DATA.quiz || []
@@ -172,7 +172,7 @@ function renderHome() {
   setText("topicCount", moduleTheory().length);
   setText("questionCount", moduleQuiz().length);
   setText("autoGrade", "0–5.0");
-  setText("sourceCount", String(module.sourceCount || 1));
+  setText("moduleLabel", `${module.level || "Módulo"} · ${module.title}`);
   setText("moduleIntro", module.subtitle || "Lectura guiada y cuestionario autocorregible con nota final de 0 a 5.0.");
 }
 function renderModules() {

@@ -5,7 +5,6 @@ window.APP_DATA = {
       "level": "Nivel 1",
       "title": "Conocimientos esenciales",
       "subtitle": "Escalas, intervalos, acordes, enlace, tonalidad y rearmonización.",
-      "sourceCount": 2,
       "theory": [
         {
           "id": "escalas-intervalos",
@@ -1211,7 +1210,6 @@ window.APP_DATA = {
       "level": "Nivel 2",
       "title": "Cifrado de acordes y extensiones",
       "subtitle": "Construcción interválica, cifrado americano, soportes, extensiones y reglas de omisión.",
-      "sourceCount": 1,
       "theory": [
         {
           "id": "nivel-2-referencia-intervalica",

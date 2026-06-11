@@ -207,9 +207,9 @@ window.APP_DATA = {
           "sampleAnswer": "Una escala es un conjunto de notas organizadas por alturas.",
           "choices": [
             "Un conjunto de notas organizadas por alturas.",
-            "La distancia entre dos notas medida en semitonos.",
-            "Un conjunto de tres o más notas dispuestas por terceras.",
-            "Una sucesión de acordes organizada por funciones tonales."
+            "Un conjunto de notas organizadas por distancia interválica, pero sin orden de alturas.",
+            "Una sucesión de sonidos ordenados solo por duración rítmica.",
+            "Un conjunto de acordes organizados alrededor de una función tonal."
           ],
           "answer": 0
         },
@@ -220,10 +220,10 @@ window.APP_DATA = {
           "prompt": "Defina qué es un intervalo.",
           "sampleAnswer": "Un intervalo es la distancia entre dos notas medida en semitonos.",
           "choices": [
-            "Un conjunto de notas organizadas por alturas.",
+            "La relación funcional entre dos acordes dentro de una tonalidad.",
             "La distancia entre dos notas medida en semitonos.",
-            "La nota principal de una tonalidad.",
-            "Una extensión ubicada por encima de la triada."
+            "La organización de notas por alturas dentro de una escala.",
+            "La distancia entre dos acordes medida por sus fundamentales."
           ],
           "answer": 1
         },
@@ -235,9 +235,9 @@ window.APP_DATA = {
           "sampleAnswer": "El nombre general indica el número de grados conjuntos entre las notas. El nombre específico indica la cualidad: mayor, menor, justo, aumentado, disminuido, etc.",
           "choices": [
             "El nombre general indica el número de grados conjuntos y el nombre específico indica la cualidad del intervalo.",
-            "El nombre general indica si el intervalo es consonante y el específico indica si es disonante.",
-            "El nombre general indica la inversión y el específico indica la función tonal.",
-            "El nombre general indica el registro y el específico indica la nota del bajo."
+            "El nombre general indica la cualidad y el nombre específico indica el número de grados conjuntos.",
+            "El nombre general indica consonancia o disonancia y el nombre específico indica si el intervalo es melódico o armónico.",
+            "El nombre general indica el registro y el nombre específico indica la dirección ascendente o descendente."
           ],
           "answer": 0
         },
@@ -463,9 +463,9 @@ window.APP_DATA = {
           "sampleAnswer": "Un acorde es un conjunto de tres o más notas dispuestas por terceras.",
           "choices": [
             "Un conjunto de tres o más notas dispuestas por terceras.",
-            "La distancia entre dos notas medida en semitonos.",
-            "Una escala de notas cromáticas sin jerarquía tonal.",
-            "Una melodía organizada por alturas y ritmos."
+            "Un conjunto de dos notas organizadas por grados conjuntos.",
+            "Un conjunto de tres o más notas dispuestas por segundas.",
+            "Una sucesión de notas ordenadas por alturas dentro de una escala."
           ],
           "answer": 0
         },
@@ -505,9 +505,9 @@ window.APP_DATA = {
           "sampleAnswer": "La estructura de un acorde es su triada básica: mayor, menor, aumentada, disminuida, suspendida y mayor con quinta disminuida.",
           "choices": [
             "La triada básica del acorde: mayor, menor, aumentada, disminuida, suspendida o mayor con quinta disminuida.",
-            "El conjunto de extensiones 9, 11 y 13 agregadas sobre la triada.",
-            "La fundamental del bajo junto con las inversiones posibles.",
-            "La función tonal que ocupa el acorde dentro de la progresión."
+            "La sexta o séptima que sirve como soporte del acorde.",
+            "Las extensiones 9, 11 y 13 agregadas sobre la triada.",
+            "La disposición de las voces del acorde en el registro grave y agudo."
           ],
           "answer": 0
         },
@@ -519,9 +519,9 @@ window.APP_DATA = {
           "sampleAnswer": "El soporte de un acorde es su sexta o séptima. La sexta mayor se usa para acordes mayores, menores, suspendidos y mayores con quinta disminuida. Las séptimas, mayor o menor, pueden usarse para todos.",
           "choices": [
             "La sexta o séptima del acorde; la sexta mayor se usa en acordes mayores, menores, suspendidos y mayores con quinta disminuida, y las séptimas pueden usarse para todos.",
-            "La triada básica del acorde y sus inversiones en el bajo.",
-            "Las extensiones novena, onceava y treceava ubicadas en el registro agudo.",
-            "La nota más grave del acorde, que siempre se enlaza con la voz superior."
+            "La triada básica del acorde; mayor, menor, aumentada, disminuida o suspendida.",
+            "Las extensiones 9, 11 y 13, usadas principalmente en el registro agudo.",
+            "La duplicación de la fundamental en el bajo para estabilizar el acorde."
           ],
           "answer": 0
         },
@@ -533,9 +533,9 @@ window.APP_DATA = {
           "sampleAnswer": "La superestructura de un acorde son sus extensiones: novena, onceava y treceava.",
           "choices": [
             "Las extensiones del acorde: novena, onceava y treceava.",
-            "La triada básica: fundamental, tercera y quinta.",
-            "La sexta o séptima que sostiene el acorde.",
-            "La distribución de voces en el registro grave."
+            "La triada básica del acorde: fundamental, tercera y quinta.",
+            "La sexta o séptima que funciona como soporte del acorde.",
+            "El enlace de las voces entre dos acordes consecutivos."
           ],
           "answer": 0
         },
@@ -599,8 +599,8 @@ window.APP_DATA = {
           "choices": [
             "La tercera o nota suspendida, y la séptima o la sexta si el acorde no tiene séptima.",
             "La fundamental y la quinta del acorde.",
-            "La novena, onceava y treceava del acorde.",
-            "La nota más grave y la nota más aguda de la disposición."
+            "La novena y la treceava del acorde.",
+            "El bajo y la voz superior de la disposición."
           ],
           "answer": 0
         },
@@ -613,8 +613,8 @@ window.APP_DATA = {
           "choices": [
             "La voz superior es la voz 1 y las demás se enumeran hacia abajo según su altura.",
             "La voz inferior es la voz 1 y las demás se enumeran hacia arriba según su altura.",
-            "Las voces se numeran según la función tonal del acorde.",
-            "Las voces se numeran empezando siempre por el bajo fundamental."
+            "La voz superior es la voz 1 y las demás se enumeran hacia abajo según su función tonal.",
+            "La voz que contiene la fundamental es la voz 1 y desde ahí se numeran las demás."
           ],
           "answer": 0
         },
@@ -626,9 +626,9 @@ window.APP_DATA = {
           "sampleAnswer": "Enlazar un acorde con otro consiste en mantener las notas comunes en la misma voz y mover las demás voces lo mínimo posible.",
           "choices": [
             "Mantener las notas comunes en la misma voz y mover las demás voces lo mínimo posible.",
-            "Duplicar siempre la tercera y mover todas las voces por salto.",
-            "Cambiar todos los acordes por dominantes secundarios.",
-            "Ubicar todas las extensiones en el registro grave."
+            "Mantener las notas comunes, pero moverlas siempre a otra voz para evitar repetición.",
+            "Mover todas las voces por el mismo intervalo para conservar la misma disposición.",
+            "Conservar el bajo y mover las demás voces hacia la extensión más cercana."
           ],
           "answer": 0
         },
@@ -640,9 +640,9 @@ window.APP_DATA = {
           "sampleAnswer": "El bajo generalmente tiene las fundamentales de los acordes y no se enlaza.",
           "choices": [
             "El bajo generalmente contiene las fundamentales de los acordes y no se enlaza.",
-            "El bajo contiene las extensiones y se enlaza con la voz superior.",
-            "El bajo duplica siempre la tercera y se enlaza por semitono.",
-            "El bajo se omite cuando hay acordes con séptima."
+            "El bajo generalmente contiene las fundamentales de los acordes y también se enlaza como una voz interna.",
+            "El bajo generalmente contiene las quintas de los acordes y no se enlaza.",
+            "El bajo generalmente contiene las fundamentales, pero debe moverse siempre por grado conjunto."
           ],
           "answer": 0
         },
@@ -721,8 +721,8 @@ window.APP_DATA = {
           "choices": [
             "Intervalos amplios hacia el registro grave e intervalos pequeños hacia el agudo.",
             "Intervalos pequeños hacia el registro grave e intervalos amplios hacia el agudo.",
-            "La misma distancia entre todas las voces en cualquier registro.",
-            "Todas las extensiones debajo del bajo para reforzar la fundamental."
+            "Intervalos iguales en todos los registros para mantener simetría.",
+            "Intervalos amplios en todas las voces, sin importar el registro."
           ],
           "answer": 0
         },
@@ -734,9 +734,9 @@ window.APP_DATA = {
           "sampleAnswer": "Las extensiones 9, 11 y 13 funcionan mejor en el agudo, aunque también pueden estar en el registro medio.",
           "choices": [
             "Funcionan mejor en el registro agudo, aunque también pueden estar en el registro medio.",
-            "Funcionan mejor en el registro grave y no deben aparecer en el medio.",
-            "Solo funcionan duplicadas en el bajo.",
-            "Solo funcionan cuando reemplazan la tercera del acorde."
+            "Funcionan mejor en el registro grave, aunque también pueden estar en el medio.",
+            "Funcionan mejor en el registro medio, pero no deben aparecer en el agudo.",
+            "Funcionan mejor duplicadas con el bajo para reforzar la fundamental."
           ],
           "answer": 0
         },
@@ -770,9 +770,9 @@ window.APP_DATA = {
           "sampleAnswer": "La tonalidad es un discurso de movimiento en el que notas y acordes tienen jerarquía alrededor de una tónica. Dentro de esa organización, las notas pueden funcionar como tensión o relajación.",
           "choices": [
             "Un discurso de movimiento en el que notas y acordes tienen jerarquía alrededor de una tónica, con funciones de tensión y relajación.",
-            "Una lista de acordes sin centro tonal ni jerarquía.",
-            "Un conjunto de intervalos clasificados solo como consonancias y disonancias.",
-            "Una técnica para agregar extensiones 9, 11 y 13 a cualquier acorde."
+            "Un discurso de movimiento donde los acordes tienen jerarquía, pero sin centro de tónica.",
+            "Una organización de sonidos alrededor de una tónica, pero sin tensión ni relajación.",
+            "Una clasificación de intervalos consonantes y disonantes sin movimiento armónico."
           ],
           "answer": 0
         },
@@ -784,9 +784,9 @@ window.APP_DATA = {
           "sampleAnswer": "La tonalidad mayor está basada en las escalas natural mayor y mayor armónica.",
           "choices": [
             "Natural mayor y mayor armónica.",
-            "Menor natural, menor armónica y menor melódica.",
-            "Cromática y escala por tonos.",
-            "Pentatónica menor y modo dórico."
+            "Natural menor y menor armónica.",
+            "Natural mayor y menor melódica.",
+            "Mayor armónica y modo frigio."
           ],
           "answer": 0
         },
@@ -799,8 +799,8 @@ window.APP_DATA = {
           "choices": [
             "Natural mayor y mayor armónica.",
             "Menor natural, menor armónica y menor melódica.",
-            "Cromática y escala por tonos.",
-            "Mayor natural y modo frigio únicamente."
+            "Menor natural y mayor armónica.",
+            "Menor armónica y modo frigio únicamente."
           ],
           "answer": 1
         },
@@ -813,7 +813,7 @@ window.APP_DATA = {
             "La cuarta de la escala. Grados: II y IV.",
             "La tercera de la escala. Grados: I, III y VI.",
             "La cuarta de la escala y la sensible tonal. Grados: V7 y VII°.",
-            "La sexta menor de la escala. Grados: IV y V."
+            "La tercera de la escala. Grados: II, IV y V."
           ],
           "answer": 1,
           "sampleAnswer": "b) La tercera de la escala. Grados: I, III y VI."
@@ -826,8 +826,8 @@ window.APP_DATA = {
           "choices": [
             "La tercera de la escala. Grados: I, III y VI.",
             "La cuarta de la escala. Grados: II y IV.",
-            "La séptima mayor de la escala. Grados: V7 y VII°.",
-            "La quinta disminuida. Grados: I y V."
+            "La cuarta de la escala y la sensible tonal. Grados: V7 y VII°.",
+            "La cuarta de la escala. Grados: III y VI."
           ],
           "answer": 1,
           "sampleAnswer": "b) La cuarta de la escala. Grados: II y IV."
@@ -838,10 +838,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Los acordes dominantes son aquellos que tienen simultáneamente:",
           "choices": [
-            "La tercera y la sexta de la escala. Grados: I y VI.",
+            "La cuarta de la escala solamente. Grados: II y IV.",
             "La cuarta de la escala y la sensible tonal. Grados: V7 y VII°.",
-            "La segunda menor y la quinta justa. Grados: II y V.",
-            "La tónica y la quinta. Grados: I y V."
+            "La sensible tonal solamente. Grados: VII° y III.",
+            "La tercera de la escala y la sensible tonal. Grados: I y VII°."
           ],
           "answer": 1,
           "sampleAnswer": "b) La cuarta de la escala y la sensible tonal. Grados: V7 y VII°."
@@ -854,9 +854,9 @@ window.APP_DATA = {
           "sampleAnswer": "La rearmonización simple consiste en cambiar acordes tónicos entre sí, subdominantes entre sí y dominantes entre sí.",
           "choices": [
             "Cambiar acordes tónicos entre sí, subdominantes entre sí y dominantes entre sí.",
-            "Cambiar cualquier acorde por otro sin considerar su función tonal.",
-            "Agregar siempre novena, onceava y treceava a todos los acordes.",
-            "Mover todas las voces al registro grave para reforzar el bajo."
+            "Cambiar acordes tónicos por dominantes y dominantes por subdominantes.",
+            "Cambiar cualquier acorde por otro sin conservar su función armónica.",
+            "Agregar extensiones a los acordes sin cambiar su función."
           ],
           "answer": 0
         },
@@ -889,10 +889,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Según el texto estudiado, en tonalidad mayor se pueden tomar prestados acordes de:",
           "choices": [
-            "La escala menor natural y el modo dórico.",
+            "La escala menor natural y el modo frigio.",
             "La escala natural mayor y el modo frigio.",
-            "La escala menor armónica y el modo lidio.",
-            "La escala cromática y la escala por tonos."
+            "La escala natural mayor y el modo dórico.",
+            "La escala menor armónica y el modo frigio."
           ],
           "answer": 1,
           "sampleAnswer": "La escala natural mayor y el modo frigio."
@@ -904,9 +904,9 @@ window.APP_DATA = {
           "prompt": "Según el texto estudiado, en tonalidad menor se pueden tomar prestados acordes de:",
           "choices": [
             "La escala mayor y el modo frigio.",
-            "La escala disminuida y la escala por tonos.",
-            "La escala pentatónica menor y el modo lidio.",
-            "La escala cromática y el modo mixolidio."
+            "La escala mayor y el modo dórico.",
+            "La escala menor armónica y el modo frigio.",
+            "La escala natural mayor y la escala mayor armónica."
           ],
           "answer": 0,
           "sampleAnswer": "La escala mayor y el modo frigio."
@@ -1000,9 +1000,9 @@ window.APP_DATA = {
           "sampleAnswer": "Las notas guía definen gran parte de la identidad funcional y armónica del acorde. Al enlazarlas correctamente en el registro medio, se logra continuidad armónica clara.",
           "choices": [
             "Porque definen gran parte de la identidad funcional y armónica del acorde y permiten continuidad clara al enlazarlas en el registro medio.",
-            "Porque reemplazan siempre la fundamental y eliminan la necesidad del bajo.",
-            "Porque deben duplicarse en todos los acordes mayores y menores.",
-            "Porque son las únicas notas que pueden aparecer en el registro grave."
+            "Porque definen la identidad armónica, pero deben moverse siempre por salto para evitar paralelismos.",
+            "Porque contienen la fundamental y la quinta, y por eso sostienen el bajo.",
+            "Porque sustituyen a las extensiones y deben ubicarse siempre en el registro agudo."
           ],
           "answer": 0
         },
@@ -1014,9 +1014,9 @@ window.APP_DATA = {
           "sampleAnswer": "Debe mantenerse en la misma voz, es decir, con el mismo índice de altura.",
           "choices": [
             "Mantenerla en la misma voz, con el mismo índice de altura.",
-            "Moverla siempre al bajo para reforzar la fundamental.",
-            "Duplicarla en todas las voces superiores.",
-            "Eliminarla para evitar repeticiones entre acordes."
+            "Moverla a la voz más cercana para que no se repita en la misma posición.",
+            "Duplicarla en otra voz y eliminarla de la voz original.",
+            "Moverla al bajo para reforzar la fundamental del siguiente acorde."
           ],
           "answer": 0
         },
@@ -1028,9 +1028,9 @@ window.APP_DATA = {
           "sampleAnswer": "Porque los intervalos cerrados en el registro grave producen una sonoridad más densa, menos clara y menos equilibrada. Por eso se prefieren intervalos amplios en el grave y más pequeños hacia el agudo.",
           "choices": [
             "Porque producen una sonoridad más densa, menos clara y menos equilibrada; por eso se prefieren intervalos amplios en el grave.",
-            "Porque convierten todos los acordes en dominantes.",
-            "Porque impiden usar notas guía en el registro medio.",
-            "Porque obligan a duplicar la tercera del acorde."
+            "Porque producen una sonoridad demasiado abierta y débil; por eso se prefieren intervalos pequeños en el grave.",
+            "Porque vuelven ambiguas las notas guía, aunque mantengan claridad en el bajo.",
+            "Porque obligan a suprimir siempre la quinta y la fundamental del acorde."
           ],
           "answer": 0
         },
@@ -1042,9 +1042,9 @@ window.APP_DATA = {
           "sampleAnswer": "Los acordes tónicos se relacionan con la estabilidad. Los subdominantes preparan o generan movimiento. Los dominantes producen tensión y tendencia de resolución.",
           "choices": [
             "Tónicos: estabilidad; subdominantes: preparación o movimiento; dominantes: tensión y tendencia de resolución.",
-            "Tónicos: tensión; subdominantes: reposo final; dominantes: ausencia de jerarquía.",
-            "Tónicos: notas cromáticas; subdominantes: extensiones; dominantes: escalas pentatónicas.",
-            "Tónicos: bajo enlazado; subdominantes: tercera duplicada; dominantes: quinta suprimida siempre."
+            "Tónicos: preparación; subdominantes: tensión final; dominantes: estabilidad.",
+            "Tónicos: estabilidad; subdominantes: tensión de resolución; dominantes: reposo final.",
+            "Tónicos: movimiento; subdominantes: estabilidad; dominantes: preparación sin resolución."
           ],
           "answer": 0
         },
@@ -1056,9 +1056,9 @@ window.APP_DATA = {
           "sampleAnswer": "Respuesta abierta. Ejemplo aceptable: I - IV - V7 puede rearmonizarse como VI - II - VII°.",
           "choices": [
             "I - IV - V7 puede rearmonizarse como VI - II - VII°.",
-            "I - IV - V7 puede rearmonizarse como II - V7 - IV.",
-            "I - IV - V7 puede rearmonizarse como V7 - III - II.",
-            "I - IV - V7 puede rearmonizarse como IV - VII° - I."
+            "I - IV - V7 puede rearmonizarse como II - VI - VII°.",
+            "I - IV - V7 puede rearmonizarse como VI - V7 - II.",
+            "I - IV - V7 puede rearmonizarse como III - VII° - IV."
           ],
           "answer": 0
         },
@@ -1070,9 +1070,9 @@ window.APP_DATA = {
           "sampleAnswer": "Significa usar un acorde del mismo grado proveniente de otra escala que tiene la misma fundamental, pero diferente estructura interválica o modal.",
           "choices": [
             "Usar un acorde del mismo grado proveniente de otra escala paralela que tiene la misma fundamental.",
-            "Usar cualquier acorde de una tonalidad lejana sin conservar grado ni fundamental.",
-            "Cambiar una nota guía por una extensión en el registro agudo.",
-            "Mover el bajo por semitonos para evitar notas comunes."
+            "Usar un acorde del mismo grado proveniente de una escala relativa con diferente fundamental.",
+            "Usar un acorde de otra escala paralela, pero cambiando también el grado.",
+            "Usar un acorde de la misma escala y del mismo grado, sin cambiar estructura interválica."
           ],
           "answer": 0
         },
@@ -1425,7 +1425,7 @@ window.APP_DATA = {
             },
             {
               "term": "Treceava menor",
-              "body": "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7. Ejemplos: C7(b9)b13, C9(b13), C7(#9)b13, C°7(b13), Cøb13 y acordes suspendidos o con b5 que incluyan b13."
+              "body": "La b13 se aplica en acordes disminuidos con cualquier 7ª y también en acordes con 3 y b7. Ejemplos: C7(b9)b13, C9(b13), C7(#9)b13, C°7(b13), Cøb13 y acordes suspendidos o con b5 que incluyan b13."
             },
             {
               "term": "Treceava mayor",
@@ -1510,7 +1510,7 @@ window.APP_DATA = {
           "items": [
             {
               "term": "Construcciones con C",
-              "body": "C6(9) = 1 3 5 6 9 (C E G A D). Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F). C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab). C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
+              "body": "C6(9) = 1 3 5 6 9 (C E G A D). Cm6(11) aplicado = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F). C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab). C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
             },
             {
               "term": "Construcciones disminuidas y suspendidas",
@@ -1518,7 +1518,7 @@ window.APP_DATA = {
             },
             {
               "term": "Construcciones con séptima mayor",
-              "body": "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A). C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#)."
+              "body": "Cm∆13 aplicado = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A). C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#)."
             },
             {
               "term": "Intervalos a cifrado",
@@ -1549,11 +1549,11 @@ window.APP_DATA = {
             },
             {
               "term": "Reglas de color extendido",
-              "body": "La #9 se agrega normalmente a acordes con 3 y b7. La 11 se agrega a acordes con b3 que no tengan 4 suspendida. La #11 se agrega principalmente a acordes con 3M. La 13 siempre va acompañada por una 9ª cualquiera."
+              "body": "Como resumen de color extendido: la #9 normalmente pertenece a acordes con 3 y b7; la 11 funciona con b3 sin 4 suspendida; la #11 aparece sobre todo con 3M; y la 13 requiere una 9ª cualquiera."
             },
             {
               "term": "Omisiones y soportes",
-              "body": "En acordes con 9, 11 o 13, si no aparece especificada la séptima, se asume b7. En acordes mayores, menores y suspendidos se puede suprimir la quinta justa. En acordes disminuidos y aumentados se puede suprimir la tercera. La 6ª y la 7ª no pueden suprimirse libremente."
+              "body": "En cifrados con 9, 11 o 13 se asume b7 si no se escribe otra séptima. Para omitir notas: en mayores, menores y suspendidos puede faltar la quinta justa; en disminuidos y aumentados puede faltar la tercera; la 6ª y la 7ª no se omiten libremente."
             }
           ]
         }
@@ -1607,10 +1607,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué significa que el grado 1 sea la fundamental?",
           "choices": [
-            "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
+            "Que es la nota más aguda del acorde, aunque no determine su nombre.",
             "Que es la nota base desde la cual se construye y se nombra el acorde.",
-            "C°7 = 1 b3 b5 bb7(6) (C Eb Gb Bbb).",
-            "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)."
+            "Que es la primera extensión que se agrega después de la triada.",
+            "Que es la nota que siempre debe aparecer duplicada en cualquier disposición."
           ],
           "answer": 1,
           "sampleAnswer": "Que es la nota base desde la cual se construye y se nombra el acorde."
@@ -1650,10 +1650,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Explique por qué la 9, la 11 y la 13 no se consideran notas “nuevas” respecto a 2, 4 y 6, sino extensiones de esos grados.",
           "choices": [
-            "F",
-            "C13(b5)#9 = 1 3 b5 b7 #9 13 (C E Gb Bb D# A).",
+            "Porque 9, 11 y 13 sustituyen a 2, 4 y 6 y por eso ya no se consideran esos grados.",
+            "Porque 9, 11 y 13 son alteraciones cromáticas independientes de la escala mayor.",
             "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde.",
-            "1 = fundamental."
+            "Porque solo se usan cuando 2, 4 y 6 desaparecen de la estructura básica del acorde."
           ],
           "answer": 2,
           "sampleAnswer": "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde."
@@ -1707,9 +1707,9 @@ window.APP_DATA = {
           "prompt": "¿Cuál es la diferencia interválica entre una triada mayor y una triada menor?",
           "choices": [
             "La triada mayor tiene 3; la menor tiene b3.",
-            "C°7(9) = 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D).",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida."
+            "La triada mayor tiene b3; la menor tiene 3.",
+            "La triada mayor tiene 3; la menor tiene 4 suspendida.",
+            "La triada mayor tiene 5; la menor tiene b5."
           ],
           "answer": 0,
           "sampleAnswer": "La triada mayor tiene 3; la menor tiene b3."
@@ -1721,9 +1721,9 @@ window.APP_DATA = {
           "prompt": "¿Cuál es la diferencia interválica entre una triada mayor y una triada aumentada?",
           "choices": [
             "La triada mayor tiene 5; la aumentada tiene #5.",
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "4 = 4j, cuarta justa.",
-            "Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb)."
+            "La triada mayor tiene b5; la aumentada tiene 5.",
+            "La triada mayor tiene 5; la aumentada tiene b5.",
+            "La triada mayor tiene 3; la aumentada tiene #3."
           ],
           "answer": 0,
           "sampleAnswer": "La triada mayor tiene 5; la aumentada tiene #5."
@@ -1735,9 +1735,9 @@ window.APP_DATA = {
           "prompt": "¿Cuál es la diferencia interválica entre una triada menor y una triada disminuida?",
           "choices": [
             "La triada menor tiene 5; la disminuida tiene b5.",
-            "C mayor con quinta disminuida: 1 3 b5 (C E Gb).",
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida."
+            "La triada menor tiene b5; la disminuida tiene 5.",
+            "La triada menor tiene b3; la disminuida tiene 3.",
+            "La triada menor tiene 7; la disminuida tiene bb7."
           ],
           "answer": 0,
           "sampleAnswer": "La triada menor tiene 5; la disminuida tiene b5."
@@ -1749,9 +1749,9 @@ window.APP_DATA = {
           "prompt": "¿Qué intervalo reemplaza a la tercera en una triada suspendida 4?",
           "choices": [
             "La 4.",
-            "C+ = aumentada.",
-            "C.",
-            "Porque no tiene tercera. Al no tener 3 ni b3, no define cualidad mayor o menor."
+            "La 2.",
+            "La b3.",
+            "La 5."
           ],
           "answer": 0,
           "sampleAnswer": "La 4."
@@ -1762,10 +1762,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué intervalo reemplaza a la tercera en una triada suspendida 2?",
           "choices": [
-            "C7(b9)b5 = 1 3 b5 b7 b9 (C E Gb Bb Db).",
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
+            "La 4.",
+            "La b3.",
             "La 2.",
-            "Cm7(#11) = 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)."
+            "La 5."
           ],
           "answer": 2,
           "sampleAnswer": "La 2."
@@ -1777,9 +1777,9 @@ window.APP_DATA = {
           "prompt": "Explique por qué una triada suspendida no se clasifica como mayor ni menor.",
           "choices": [
             "Porque no tiene tercera. Al no tener 3 ni b3, no define cualidad mayor o menor.",
-            "C° = disminuida.",
-            "Mayor con quinta disminuida: 1 3 b5 (C E Gb).",
-            "Cm, C-, Cmi, Cmin."
+            "Porque tiene tercera mayor y tercera menor al mismo tiempo.",
+            "Porque no tiene quinta; al faltar 5 no puede ser mayor ni menor.",
+            "Porque contiene séptima y por eso deja de ser triada."
           ],
           "answer": 0,
           "sampleAnswer": "Porque no tiene tercera. Al no tener 3 ni b3, no define cualidad mayor o menor."
@@ -1832,9 +1832,9 @@ window.APP_DATA = {
           "prompt": "¿Cuáles son los cuatro soportes estudiados?",
           "choices": [
             "6, bb7, b7 y 7.",
-            "C+9 tiene #5; C9 tiene 5.",
-            "Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).",
-            "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)."
+            "6, b7, 7 y 9.",
+            "5, 6, b7 y 7.",
+            "6, bb7, 7 y 13."
           ],
           "answer": 0,
           "sampleAnswer": "6, bb7, b7 y 7."
@@ -1878,10 +1878,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué relación tiene la bb7 con la 6?",
           "choices": [
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
+            "La bb7 equivale enarmónicamente a la b7.",
+            "La bb7 equivale enarmónicamente a la 7.",
             "La bb7 equivale enarmónicamente a la 6.",
-            "Porque la 11 se usa en acordes con tercera menor."
+            "La bb7 no tiene equivalencia enarmónica con ningún grado de la escala."
           ],
           "answer": 2,
           "sampleAnswer": "La bb7 equivale enarmónicamente a la 6."
@@ -1930,10 +1930,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Explique por qué C°7 contiene bb7 y no b7.",
           "choices": [
-            "C(#5) = aumentada.",
+            "Porque el acorde disminuido con séptima menor usa bb7, no b7.",
             "Porque el acorde disminuido con séptima disminuida usa bb7, no b7.",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7."
+            "Porque C°7 conserva la séptima mayor 7 como soporte.",
+            "Porque en C°7 la sexta reemplaza a la tercera disminuida."
           ],
           "answer": 1,
           "sampleAnswer": "Porque el acorde disminuido con séptima disminuida usa bb7, no b7."
@@ -1944,10 +1944,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Por qué C°7 puede entenderse también como un acorde disminuido con sexta enarmonizada?",
           "choices": [
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
-            "Se pueden suprimir 9 y 11 a menos que aparezcan en el cifrado.",
+            "Porque b7 suena como 6, aunque funcionalmente se escribe como séptima menor.",
+            "Porque bb7 se escribe igual que 6 y por eso no hay diferencia funcional.",
             "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida.",
-            "C(b5) = mayor con quinta disminuida."
+            "Porque la 6 reemplaza a la quinta disminuida dentro del acorde."
           ],
           "answer": 2,
           "sampleAnswer": "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida."
@@ -1999,10 +1999,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué significa el símbolo ø en el cifrado Cø?",
           "choices": [
-            "C13.",
+            "Indica acorde disminuido completo: triada disminuida con bb7.",
             "Indica acorde semidisminuido: triada disminuida con séptima menor.",
-            "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde.",
-            "La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7."
+            "Indica acorde menor con séptima mayor.",
+            "Indica acorde suspendido con cuarta y séptima menor."
           ],
           "answer": 1,
           "sampleAnswer": "Indica acorde semidisminuido: triada disminuida con séptima menor."
@@ -2013,9 +2013,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Cuál es la diferencia entre C°7 y Cø?",
           "choices": [
-            "1 3 5 (C E G)",
-            "Porque la 11 es la misma 4; en un sus4 la 4 ya está presente.",
-            "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9.",
+            "C°7 = 1 b3 b5 b7 (C Eb Gb Bb). Cø = 1 b3 b5 bb7 (C Eb Gb Bbb).",
+            "C°7 = 1 b3 5 bb7 (C Eb G Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
+            "C°7 = 1 b3 b5 7 (C Eb Gb B). Cø = 1 b3 b5 b7 (C Eb Gb Bb).",
             "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb). Cø = 1 b3 b5 b7 (C Eb Gb Bb)."
           ],
           "answer": 3,
@@ -2069,10 +2069,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué indican los símbolos ∆, maj7 y ma7?",
           "choices": [
-            "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#).",
-            "C6sus4 = 1 4 5 6 (C F G A).",
+            "Indican séptima menor.",
+            "Indican triada aumentada.",
             "Indican séptima mayor.",
-            "C6(9)b5 = 1 3 b5 6 9 (C E Gb A D)."
+            "Indican acorde semidisminuido."
           ],
           "answer": 2,
           "sampleAnswer": "Indican séptima mayor."
@@ -2083,10 +2083,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Compare C7 y C∆. ¿Qué intervalo cambia?",
           "choices": [
-            "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).",
+            "C7 tiene 7; C∆ tiene b7.",
             "C7 tiene b7; C∆ tiene 7.",
-            "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#).",
-            "Porque el acorde disminuido con séptima disminuida usa bb7, no b7."
+            "C7 tiene b7; C∆ tiene 6.",
+            "C7 tiene 5; C∆ tiene #5."
           ],
           "answer": 1,
           "sampleAnswer": "C7 tiene b7; C∆ tiene 7."
@@ -2097,9 +2097,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Compare Cm7 y Cm∆. ¿Qué intervalo cambia?",
           "choices": [
-            "Cm7(#11) = 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#).",
-            "C6(9)b5 = 1 3 b5 6 9 (C E Gb A D).",
-            "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9.",
+            "Cm7 tiene 7; Cm∆ tiene b7.",
+            "Cm7 tiene b7; Cm∆ tiene 6.",
+            "Cm7 tiene b3; Cm∆ tiene 3.",
             "Cm7 tiene b7; Cm∆ tiene 7."
           ],
           "answer": 3,
@@ -2111,10 +2111,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Enumere todas las extensiones estudiadas.",
           "choices": [
-            "C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#).",
+            "b9, 9, #9, 11, #11 y 13 solamente.",
             "b9, 9, #9, 11, #11, b13 y 13.",
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
-            "V"
+            "9, 11, 13, 6, b7 y 7.",
+            "b9, #9, b11, #11, b13 y #13."
           ],
           "answer": 1,
           "sampleAnswer": "b9, 9, #9, 11, #11, b13 y 13."
@@ -2167,10 +2167,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Explique por qué en acordes con 9, 11 o 13, cuando no aparece especificada la séptima, se asume b7.",
           "choices": [
-            "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida.",
-            "Disminuida: 1 b3 b5 (C Eb Gb).",
+            "Porque en cifrados extendidos como 9, 11 o 13 siempre se asume 7 mayor.",
+            "Porque la séptima se omite siempre que aparece una extensión superior.",
             "Porque en cifrados extendidos como 9, 11 o 13, si no se indica explícitamente otra séptima, la séptima asumida es b7.",
-            "Debe incluir su alteración: sostenido o bemol."
+            "Porque en cifrados extendidos solo se asume b7 cuando el acorde es menor."
           ],
           "answer": 2,
           "sampleAnswer": "Porque en cifrados extendidos como 9, 11 o 13, si no se indica explícitamente otra séptima, la séptima asumida es b7."
@@ -2181,10 +2181,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En un acorde suspendido 2, ¿por qué no se agrega 9?",
           "choices": [
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
+            "Porque la 9 es la misma 4, y el acorde sus2 ya contiene 4.",
             "Porque la 9 es la misma 2, y el acorde sus2 ya contiene 2.",
-            "13 = 6.",
-            "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2."
+            "Porque la 9 solo puede agregarse si el acorde tiene tercera mayor.",
+            "Porque en sus2 la 9 se reemplaza obligatoriamente por b9."
           ],
           "answer": 1,
           "sampleAnswer": "Porque la 9 es la misma 2, y el acorde sus2 ya contiene 2."
@@ -2195,10 +2195,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En un acorde suspendido 4, ¿por qué no se cuenta la 11 como extensión adicional?",
           "choices": [
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "C+∆(#11) = 1 3 #5 7 9 #11 (C E G# B D F#).",
+            "Porque la 11 es la misma 2, y el acorde sus4 ya contiene 2.",
+            "Porque la 11 solo puede agregarse a acordes con 3M.",
             "Porque la 11 es la misma 4, y el acorde sus4 ya contiene 4.",
-            "La bb7 equivale enarmónicamente a la 6."
+            "Porque en sus4 la 11 se reemplaza obligatoriamente por #11."
           ],
           "answer": 2,
           "sampleAnswer": "Porque la 11 es la misma 4, y el acorde sus4 ya contiene 4."
@@ -2368,9 +2368,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia interválica hay entre C9 y C∆9?",
           "choices": [
-            "C∆9 = 1 3 5 7 9 (C E G B D).",
-            "6, bb7, b7 y 7.",
-            "11 = 4.",
+            "C9 tiene 7; C∆9 tiene b7.",
+            "C9 tiene b9; C∆9 tiene 9.",
+            "C9 tiene 5; C∆9 tiene #5.",
             "C9 tiene b7; C∆9 tiene 7."
           ],
           "answer": 3,
@@ -2383,9 +2383,9 @@ window.APP_DATA = {
           "prompt": "¿Qué diferencia interválica hay entre C7(b9), C9 y C7(#9)?",
           "choices": [
             "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9.",
-            "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.",
-            "C+ = aumentada.",
-            "Indica acorde semidisminuido: triada disminuida con séptima menor."
+            "Cambia la séptima: C7(b9) tiene 7; C9 tiene b7; C7(#9) tiene 7.",
+            "Cambia la quinta: C7(b9) tiene b5; C9 tiene 5; C7(#9) tiene #5.",
+            "Cambia la tercera: C7(b9) tiene b3; C9 tiene 3; C7(#9) tiene #3."
           ],
           "answer": 0,
           "sampleAnswer": "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9."
@@ -2396,9 +2396,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia interválica hay entre C+9 y C9?",
           "choices": [
-            "Cø11 = 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F).",
-            "C- = menor.",
-            "C°∆9 = 1 b3 b5 7 9 (C Eb Gb B D).",
+            "C+9 tiene b5; C9 tiene 5.",
+            "C+9 tiene 5; C9 tiene #5.",
+            "C+9 tiene 7; C9 tiene b7.",
             "C+9 tiene #5; C9 tiene 5."
           ],
           "answer": 3,
@@ -2410,10 +2410,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia interválica hay entre Cø9 y Cm9?",
           "choices": [
-            "Cm13.",
+            "Cø9 tiene 5; Cm9 tiene b5.",
             "Cø9 tiene b5; Cm9 tiene 5.",
-            "5 = 5j, quinta justa.",
-            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F)."
+            "Cø9 tiene bb7; Cm9 tiene b7.",
+            "Cø9 tiene 3; Cm9 tiene b3."
           ],
           "answer": 1,
           "sampleAnswer": "Cø9 tiene b5; Cm9 tiene 5."
@@ -2424,9 +2424,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Según el material, los acordes con onceava justa no requieren novena. Sin embargo, si se quiere poner y no está especificada, ¿qué novena se asume?",
           "choices": [
-            "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#).",
-            "No. En C9(#11), la 9 aparece en el cifrado.",
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
+            "Se asume b9.",
+            "Se asume #9.",
+            "No se asume ninguna novena.",
             "Se asume 9."
           ],
           "answer": 3,
@@ -2472,9 +2472,9 @@ window.APP_DATA = {
           "prompt": "¿Por qué la 11 se asocia principalmente con acordes que contienen b3?",
           "choices": [
             "Porque la 11 se usa en acordes con tercera menor.",
-            "C13 tiene b7; C∆13 tiene 7.",
-            "C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).",
-            "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#)."
+            "Porque la 11 se usa principalmente en acordes con tercera mayor.",
+            "Porque la 11 reemplaza siempre a la quinta disminuida.",
+            "Porque la 11 solo aparece en acordes suspendidos con cuarta."
           ],
           "answer": 0,
           "sampleAnswer": "Porque la 11 se usa en acordes con tercera menor."
@@ -2486,9 +2486,9 @@ window.APP_DATA = {
           "prompt": "¿Por qué la 11 no se agrega a acordes que ya tienen 4 suspendida?",
           "choices": [
             "Porque la 11 es la misma 4; si el acorde ya tiene 4 suspendida, esa nota ya está presente como parte estructural.",
-            "C° = disminuida.",
-            "En acordes con 3M.",
-            "C7(#9) = 1 3 5 b7 #9 (C E G Bb D#)."
+            "Porque la 11 es la misma 2; si el acorde ya tiene 2 suspendida, esa nota ya está presente.",
+            "Porque la 11 se transforma en #11 cuando hay 4 suspendida.",
+            "Porque la 11 exige una tercera mayor y los acordes sus4 no tienen tercera."
           ],
           "answer": 0,
           "sampleAnswer": "Porque la 11 es la misma 4; si el acorde ya tiene 4 suspendida, esa nota ya está presente como parte estructural."
@@ -2558,10 +2558,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué intervalo es equivalente a #11?",
           "choices": [
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
-            "Mayor: 1 3 5 (C E G).",
+            "#11 equivale a #5.",
+            "#11 equivale a b5.",
             "#11 equivale a #4.",
-            "C∆(#9) = 1 3 5 7 #9 (C E G B D#)."
+            "#11 equivale a 11 natural."
           ],
           "answer": 2,
           "sampleAnswer": "#11 equivale a #4."
@@ -2572,10 +2572,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿En qué tipo de acordes se usa principalmente la #11?",
           "choices": [
-            "Se puede suprimir la 9 a menos que aparezca en el cifrado.",
+            "En acordes con b3.",
             "En acordes con 3M.",
-            "C∆9 = 1 3 5 7 9 (C E G B D).",
-            "C13(b5)b9."
+            "En acordes disminuidos con bb7.",
+            "En acordes suspendidos sin tercera."
           ],
           "answer": 1,
           "sampleAnswer": "En acordes con 3M."
@@ -2586,10 +2586,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿En qué caso excepcional puede aparecer la #11 en acordes menores?",
           "choices": [
-            "Cm13 tiene b7; Cm∆13 tiene 7.",
-            "Cø / Cm7(b5) = 1 b3 b5 b7 (C Eb Gb Bb).",
+            "Puede aparecer excepcionalmente en acordes menores con quinta disminuida.",
+            "Puede aparecer excepcionalmente en acordes menores con séptima disminuida.",
             "Puede aparecer excepcionalmente en acordes menores con quinta justa.",
-            "Que es la nota base desde la cual se construye y se nombra el acorde."
+            "Puede aparecer excepcionalmente en acordes menores con segunda suspendida."
           ],
           "answer": 2,
           "sampleAnswer": "Puede aparecer excepcionalmente en acordes menores con quinta justa."
@@ -2600,10 +2600,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Según las reglas del material, ¿qué debe acompañar siempre a una 13?",
           "choices": [
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
+            "Siempre debe ir acompañada por una 11ª cualquiera.",
             "Siempre debe ir acompañada por una 9ª cualquiera.",
-            "Cm = menor.",
-            "C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#)."
+            "Siempre debe ir acompañada por una 7ª mayor.",
+            "Siempre debe ir acompañada por una b9."
           ],
           "answer": 1,
           "sampleAnswer": "Siempre debe ir acompañada por una 9ª cualquiera."
@@ -2664,10 +2664,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿A qué tipos de acordes se agrega la b13?",
           "choices": [
-            "C9sus4 = 1 4 5 b7 9 (C F G Bb D).",
-            "C∆9 = 1 3 5 7 9 (C E G B D).",
+            "A acordes mayores con 7, o a acordes suspendidos con 6.",
+            "A cualquier acorde menor, aunque no tenga soporte de séptima.",
             "A acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7.",
-            "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7."
+            "Solo a acordes aumentados con #5 y 7 mayor."
           ],
           "answer": 2,
           "sampleAnswer": "A acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
@@ -2734,13 +2734,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Por qué C13sus2 no contiene 9?",
           "choices": [
-            "Aumentada: 1 3 #5 (C E G#).",
+            "Porque la 13 es la misma 6, pero en sus2 ya está la 6.",
             "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2.",
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
-            "C∆sus2 / Cmaj7(sus2) = 1 2 5 7 (C D G B)."
+            "Porque la 9 es la misma 2, y en sus2 esa nota ya está presente.",
+            "Porque en sus2 la novena debe escribirse siempre como b9."
           ],
-          "answer": 1,
-          "sampleAnswer": "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2."
+          "answer": 2,
+          "sampleAnswer": "Porque la 9 es la misma 2, y en sus2 esa nota ya está presente."
         },
         {
           "id": 52,
@@ -2748,10 +2748,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Por qué C13sus4 no contiene 11?",
           "choices": [
-            "Sí. En Cm11 la 9 aparece como opcional.",
-            "C° = disminuida.",
+            "Porque la 11 es la misma 2; en sus4 ya está la 2.",
+            "Porque la 11 solo puede aparecer si también aparece #11.",
             "Porque la 11 es la misma 4; en un sus4 la 4 ya está presente.",
-            "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#)."
+            "Porque en sus4 la onceava se omite solo cuando hay 7 mayor."
           ],
           "answer": 2,
           "sampleAnswer": "Porque la 11 es la misma 4; en un sus4 la 4 ya está presente."
@@ -2762,10 +2762,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia hay entre C13, C13(b9) y C13(#9)?",
           "choices": [
-            "No. En C9(#11), la 9 aparece en el cifrado.",
-            "La triada menor tiene 5; la disminuida tiene b5.",
+            "Cambia la séptima: C13 tiene b7; C13(b9) tiene 7; C13(#9) tiene bb7.",
+            "Cambia la quinta: C13 tiene 5; C13(b9) tiene b5; C13(#9) tiene #5.",
             "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9.",
-            "Aumentada: 1 3 #5 (C E G#)."
+            "Cambia la treceava: C13 tiene 13; C13(b9) tiene b13; C13(#9) tiene #13."
           ],
           "answer": 2,
           "sampleAnswer": "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9."
@@ -2776,10 +2776,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia hay entre C13 y C∆13?",
           "choices": [
-            "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7.",
-            "La triada mayor tiene 3; la menor tiene b3.",
+            "C13 tiene 7; C∆13 tiene b7.",
+            "C13 tiene b13; C∆13 tiene 13.",
             "C13 tiene b7; C∆13 tiene 7.",
-            "Porque la 11 es la misma 4; en un sus4 la 4 ya está presente."
+            "C13 tiene 9; C∆13 tiene b9."
           ],
           "answer": 2,
           "sampleAnswer": "C13 tiene b7; C∆13 tiene 7."
@@ -2790,10 +2790,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia hay entre Cm13 y Cm∆13?",
           "choices": [
-            "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B.",
+            "Cm13 tiene 7; Cm∆13 tiene b7.",
             "Cm13 tiene b7; Cm∆13 tiene 7.",
-            "C+9 = 1 3 #5 b7 9 (C E G# Bb D).",
-            "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9."
+            "Cm13 tiene b13; Cm∆13 tiene 13.",
+            "Cm13 tiene b3; Cm∆13 tiene 3."
           ],
           "answer": 1,
           "sampleAnswer": "Cm13 tiene b7; Cm∆13 tiene 7."
@@ -2804,10 +2804,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué diferencia hay entre C13(b5), C13(b5)b9 y C13(b5)#9?",
           "choices": [
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
+            "Cambia la quinta: C13(b5) tiene 5; C13(b5)b9 tiene b5; C13(b5)#9 tiene #5.",
             "Cambia la novena: C13(b5) asume 9; C13(b5)b9 tiene b9; C13(b5)#9 tiene #9.",
-            "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).",
-            "6 = 6M, sexta mayor."
+            "Cambia la séptima: C13(b5) tiene b7; C13(b5)b9 tiene 7; C13(b5)#9 tiene bb7.",
+            "Cambia la treceava: C13(b5) tiene 13; C13(b5)b9 tiene b13; C13(b5)#9 tiene #13."
           ],
           "answer": 1,
           "sampleAnswer": "Cambia la novena: C13(b5) asume 9; C13(b5)b9 tiene b9; C13(b5)#9 tiene #9."
@@ -2818,10 +2818,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Escriba todas las fundamentales posibles en el sistema americano, incluyendo las alteraciones indicadas en el material.",
           "choices": [
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
-            "C+7(b9) = 1 3 #5 b7 b9 (C E G# Bb Db).",
+            "C, D, E, F, G, A y B solamente, sin alteraciones.",
+            "C, C#/Db, D, E, F, F#/Gb, G, A y B solamente.",
             "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B.",
-            "C7 = 1 3 5 b7 (C E G Bb)."
+            "C, Db, Eb, F, Gb, Ab y Bb solamente."
           ],
           "answer": 2,
           "sampleAnswer": "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B."
@@ -2833,9 +2833,9 @@ window.APP_DATA = {
           "prompt": "¿Cómo se escribe la fundamental de un acorde en el sistema americano?",
           "choices": [
             "Con letra mayúscula en el sistema americano.",
-            "9 = 2.",
-            "Cm13.",
-            "C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A)."
+            "Con letra minúscula en el sistema americano.",
+            "Con número romano según el grado tonal.",
+            "Con la alteración antes de la letra, sin usar mayúscula."
           ],
           "answer": 0,
           "sampleAnswer": "Con letra mayúscula en el sistema americano."
@@ -2846,9 +2846,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué debe incluir la escritura de la fundamental si la nota está alterada?",
           "choices": [
-            "Cm∆(9) = 1 b3 5 7 9 (C Eb G B D).",
-            "La triada mayor tiene 5; la aumentada tiene #5.",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
+            "Debe omitir la alteración y conservar solo la letra.",
+            "Debe incluir solo sostenido; el bemol no se usa en fundamentales.",
+            "Debe escribirse como número romano alterado.",
             "Debe incluir su alteración: sostenido o bemol."
           ],
           "answer": 3,
@@ -2921,10 +2921,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Escriba tres cifrados posibles para una triada menor sobre C.",
           "choices": [
-            "C6(9) = 1 3 5 6 9 (C E G A D).",
-            "Que es la nota base desde la cual se construye y se nombra el acorde.",
+            "C, Cmaj, Cma. Cualquier tres son correctos.",
+            "C+, C(#5), Caug. Cualquier tres son correctos.",
             "Cm, C-, Cmi, Cmin. Cualquier tres son correctos.",
-            "C+ = aumentada."
+            "C°, Cdim, Cø. Cualquier tres son correctos."
           ],
           "answer": 2,
           "sampleAnswer": "Cm, C-, Cmi, Cmin. Cualquier tres son correctos."
@@ -2935,10 +2935,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Escriba tres cifrados posibles para una triada aumentada sobre C.",
           "choices": [
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
+            "Cm, C-, Cmi.",
             "C+, C(#5), Caug.",
-            "C7(b9)#11 = 1 3 5 b7 b9 #11 (C E G Bb Db F#).",
-            "C9 tiene b7; C∆9 tiene 7."
+            "C°, Cdim, Cø.",
+            "C, Cmaj, Cma."
           ],
           "answer": 1,
           "sampleAnswer": "C+, C(#5), Caug."
@@ -2949,10 +2949,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Escriba dos cifrados posibles para una triada disminuida sobre C.",
           "choices": [
-            "Cm∆(#11) = 1 b3 5 7 (9) #11 (C Eb G B (D) F#).",
-            "Cm7 tiene b7; Cm∆ tiene 7.",
+            "C+, Caug.",
+            "Cø, Cm7(b5).",
             "C°, Cdim.",
-            "C13 tiene b7; C∆13 tiene 7."
+            "Csus, Csus4."
           ],
           "answer": 2,
           "sampleAnswer": "C°, Cdim."
@@ -2963,9 +2963,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Escriba dos cifrados posibles para una triada suspendida con cuarta sobre C.",
           "choices": [
-            "C° = disminuida.",
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
-            "V",
+            "Csus2, C2.",
+            "Cm, C-.",
+            "C°, Cdim.",
             "Csus, Csus4."
           ],
           "answer": 3,
@@ -2977,10 +2977,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué significa C(b5)?",
           "choices": [
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
+            "C menor con quinta disminuida: 1 b3 b5 (C Eb Gb).",
             "C mayor con quinta disminuida: 1 3 b5 (C E Gb).",
-            "C7 = 1 3 5 b7 (C E G Bb).",
-            "C13(#9) = 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)."
+            "C mayor con quinta aumentada: 1 3 #5 (C E G#).",
+            "C suspendido con quinta disminuida: 1 4 b5 (C F Gb)."
           ],
           "answer": 1,
           "sampleAnswer": "C mayor con quinta disminuida: 1 3 b5 (C E Gb)."
@@ -2991,9 +2991,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En acordes mayores, menores y suspendidos, ¿qué nota se puede suprimir?",
           "choices": [
-            "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.",
-            "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida.",
-            "Cø9.",
+            "La tercera.",
+            "La 6ª o la 7ª.",
+            "La fundamental.",
             "La 5j."
           ],
           "answer": 3,
@@ -3005,10 +3005,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En acordes disminuidos y aumentados, ¿qué nota se puede suprimir?",
           "choices": [
-            "Menor: 1 b3 5 (C Eb G).",
-            "Cdim = disminuida.",
+            "La quinta justa.",
+            "La 6ª o la 7ª.",
             "La tercera.",
-            "C6(9)b5 = 1 3 b5 6 9 (C E Gb A D)."
+            "La fundamental."
           ],
           "answer": 2,
           "sampleAnswer": "La tercera."
@@ -3020,9 +3020,9 @@ window.APP_DATA = {
           "prompt": "¿Qué notas nunca se pueden suprimir?",
           "choices": [
             "La 6ª y la 7ª.",
-            "Cmin = menor.",
-            "#11 equivale a #4.",
-            "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+            "La quinta justa y la novena.",
+            "La tercera y la quinta.",
+            "La 9ª y la 11ª."
           ],
           "answer": 0,
           "sampleAnswer": "La 6ª y la 7ª."
@@ -3033,9 +3033,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En acordes con 11, ¿cuándo se puede suprimir la 9?",
           "choices": [
-            "4 = 4j, cuarta justa.",
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C∆(#9) = 1 3 5 7 #9 (C E G B D#).",
+            "Siempre se puede suprimir, aunque aparezca en el cifrado.",
+            "Nunca se puede suprimir en acordes con 11.",
+            "Se puede suprimir solo si el acorde tiene 7 mayor.",
             "Se puede suprimir la 9 a menos que aparezca en el cifrado."
           ],
           "answer": 3,
@@ -3047,9 +3047,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En acordes con 13, ¿cuándo se pueden suprimir la 9 y la 11?",
           "choices": [
-            "Cm = menor.",
-            "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#).",
-            "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#).",
+            "Nunca se pueden suprimir en acordes con 13.",
+            "Se pueden suprimir aunque aparezcan en el cifrado.",
+            "Solo puede suprimirse la 11; la 9 siempre es obligatoria.",
             "Se pueden suprimir 9 y 11 a menos que aparezcan en el cifrado."
           ],
           "answer": 3,
@@ -3061,9 +3061,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Explique por qué la 6ª o la 7ª no deben suprimirse.",
           "choices": [
-            "C+∆(#11).",
-            "Cm6 = 1 b3 5 6 (C Eb G A).",
-            "C = mayor.",
+            "Porque la 6ª o la 7ª funcionan como extensiones opcionales sin afectar el cifrado.",
+            "Porque la 6ª o la 7ª reemplazan siempre a la quinta justa.",
+            "Porque la 6ª o la 7ª solo aparecen duplicadas en el bajo.",
             "Porque la 6ª o la 7ª funcionan como soporte del acorde y definen parte esencial de su cifrado."
           ],
           "answer": 3,
@@ -3075,10 +3075,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En el acorde C13, ¿qué notas podrían omitirse según la regla general del material?",
           "choices": [
-            "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde.",
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
+            "En C13 pueden omitirse b7 y 13, pero no 9 ni #11.",
+            "En C13 puede omitirse la 13 si la 9 queda presente.",
             "En C13 pueden omitirse 9 y #11 si no se consideran obligatorias en el cifrado. No se puede omitir b7 ni 13.",
-            "Csus2 = suspendida 2."
+            "En C13 no puede omitirse ninguna nota por ser acorde extendido."
           ],
           "answer": 2,
           "sampleAnswer": "En C13 pueden omitirse 9 y #11 si no se consideran obligatorias en el cifrado. No se puede omitir b7 ni 13."
@@ -3089,10 +3089,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En el acorde Cm11, ¿puede omitirse la 9 si no aparece explícitamente en el cifrado?",
           "choices": [
-            "C13sus2 = 1 2 5 b7 13 (C D G Bb A).",
+            "No. En Cm11 la 9 aparece explícitamente en el cifrado.",
             "Sí. En Cm11 la 9 aparece como opcional.",
-            "Cm, C-, Cmi, Cmin. Cualquier tres son correctos.",
-            "C9 tiene b7; C∆9 tiene 7."
+            "Sí, pero solo si también se omite la 11.",
+            "No. En acordes con 11 la 9 siempre es obligatoria."
           ],
           "answer": 1,
           "sampleAnswer": "Sí. En Cm11 la 9 aparece como opcional."
@@ -3103,9 +3103,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "En el acorde C9(#11), ¿puede omitirse la 9?",
           "choices": [
-            "C6sus4 = 1 4 5 6 (C F G A).",
-            "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde.",
-            "Porque el acorde disminuido con séptima disminuida usa bb7, no b7.",
+            "Sí. En C9(#11), la 9 puede omitirse porque aparece #11.",
+            "Sí. En C9(#11), la 9 se asume pero no es parte del cifrado.",
+            "No. En C9(#11), solo puede omitirse la #11.",
             "No. En C9(#11), la 9 aparece en el cifrado."
           ],
           "answer": 3,
@@ -3118,9 +3118,9 @@ window.APP_DATA = {
           "prompt": "En el acorde C13(b9), ¿puede omitirse la b9?",
           "choices": [
             "No. En C13(b9), la b9 aparece explícitamente en el cifrado.",
-            "C13(b5)b9.",
-            "C6sus4(9) = 1 4 5 6 9 (C F G A D).",
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab)."
+            "Sí. En C13(b9), la b9 es opcional porque está entre extensiones.",
+            "Sí. En C13(b9), puede omitirse si se conserva la 13.",
+            "No. En C13(b9), solo puede omitirse la b7."
           ],
           "answer": 0,
           "sampleAnswer": "No. En C13(b9), la b9 aparece explícitamente en el cifrado."
@@ -3131,9 +3131,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con sexta y novena.",
           "choices": [
-            "Cm7 tiene b7; Cm∆ tiene 7.",
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C∆sus4 / Cmaj7(sus4) = 1 4 5 7 (C F G B).",
+            "C6 = 1 3 5 6 (C E G A).",
+            "C9 = 1 3 5 b7 9 (C E G Bb D).",
+            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
             "C6(9) = 1 3 5 6 9 (C E G A D)."
           ],
           "answer": 3,
@@ -3145,10 +3145,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C menor con sexta y onceava.",
           "choices": [
-            "C6sus2 = 1 2 5 6 (C D G A).",
+            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
             "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).",
-            "C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).",
-            "Porque la 11 es la misma 4, y el acorde sus4 ya contiene 4."
+            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
+            "C6sus4(11) = 1 4 5 6 11 (C F G A F)."
           ],
           "answer": 1,
           "sampleAnswer": "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)."
@@ -3159,10 +3159,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C dominante con b9 y b13.",
           "choices": [
-            "C+∆(#9) = 1 3 #5 7 #9 (C E G# B D#).",
-            "Csus = suspendida 4.",
+            "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
+            "C7(b13) = 1 3 5 b7 (9) b13 (C E G Bb (D) Ab).",
             "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C+7(b9)#11 = 1 3 #5 b7 b9 #11 (C E G# Bb Db F#)."
+            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)."
           ],
           "answer": 2,
           "sampleAnswer": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)."
@@ -3173,9 +3173,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C aumentado con séptima menor y #11.",
           "choices": [
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5) = 1 3 #5 7 (C E G# B).",
-            "C7 = 1 3 5 b7 (C E G Bb).",
-            "Cm∆13.",
+            "C+7 = 1 3 #5 b7 (C E G# Bb).",
+            "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
+            "C+∆(#11) = 1 3 #5 7 (9) #11 (C E G# B (D) F#).",
             "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
           ],
           "answer": 3,
@@ -3187,10 +3187,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C semidisminuido con novena.",
           "choices": [
-            "Se pueden suprimir 9 y 11 a menos que aparezcan en el cifrado.",
+            "C°9 = 1 b3 b5 bb7 9 (C Eb Gb Bbb D).",
             "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D).",
-            "Cm7 / C-7 / Cmi7 / Cmin7 = 1 b3 5 b7 (C Eb G Bb).",
-            "1 2 5 (C D G)"
+            "Cm9 = 1 b3 5 b7 9 (C Eb G Bb D).",
+            "Cø = 1 b3 b5 b7 (C Eb Gb Bb)."
           ],
           "answer": 1,
           "sampleAnswer": "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D)."
@@ -3201,10 +3201,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C suspendido 4 con séptima menor, b9 y b13.",
           "choices": [
-            "C7 = 1 3 5 b7 (C E G Bb).",
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
+            "C7sus4(b9) = 1 4 5 b7 b9 (C F G Bb Db).",
+            "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
             "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C+7(b9) = 1 3 #5 b7 b9 (C E G# Bb Db)."
+            "C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A)."
           ],
           "answer": 2,
           "sampleAnswer": "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab)."
@@ -3215,10 +3215,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
           "choices": [
-            "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
+            "C7(b5) = 1 3 b5 b7 (C E Gb Bb).",
             "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).",
-            "1 b3 5 (C Eb G)",
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)."
+            "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A).",
+            "C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A)."
           ],
           "answer": 1,
           "sampleAnswer": "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)."
@@ -3230,9 +3230,9 @@ window.APP_DATA = {
           "prompt": "Construya un acorde de C menor con séptima mayor y treceava.",
           "choices": [
             "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
-            "Csus4 = suspendida 4.",
-            "C+, C(#5), Caug.",
-            "C13 tiene b7; C∆13 tiene 7."
+            "Cm13 = 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A).",
+            "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
+            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F)."
           ],
           "answer": 0,
           "sampleAnswer": "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)."
@@ -3243,9 +3243,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C disminuido con séptima disminuida y b13.",
           "choices": [
-            "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
-            "Porque en cifrados extendidos como 9, 11 o 13, si no se indica explícitamente otra séptima, la séptima asumida es b7.",
-            "C9(b5)b13 = 1 3 b5 b7 9 b13 (C E Gb Bb D Ab).",
+            "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb).",
+            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
+            "C°∆(b13) = 1 b3 b5 7 (9) (11) b13 (C Eb Gb B (D) (F) Ab).",
             "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)."
           ],
           "answer": 3,
@@ -3257,10 +3257,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con séptima mayor y #11.",
           "choices": [
-            "C+∆(#11).",
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
+            "C∆9 = 1 3 5 7 9 (C E G B D).",
+            "C7(#11) = 1 3 5 b7 (9) #11 (C E G Bb (D) F#).",
             "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
-            "C13(b9) = 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)."
+            "C+∆(#11) = 1 3 #5 7 (9) #11 (C E G# B (D) F#)."
           ],
           "answer": 2,
           "sampleAnswer": "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#)."
@@ -3271,10 +3271,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 3 5 b7 9 13 (C E G Bb D A), escriba el cifrado correspondiente.",
           "choices": [
-            "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
-            "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B.",
+            "C∆13.",
+            "C13(b9).",
             "C13.",
-            "En acordes con 3M."
+            "Cm13."
           ],
           "answer": 2,
           "sampleAnswer": "C13."
@@ -3286,9 +3286,9 @@ window.APP_DATA = {
           "prompt": "A partir de los intervalos 1 b3 5 b7 9 11 13 (C Eb G Bb D F A), escriba el cifrado correspondiente.",
           "choices": [
             "Cm13.",
-            "C13sus4(b9).",
-            "C° = disminuida.",
-            "C13sus2 = 1 2 5 b7 13 (C D G Bb A)."
+            "Cm∆13.",
+            "C13sus4.",
+            "Cø13."
           ],
           "answer": 0,
           "sampleAnswer": "Cm13."
@@ -3299,10 +3299,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 3 b5 b7 b9 13 (C E Gb Bb Db A), escriba el cifrado correspondiente.",
           "choices": [
-            "C7(#9)b5(b13) = 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab).",
-            "La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.",
+            "C13(b5).",
+            "C13(#9)b5.",
             "C13(b5)b9.",
-            "C+9 tiene #5; C9 tiene 5."
+            "C7(b5)b9."
           ],
           "answer": 2,
           "sampleAnswer": "C13(b5)b9."
@@ -3313,9 +3313,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 4 5 b7 b9 13 (C F G Bb Db A), escriba el cifrado correspondiente.",
           "choices": [
-            "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida.",
-            "C6sus2 = 1 2 5 6 (C D G A).",
-            "C13.",
+            "C13sus4.",
+            "C7sus4(b9).",
+            "C13sus2(b9).",
             "C13sus4(b9)."
           ],
           "answer": 3,
@@ -3327,9 +3327,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 b3 b5 b7 9 (C Eb Gb Bb D), escriba el cifrado correspondiente.",
           "choices": [
-            "C+7 / Caug7 / C7(#5) = 1 3 #5 b7 (C E G# Bb).",
-            "C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7 (C Eb Gb B).",
-            "C13sus2 = 1 2 5 b7 13 (C D G Bb A).",
+            "C°9.",
+            "Cm9(b5).",
+            "Cø11.",
             "Cø9."
           ],
           "answer": 3,
@@ -3341,10 +3341,10 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 3 #5 7 9 #11 (C E G# B D F#), escriba el cifrado correspondiente.",
           "choices": [
-            "Mayor con quinta disminuida: 1 3 b5 (C E Gb).",
+            "C+∆9.",
             "C+∆(#11).",
-            "Cmin = menor.",
-            "C6(#11) = 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)."
+            "C∆(#11).",
+            "C+7(#11)."
           ],
           "answer": 1,
           "sampleAnswer": "C+∆(#11)."
@@ -3355,9 +3355,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "A partir de los intervalos 1 b3 5 7 9 11 13 (C Eb G B D F A), escriba el cifrado correspondiente.",
           "choices": [
-            "Cm6 = 1 b3 5 6 (C Eb G A).",
-            "Porque la 11 es la misma 4, y el acorde sus4 ya contiene 4.",
-            "Sí. En Cm11 la 9 aparece como opcional.",
+            "Cm13.",
+            "Cm∆11.",
+            "C∆13.",
             "Cm∆13."
           ],
           "answer": 3,
@@ -3538,6 +3538,257 @@ window.APP_DATA = {
           "prompt": "En acordes con 13 se pueden suprimir 9 y 11, salvo que aparezcan en el cifrado._",
           "answer": true,
           "sampleAnswer": "V"
+        },
+        {
+          "id": 115,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas correctas del acorde Db7(b9)#11.",
+          "choices": [
+            "Db",
+            "D",
+            "F",
+            "Fb",
+            "Ab",
+            "A",
+            "Cb",
+            "C",
+            "Ebb",
+            "Eb",
+            "G",
+            "Gb"
+          ],
+          "answers": [
+            "Db",
+            "F",
+            "Ab",
+            "Cb",
+            "Ebb",
+            "G"
+          ],
+          "sampleAnswer": "Db, F, Ab, Cb, Ebb y G."
+        },
+        {
+          "id": 116,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas correctas del acorde F#ø9.",
+          "choices": [
+            "F#",
+            "F",
+            "A",
+            "A#",
+            "C",
+            "C#",
+            "E",
+            "E#",
+            "G",
+            "G#"
+          ],
+          "answers": [
+            "F#",
+            "A",
+            "C",
+            "E",
+            "G#"
+          ],
+          "sampleAnswer": "F#, A, C, E y G#."
+        },
+        {
+          "id": 117,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas correctas del acorde G7sus4(b9)b13.",
+          "choices": [
+            "G",
+            "Bb",
+            "B",
+            "C",
+            "D",
+            "Db",
+            "F",
+            "F#",
+            "Ab",
+            "A",
+            "Eb",
+            "E"
+          ],
+          "answers": [
+            "G",
+            "C",
+            "D",
+            "F",
+            "Ab",
+            "Eb"
+          ],
+          "sampleAnswer": "G, C, D, F, Ab y Eb."
+        },
+        {
+          "id": 118,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas correctas del acorde E13(b5)b9.",
+          "choices": [
+            "E",
+            "G",
+            "G#",
+            "B",
+            "Bb",
+            "D",
+            "D#",
+            "F",
+            "F#",
+            "C",
+            "C#"
+          ],
+          "answers": [
+            "E",
+            "G#",
+            "Bb",
+            "D",
+            "F",
+            "C#"
+          ],
+          "sampleAnswer": "E, G#, Bb, D, F y C#."
+        },
+        {
+          "id": 119,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas obligatorias del acorde D+7(#11), sin incluir la 9 opcional.",
+          "choices": [
+            "D",
+            "F",
+            "F#",
+            "A",
+            "A#",
+            "C",
+            "C#",
+            "G",
+            "G#",
+            "E"
+          ],
+          "answers": [
+            "D",
+            "F#",
+            "A#",
+            "C",
+            "G#"
+          ],
+          "sampleAnswer": "D, F#, A#, C y G#."
+        },
+        {
+          "id": 120,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multiSelect",
+          "prompt": "Elija todas las notas correctas del acorde Bb∆(#11) incluyendo la 9.",
+          "choices": [
+            "Bb",
+            "B",
+            "D",
+            "Db",
+            "F",
+            "F#",
+            "A",
+            "Ab",
+            "C",
+            "Cb",
+            "E",
+            "Eb"
+          ],
+          "answers": [
+            "Bb",
+            "D",
+            "F",
+            "A",
+            "C",
+            "E"
+          ],
+          "sampleAnswer": "Bb, D, F, A, C y E."
+        },
+        {
+          "id": 121,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas D, F#, A#, C, Eb y G#.",
+          "choices": [
+            "D7(b9)#11",
+            "D+7(b9)#11",
+            "D+∆(b9)#11",
+            "D+7(#9)#11"
+          ],
+          "answer": 1,
+          "sampleAnswer": "D+7(b9)#11"
+        },
+        {
+          "id": 122,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas E, G, Bb, D y F#.",
+          "choices": [
+            "Em9",
+            "E°7(9)",
+            "Eø9",
+            "E7(b5)9"
+          ],
+          "answer": 2,
+          "sampleAnswer": "Eø9"
+        },
+        {
+          "id": 123,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas F, A, C, Eb, Gb y Db.",
+          "choices": [
+            "F7(b9)b13",
+            "F7(#9)b13",
+            "F9(b13)",
+            "F∆(b9)b13"
+          ],
+          "answer": 0,
+          "sampleAnswer": "F7(b9)b13"
+        },
+        {
+          "id": 124,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas B, D#, F, A, C# y G#.",
+          "choices": [
+            "B13",
+            "B13(b5)",
+            "B13(b5)b9",
+            "B∆13(b5)"
+          ],
+          "answer": 1,
+          "sampleAnswer": "B13(b5)"
+        },
+        {
+          "id": 125,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas C#, E, G, B y D#.",
+          "choices": [
+            "C#m9",
+            "C#°7(9)",
+            "C#ø9",
+            "C#7(b5)9"
+          ],
+          "answer": 2,
+          "sampleAnswer": "C#ø9"
+        },
+        {
+          "id": 126,
+          "section": "XIII. Aplicación en otras fundamentales",
+          "type": "multipleChoice",
+          "prompt": "Elija el cifrado correcto para las notas Bb, D, F, A, C y E.",
+          "choices": [
+            "Bb13",
+            "Bb∆13",
+            "Bb∆(#11)",
+            "Bb7(#11)"
+          ],
+          "answer": 2,
+          "sampleAnswer": "Bb∆(#11)"
         }
       ]
     }

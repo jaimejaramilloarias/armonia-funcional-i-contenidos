@@ -543,10 +543,58 @@ main {
   font-size: 1rem;
 }
 
-.concept-item p {
+.concept-body {
+  min-width: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.concept-body p {
   margin: 0;
   color: var(--ink);
   line-height: 1.65;
+}
+
+.chord-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+}
+
+.chord-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: .92rem;
+}
+
+.chord-table th,
+.chord-table td {
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+
+.chord-table th {
+  color: var(--muted);
+  background: #f8fafc;
+  font-size: .76rem;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.chord-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.chord-table code {
+  white-space: nowrap;
+  color: var(--ink);
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: .9em;
 }
 
 .study-toggle {

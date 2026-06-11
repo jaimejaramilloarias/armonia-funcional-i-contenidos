@@ -272,7 +272,7 @@ function renderTheoryDetail() {
       <div class="concept-list">
         ${section.items.map(item => `<section class="concept-item">
           <h4>${escapeHtml(item.term)}</h4>
-          <p>${escapeHtml(item.body)}</p>
+          ${renderConceptBody(item.body)}
         </section>`).join("")}
       </div>
       <footer class="theory-actions">
@@ -281,6 +281,90 @@ function renderTheoryDetail() {
         <button class="ghost-btn" data-topic-step="1" ${next ? "" : "disabled"}>Tema siguiente</button>
       </footer>
     </article>`;
+}
+function renderConceptBody(body) {
+  const blocks = conceptBlocks(body);
+  if (!blocks.some(block => block.type === "table")) {
+    return `<div class="concept-body"><p>${escapeHtml(body)}</p></div>`;
+  }
+  return `<div class="concept-body">${blocks.map(block => {
+    if (block.type === "table") return renderChordTable(block.rows);
+    return `<p>${escapeHtml(block.text)}</p>`;
+  }).join("")}</div>`;
+}
+function conceptBlocks(body) {
+  const chunks = splitConceptChunks(body);
+  const blocks = [];
+  chunks.forEach(chunk => {
+    const row = chordRowFromChunk(chunk.text);
+    if (row) {
+      const last = blocks[blocks.length - 1];
+      if (last?.type === "table") last.rows.push(row);
+      else blocks.push({ type: "table", rows: [row] });
+      return;
+    }
+    if (chunk.text) {
+      blocks.push({ type: "text", text: `${chunk.text}${chunk.punctuation}`.trim() });
+    }
+  });
+  return blocks;
+}
+function splitConceptChunks(body) {
+  const chunks = [];
+  const re = /([^.;]+)([.;]?)/g;
+  let match;
+  while ((match = re.exec(body))) {
+    const text = match[1].trim();
+    if (text) chunks.push({ text, punctuation: match[2] || "" });
+  }
+  return chunks;
+}
+function chordRowFromChunk(chunk) {
+  const interval = "(?:bb7\\(6\\)|#11\\(#4\\)|bb7|b13|#11|#9|b9|b7|#5|b5|b3|#4|13|11|9|7|6|5|4|3|2|1|\\((?:bb7|b13|#11|#9|b9|b7|#5|b5|b3|#4|13|11|9|7|6|5|4|3|2|1)(?: opcional)?\\))";
+  const formulaRe = new RegExp(`(?:^|\\s)(1(?:\\s+${interval}){2,})`);
+  const match = formulaRe.exec(chunk);
+  if (!match) return null;
+  const formulaStart = match.index + match[0].indexOf(match[1]);
+  const formula = match[1];
+  const afterFormula = chunk.slice(formulaStart + formula.length).trimStart();
+  const notes = readBalancedNotes(afterFormula);
+  if (!notes) return null;
+  const before = chunk.slice(0, formulaStart).trim();
+  const afterNotes = afterFormula.slice(notes.raw.length).trim();
+  const label = chordLabel(before, afterNotes);
+  return { label, formula, notes: notes.value };
+}
+function readBalancedNotes(text) {
+  if (!text.startsWith("(")) return null;
+  let depth = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    if (text[i] === "(") depth += 1;
+    if (text[i] === ")") depth -= 1;
+    if (depth === 0) {
+      return { raw: text.slice(0, i + 1), value: text.slice(1, i) };
+    }
+  }
+  return null;
+}
+function chordLabel(before, afterNotes) {
+  const correspondence = afterNotes.match(/^corresponde a\s+(.+)$/i);
+  if (correspondence) return correspondence[1].replace(/[.;]$/, "").trim();
+  return before
+    .replace(/[=:]+$/g, "")
+    .replace(/\s+contiene$/i, "")
+    .replace(/\s+es$/i, "")
+    .replace(/\s+significa.*$/i, "")
+    .trim() || "Ejemplo en C";
+}
+function renderChordTable(rows) {
+  return `<div class="chord-table-wrap"><table class="chord-table">
+    <thead><tr><th>Acorde o caso</th><th>Intervalos</th><th>Notas en C</th></tr></thead>
+    <tbody>${rows.map(row => `<tr>
+      <td>${escapeHtml(row.label)}</td>
+      <td><code>${escapeHtml(row.formula)}</code></td>
+      <td><code>${escapeHtml(row.notes)}</code></td>
+    </tr>`).join("")}</tbody>
+  </table></div>`;
 }
 function updateProgress() {
   const done = moduleTheory().filter(s => state.studied[s.id]).length;

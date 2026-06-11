@@ -1995,59 +1995,59 @@ window.APP_DATA = {
           "type": "match",
           "prompt": "Seleccione las notas correctas para cada acorde con sexta:",
           "items": [
-            "C6",
-            "Cm6",
-            "C°7",
-            "C6sus4",
-            "C6sus2",
-            "C6(b5)"
+            "D6",
+            "F#m6",
+            "Bb°7",
+            "E6sus4",
+            "Ab6sus2",
+            "G6(b5)"
           ],
           "options": [],
           "answers": {
-            "C6": "C E G A",
-            "Cm6": "C Eb G A",
-            "C°7": "C Eb Gb Bbb",
-            "C6sus4": "C F G A",
-            "C6sus2": "C D G A",
-            "C6(b5)": "C E Gb A"
+            "D6": "D F# A B",
+            "F#m6": "F# A C# D#",
+            "Bb°7": "Bb Db Fb Abb",
+            "E6sus4": "E A B C#",
+            "Ab6sus2": "Ab Bb Eb F",
+            "G6(b5)": "G B Db E"
           },
-          "sampleAnswer": "C6: C E G A; Cm6: C Eb G A; C°7: C Eb Gb Bbb; C6sus4: C F G A; C6sus2: C D G A; C6(b5): C E Gb A",
+          "sampleAnswer": "D6: D F# A B; F#m6: F# A C# D#; Bb°7: Bb Db Fb Abb; E6sus4: E A B C#; Ab6sus2: Ab Bb Eb F; G6(b5): G B Db E",
           "optionsByItem": {
-            "C6": [
-              "C E G A",
-              "C D G A",
-              "C E Gb A",
-              "C Eb G A"
+            "D6": [
+              "E A B C#",
+              "G B Db E",
+              "F# A C# D#",
+              "D F# A B"
             ],
-            "Cm6": [
-              "C D G A",
-              "C Eb G A",
-              "C F G A",
-              "C E G A"
+            "F#m6": [
+              "D F# A B",
+              "Ab Bb Eb F",
+              "E A B C#",
+              "F# A C# D#"
             ],
-            "C°7": [
-              "C E Gb A",
-              "C D G A",
-              "C Eb G A",
-              "C Eb Gb Bbb"
+            "Bb°7": [
+              "Bb Db Fb Abb",
+              "D F# A B",
+              "G B Db E",
+              "Ab Bb Eb F"
             ],
-            "C6sus4": [
-              "C E G A",
-              "C Eb G A",
-              "C D G A",
-              "C F G A"
+            "E6sus4": [
+              "D F# A B",
+              "E A B C#",
+              "G B Db E",
+              "F# A C# D#"
             ],
-            "C6sus2": [
-              "C E G A",
-              "C F G A",
-              "C D G A",
-              "C Eb G A"
+            "Ab6sus2": [
+              "Bb Db Fb Abb",
+              "D F# A B",
+              "E A B C#",
+              "Ab Bb Eb F"
             ],
-            "C6(b5)": [
-              "C E Gb A",
-              "C Eb G A",
-              "C D G A",
-              "C E G A"
+            "G6(b5)": [
+              "Bb Db Fb Abb",
+              "E A B C#",
+              "G B Db E",
+              "D F# A B"
             ]
           }
         },
@@ -2183,67 +2183,67 @@ window.APP_DATA = {
           "type": "match",
           "prompt": "Seleccione las notas correctas para cada acorde con séptima mayor:",
           "items": [
-            "C∆ / Cmaj7 / Cma7",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)",
-            "C°∆ / Cdim∆ / C°maj7",
-            "C∆sus4 / Cmaj7(sus4)",
-            "C∆sus2 / Cmaj7(sus2)",
-            "C∆(b5) / Cmaj7(b5)"
+            "Eb∆ / Ebmaj7 / Ebma7",
+            "Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7)",
+            "A+∆ / A+maj7 / A∆(#5) / Amaj7(#5)",
+            "F°∆ / Fdim∆ / F°maj7",
+            "Db∆sus4 / Dbmaj7(sus4)",
+            "B∆sus2 / Bmaj7(sus2)",
+            "Ab∆(b5) / Abmaj7(b5)"
           ],
           "options": [],
           "answers": {
-            "C∆ / Cmaj7 / Cma7": "C E G B",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "C Eb G B",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "C E G# B",
-            "C°∆ / Cdim∆ / C°maj7": "C Eb Gb B",
-            "C∆sus4 / Cmaj7(sus4)": "C F G B",
-            "C∆sus2 / Cmaj7(sus2)": "C D G B",
-            "C∆(b5) / Cmaj7(b5)": "C E Gb B"
+            "Eb∆ / Ebmaj7 / Ebma7": "Eb G Bb D",
+            "Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7)": "G Bb D F#",
+            "A+∆ / A+maj7 / A∆(#5) / Amaj7(#5)": "A C# E# G#",
+            "F°∆ / Fdim∆ / F°maj7": "F Ab Cb E",
+            "Db∆sus4 / Dbmaj7(sus4)": "Db Gb Ab C",
+            "B∆sus2 / Bmaj7(sus2)": "B C# F# A#",
+            "Ab∆(b5) / Abmaj7(b5)": "Ab C Ebb G"
           },
-          "sampleAnswer": "C∆ / Cmaj7 / Cma7: C E G B; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): C Eb G B; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): C E G# B; C°∆ / Cdim∆ / C°maj7: C Eb Gb B; C∆sus4 / Cmaj7(sus4): C F G B; C∆sus2 / Cmaj7(sus2): C D G B; C∆(b5) / Cmaj7(b5): C E Gb B",
+          "sampleAnswer": "Eb∆ / Ebmaj7 / Ebma7: Eb G Bb D; Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7): G Bb D F#; A+∆ / A+maj7 / A∆(#5) / Amaj7(#5): A C# E# G#; F°∆ / Fdim∆ / F°maj7: F Ab Cb E; Db∆sus4 / Dbmaj7(sus4): Db Gb Ab C; B∆sus2 / Bmaj7(sus2): B C# F# A#; Ab∆(b5) / Abmaj7(b5): Ab C Ebb G",
           "optionsByItem": {
-            "C∆ / Cmaj7 / Cma7": [
-              "C E G# B",
-              "C E Gb B",
-              "C D G B",
-              "C E G B"
+            "Eb∆ / Ebmaj7 / Ebma7": [
+              "G Bb D F#",
+              "A C# E# G#",
+              "Eb G Bb D",
+              "Ab C Ebb G"
             ],
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": [
-              "C Eb G B",
-              "C E G B",
-              "C Eb Gb B",
-              "C D G B"
+            "Gm∆ / Gmi∆ / G-∆ / Gmin∆ / G-(maj7)": [
+              "G Bb D F#",
+              "Eb G Bb D",
+              "Ab C Ebb G",
+              "B C# F# A#"
             ],
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": [
-              "C E G B",
-              "C E G# B",
-              "C D G B",
-              "C E Gb B"
+            "A+∆ / A+maj7 / A∆(#5) / Amaj7(#5)": [
+              "B C# F# A#",
+              "Db Gb Ab C",
+              "A C# E# G#",
+              "Ab C Ebb G"
             ],
-            "C°∆ / Cdim∆ / C°maj7": [
-              "C Eb Gb B",
-              "C Eb G B",
-              "C E Gb B",
-              "C D G B"
+            "F°∆ / Fdim∆ / F°maj7": [
+              "Db Gb Ab C",
+              "A C# E# G#",
+              "Ab C Ebb G",
+              "F Ab Cb E"
             ],
-            "C∆sus4 / Cmaj7(sus4)": [
-              "C Eb G B",
-              "C F G B",
-              "C D G B",
-              "C E G B"
+            "Db∆sus4 / Dbmaj7(sus4)": [
+              "A C# E# G#",
+              "Db Gb Ab C",
+              "Ab C Ebb G",
+              "F Ab Cb E"
             ],
-            "C∆sus2 / Cmaj7(sus2)": [
-              "C E G B",
-              "C F G B",
-              "C D G B",
-              "C Eb G B"
+            "B∆sus2 / Bmaj7(sus2)": [
+              "A C# E# G#",
+              "Ab C Ebb G",
+              "B C# F# A#",
+              "G Bb D F#"
             ],
-            "C∆(b5) / Cmaj7(b5)": [
-              "C E G# B",
-              "C E G B",
-              "C E Gb B",
-              "C Eb Gb B"
+            "Ab∆(b5) / Abmaj7(b5)": [
+              "Ab C Ebb G",
+              "F Ab Cb E",
+              "Eb G Bb D",
+              "Db Gb Ab C"
             ]
           }
         },
@@ -2467,51 +2467,51 @@ window.APP_DATA = {
           "type": "match",
           "prompt": "Seleccione las notas correctas para cada acorde de sexta y novena:",
           "items": [
-            "C6(9)",
-            "Cm6(9)",
-            "C°7(9)",
-            "C6sus4(9)",
-            "C6(9)b5"
+            "F6(9)",
+            "Bbm6(9)",
+            "G°7(9)",
+            "A6sus4(9)",
+            "Eb6(9)b5"
           ],
           "options": [],
           "answers": {
-            "C6(9)": "C E G A D",
-            "Cm6(9)": "C Eb G A D",
-            "C°7(9)": "C Eb Gb Bbb D",
-            "C6sus4(9)": "C F G A D",
-            "C6(9)b5": "C E Gb A D"
+            "F6(9)": "F A C D G",
+            "Bbm6(9)": "Bb Db F G C",
+            "G°7(9)": "G Bb Db Fb A",
+            "A6sus4(9)": "A D E F# B",
+            "Eb6(9)b5": "Eb G Bbb C F"
           },
-          "sampleAnswer": "C6(9): C E G A D; Cm6(9): C Eb G A D; C°7(9): C Eb Gb Bbb D; C6sus4(9): C F G A D; C6(9)b5: C E Gb A D",
+          "sampleAnswer": "F6(9): F A C D G; Bbm6(9): Bb Db F G C; G°7(9): G Bb Db Fb A; A6sus4(9): A D E F# B; Eb6(9)b5: Eb G Bbb C F",
           "optionsByItem": {
-            "C6(9)": [
-              "C Eb G A D",
-              "C E Gb A D",
-              "C E G A D",
-              "C F G A D"
+            "F6(9)": [
+              "Bb Db F G C",
+              "A D E F# B",
+              "Eb G Bbb C F",
+              "F A C D G"
             ],
-            "Cm6(9)": [
-              "C F G A D",
-              "C E Gb A D",
-              "C E G A D",
-              "C Eb G A D"
+            "Bbm6(9)": [
+              "Bb Db F G C",
+              "Eb G Bbb C F",
+              "F A C D G",
+              "G Bb Db Fb A"
             ],
-            "C°7(9)": [
-              "C E G A D",
-              "C Eb Gb Bbb D",
-              "C E Gb A D",
-              "C Eb G A D"
+            "G°7(9)": [
+              "A D E F# B",
+              "G Bb Db Fb A",
+              "Bb Db F G C",
+              "F A C D G"
             ],
-            "C6sus4(9)": [
-              "C E G A D",
-              "C E Gb A D",
-              "C F G A D",
-              "C Eb G A D"
+            "A6sus4(9)": [
+              "F A C D G",
+              "G Bb Db Fb A",
+              "Bb Db F G C",
+              "A D E F# B"
             ],
-            "C6(9)b5": [
-              "C E G A D",
-              "C Eb Gb Bbb D",
-              "C Eb G A D",
-              "C E Gb A D"
+            "Eb6(9)b5": [
+              "Bb Db F G C",
+              "Eb G Bbb C F",
+              "G Bb Db Fb A",
+              "F A C D G"
             ]
           }
         },
@@ -2599,75 +2599,75 @@ window.APP_DATA = {
           "type": "match",
           "prompt": "Seleccione las notas correctas para cada acorde con séptima mayor y novenas:",
           "items": [
-            "C∆9",
-            "C∆(#9)",
-            "Cm∆(9)",
-            "C+∆(9)",
-            "C+∆(#9)",
-            "C°∆9",
-            "C∆sus4(9)",
-            "C∆(b5)9"
+            "D∆9",
+            "Ab∆(#9)",
+            "Em∆(9)",
+            "F+∆(9)",
+            "Bb+∆(#9)",
+            "G°∆9",
+            "E∆sus4(9)",
+            "Db∆(b5)9"
           ],
           "options": [],
           "answers": {
-            "C∆9": "C E G B D",
-            "C∆(#9)": "C E G B D#",
-            "Cm∆(9)": "C Eb G B D",
-            "C+∆(9)": "C E G# B D",
-            "C+∆(#9)": "C E G# B D#",
-            "C°∆9": "C Eb Gb B D",
-            "C∆sus4(9)": "C F G B D",
-            "C∆(b5)9": "C E Gb B D"
+            "D∆9": "D F# A C# E",
+            "Ab∆(#9)": "Ab C Eb G B",
+            "Em∆(9)": "E G B D# F#",
+            "F+∆(9)": "F A C# E G",
+            "Bb+∆(#9)": "Bb D F# A C#",
+            "G°∆9": "G Bb Db F# A",
+            "E∆sus4(9)": "E A B D# F#",
+            "Db∆(b5)9": "Db F Abb C Eb"
           },
-          "sampleAnswer": "C∆9: C E G B D; C∆(#9): C E G B D#; Cm∆(9): C Eb G B D; C+∆(9): C E G# B D; C+∆(#9): C E G# B D#; C°∆9: C Eb Gb B D; C∆sus4(9): C F G B D; C∆(b5)9: C E Gb B D",
+          "sampleAnswer": "D∆9: D F# A C# E; Ab∆(#9): Ab C Eb G B; Em∆(9): E G B D# F#; F+∆(9): F A C# E G; Bb+∆(#9): Bb D F# A C#; G°∆9: G Bb Db F# A; E∆sus4(9): E A B D# F#; Db∆(b5)9: Db F Abb C Eb",
           "optionsByItem": {
-            "C∆9": [
-              "C E G B D#",
-              "C E G# B D",
-              "C E Gb B D",
-              "C E G B D"
+            "D∆9": [
+              "E A B D# F#",
+              "F A C# E G",
+              "D F# A C# E",
+              "Bb D F# A C#"
             ],
-            "C∆(#9)": [
-              "C E G B D",
-              "C E G# B D",
-              "C E G# B D#",
-              "C E G B D#"
+            "Ab∆(#9)": [
+              "Db F Abb C Eb",
+              "E A B D# F#",
+              "Ab C Eb G B",
+              "E G B D# F#"
             ],
-            "Cm∆(9)": [
-              "C E G B D",
-              "C Eb G B D",
-              "C F G B D",
-              "C Eb Gb B D"
+            "Em∆(9)": [
+              "E A B D# F#",
+              "D F# A C# E",
+              "Ab C Eb G B",
+              "E G B D# F#"
             ],
-            "C+∆(9)": [
-              "C E G# B D#",
-              "C E Gb B D",
-              "C E G B D",
-              "C E G# B D"
+            "F+∆(9)": [
+              "F A C# E G",
+              "Bb D F# A C#",
+              "E A B D# F#",
+              "D F# A C# E"
             ],
-            "C+∆(#9)": [
-              "C E G# B D",
-              "C E G B D",
-              "C E G# B D#",
-              "C E G B D#"
+            "Bb+∆(#9)": [
+              "D F# A C# E",
+              "G Bb Db F# A",
+              "E A B D# F#",
+              "Bb D F# A C#"
             ],
-            "C°∆9": [
-              "C E Gb B D",
-              "C E G B D",
-              "C Eb Gb B D",
-              "C Eb G B D"
+            "G°∆9": [
+              "E A B D# F#",
+              "G Bb Db F# A",
+              "Bb D F# A C#",
+              "D F# A C# E"
             ],
-            "C∆sus4(9)": [
-              "C Eb G B D",
-              "C E G B D#",
-              "C E G B D",
-              "C F G B D"
+            "E∆sus4(9)": [
+              "E G B D# F#",
+              "Bb D F# A C#",
+              "E A B D# F#",
+              "D F# A C# E"
             ],
-            "C∆(b5)9": [
-              "C E G B D",
-              "C Eb Gb B D",
-              "C E Gb B D",
-              "C E G# B D"
+            "Db∆(b5)9": [
+              "Db F Abb C Eb",
+              "F A C# E G",
+              "G Bb Db F# A",
+              "Ab C Eb G B"
             ]
           }
         },
@@ -3003,91 +3003,91 @@ window.APP_DATA = {
           "type": "match",
           "prompt": "Seleccione las notas correctas para cada acorde con treceava menor:",
           "items": [
-            "C7(b9)b13",
-            "C9(b13)",
-            "C7(#9)b13",
-            "C°7(b13)",
-            "Cøb13",
-            "C7sus4(9)b13",
-            "C7sus4(b9)b13",
-            "C7(b5)b9(b13)",
-            "C9(b5)b13",
-            "C7(#9)b5(b13)"
+            "F7(b9)b13",
+            "A9(b13)",
+            "Eb7(#9)b13",
+            "B°7(b13)",
+            "F#øb13",
+            "D7sus4(9)b13",
+            "Ab7sus4(b9)b13",
+            "G7(b5)b9(b13)",
+            "Bb9(b5)b13",
+            "E7(#9)b5(b13)"
           ],
           "options": [],
           "answers": {
-            "C7(b9)b13": "C E G Bb Db F# opcional Ab",
-            "C9(b13)": "C E G Bb D F# Ab",
-            "C7(#9)b13": "C E G Bb D# F# Ab",
-            "C°7(b13)": "C Eb Gb Bbb D opcional F opcional Ab",
-            "Cøb13": "C Eb Gb Bb D opcional F opcional Ab",
-            "C7sus4(9)b13": "C F G Bb D Ab",
-            "C7sus4(b9)b13": "C F G Bb Db Ab",
-            "C7(b5)b9(b13)": "C E Gb Bb Db Ab",
-            "C9(b5)b13": "C E Gb Bb D Ab",
-            "C7(#9)b5(b13)": "C E Gb Bb D# Ab"
+            "F7(b9)b13": "F A C Eb Gb B opcional Db",
+            "A9(b13)": "A C# E G B D# F",
+            "Eb7(#9)b13": "Eb G Bb Db F# A Cb",
+            "B°7(b13)": "B D F Ab C# opcional E opcional G",
+            "F#øb13": "F# A C E G# opcional B opcional D",
+            "D7sus4(9)b13": "D G A C E Bb",
+            "Ab7sus4(b9)b13": "Ab Db Eb Gb Bbb Fb",
+            "G7(b5)b9(b13)": "G B Db F Ab Eb",
+            "Bb9(b5)b13": "Bb D Fb Ab C Gb",
+            "E7(#9)b5(b13)": "E G# Bb D F## C"
           },
-          "sampleAnswer": "C7(b9)b13: C E G Bb Db F# opcional Ab; C9(b13): C E G Bb D F# Ab; C7(#9)b13: C E G Bb D# F# Ab; C°7(b13): C Eb Gb Bbb D opcional F opcional Ab; Cøb13: C Eb Gb Bb D opcional F opcional Ab; C7sus4(9)b13: C F G Bb D Ab; C7sus4(b9)b13: C F G Bb Db Ab; C7(b5)b9(b13): C E Gb Bb Db Ab; C9(b5)b13: C E Gb Bb D Ab; C7(#9)b5(b13): C E Gb Bb D# Ab",
+          "sampleAnswer": "F7(b9)b13: F A C Eb Gb B opcional Db; A9(b13): A C# E G B D# F; Eb7(#9)b13: Eb G Bb Db F# A Cb; B°7(b13): B D F Ab C# opcional E opcional G; F#øb13: F# A C E G# opcional B opcional D; D7sus4(9)b13: D G A C E Bb; Ab7sus4(b9)b13: Ab Db Eb Gb Bbb Fb; G7(b5)b9(b13): G B Db F Ab Eb; Bb9(b5)b13: Bb D Fb Ab C Gb; E7(#9)b5(b13): E G# Bb D F## C",
           "optionsByItem": {
-            "C7(b9)b13": [
-              "C E G Bb Db F# opcional Ab",
-              "C E G Bb D# F# Ab",
-              "C E Gb Bb Db Ab",
-              "C E G Bb D F# Ab"
+            "F7(b9)b13": [
+              "G B Db F Ab Eb",
+              "F A C Eb Gb B opcional Db",
+              "Ab Db Eb Gb Bbb Fb",
+              "F# A C E G# opcional B opcional D"
             ],
-            "C9(b13)": [
-              "C E G Bb D# F# Ab",
-              "C E Gb Bb D Ab",
-              "C E G Bb Db F# opcional Ab",
-              "C E G Bb D F# Ab"
+            "A9(b13)": [
+              "G B Db F Ab Eb",
+              "A C# E G B D# F",
+              "B D F Ab C# opcional E opcional G",
+              "D G A C E Bb"
             ],
-            "C7(#9)b13": [
-              "C E G Bb D F# Ab",
-              "C E G Bb D# F# Ab",
-              "C E Gb Bb D# Ab",
-              "C E G Bb Db F# opcional Ab"
+            "Eb7(#9)b13": [
+              "D G A C E Bb",
+              "Eb G Bb Db F# A Cb",
+              "F A C Eb Gb B opcional Db",
+              "G B Db F Ab Eb"
             ],
-            "C°7(b13)": [
-              "C Eb Gb Bb D opcional F opcional Ab",
-              "C Eb Gb Bbb D opcional F opcional Ab",
-              "C F G Bb D Ab",
-              "C E Gb Bb D Ab"
+            "B°7(b13)": [
+              "B D F Ab C# opcional E opcional G",
+              "A C# E G B D# F",
+              "G B Db F Ab Eb",
+              "F# A C E G# opcional B opcional D"
             ],
-            "Cøb13": [
-              "C E Gb Bb D Ab",
-              "C F G Bb D Ab",
-              "C Eb Gb Bbb D opcional F opcional Ab",
-              "C Eb Gb Bb D opcional F opcional Ab"
+            "F#øb13": [
+              "E G# Bb D F## C",
+              "B D F Ab C# opcional E opcional G",
+              "D G A C E Bb",
+              "F# A C E G# opcional B opcional D"
             ],
-            "C7sus4(9)b13": [
-              "C Eb Gb Bb D opcional F opcional Ab",
-              "C F G Bb D Ab",
-              "C F G Bb Db Ab",
-              "C E G Bb D F# Ab"
+            "D7sus4(9)b13": [
+              "D G A C E Bb",
+              "F# A C E G# opcional B opcional D",
+              "Bb D Fb Ab C Gb",
+              "E G# Bb D F## C"
             ],
-            "C7sus4(b9)b13": [
-              "C E G Bb Db F# opcional Ab",
-              "C E Gb Bb Db Ab",
-              "C F G Bb D Ab",
-              "C F G Bb Db Ab"
+            "Ab7sus4(b9)b13": [
+              "G B Db F Ab Eb",
+              "F A C Eb Gb B opcional Db",
+              "Bb D Fb Ab C Gb",
+              "Ab Db Eb Gb Bbb Fb"
             ],
-            "C7(b5)b9(b13)": [
-              "C E Gb Bb Db Ab",
-              "C E Gb Bb D Ab",
-              "C E Gb Bb D# Ab",
-              "C E G Bb Db F# opcional Ab"
+            "G7(b5)b9(b13)": [
+              "G B Db F Ab Eb",
+              "F A C Eb Gb B opcional Db",
+              "Ab Db Eb Gb Bbb Fb",
+              "B D F Ab C# opcional E opcional G"
             ],
-            "C9(b5)b13": [
-              "C E Gb Bb D Ab",
-              "C E Gb Bb D# Ab",
-              "C E Gb Bb Db Ab",
-              "C E G Bb D F# Ab"
+            "Bb9(b5)b13": [
+              "Ab Db Eb Gb Bbb Fb",
+              "D G A C E Bb",
+              "E G# Bb D F## C",
+              "Bb D Fb Ab C Gb"
             ],
-            "C7(#9)b5(b13)": [
-              "C E Gb Bb D Ab",
-              "C E Gb Bb Db Ab",
-              "C E G Bb D# F# Ab",
-              "C E Gb Bb D# Ab"
+            "E7(#9)b5(b13)": [
+              "Bb D Fb Ab C Gb",
+              "E G# Bb D F## C",
+              "D G A C E Bb",
+              "F# A C E G# opcional B opcional D"
             ]
           }
         },
@@ -3681,15 +3681,15 @@ window.APP_DATA = {
           "id": 76,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Seleccione la opción con las notas correctas para un acorde de C mayor con sexta y novena.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de F mayor con sexta y novena.",
           "choices": [
-            "C6 = C E G A.",
-            "C9 = C E G Bb D.",
-            "Cm6(9) = C Eb G A D.",
-            "C6(9) = C E G A D."
+            "F6 = F A C D.",
+            "F9 = F A C Eb G.",
+            "Fm6(9) = F Ab C D G.",
+            "F6(9) = F A C D G."
           ],
           "answer": 3,
-          "sampleAnswer": "C6(9) = C E G A D."
+          "sampleAnswer": "F6(9) = F A C D G."
         },
         {
           "id": 77,
@@ -3709,15 +3709,15 @@ window.APP_DATA = {
           "id": 78,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Seleccione la opción con las notas correctas para un acorde de C dominante con b9 y b13.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de Bb dominante con b9 y b13.",
           "choices": [
-            "C7(b9) = C E G Bb Db.",
-            "C7(b13) = C E G Bb D Ab.",
-            "C7(b9)b13 = C E G Bb Db F# opcional Ab.",
-            "C7(#9)b13 = C E G Bb D# F# Ab."
+            "Bb7(b9) = Bb D F Ab Cb.",
+            "Bb7(b13) = Bb D F Ab C Gb.",
+            "Bb7(b9)b13 = Bb D F Ab Cb E opcional Gb.",
+            "Bb7(#9)b13 = Bb D F Ab C# E Gb."
           ],
           "answer": 2,
-          "sampleAnswer": "C7(b9)b13 = C E G Bb Db F# opcional Ab."
+          "sampleAnswer": "Bb7(b9)b13 = Bb D F Ab Cb E opcional Gb."
         },
         {
           "id": 79,
@@ -3737,15 +3737,15 @@ window.APP_DATA = {
           "id": 80,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Seleccione la opción con las notas correctas para un acorde de C semidisminuido con novena.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de A semidisminuido con novena.",
           "choices": [
-            "C°9 = C Eb Gb Bbb D.",
-            "Cø9 = C Eb Gb Bb D.",
-            "Cm9 = C Eb G Bb D.",
-            "Cø = C Eb Gb Bb."
+            "A°9 = A C Eb Gb B.",
+            "Aø9 = A C Eb G B.",
+            "Am9 = A C E G B.",
+            "Aø = A C Eb G."
           ],
           "answer": 1,
-          "sampleAnswer": "Cø9 = C Eb Gb Bb D."
+          "sampleAnswer": "Aø9 = A C Eb G B."
         },
         {
           "id": 81,
@@ -3765,15 +3765,15 @@ window.APP_DATA = {
           "id": 82,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Seleccione la opción con las notas correctas para un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de E mayor con quinta disminuida, séptima menor y treceava.",
           "choices": [
-            "C7(b5) = C E Gb Bb.",
-            "C13(b5) = C E Gb Bb D opcional A.",
-            "C13 = C E G Bb D F# opcional A.",
-            "C13(b5)b9 = C E Gb Bb Db A."
+            "E7(b5) = E G# Bb D.",
+            "E13(b5) = E G# Bb D F# opcional C#.",
+            "E13 = E G# B D F# A# opcional C#.",
+            "E13(b5)b9 = E G# Bb D F C#."
           ],
           "answer": 1,
-          "sampleAnswer": "C13(b5) = C E Gb Bb D opcional A."
+          "sampleAnswer": "E13(b5) = E G# Bb D F# opcional C#."
         },
         {
           "id": 83,
@@ -3793,15 +3793,15 @@ window.APP_DATA = {
           "id": 84,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Seleccione la opción con las notas correctas para un acorde de C disminuido con séptima disminuida y b13.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de G disminuido con séptima disminuida y b13.",
           "choices": [
-            "C°7 = C Eb Gb Bbb.",
-            "Cøb13 = C Eb Gb Bb D opcional F opcional Ab.",
-            "C°∆(b13) = C Eb Gb B D opcional F opcional Ab.",
-            "C°7(b13) = C Eb Gb Bbb D opcional F opcional Ab."
+            "G°7 = G Bb Db Fb.",
+            "Gøb13 = G Bb Db F A opcional C opcional Eb.",
+            "G°∆(b13) = G Bb Db F# A opcional C opcional Eb.",
+            "G°7(b13) = G Bb Db Fb A opcional C opcional Eb."
           ],
           "answer": 3,
-          "sampleAnswer": "C°7(b13) = C Eb Gb Bbb D opcional F opcional Ab."
+          "sampleAnswer": "G°7(b13) = G Bb Db Fb A opcional C opcional Eb."
         },
         {
           "id": 85,

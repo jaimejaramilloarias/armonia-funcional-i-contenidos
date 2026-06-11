@@ -1214,542 +1214,346 @@ window.APP_DATA = {
       "sourceCount": 1,
       "theory": [
         {
-          "id": "nivel-2-referencia-interv-lica-de-la-escala-mayor-natural",
+          "id": "nivel-2-referencia-intervalica",
           "title": "1. Referencia interválica de la escala mayor natural",
-          "subtitle": "Referencia de estudio para referencia interválica de la escala mayor natural.",
+          "subtitle": "Nombres interválicos, fundamental y equivalencias de extensiones.",
           "items": [
             {
-              "term": "Complete los grados de la escala natural mayor con sus nombres interválicos:",
-              "body": "1: 1 = fundamental.; 2: 2 = 2M, segunda mayor.; 3: 3 = 3M, tercera mayor.; 4: 4 = 4j, cuarta justa.; 5: 5 = 5j, quinta justa.; 6: 6 = 6M, sexta mayor.; 7: 7 = 7M, séptima mayor."
+              "term": "Fundamental",
+              "body": "El grado 1 es la fundamental: la nota base desde la cual se construye y se nombra el acorde."
             },
             {
-              "term": "¿Qué significa que el grado 1 sea la fundamental?",
-              "body": "Que es la nota base desde la cual se construye y se nombra el acorde."
+              "term": "Grados de la escala mayor",
+              "body": "En la escala mayor natural, 1 es fundamental, 2 es 2M o segunda mayor, 3 es 3M o tercera mayor, 4 es 4j o cuarta justa, 5 es 5j o quinta justa, 6 es 6M o sexta mayor y 7 es 7M o séptima mayor."
             },
             {
-              "term": "Escriba la equivalencia entre estos grados y extensiones:",
-              "body": "9 = mismo grado que: 9 = 2.; 11 = mismo grado que: 11 = 4.; 13 = mismo grado que: 13 = 6."
+              "term": "Equivalencia de extensiones",
+              "body": "La 9 corresponde al mismo grado que 2, la 11 al mismo grado que 4 y la 13 al mismo grado que 6."
             },
             {
-              "term": "Explique por qué la 9, la 11 y la 13 no se consideran notas “nuevas” respecto a 2, 4 y 6, sin...",
-              "body": "Porque son repeticiones de esos mismos grados en una octava superior o en función extendida dentro del acorde."
+              "term": "Extensión y octava superior",
+              "body": "La 9, la 11 y la 13 no son notas nuevas respecto a 2, 4 y 6: son esos mismos grados entendidos en una octava superior o en función extendida dentro del acorde."
             }
           ]
         },
         {
           "id": "nivel-2-triadas",
           "title": "2. Triadas",
-          "subtitle": "Referencia de estudio para triadas.",
+          "subtitle": "Estructuras básicas y cifrados comunes sobre C.",
           "items": [
             {
-              "term": "Construya las siguientes triadas con intervalos:",
-              "body": "Mayor:: Mayor: 1 3 5.; Menor:: Menor: 1 b3 5.; Aumentada:: Aumentada: 1 3 #5.; Disminuida:: Disminuida: 1 b3 b5.; Suspendida 4:: Suspendida 4: 1 4 5.; Suspendida 2:: Suspendida 2: 1 2 5.; Mayor con quinta disminuida:: Mayor con quinta disminuida: 1 3 b5."
+              "term": "Triadas básicas",
+              "body": "Mayor: 1 3 5. Menor: 1 b3 5. Aumentada: 1 3 #5. Disminuida: 1 b3 b5. Suspendida 4: 1 4 5. Suspendida 2: 1 2 5. Mayor con quinta disminuida: 1 3 b5."
             },
             {
-              "term": "¿Cuál es la diferencia interválica entre una triada mayor y una triada menor?",
-              "body": "La triada mayor tiene 3; la menor tiene b3."
+              "term": "Mayor y menor",
+              "body": "La diferencia interválica entre una triada mayor y una menor está en la tercera: la mayor tiene 3 y la menor tiene b3."
             },
             {
-              "term": "¿Cuál es la diferencia interválica entre una triada mayor y una triada aumentada?",
-              "body": "La triada mayor tiene 5; la aumentada tiene #5."
+              "term": "Aumentada y disminuida",
+              "body": "La triada aumentada modifica la quinta de la triada mayor: usa #5. La triada disminuida modifica la quinta de la triada menor: usa b5."
             },
             {
-              "term": "¿Cuál es la diferencia interválica entre una triada menor y una triada disminuida?",
-              "body": "La triada menor tiene 5; la disminuida tiene b5."
+              "term": "Triadas suspendidas",
+              "body": "Una triada suspendida reemplaza la tercera por 4 o por 2. Por eso no se clasifica como mayor ni menor: no contiene 3 ni b3."
             },
             {
-              "term": "¿Qué intervalo reemplaza a la tercera en una triada suspendida 4?",
-              "body": "La 4."
-            },
-            {
-              "term": "¿Qué intervalo reemplaza a la tercera en una triada suspendida 2?",
-              "body": "La 2."
-            },
-            {
-              "term": "Explique por qué una triada suspendida no se clasifica como mayor ni menor.",
-              "body": "Porque no tiene tercera. Al no tener 3 ni b3, no define cualidad mayor o menor."
-            },
-            {
-              "term": "Escriba el cifrado posible para las siguientes triadas en C:",
-              "body": "Mayor:: C.; Menor:: Cm, C-, Cmi, Cmin.; Aumentada:: C+, C(#5), Caug.; Disminuida:: C°, Cdim.; Suspendida con 4ª:: Csus, Csus4.; Suspendida con 2ª:: Csus2.; Mayor con quinta disminuida:: C(b5)."
+              "term": "Cifrados de triadas en C",
+              "body": "C indica triada mayor. Cm, C-, Cmi y Cmin indican menor. C+, C(#5) y Caug indican aumentada. C° y Cdim indican disminuida. Csus o Csus4 indican suspendida con cuarta. Csus2 indica suspendida con segunda. C(b5) indica mayor con quinta disminuida."
             }
           ]
         },
         {
           "id": "nivel-2-soportes",
           "title": "3. Soportes",
-          "subtitle": "Referencia de estudio para soportes.",
+          "subtitle": "Sextas, séptimas y acordes con soporte.",
           "items": [
             {
-              "term": "¿Cuáles son los cuatro soportes estudiados?",
-              "body": "6, bb7, b7 y 7."
+              "term": "Cuatro soportes",
+              "body": "Los soportes estudiados son 6, bb7, b7 y 7."
             },
             {
-              "term": "Complete:",
-              "body": "La 6M se agrega a acordes .: La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida.; La bb7 se agrega a acordes .: La bb7 se agrega a acordes disminuidos.; La b7 se agrega a .: La b7 se agrega a cualquier triada.; La 7 se agrega a .: La 7 se agrega a cualquier triada."
+              "term": "Uso de la 6M",
+              "body": "La 6M se agrega a acordes mayores, menores, suspendidos y mayores con quinta disminuida."
             },
             {
-              "term": "¿Qué relación tiene la bb7 con la 6?",
-              "body": "La bb7 equivale enarmónicamente a la 6."
+              "term": "Uso de bb7, b7 y 7",
+              "body": "La bb7 se agrega a acordes disminuidos. La b7 puede agregarse a cualquier triada. La 7 también puede agregarse a cualquier triada."
             },
             {
-              "term": "Construya los siguientes acordes con sexta:",
-              "body": "C6: C6 = 1 3 5 6.; Cm6: Cm6 = 1 b3 5 6.; C°7: C°7 = 1 b3 b5 bb7(6).; C6sus4: C6sus4 = 1 4 5 6.; C6sus2: C6sus2 = 1 2 5 6.; C6(b5): C6(b5) = 1 3 b5 6."
+              "term": "Relación entre bb7 y 6",
+              "body": "La bb7 equivale enarmónicamente a la 6, aunque en un acorde disminuido con séptima disminuida funciona como bb7."
             },
             {
-              "term": "Explique por qué C°7 contiene bb7 y no b7.",
-              "body": "Porque el acorde disminuido con séptima disminuida usa bb7, no b7."
-            },
-            {
-              "term": "¿Por qué C°7 puede entenderse también como un acorde disminuido con sexta enarmonizada?",
-              "body": "Porque bb7 suena como 6, aunque funcionalmente se escribe como séptima disminuida."
+              "term": "Acordes con sexta",
+              "body": "C6 = 1 3 5 6. Cm6 = 1 b3 5 6. C°7 = 1 b3 b5 bb7(6). C6sus4 = 1 4 5 6. C6sus2 = 1 2 5 6. C6(b5) = 1 3 b5 6."
             }
           ]
         },
         {
-          "id": "nivel-2-s-ptimas-menores-y-s-ptimas-mayores",
+          "id": "nivel-2-septimas",
           "title": "4. Séptimas menores y séptimas mayores",
-          "subtitle": "Referencia de estudio para séptimas menores y séptimas mayores.",
+          "subtitle": "Construcción y cifrado de acordes con b7 y 7.",
           "items": [
             {
-              "term": "Construya los siguientes acordes con séptima menor:",
-              "body": "C7: C7 = 1 3 5 b7.; Cm7 / C-7 / Cmi7 / Cmin7: Cm7 / C-7 / Cmi7 / Cmin7 = 1 b3 5 b7.; C+7 / Caug7 / C7(#5): C+7 / Caug7 / C7(#5) = 1 3 #5 b7.; Cø / Cm7(b5): Cø / Cm7(b5) = 1 b3 b5 b7.; C7sus4: C7sus4 = 1 4 5 b7.; C7sus2: C7sus2 = 1 2 5 b7.; C7(b5): C7(b5) = 1 3 b5 b7."
+              "term": "Acordes con séptima menor",
+              "body": "C7 = 1 3 5 b7. Cm7 = 1 b3 5 b7. C+7 = 1 3 #5 b7. Cø o Cm7(b5) = 1 b3 b5 b7. C7sus4 = 1 4 5 b7. C7sus2 = 1 2 5 b7. C7(b5) = 1 3 b5 b7."
             },
             {
-              "term": "¿Qué significa el símbolo ø en el cifrado Cø?",
-              "body": "Indica acorde semidisminuido: triada disminuida con séptima menor."
+              "term": "Semidisminuido",
+              "body": "El símbolo ø en Cø indica acorde semidisminuido: triada disminuida con séptima menor."
             },
             {
-              "term": "¿Cuál es la diferencia entre C°7 y Cø?",
-              "body": "C°7 = 1 b3 b5 bb7. Cø = 1 b3 b5 b7."
+              "term": "Disminuido y semidisminuido",
+              "body": "C°7 contiene 1 b3 b5 bb7; Cø contiene 1 b3 b5 b7."
             },
             {
-              "term": "Construya los siguientes acordes con séptima mayor:",
-              "body": "C∆ / Cmaj7 / Cma7: C∆ / Cmaj7 / Cma7 = 1 3 5 7.; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7) = 1 b3 5 7.; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5) = 1 3 #5 7.; C°∆ / Cdim∆ / C°maj7: C°∆ / Cdim∆ / C°maj7 = 1 b3 b5 7.; C∆sus4 / Cmaj7(sus4): C∆sus4 / Cmaj7(sus4) = 1 4 5 7.; C∆sus2 / Cmaj7(sus2): C∆sus2 / Cmaj7(sus2) = 1 2 5 7.; C∆(b5) / Cmaj7(b5): C∆(b5) / Cmaj7(b5) = 1 3 b5 7."
+              "term": "Acordes con séptima mayor",
+              "body": "C∆, Cmaj7 o Cma7 = 1 3 5 7. Cm∆ = 1 b3 5 7. C+∆ = 1 3 #5 7. C°∆ = 1 b3 b5 7. C∆sus4 = 1 4 5 7. C∆sus2 = 1 2 5 7. C∆(b5) = 1 3 b5 7."
             },
             {
-              "term": "¿Qué indican los símbolos ∆, maj7 y ma7?",
-              "body": "Indican séptima mayor."
-            },
-            {
-              "term": "Compare C7 y C∆. ¿Qué intervalo cambia?",
-              "body": "C7 tiene b7; C∆ tiene 7."
-            },
-            {
-              "term": "Compare Cm7 y Cm∆. ¿Qué intervalo cambia?",
-              "body": "Cm7 tiene b7; Cm∆ tiene 7."
+              "term": "Símbolos de séptima mayor",
+              "body": "∆, maj7 y ma7 indican séptima mayor. La diferencia entre C7 y C∆ es b7 frente a 7; la diferencia entre Cm7 y Cm∆ también es b7 frente a 7."
             }
           ]
         },
         {
-          "id": "nivel-2-reglas-generales-de-extensiones",
+          "id": "nivel-2-reglas-extensiones",
           "title": "5. Reglas generales de extensiones",
-          "subtitle": "Referencia de estudio para reglas generales de extensiones.",
+          "subtitle": "Uso de b9, 9, #9, 11, #11, b13 y 13.",
           "items": [
             {
-              "term": "Enumere todas las extensiones estudiadas.",
-              "body": "b9, 9, #9, 11, #11, b13 y 13."
+              "term": "Extensiones estudiadas",
+              "body": "Las extensiones estudiadas son b9, 9, #9, 11, #11, b13 y 13."
             },
             {
-              "term": "Complete:",
-              "body": "La b9 solo se agrega a acordes con  y , o con  y .: La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7.; La 9 se agrega a .: La 9 se agrega a cualquier acorde.; La #9 se agrega a acordes con  y , aunque excepcionalmente puede aparecer en acordes con  y .: La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7.; La 11 se agrega a acordes con  que no tengan .: La 11 se agrega a acordes con b3 que no tengan 4 suspendida.; La #11 se agrega a acordes con , aunque excepcionalmente puede aparecer en acordes menores con .: La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa.; La 13 se agrega a acordes con  que tengan  o , y siempre va acompañada por .: La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera.; La b13 se agrega a acordes  con cualquier 7ª, o a acordes con  y .: La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+              "term": "Regla de b9",
+              "body": "La b9 solo se agrega a acordes con 3 y b7, o con 4 y b7."
             },
             {
-              "term": "Explique por qué en acordes con 9, 11 o 13, cuando no aparece especificada la séptima, se asu...",
-              "body": "Porque en cifrados extendidos como 9, 11 o 13, si no se indica explícitamente otra séptima, la séptima asumida es b7."
+              "term": "Regla de 9",
+              "body": "La 9 se agrega a cualquier acorde. En cifrados extendidos como 9, 11 o 13, si no se especifica otra séptima, se asume b7."
             },
             {
-              "term": "En un acorde suspendido 2, ¿por qué no se agrega 9?",
-              "body": "Porque la 9 es la misma 2, y el acorde sus2 ya contiene 2."
+              "term": "Regla de #9",
+              "body": "La #9 se agrega a acordes con 3 y b7, aunque excepcionalmente puede aparecer en acordes con 3 y 7."
             },
             {
-              "term": "En un acorde suspendido 4, ¿por qué no se cuenta la 11 como extensión adicional?",
-              "body": "Porque la 11 es la misma 4, y el acorde sus4 ya contiene 4."
+              "term": "Reglas de 11 y #11",
+              "body": "La 11 se agrega a acordes con b3 que no tengan 4 suspendida. La #11 se agrega a acordes con 3M, aunque excepcionalmente puede aparecer en acordes menores con quinta justa."
+            },
+            {
+              "term": "Reglas de 13 y b13",
+              "body": "La 13 se agrega a acordes con quinta justa o quinta disminuida que tengan 7 o b7, y siempre va acompañada por una 9ª cualquiera. La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+            },
+            {
+              "term": "Extensiones en acordes suspendidos",
+              "body": "En un acorde sus2 no se agrega 9 porque la 9 es la misma 2. En un acorde sus4 no se cuenta 11 como extensión adicional porque la 11 es la misma 4."
             }
           ]
         },
         {
           "id": "nivel-2-novenas",
           "title": "6. Novenas",
-          "subtitle": "Referencia de estudio para novenas.",
+          "subtitle": "Novenas menores, mayores y aumentadas en acordes con 6, b7 o 7.",
           "items": [
             {
-              "term": "Construya los siguientes acordes con novena menor:",
-              "body": "C7(b9): C7(b9) = 1 3 5 b7 b9.; C+7(b9): C+7(b9) = 1 3 #5 b7 b9.; C7sus4(b9): C7sus4(b9) = 1 4 5 b7 b9.; C7(b9)b5: C7(b9)b5 = 1 3 b5 b7 b9."
+              "term": "Novena menor",
+              "body": "C7(b9) = 1 3 5 b7 b9. C+7(b9) = 1 3 #5 b7 b9. C7sus4(b9) = 1 4 5 b7 b9. C7(b9)b5 = 1 3 b5 b7 b9."
             },
             {
-              "term": "Construya los siguientes acordes de sexta y novena:",
-              "body": "C6(9): C6(9) = 1 3 5 6 9.; Cm6(9): Cm6(9) = 1 b3 5 6 9.; C°7(9): C°7(9) = 1 b3 b5 bb7(6) 9.; C6sus4(9): C6sus4(9) = 1 4 5 6 9.; C6(9)b5: C6(9)b5 = 1 3 b5 6 9."
+              "term": "Sexta y novena",
+              "body": "C6(9) = 1 3 5 6 9. Cm6(9) = 1 b3 5 6 9. C°7(9) = 1 b3 b5 bb7(6) 9. C6sus4(9) = 1 4 5 6 9. C6(9)b5 = 1 3 b5 6 9."
             },
             {
-              "term": "Construya los siguientes acordes con séptima menor y novenas:",
-              "body": "C7(b9): C7(b9) = 1 3 5 b7 b9.; C9: C9 = 1 3 5 b7 9.; C7(#9): C7(#9) = 1 3 5 b7 #9.; Cm9: Cm9 = 1 b3 5 b7 9.; C+9: C+9 = 1 3 #5 b7 9.; Cø9: Cø9 = 1 b3 b5 b7 9.; C9sus4: C9sus4 = 1 4 5 b7 9.; C9(b5): C9(b5) = 1 3 b5 b7 9."
+              "term": "Séptima menor y novenas",
+              "body": "C9 = 1 3 5 b7 9. C7(#9) = 1 3 5 b7 #9. Cm9 = 1 b3 5 b7 9. C+9 = 1 3 #5 b7 9. Cø9 = 1 b3 b5 b7 9. C9sus4 = 1 4 5 b7 9. C9(b5) = 1 3 b5 b7 9."
             },
             {
-              "term": "Construya los siguientes acordes con séptima mayor y novenas:",
-              "body": "C∆9: C∆9 = 1 3 5 7 9.; C∆(#9): C∆(#9) = 1 3 5 7 #9.; Cm∆(9): Cm∆(9) = 1 b3 5 7 9.; C+∆(9): C+∆(9) = 1 3 #5 7 9.; C+∆(#9): C+∆(#9) = 1 3 #5 7 #9.; C°∆9: C°∆9 = 1 b3 b5 7 9.; C∆sus4(9): C∆sus4(9) = 1 4 5 7 9.; C∆(b5)9: C∆(b5)9 = 1 3 b5 7 9."
+              "term": "Séptima mayor y novenas",
+              "body": "C∆9 = 1 3 5 7 9. C∆(#9) = 1 3 5 7 #9. Cm∆(9) = 1 b3 5 7 9. C+∆(9) = 1 3 #5 7 9. C+∆(#9) = 1 3 #5 7 #9. C°∆9 = 1 b3 b5 7 9. C∆sus4(9) = 1 4 5 7 9. C∆(b5)9 = 1 3 b5 7 9."
             },
             {
-              "term": "¿Qué diferencia interválica hay entre C9 y C∆9?",
-              "body": "C9 tiene b7; C∆9 tiene 7."
-            },
-            {
-              "term": "¿Qué diferencia interválica hay entre C7(b9), C9 y C7(#9)?",
-              "body": "Cambia la novena: C7(b9) tiene b9; C9 tiene 9; C7(#9) tiene #9."
-            },
-            {
-              "term": "¿Qué diferencia interválica hay entre C+9 y C9?",
-              "body": "C+9 tiene #5; C9 tiene 5."
-            },
-            {
-              "term": "¿Qué diferencia interválica hay entre Cø9 y Cm9?",
-              "body": "Cø9 tiene b5; Cm9 tiene 5."
+              "term": "Comparaciones de novena",
+              "body": "C9 tiene b7 y C∆9 tiene 7. C7(b9), C9 y C7(#9) se diferencian por b9, 9 y #9. C+9 usa #5 mientras C9 usa 5. Cø9 usa b5 mientras Cm9 usa 5."
             }
           ]
         },
         {
           "id": "nivel-2-onceavas",
           "title": "7. Onceavas",
-          "subtitle": "Referencia de estudio para onceavas.",
+          "subtitle": "Onceava justa y onceava aumentada.",
           "items": [
             {
-              "term": "Según el material, los acordes con onceava justa no requieren novena. Sin embargo, si se quie...",
-              "body": "Se asume 9."
+              "term": "Novena asumida en acordes con 11",
+              "body": "Los acordes con 11 justa no requieren novena. Si se quiere incluir una novena y no está especificada, se asume 9."
             },
             {
-              "term": "Construya los siguientes acordes con onceava justa:",
-              "body": "Cm6(11): Cm6(11) = 1 b3 5 6 (9 opcional) 11.; Cm11: Cm11 = 1 b3 5 b7 (9) 11.; Cm∆11: Cm∆11 = 1 b3 5 7 (9) 11.; C°7(11): C°7(11) = 1 b3 b5 bb7(6) (9) 11.; Cø11: Cø11 = 1 b3 b5 b7 (9) 11."
+              "term": "Onceava justa",
+              "body": "Cm6(11) = 1 b3 5 6 (9 opcional) 11. Cm11 = 1 b3 5 b7 (9) 11. Cm∆11 = 1 b3 5 7 (9) 11. C°7(11) = 1 b3 b5 bb7(6) (9) 11. Cø11 = 1 b3 b5 b7 (9) 11."
             },
             {
-              "term": "¿Por qué la 11 se asocia principalmente con acordes que contienen b3?",
-              "body": "Porque la 11 se usa en acordes con tercera menor."
+              "term": "Asociación de la 11",
+              "body": "La 11 se usa principalmente en acordes con tercera menor. No se agrega a acordes que ya tienen 4 suspendida porque la 11 es la misma 4."
             },
             {
-              "term": "¿Por qué la 11 no se agrega a acordes que ya tienen 4 suspendida?",
-              "body": "Porque la 11 es la misma 4; si el acorde ya tiene 4 suspendida, esa nota ya está presente como parte estructural."
-            },
-            {
-              "term": "Construya los siguientes acordes con onceava aumentada:",
-              "body": "C6(#11): C6(#11) = 1 3 5 6 (9 opcional) #11(#4).; C7(b9)#11: C7(b9)#11 = 1 3 5 b7 b9 #11.; C9(#11): C9(#11) = 1 3 5 b7 9 #11.; C7(#9)#11: C7(#9)#11 = 1 3 5 b7 #9 #11.; C∆(#11): C∆(#11) = 1 3 5 7 (9) #11.; Cm6(#11): Cm6(#11) = 1 b3 5 6 (9) #11.; Cm7(#11): Cm7(#11) = 1 b3 5 b7 (9) #11.; Cm∆(#11): Cm∆(#11) = 1 b3 5 7 (9) #11.; C+7(#11): C+7(#11) = 1 3 #5 b7 (9) #11.; C+7(b9)#11: C+7(b9)#11 = 1 3 #5 b7 b9 #11.; C+9(#11): C+9(#11) = 1 3 #5 b7 9 #11.; C+7(#9)#11: C+7(#9)#11 = 1 3 #5 b7 #9 #11.; C+∆(#11): C+∆(#11) = 1 3 #5 7 9 #11."
-            },
-            {
-              "term": "¿Qué intervalo es equivalente a #11?",
+              "term": "Equivalencia de #11",
               "body": "#11 equivale a #4."
             },
             {
-              "term": "¿En qué tipo de acordes se usa principalmente la #11?",
-              "body": "En acordes con 3M."
+              "term": "Uso de #11",
+              "body": "La #11 se usa principalmente en acordes con 3M. Puede aparecer excepcionalmente en acordes menores con quinta justa."
             },
             {
-              "term": "¿En qué caso excepcional puede aparecer la #11 en acordes menores?",
-              "body": "Puede aparecer excepcionalmente en acordes menores con quinta justa."
+              "term": "Onceava aumentada en acordes mayores y dominantes",
+              "body": "C6(#11), C9(#11), C∆(#11), C7(b9)#11, C7(#9)#11 y otros cifrados con #11 incorporan la alteración #4/#11 como color extendido."
+            },
+            {
+              "term": "Onceava aumentada en acordes aumentados",
+              "body": "C+7(#11), C+7(b9)#11, C+9(#11), C+7(#9)#11 y C+∆(#11) combinan #5 con #11 dentro de la construcción extendida."
             }
           ]
         },
         {
           "id": "nivel-2-treceavas",
           "title": "8. Treceavas",
-          "subtitle": "Referencia de estudio para treceavas.",
+          "subtitle": "Treceava menor, treceava mayor y sus condiciones.",
           "items": [
             {
-              "term": "Según las reglas del material, ¿qué debe acompañar siempre a una 13?",
-              "body": "Siempre debe ir acompañada por una 9ª cualquiera."
+              "term": "Acompañamiento de la 13",
+              "body": "Según las reglas del material, la 13 siempre debe ir acompañada por una 9ª cualquiera."
             },
             {
-              "term": "Construya los siguientes acordes con treceava menor:",
-              "body": "C7(b9)b13: C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13.; C9(b13): C9(b13) = 1 3 5 b7 9 (#11) b13.; C7(#9)b13: C7(#9)b13 = 1 3 5 b7 #9 (#11) b13.; C°7(b13): C°7(b13) = 1 b3 b5 bb7 (9) (11) b13.; Cøb13: Cøb13 = 1 b3 b5 b7 (9) (11) b13.; C7sus4(9)b13: C7sus4(9)b13 = 1 4 5 b7 9 b13.; C7sus4(b9)b13: C7sus4(b9)b13 = 1 4 5 b7 b9 b13.; C7(b5)b9(b13): C7(b5)b9(b13) = 1 3 b5 b7 b9 b13.; C9(b5)b13: C9(b5)b13 = 1 3 b5 b7 9 b13.; C7(#9)b5(b13): C7(#9)b5(b13) = 1 3 b5 b7 #9 b13."
+              "term": "Treceava menor",
+              "body": "La b13 se agrega a acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7. Ejemplos: C7(b9)b13, C9(b13), C7(#9)b13, C°7(b13), Cøb13 y acordes suspendidos o con b5 que incluyan b13."
             },
             {
-              "term": "¿A qué tipos de acordes se agrega la b13?",
-              "body": "A acordes disminuidos con cualquier 7ª, o a acordes con 3 y b7."
+              "term": "Treceava mayor",
+              "body": "C13 = 1 3 5 b7 9 (#11) 13. C13(b9) = 1 3 5 b7 b9 (#11) 13. C13(#9) = 1 3 5 b7 #9 (#11) 13. C∆13 = 1 3 5 7 (9) (#11) 13. Cm13 = 1 b3 5 b7 (9) (11) 13. Cm∆13 = 1 b3 5 7 (9) (11) 13."
             },
             {
-              "term": "Construya los siguientes acordes con treceava mayor:",
-              "body": "C13: C13 = 1 3 5 b7 9 (#11) 13.; C13(b9): C13(b9) = 1 3 5 b7 b9 (#11) 13.; C13(#9): C13(#9) = 1 3 5 b7 #9 (#11) 13.; C∆13: C∆13 = 1 3 5 7 (9) (#11) 13.; Cm13: Cm13 = 1 b3 5 b7 (9) (11) 13.; Cm∆13: Cm∆13 = 1 b3 5 7 (9) (11) 13.; C13sus4: C13sus4 = 1 4 5 b7 (9) 13.; C13sus2: C13sus2 = 1 2 5 b7 13.; C13sus4(b9): C13sus4(b9) = 1 4 5 b7 b9 13.; C13(b5): C13(b5) = 1 3 b5 b7 (9) 13.; C13(b5)b9: C13(b5)b9 = 1 3 b5 b7 b9 13.; C13(b5)#9: C13(b5)#9 = 1 3 b5 b7 #9 13."
+              "term": "Treceavas suspendidas",
+              "body": "C13sus2 no contiene 9 porque en sus2 ya está la 2. C13sus4 no contiene 11 porque en sus4 ya está la 4."
             },
             {
-              "term": "¿Por qué C13sus2 no contiene 9?",
-              "body": "Porque la 13 es misma 6, pero en sus2 ya está la 2; según el material, no hay 9 en un sus2."
-            },
-            {
-              "term": "¿Por qué C13sus4 no contiene 11?",
-              "body": "Porque la 11 es la misma 4; en un sus4 la 4 ya está presente."
-            },
-            {
-              "term": "¿Qué diferencia hay entre C13, C13(b9) y C13(#9)?",
-              "body": "Cambia la novena: C13 tiene 9; C13(b9) tiene b9; C13(#9) tiene #9."
-            },
-            {
-              "term": "¿Qué diferencia hay entre C13 y C∆13?",
-              "body": "C13 tiene b7; C∆13 tiene 7."
-            },
-            {
-              "term": "¿Qué diferencia hay entre Cm13 y Cm∆13?",
-              "body": "Cm13 tiene b7; Cm∆13 tiene 7."
-            },
-            {
-              "term": "¿Qué diferencia hay entre C13(b5), C13(b5)b9 y C13(b5)#9?",
-              "body": "Cambia la novena: C13(b5) asume 9; C13(b5)b9 tiene b9; C13(b5)#9 tiene #9."
+              "term": "Comparaciones de treceava",
+              "body": "C13, C13(b9) y C13(#9) cambian la novena. C13 tiene b7 y C∆13 tiene 7. Cm13 tiene b7 y Cm∆13 tiene 7. En C13(b5), C13(b5)b9 y C13(b5)#9 cambia la novena asumida o alterada."
             }
           ]
         },
         {
-          "id": "nivel-2-sistema-americano-y-cifrado",
+          "id": "nivel-2-sistema-americano-cifrado",
           "title": "9. Sistema americano y cifrado",
-          "subtitle": "Referencia de estudio para sistema americano y cifrado.",
+          "subtitle": "Fundamentales, alteraciones y símbolos de triada.",
           "items": [
             {
-              "term": "Escriba todas las fundamentales posibles en el sistema americano, incluyendo las alteraciones...",
-              "body": "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B."
+              "term": "Fundamentales del sistema americano",
+              "body": "Las fundamentales posibles incluyen C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb y B."
             },
             {
-              "term": "¿Cómo se escribe la fundamental de un acorde en el sistema americano?",
-              "body": "Con letra mayúscula en el sistema americano."
+              "term": "Escritura de la fundamental",
+              "body": "La fundamental se escribe con letra mayúscula en el sistema americano. Si la nota está alterada, debe incluir su sostenido o bemol."
             },
             {
-              "term": "¿Qué debe incluir la escritura de la fundamental si la nota está alterada?",
-              "body": "Debe incluir su alteración: sostenido o bemol."
+              "term": "Cifrados de triada mayor y menor",
+              "body": "C indica mayor. Cm, C-, Cmi y Cmin indican menor."
             },
             {
-              "term": "Relacione cada cifrado con su tipo de triada:",
-              "body": "C: C = mayor.; Cm: Cm = menor.; C-: C- = menor.; Cmi: Cmi = menor.; Cmin: Cmin = menor.; C+: C+ = aumentada.; C(#5): C(#5) = aumentada.; Caug: Caug = aumentada.; C°: C° = disminuida.; Cdim: Cdim = disminuida.; Csus: Csus = suspendida 4.; Csus4: Csus4 = suspendida 4.; Csus2: Csus2 = suspendida 2.; C(b5): C(b5) = mayor con quinta disminuida."
+              "term": "Cifrados de triada aumentada y disminuida",
+              "body": "C+, C(#5) y Caug indican aumentada. C° y Cdim indican disminuida."
             },
             {
-              "term": "Escriba tres cifrados posibles para una triada menor sobre C.",
-              "body": "Cm, C-, Cmi, Cmin. Cualquier tres son correctos."
+              "term": "Cifrados de triadas suspendidas",
+              "body": "Csus y Csus4 indican suspendida 4. Csus2 indica suspendida 2."
             },
             {
-              "term": "Escriba tres cifrados posibles para una triada aumentada sobre C.",
-              "body": "C+, C(#5), Caug."
-            },
-            {
-              "term": "Escriba dos cifrados posibles para una triada disminuida sobre C.",
-              "body": "C°, Cdim."
-            },
-            {
-              "term": "Escriba dos cifrados posibles para una triada suspendida con cuarta sobre C.",
-              "body": "Csus, Csus4."
-            },
-            {
-              "term": "¿Qué significa C(b5)?",
-              "body": "C mayor con quinta disminuida: 1 3 b5."
+              "term": "Cifrado con quinta disminuida",
+              "body": "C(b5) significa C mayor con quinta disminuida: 1 3 b5."
             }
           ]
         },
         {
-          "id": "nivel-2-reglas-de-omisi-n-de-notas",
+          "id": "nivel-2-omision-notas",
           "title": "10. Reglas de omisión de notas",
-          "subtitle": "Referencia de estudio para reglas de omisión de notas.",
+          "subtitle": "Notas que pueden omitirse y notas estructurales que deben conservarse.",
           "items": [
             {
-              "term": "En acordes mayores, menores y suspendidos, ¿qué nota se puede suprimir?",
-              "body": "La 5j."
+              "term": "Omisión en acordes mayores, menores y suspendidos",
+              "body": "En acordes mayores, menores y suspendidos se puede suprimir la quinta justa."
             },
             {
-              "term": "En acordes disminuidos y aumentados, ¿qué nota se puede suprimir?",
-              "body": "La tercera."
+              "term": "Omisión en acordes disminuidos y aumentados",
+              "body": "En acordes disminuidos y aumentados se puede suprimir la tercera."
             },
             {
-              "term": "¿Qué notas nunca se pueden suprimir?",
-              "body": "La 6ª y la 7ª."
+              "term": "Notas no suprimibles",
+              "body": "La 6ª y la 7ª no deben suprimirse porque funcionan como soporte del acorde y definen parte esencial de su cifrado."
             },
             {
-              "term": "En acordes con 11, ¿cuándo se puede suprimir la 9?",
-              "body": "Se puede suprimir la 9 a menos que aparezca en el cifrado."
+              "term": "Omisión en acordes con 11",
+              "body": "En acordes con 11 se puede suprimir la 9, salvo que aparezca explícitamente en el cifrado."
             },
             {
-              "term": "En acordes con 13, ¿cuándo se pueden suprimir la 9 y la 11?",
-              "body": "Se pueden suprimir 9 y 11 a menos que aparezcan en el cifrado."
+              "term": "Omisión en acordes con 13",
+              "body": "En acordes con 13 se pueden suprimir 9 y 11, salvo que aparezcan explícitamente en el cifrado."
             },
             {
-              "term": "Explique por qué la 6ª o la 7ª no deben suprimirse.",
-              "body": "Porque la 6ª o la 7ª funcionan como soporte del acorde y definen parte esencial de su cifrado."
-            },
-            {
-              "term": "En el acorde C13, ¿qué notas podrían omitirse según la regla general del material?",
-              "body": "En C13 pueden omitirse 9 y #11 si no se consideran obligatorias en el cifrado. No se puede omitir b7 ni 13."
-            },
-            {
-              "term": "En el acorde Cm11, ¿puede omitirse la 9 si no aparece explícitamente en el cifrado?",
-              "body": "Sí. En Cm11 la 9 aparece como opcional."
-            },
-            {
-              "term": "En el acorde C9(#11), ¿puede omitirse la 9?",
-              "body": "No. En C9(#11), la 9 aparece en el cifrado."
-            },
-            {
-              "term": "En el acorde C13(b9), ¿puede omitirse la b9?",
-              "body": "No. En C13(b9), la b9 aparece explícitamente en el cifrado."
+              "term": "Casos específicos",
+              "body": "En C13 pueden omitirse 9 y #11 si no son obligatorias en el cifrado, pero no se puede omitir b7 ni 13. En Cm11 puede omitirse la 9 si no aparece explícitamente. En C9(#11) no puede omitirse la 9. En C13(b9) no puede omitirse la b9."
             }
           ]
         },
         {
-          "id": "nivel-2-aplicaci-n",
+          "id": "nivel-2-aplicacion",
           "title": "11. Aplicación",
-          "subtitle": "Referencia de estudio para aplicación.",
+          "subtitle": "Construcción de acordes y lectura inversa de intervalos a cifrado.",
           "items": [
             {
-              "term": "Construya un acorde de C mayor con sexta y novena.",
-              "body": "C6(9) = 1 3 5 6 9."
+              "term": "Construcciones con C",
+              "body": "C6(9) = 1 3 5 6 9. Cm6(11) = 1 b3 5 6 (9 opcional) 11. C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13. C+7(#11) = 1 3 #5 b7 (9) #11."
             },
             {
-              "term": "Construya un acorde de C menor con sexta y onceava.",
-              "body": "Cm6(11) = 1 b3 5 6 (9 opcional) 11."
+              "term": "Construcciones disminuidas y suspendidas",
+              "body": "Cø9 = 1 b3 b5 b7 9. C7sus4(b9)b13 = 1 4 5 b7 b9 b13. C13(b5) = 1 3 b5 b7 (9) 13. C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
             },
             {
-              "term": "Construya un acorde de C dominante con b9 y b13.",
-              "body": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13."
+              "term": "Construcciones con séptima mayor",
+              "body": "Cm∆13 = 1 b3 5 7 (9) (11) 13. C∆(#11) = 1 3 5 7 (9) #11."
             },
             {
-              "term": "Construya un acorde de C aumentado con séptima menor y #11.",
-              "body": "C+7(#11) = 1 3 #5 b7 (9) #11."
+              "term": "Intervalos a cifrado",
+              "body": "1 3 5 b7 9 13 corresponde a C13. 1 b3 5 b7 9 11 13 corresponde a Cm13. 1 3 b5 b7 b9 13 corresponde a C13(b5)b9. 1 4 5 b7 b9 13 corresponde a C13sus4(b9)."
             },
             {
-              "term": "Construya un acorde de C semidisminuido con novena.",
-              "body": "Cø9 = 1 b3 b5 b7 9."
-            },
-            {
-              "term": "Construya un acorde de C suspendido 4 con séptima menor, b9 y b13.",
-              "body": "C7sus4(b9)b13 = 1 4 5 b7 b9 b13."
-            },
-            {
-              "term": "Construya un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
-              "body": "C13(b5) = 1 3 b5 b7 (9) 13."
-            },
-            {
-              "term": "Construya un acorde de C menor con séptima mayor y treceava.",
-              "body": "Cm∆13 = 1 b3 5 7 (9) (11) 13."
-            },
-            {
-              "term": "Construya un acorde de C disminuido con séptima disminuida y b13.",
-              "body": "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
-            },
-            {
-              "term": "Construya un acorde de C mayor con séptima mayor y #11.",
-              "body": "C∆(#11) = 1 3 5 7 (9) #11."
-            },
-            {
-              "term": "A partir de los intervalos 1 3 5 b7 9 13, escriba el cifrado correspondiente.",
-              "body": "C13."
-            },
-            {
-              "term": "A partir de los intervalos 1 b3 5 b7 9 11 13, escriba el cifrado correspondiente.",
-              "body": "Cm13."
-            },
-            {
-              "term": "A partir de los intervalos 1 3 b5 b7 b9 13, escriba el cifrado correspondiente.",
-              "body": "C13(b5)b9."
-            },
-            {
-              "term": "A partir de los intervalos 1 4 5 b7 b9 13, escriba el cifrado correspondiente.",
-              "body": "C13sus4(b9)."
-            },
-            {
-              "term": "A partir de los intervalos 1 b3 b5 b7 9, escriba el cifrado correspondiente.",
-              "body": "Cø9."
-            },
-            {
-              "term": "A partir de los intervalos 1 3 #5 7 9 #11, escriba el cifrado correspondiente.",
-              "body": "C+∆(#11)."
-            },
-            {
-              "term": "A partir de los intervalos 1 b3 5 7 9 11 13, escriba el cifrado correspondiente.",
-              "body": "Cm∆13."
+              "term": "Más lecturas de intervalos",
+              "body": "1 b3 b5 b7 9 corresponde a Cø9. 1 3 #5 7 9 #11 corresponde a C+∆(#11). 1 b3 5 7 9 11 13 corresponde a Cm∆13."
             }
           ]
         },
         {
-          "id": "nivel-2-verdadero-o-falso",
-          "title": "12. Verdadero o falso",
-          "subtitle": "Referencia de estudio para verdadero o falso.",
+          "id": "nivel-2-sintesis-reglas",
+          "title": "12. Síntesis de reglas",
+          "subtitle": "Resumen rápido de afirmaciones clave para repaso.",
           "items": [
             {
-              "term": "La 9 es la misma 2, pero entendida como extensión._",
-              "body": "V"
+              "term": "Extensiones equivalentes",
+              "body": "La 9 es la misma 2, la 11 es la misma 4 y la 13 es la misma 6, pero entendidas como extensiones."
             },
             {
-              "term": "La 11 es la misma 4, pero entendida como extensión._",
-              "body": "V"
+              "term": "Triadas correctas",
+              "body": "La triada aumentada es 1 3 #5. La triada disminuida es 1 b3 b5. La triada suspendida 4 es 1 4 5. La triada mayor no es 1 b3 5."
             },
             {
-              "term": "La 13 es la misma 6, pero entendida como extensión._",
-              "body": "V"
+              "term": "Séptimas y extensiones",
+              "body": "La b7 no solo se agrega a acordes mayores. La 7 se puede agregar a cualquier triada. La b9 no se agrega libremente a cualquier acorde. La 9 sí se agrega a cualquier acorde."
             },
             {
-              "term": "La triada mayor está formada por 1 b3 5._",
-              "body": "F"
+              "term": "Reglas de color extendido",
+              "body": "La #9 se agrega normalmente a acordes con 3 y b7. La 11 se agrega a acordes con b3 que no tengan 4 suspendida. La #11 se agrega principalmente a acordes con 3M. La 13 siempre va acompañada por una 9ª cualquiera."
             },
             {
-              "term": "La triada aumentada está formada por 1 3 #5._",
-              "body": "V"
-            },
-            {
-              "term": "La triada disminuida está formada por 1 b3 b5._",
-              "body": "V"
-            },
-            {
-              "term": "La triada suspendida 4 está formada por 1 4 5._",
-              "body": "V"
-            },
-            {
-              "term": "La b7 solo se puede agregar a acordes mayores._",
-              "body": "F"
-            },
-            {
-              "term": "La 7 se puede agregar a cualquier triada._",
-              "body": "V"
-            },
-            {
-              "term": "La b9 se agrega libremente a cualquier acorde._",
-              "body": "F"
-            },
-            {
-              "term": "La 9 se agrega a cualquier acorde._",
-              "body": "V"
-            },
-            {
-              "term": "La #9 se agrega normalmente a acordes con 3 y b7._",
-              "body": "V"
-            },
-            {
-              "term": "La 11 se agrega a acordes con b3 que no tengan 4 suspendida._",
-              "body": "V"
-            },
-            {
-              "term": "La #11 se agrega principalmente a acordes con 3M._",
-              "body": "V"
-            },
-            {
-              "term": "La 13 siempre va acompañada por una 9ª cualquiera._",
-              "body": "V"
-            },
-            {
-              "term": "La b13 puede agregarse a acordes disminuidos con cualquier 7ª._",
-              "body": "V"
-            },
-            {
-              "term": "En acordes con 9, 11 o 13, si no aparece especificada la séptima, se asume b7._",
-              "body": "V"
-            },
-            {
-              "term": "En acordes mayores, menores y suspendidos, se puede suprimir la quinta justa._",
-              "body": "V"
-            },
-            {
-              "term": "En acordes disminuidos y aumentados, se puede suprimir la tercera._",
-              "body": "V"
-            },
-            {
-              "term": "La 6ª y la 7ª pueden suprimirse libremente._",
-              "body": "F"
-            },
-            {
-              "term": "En acordes con 11 se puede suprimir la 9, salvo que aparezca en el cifrado._",
-              "body": "V"
-            },
-            {
-              "term": "En acordes con 13 se pueden suprimir 9 y 11, salvo que aparezcan en el cifrado._",
-              "body": "V"
+              "term": "Omisiones y soportes",
+              "body": "En acordes con 9, 11 o 13, si no aparece especificada la séptima, se asume b7. En acordes mayores, menores y suspendidos se puede suprimir la quinta justa. En acordes disminuidos y aumentados se puede suprimir la tercera. La 6ª y la 7ª no pueden suprimirse libremente."
             }
           ]
         }

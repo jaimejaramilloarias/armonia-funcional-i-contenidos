@@ -838,9 +838,9 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Los acordes dominantes son aquellos que tienen simultáneamente:",
           "choices": [
-            "La cuarta de la escala solamente. Grados: II y IV.",
+            "La cuarta de la escala. Grados: II y IV.",
             "La cuarta de la escala y la sensible tonal. Grados: V7 y VII°.",
-            "La sensible tonal solamente. Grados: VII° y III.",
+            "La sensible tonal. Grados: VII° y III.",
             "La tercera de la escala y la sensible tonal. Grados: I y VII°."
           ],
           "answer": 1,
@@ -1643,7 +1643,7 @@ window.APP_DATA = {
           "id": 3,
           "section": "I. Referencia interválica de la escala mayor natural",
           "type": "match",
-          "prompt": "Escriba la equivalencia entre estos grados y extensiones:",
+          "prompt": "Seleccione la equivalencia entre estos grados y extensiones:",
           "items": [
             "9 = mismo grado que",
             "11 = mismo grado que",
@@ -1695,7 +1695,7 @@ window.APP_DATA = {
           "id": 5,
           "section": "II. Triadas",
           "type": "match",
-          "prompt": "Construya las siguientes triadas con intervalos:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada triada:",
           "items": [
             "Mayor:",
             "Menor:",
@@ -1849,7 +1849,7 @@ window.APP_DATA = {
           "id": 12,
           "section": "II. Triadas",
           "type": "match",
-          "prompt": "Escriba el cifrado posible para las siguientes triadas en C:",
+          "prompt": "Seleccione el cifrado posible para las siguientes triadas en C:",
           "items": [
             "Mayor:",
             "Menor:",
@@ -1956,9 +1956,9 @@ window.APP_DATA = {
               "cualquier triada"
             ],
             "6M": [
-              "disminuidos solamente",
+              "disminuidos",
               "cualquier triada con b7",
-              "mayores y menores solamente",
+              "mayores y menores",
               "mayores, menores, suspendidos y mayores con quinta disminuida"
             ],
             "bb7": [
@@ -1993,7 +1993,7 @@ window.APP_DATA = {
           "id": 16,
           "section": "III. Soportes",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con sexta:",
+          "prompt": "Seleccione las notas correctas para cada acorde con sexta:",
           "items": [
             "C6",
             "Cm6",
@@ -2004,50 +2004,50 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C6": "1 3 5 6",
-            "Cm6": "1 b3 5 6",
-            "C°7": "1 b3 b5 bb7(6)",
-            "C6sus4": "1 4 5 6",
-            "C6sus2": "1 2 5 6",
-            "C6(b5)": "1 3 b5 6"
+            "C6": "C E G A",
+            "Cm6": "C Eb G A",
+            "C°7": "C Eb Gb Bbb",
+            "C6sus4": "C F G A",
+            "C6sus2": "C D G A",
+            "C6(b5)": "C E Gb A"
           },
-          "sampleAnswer": "C6: 1 3 5 6; Cm6: 1 b3 5 6; C°7: 1 b3 b5 bb7(6); C6sus4: 1 4 5 6; C6sus2: 1 2 5 6; C6(b5): 1 3 b5 6",
+          "sampleAnswer": "C6: C E G A; Cm6: C Eb G A; C°7: C Eb Gb Bbb; C6sus4: C F G A; C6sus2: C D G A; C6(b5): C E Gb A",
           "optionsByItem": {
             "C6": [
-              "1 3 b5 6",
-              "1 4 5 6",
-              "1 3 5 6",
-              "1 2 5 6"
+              "C E G A",
+              "C D G A",
+              "C E Gb A",
+              "C Eb G A"
             ],
             "Cm6": [
-              "1 3 5 6",
-              "1 b3 5 6",
-              "1 2 5 6",
-              "1 4 5 6"
+              "C D G A",
+              "C Eb G A",
+              "C F G A",
+              "C E G A"
             ],
             "C°7": [
-              "1 b3 5 6",
-              "1 3 b5 6",
-              "1 b3 b5 bb7(6)",
-              "1 2 5 6"
+              "C E Gb A",
+              "C D G A",
+              "C Eb G A",
+              "C Eb Gb Bbb"
             ],
             "C6sus4": [
-              "1 4 5 6",
-              "1 b3 5 6",
-              "1 2 5 6",
-              "1 3 5 6"
+              "C E G A",
+              "C Eb G A",
+              "C D G A",
+              "C F G A"
             ],
             "C6sus2": [
-              "1 2 5 6",
-              "1 3 5 6",
-              "1 4 5 6",
-              "1 b3 5 6"
+              "C E G A",
+              "C F G A",
+              "C D G A",
+              "C Eb G A"
             ],
             "C6(b5)": [
-              "1 2 5 6",
-              "1 3 b5 6",
-              "1 4 5 6",
-              "1 3 5 6"
+              "C E Gb A",
+              "C Eb G A",
+              "C D G A",
+              "C E G A"
             ]
           }
         },
@@ -2083,7 +2083,7 @@ window.APP_DATA = {
           "id": 19,
           "section": "IV. Séptimas menores y séptimas mayores",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con séptima menor:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con séptima menor:",
           "items": [
             "C7",
             "Cm7 / C-7 / Cmi7 / Cmin7",
@@ -2181,7 +2181,7 @@ window.APP_DATA = {
           "id": 22,
           "section": "IV. Séptimas menores y séptimas mayores",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con séptima mayor:",
+          "prompt": "Seleccione las notas correctas para cada acorde con séptima mayor:",
           "items": [
             "C∆ / Cmaj7 / Cma7",
             "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)",
@@ -2193,57 +2193,57 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C∆ / Cmaj7 / Cma7": "1 3 5 7",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "1 b3 5 7",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "1 3 #5 7",
-            "C°∆ / Cdim∆ / C°maj7": "1 b3 b5 7",
-            "C∆sus4 / Cmaj7(sus4)": "1 4 5 7",
-            "C∆sus2 / Cmaj7(sus2)": "1 2 5 7",
-            "C∆(b5) / Cmaj7(b5)": "1 3 b5 7"
+            "C∆ / Cmaj7 / Cma7": "C E G B",
+            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "C Eb G B",
+            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "C E G# B",
+            "C°∆ / Cdim∆ / C°maj7": "C Eb Gb B",
+            "C∆sus4 / Cmaj7(sus4)": "C F G B",
+            "C∆sus2 / Cmaj7(sus2)": "C D G B",
+            "C∆(b5) / Cmaj7(b5)": "C E Gb B"
           },
-          "sampleAnswer": "C∆ / Cmaj7 / Cma7: 1 3 5 7; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): 1 b3 5 7; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): 1 3 #5 7; C°∆ / Cdim∆ / C°maj7: 1 b3 b5 7; C∆sus4 / Cmaj7(sus4): 1 4 5 7; C∆sus2 / Cmaj7(sus2): 1 2 5 7; C∆(b5) / Cmaj7(b5): 1 3 b5 7",
+          "sampleAnswer": "C∆ / Cmaj7 / Cma7: C E G B; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): C Eb G B; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): C E G# B; C°∆ / Cdim∆ / C°maj7: C Eb Gb B; C∆sus4 / Cmaj7(sus4): C F G B; C∆sus2 / Cmaj7(sus2): C D G B; C∆(b5) / Cmaj7(b5): C E Gb B",
           "optionsByItem": {
             "C∆ / Cmaj7 / Cma7": [
-              "1 3 5 7",
-              "1 3 #5 7",
-              "1 2 5 7",
-              "1 3 b5 7"
+              "C E G# B",
+              "C E Gb B",
+              "C D G B",
+              "C E G B"
             ],
             "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": [
-              "1 2 5 7",
-              "1 b3 5 7",
-              "1 4 5 7",
-              "1 3 5 7"
+              "C Eb G B",
+              "C E G B",
+              "C Eb Gb B",
+              "C D G B"
             ],
             "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": [
-              "1 3 #5 7",
-              "1 3 5 7",
-              "1 3 b5 7",
-              "1 2 5 7"
+              "C E G B",
+              "C E G# B",
+              "C D G B",
+              "C E Gb B"
             ],
             "C°∆ / Cdim∆ / C°maj7": [
-              "1 2 5 7",
-              "1 b3 5 7",
-              "1 3 b5 7",
-              "1 b3 b5 7"
+              "C Eb Gb B",
+              "C Eb G B",
+              "C E Gb B",
+              "C D G B"
             ],
             "C∆sus4 / Cmaj7(sus4)": [
-              "1 4 5 7",
-              "1 3 5 7",
-              "1 2 5 7",
-              "1 b3 5 7"
+              "C Eb G B",
+              "C F G B",
+              "C D G B",
+              "C E G B"
             ],
             "C∆sus2 / Cmaj7(sus2)": [
-              "1 4 5 7",
-              "1 2 5 7",
-              "1 3 5 7",
-              "1 b3 5 7"
+              "C E G B",
+              "C F G B",
+              "C D G B",
+              "C Eb G B"
             ],
             "C∆(b5) / Cmaj7(b5)": [
-              "1 3 5 7",
-              "1 b3 b5 7",
-              "1 3 b5 7",
-              "1 3 #5 7"
+              "C E G# B",
+              "C E G B",
+              "C E Gb B",
+              "C Eb Gb B"
             ]
           }
         },
@@ -2295,7 +2295,7 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Enumere todas las extensiones estudiadas.",
           "choices": [
-            "b9, 9, #9, 11, #11 y 13 solamente.",
+            "b9, 9, #9, 11, #11 y 13.",
             "b9, 9, #9, 11, #11, b13 y 13.",
             "9, 11, 13, 6, b7 y 7.",
             "b9, #9, b11, #11, b13 y #13."
@@ -2419,7 +2419,7 @@ window.APP_DATA = {
           "id": 31,
           "section": "VI. Novenas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con novena menor:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con novena menor:",
           "items": [
             "C7(b9)",
             "C+7(b9)",
@@ -2465,7 +2465,7 @@ window.APP_DATA = {
           "id": 32,
           "section": "VI. Novenas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes de sexta y novena:",
+          "prompt": "Seleccione las notas correctas para cada acorde de sexta y novena:",
           "items": [
             "C6(9)",
             "Cm6(9)",
@@ -2475,43 +2475,43 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C6(9)": "1 3 5 6 9",
-            "Cm6(9)": "1 b3 5 6 9",
-            "C°7(9)": "1 b3 b5 bb7(6) 9",
-            "C6sus4(9)": "1 4 5 6 9",
-            "C6(9)b5": "1 3 b5 6 9"
+            "C6(9)": "C E G A D",
+            "Cm6(9)": "C Eb G A D",
+            "C°7(9)": "C Eb Gb Bbb D",
+            "C6sus4(9)": "C F G A D",
+            "C6(9)b5": "C E Gb A D"
           },
-          "sampleAnswer": "C6(9): 1 3 5 6 9; Cm6(9): 1 b3 5 6 9; C°7(9): 1 b3 b5 bb7(6) 9; C6sus4(9): 1 4 5 6 9; C6(9)b5: 1 3 b5 6 9",
+          "sampleAnswer": "C6(9): C E G A D; Cm6(9): C Eb G A D; C°7(9): C Eb Gb Bbb D; C6sus4(9): C F G A D; C6(9)b5: C E Gb A D",
           "optionsByItem": {
             "C6(9)": [
-              "1 4 5 6 9",
-              "1 3 b5 6 9",
-              "1 b3 5 6 9",
-              "1 3 5 6 9"
+              "C Eb G A D",
+              "C E Gb A D",
+              "C E G A D",
+              "C F G A D"
             ],
             "Cm6(9)": [
-              "1 4 5 6 9",
-              "1 3 5 6 9",
-              "1 b3 5 6 9",
-              "1 3 b5 6 9"
+              "C F G A D",
+              "C E Gb A D",
+              "C E G A D",
+              "C Eb G A D"
             ],
             "C°7(9)": [
-              "1 b3 5 6 9",
-              "1 b3 b5 bb7(6) 9",
-              "1 3 b5 6 9",
-              "1 3 5 6 9"
+              "C E G A D",
+              "C Eb Gb Bbb D",
+              "C E Gb A D",
+              "C Eb G A D"
             ],
             "C6sus4(9)": [
-              "1 4 5 6 9",
-              "1 3 5 6 9",
-              "1 b3 5 6 9",
-              "1 3 b5 6 9"
+              "C E G A D",
+              "C E Gb A D",
+              "C F G A D",
+              "C Eb G A D"
             ],
             "C6(9)b5": [
-              "1 4 5 6 9",
-              "1 3 5 6 9",
-              "1 3 b5 6 9",
-              "1 b3 5 6 9"
+              "C E G A D",
+              "C Eb Gb Bbb D",
+              "C Eb G A D",
+              "C E Gb A D"
             ]
           }
         },
@@ -2519,7 +2519,7 @@ window.APP_DATA = {
           "id": 33,
           "section": "VI. Novenas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con séptima menor y novenas:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con séptima menor y novenas:",
           "items": [
             "C7(b9)",
             "C9",
@@ -2597,7 +2597,7 @@ window.APP_DATA = {
           "id": 34,
           "section": "VI. Novenas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con séptima mayor y novenas:",
+          "prompt": "Seleccione las notas correctas para cada acorde con séptima mayor y novenas:",
           "items": [
             "C∆9",
             "C∆(#9)",
@@ -2610,64 +2610,64 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C∆9": "1 3 5 7 9",
-            "C∆(#9)": "1 3 5 7 #9",
-            "Cm∆(9)": "1 b3 5 7 9",
-            "C+∆(9)": "1 3 #5 7 9",
-            "C+∆(#9)": "1 3 #5 7 #9",
-            "C°∆9": "1 b3 b5 7 9",
-            "C∆sus4(9)": "1 4 5 7 9",
-            "C∆(b5)9": "1 3 b5 7 9"
+            "C∆9": "C E G B D",
+            "C∆(#9)": "C E G B D#",
+            "Cm∆(9)": "C Eb G B D",
+            "C+∆(9)": "C E G# B D",
+            "C+∆(#9)": "C E G# B D#",
+            "C°∆9": "C Eb Gb B D",
+            "C∆sus4(9)": "C F G B D",
+            "C∆(b5)9": "C E Gb B D"
           },
-          "sampleAnswer": "C∆9: 1 3 5 7 9; C∆(#9): 1 3 5 7 #9; Cm∆(9): 1 b3 5 7 9; C+∆(9): 1 3 #5 7 9; C+∆(#9): 1 3 #5 7 #9; C°∆9: 1 b3 b5 7 9; C∆sus4(9): 1 4 5 7 9; C∆(b5)9: 1 3 b5 7 9",
+          "sampleAnswer": "C∆9: C E G B D; C∆(#9): C E G B D#; Cm∆(9): C Eb G B D; C+∆(9): C E G# B D; C+∆(#9): C E G# B D#; C°∆9: C Eb Gb B D; C∆sus4(9): C F G B D; C∆(b5)9: C E Gb B D",
           "optionsByItem": {
             "C∆9": [
-              "1 3 5 7 #9",
-              "1 3 #5 7 9",
-              "1 3 5 7 9",
-              "1 3 b5 7 9"
+              "C E G B D#",
+              "C E G# B D",
+              "C E Gb B D",
+              "C E G B D"
             ],
             "C∆(#9)": [
-              "1 3 5 7 9",
-              "1 3 5 7 #9",
-              "1 3 #5 7 #9",
-              "1 3 #5 7 9"
+              "C E G B D",
+              "C E G# B D",
+              "C E G# B D#",
+              "C E G B D#"
             ],
             "Cm∆(9)": [
-              "1 4 5 7 9",
-              "1 b3 5 7 9",
-              "1 3 5 7 9",
-              "1 b3 b5 7 9"
+              "C E G B D",
+              "C Eb G B D",
+              "C F G B D",
+              "C Eb Gb B D"
             ],
             "C+∆(9)": [
-              "1 3 #5 7 9",
-              "1 3 #5 7 #9",
-              "1 3 b5 7 9",
-              "1 3 5 7 9"
+              "C E G# B D#",
+              "C E Gb B D",
+              "C E G B D",
+              "C E G# B D"
             ],
             "C+∆(#9)": [
-              "1 3 5 7 9",
-              "1 3 #5 7 9",
-              "1 3 #5 7 #9",
-              "1 3 5 7 #9"
+              "C E G# B D",
+              "C E G B D",
+              "C E G# B D#",
+              "C E G B D#"
             ],
             "C°∆9": [
-              "1 b3 b5 7 9",
-              "1 b3 5 7 9",
-              "1 3 b5 7 9",
-              "1 3 #5 7 9"
+              "C E Gb B D",
+              "C E G B D",
+              "C Eb Gb B D",
+              "C Eb G B D"
             ],
             "C∆sus4(9)": [
-              "1 4 5 7 9",
-              "1 3 5 7 9",
-              "1 b3 5 7 9",
-              "1 3 #5 7 9"
+              "C Eb G B D",
+              "C E G B D#",
+              "C E G B D",
+              "C F G B D"
             ],
             "C∆(b5)9": [
-              "1 3 b5 7 9",
-              "1 3 5 7 9",
-              "1 3 #5 7 9",
-              "1 b3 b5 7 9"
+              "C E G B D",
+              "C Eb Gb B D",
+              "C E Gb B D",
+              "C E G# B D"
             ]
           }
         },
@@ -2745,7 +2745,7 @@ window.APP_DATA = {
           "id": 40,
           "section": "VII. Onceavas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con onceava justa:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con onceava justa:",
           "items": [
             "Cm6(11)",
             "Cm11",
@@ -2827,7 +2827,7 @@ window.APP_DATA = {
           "id": 43,
           "section": "VII. Onceavas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con onceava aumentada:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con onceava aumentada:",
           "items": [
             "C6(#11)",
             "C7(b9)#11",
@@ -3001,7 +3001,7 @@ window.APP_DATA = {
           "id": 48,
           "section": "VIII. Treceavas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con treceava menor:",
+          "prompt": "Seleccione las notas correctas para cada acorde con treceava menor:",
           "items": [
             "C7(b9)b13",
             "C9(b13)",
@@ -3016,78 +3016,78 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C7(b9)b13": "1 3 5 b7 b9 (#11 opcional) b13",
-            "C9(b13)": "1 3 5 b7 9 (#11) b13",
-            "C7(#9)b13": "1 3 5 b7 #9 (#11) b13",
-            "C°7(b13)": "1 b3 b5 bb7 (9) (11) b13",
-            "Cøb13": "1 b3 b5 b7 (9) (11) b13",
-            "C7sus4(9)b13": "1 4 5 b7 9 b13",
-            "C7sus4(b9)b13": "1 4 5 b7 b9 b13",
-            "C7(b5)b9(b13)": "1 3 b5 b7 b9 b13",
-            "C9(b5)b13": "1 3 b5 b7 9 b13",
-            "C7(#9)b5(b13)": "1 3 b5 b7 #9 b13"
+            "C7(b9)b13": "C E G Bb Db F# opcional Ab",
+            "C9(b13)": "C E G Bb D F# Ab",
+            "C7(#9)b13": "C E G Bb D# F# Ab",
+            "C°7(b13)": "C Eb Gb Bbb D opcional F opcional Ab",
+            "Cøb13": "C Eb Gb Bb D opcional F opcional Ab",
+            "C7sus4(9)b13": "C F G Bb D Ab",
+            "C7sus4(b9)b13": "C F G Bb Db Ab",
+            "C7(b5)b9(b13)": "C E Gb Bb Db Ab",
+            "C9(b5)b13": "C E Gb Bb D Ab",
+            "C7(#9)b5(b13)": "C E Gb Bb D# Ab"
           },
-          "sampleAnswer": "C7(b9)b13: 1 3 5 b7 b9 (#11 opcional) b13; C9(b13): 1 3 5 b7 9 (#11) b13; C7(#9)b13: 1 3 5 b7 #9 (#11) b13; C°7(b13): 1 b3 b5 bb7 (9) (11) b13; Cøb13: 1 b3 b5 b7 (9) (11) b13; C7sus4(9)b13: 1 4 5 b7 9 b13; C7sus4(b9)b13: 1 4 5 b7 b9 b13; C7(b5)b9(b13): 1 3 b5 b7 b9 b13; C9(b5)b13: 1 3 b5 b7 9 b13; C7(#9)b5(b13): 1 3 b5 b7 #9 b13",
+          "sampleAnswer": "C7(b9)b13: C E G Bb Db F# opcional Ab; C9(b13): C E G Bb D F# Ab; C7(#9)b13: C E G Bb D# F# Ab; C°7(b13): C Eb Gb Bbb D opcional F opcional Ab; Cøb13: C Eb Gb Bb D opcional F opcional Ab; C7sus4(9)b13: C F G Bb D Ab; C7sus4(b9)b13: C F G Bb Db Ab; C7(b5)b9(b13): C E Gb Bb Db Ab; C9(b5)b13: C E Gb Bb D Ab; C7(#9)b5(b13): C E Gb Bb D# Ab",
           "optionsByItem": {
             "C7(b9)b13": [
-              "1 3 b5 b7 b9 b13",
-              "1 3 5 b7 #9 (#11) b13",
-              "1 3 5 b7 b9 (#11 opcional) b13",
-              "1 3 5 b7 9 (#11) b13"
+              "C E G Bb Db F# opcional Ab",
+              "C E G Bb D# F# Ab",
+              "C E Gb Bb Db Ab",
+              "C E G Bb D F# Ab"
             ],
             "C9(b13)": [
-              "1 3 5 b7 b9 (#11 opcional) b13",
-              "1 3 5 b7 #9 (#11) b13",
-              "1 3 5 b7 9 (#11) b13",
-              "1 3 b5 b7 9 b13"
+              "C E G Bb D# F# Ab",
+              "C E Gb Bb D Ab",
+              "C E G Bb Db F# opcional Ab",
+              "C E G Bb D F# Ab"
             ],
             "C7(#9)b13": [
-              "1 3 5 b7 b9 (#11 opcional) b13",
-              "1 3 5 b7 #9 (#11) b13",
-              "1 3 5 b7 9 (#11) b13",
-              "1 3 b5 b7 #9 b13"
+              "C E G Bb D F# Ab",
+              "C E G Bb D# F# Ab",
+              "C E Gb Bb D# Ab",
+              "C E G Bb Db F# opcional Ab"
             ],
             "C°7(b13)": [
-              "1 b3 b5 bb7 (9) (11) b13",
-              "1 b3 b5 b7 (9) (11) b13",
-              "1 3 b5 b7 #9 b13",
-              "1 3 b5 b7 9 b13"
+              "C Eb Gb Bb D opcional F opcional Ab",
+              "C Eb Gb Bbb D opcional F opcional Ab",
+              "C F G Bb D Ab",
+              "C E Gb Bb D Ab"
             ],
             "Cøb13": [
-              "1 3 b5 b7 #9 b13",
-              "1 b3 b5 bb7 (9) (11) b13",
-              "1 b3 b5 b7 (9) (11) b13",
-              "1 3 b5 b7 9 b13"
+              "C E Gb Bb D Ab",
+              "C F G Bb D Ab",
+              "C Eb Gb Bbb D opcional F opcional Ab",
+              "C Eb Gb Bb D opcional F opcional Ab"
             ],
             "C7sus4(9)b13": [
-              "1 4 5 b7 9 b13",
-              "1 3 5 b7 9 (#11) b13",
-              "1 4 5 b7 b9 b13",
-              "1 3 b5 b7 9 b13"
+              "C Eb Gb Bb D opcional F opcional Ab",
+              "C F G Bb D Ab",
+              "C F G Bb Db Ab",
+              "C E G Bb D F# Ab"
             ],
             "C7sus4(b9)b13": [
-              "1 3 5 b7 b9 (#11 opcional) b13",
-              "1 4 5 b7 9 b13",
-              "1 4 5 b7 b9 b13",
-              "1 3 b5 b7 b9 b13"
+              "C E G Bb Db F# opcional Ab",
+              "C E Gb Bb Db Ab",
+              "C F G Bb D Ab",
+              "C F G Bb Db Ab"
             ],
             "C7(b5)b9(b13)": [
-              "1 3 b5 b7 9 b13",
-              "1 3 b5 b7 #9 b13",
-              "1 3 b5 b7 b9 b13",
-              "1 3 5 b7 b9 (#11 opcional) b13"
+              "C E Gb Bb Db Ab",
+              "C E Gb Bb D Ab",
+              "C E Gb Bb D# Ab",
+              "C E G Bb Db F# opcional Ab"
             ],
             "C9(b5)b13": [
-              "1 3 b5 b7 b9 b13",
-              "1 3 b5 b7 #9 b13",
-              "1 3 b5 b7 9 b13",
-              "1 3 5 b7 9 (#11) b13"
+              "C E Gb Bb D Ab",
+              "C E Gb Bb D# Ab",
+              "C E Gb Bb Db Ab",
+              "C E G Bb D F# Ab"
             ],
             "C7(#9)b5(b13)": [
-              "1 3 b5 b7 #9 b13",
-              "1 3 b5 b7 9 b13",
-              "1 3 b5 b7 b9 b13",
-              "1 3 5 b7 #9 (#11) b13"
+              "C E Gb Bb D Ab",
+              "C E Gb Bb Db Ab",
+              "C E G Bb D# F# Ab",
+              "C E Gb Bb D# Ab"
             ]
           }
         },
@@ -3109,7 +3109,7 @@ window.APP_DATA = {
           "id": 50,
           "section": "VIII. Treceavas",
           "type": "match",
-          "prompt": "Construya los siguientes acordes con treceava mayor:",
+          "prompt": "Seleccione la fórmula interválica correcta para cada acorde con treceava mayor:",
           "items": [
             "C13",
             "C13(b9)",
@@ -3303,12 +3303,12 @@ window.APP_DATA = {
           "id": 57,
           "section": "IX. Sistema americano y cifrado",
           "type": "multipleChoice",
-          "prompt": "Escriba todas las fundamentales posibles en el sistema americano, incluyendo las alteraciones indicadas en el material.",
+          "prompt": "Seleccione la lista completa de fundamentales posibles en el sistema americano, incluyendo las alteraciones indicadas en el material.",
           "choices": [
-            "C, D, E, F, G, A y B solamente, sin alteraciones.",
-            "C, C#/Db, D, E, F, F#/Gb, G, A y B solamente.",
+            "C, D, E, F, G, A y B, sin alteraciones.",
+            "C, C#/Db, D, E, F, F#/Gb, G, A y B.",
             "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B.",
-            "C, Db, Eb, F, Gb, Ab y Bb solamente."
+            "C, Db, Eb, F, Gb, Ab y Bb."
           ],
           "answer": 2,
           "sampleAnswer": "C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B."
@@ -3485,7 +3485,7 @@ window.APP_DATA = {
           "id": 62,
           "section": "IX. Sistema americano y cifrado",
           "type": "multipleChoice",
-          "prompt": "Escriba tres cifrados posibles para una triada aumentada sobre C.",
+          "prompt": "Seleccione tres cifrados posibles para una triada aumentada sobre C.",
           "choices": [
             "Cm, C-, Cmi.",
             "C+, C(#5), Caug.",
@@ -3499,7 +3499,7 @@ window.APP_DATA = {
           "id": 63,
           "section": "IX. Sistema americano y cifrado",
           "type": "multipleChoice",
-          "prompt": "Escriba dos cifrados posibles para una triada disminuida sobre C.",
+          "prompt": "Seleccione dos cifrados posibles para una triada disminuida sobre C.",
           "choices": [
             "C+, Caug.",
             "Cø, Cm7(b5).",
@@ -3513,7 +3513,7 @@ window.APP_DATA = {
           "id": 64,
           "section": "IX. Sistema americano y cifrado",
           "type": "multipleChoice",
-          "prompt": "Escriba dos cifrados posibles para una triada suspendida con cuarta sobre C.",
+          "prompt": "Seleccione dos cifrados posibles para una triada suspendida con cuarta sobre C.",
           "choices": [
             "Csus2, C2.",
             "Cm, C-.",
@@ -3681,21 +3681,21 @@ window.APP_DATA = {
           "id": 76,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C mayor con sexta y novena.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de C mayor con sexta y novena.",
           "choices": [
-            "C6 = 1 3 5 6.",
-            "C9 = 1 3 5 b7 9.",
-            "Cm6(9) = 1 b3 5 6 9.",
-            "C6(9) = 1 3 5 6 9."
+            "C6 = C E G A.",
+            "C9 = C E G Bb D.",
+            "Cm6(9) = C Eb G A D.",
+            "C6(9) = C E G A D."
           ],
           "answer": 3,
-          "sampleAnswer": "C6(9) = 1 3 5 6 9."
+          "sampleAnswer": "C6(9) = C E G A D."
         },
         {
           "id": 77,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C menor con sexta y onceava.",
+          "prompt": "Seleccione la opción con los intervalos correctos para un acorde de C menor con sexta y onceava.",
           "choices": [
             "Cm6(9) = 1 b3 5 6 9.",
             "Cm6(11) = 1 b3 5 6 (9 opcional) 11.",
@@ -3709,21 +3709,21 @@ window.APP_DATA = {
           "id": 78,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C dominante con b9 y b13.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de C dominante con b9 y b13.",
           "choices": [
-            "C7(b9) = 1 3 5 b7 b9.",
-            "C7(b13) = 1 3 5 b7 (9) b13.",
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13.",
-            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13."
+            "C7(b9) = C E G Bb Db.",
+            "C7(b13) = C E G Bb D Ab.",
+            "C7(b9)b13 = C E G Bb Db F# opcional Ab.",
+            "C7(#9)b13 = C E G Bb D# F# Ab."
           ],
           "answer": 2,
-          "sampleAnswer": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13."
+          "sampleAnswer": "C7(b9)b13 = C E G Bb Db F# opcional Ab."
         },
         {
           "id": 79,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C aumentado con séptima menor y #11.",
+          "prompt": "Seleccione la opción con los intervalos correctos para un acorde de C aumentado con séptima menor y #11.",
           "choices": [
             "C+7 = 1 3 #5 b7.",
             "C∆(#11) = 1 3 5 7 (9) #11.",
@@ -3737,21 +3737,21 @@ window.APP_DATA = {
           "id": 80,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C semidisminuido con novena.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de C semidisminuido con novena.",
           "choices": [
-            "C°9 = 1 b3 b5 bb7 9.",
-            "Cø9 = 1 b3 b5 b7 9.",
-            "Cm9 = 1 b3 5 b7 9.",
-            "Cø = 1 b3 b5 b7."
+            "C°9 = C Eb Gb Bbb D.",
+            "Cø9 = C Eb Gb Bb D.",
+            "Cm9 = C Eb G Bb D.",
+            "Cø = C Eb Gb Bb."
           ],
           "answer": 1,
-          "sampleAnswer": "Cø9 = 1 b3 b5 b7 9."
+          "sampleAnswer": "Cø9 = C Eb Gb Bb D."
         },
         {
           "id": 81,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C suspendido 4 con séptima menor, b9 y b13.",
+          "prompt": "Seleccione la opción con los intervalos correctos para un acorde de C suspendido 4 con séptima menor, b9 y b13.",
           "choices": [
             "C7sus4(b9) = 1 4 5 b7 b9.",
             "C7sus4(9)b13 = 1 4 5 b7 9 b13.",
@@ -3765,21 +3765,21 @@ window.APP_DATA = {
           "id": 82,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
           "choices": [
-            "C7(b5) = 1 3 b5 b7.",
-            "C13(b5) = 1 3 b5 b7 (9) 13.",
-            "C13 = 1 3 5 b7 9 (#11) 13.",
-            "C13(b5)b9 = 1 3 b5 b7 b9 13."
+            "C7(b5) = C E Gb Bb.",
+            "C13(b5) = C E Gb Bb D opcional A.",
+            "C13 = C E G Bb D F# opcional A.",
+            "C13(b5)b9 = C E Gb Bb Db A."
           ],
           "answer": 1,
-          "sampleAnswer": "C13(b5) = 1 3 b5 b7 (9) 13."
+          "sampleAnswer": "C13(b5) = C E Gb Bb D opcional A."
         },
         {
           "id": 83,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C menor con séptima mayor y treceava.",
+          "prompt": "Seleccione la opción con los intervalos correctos para un acorde de C menor con séptima mayor y treceava.",
           "choices": [
             "Cm∆13 = 1 b3 5 7 (9) (11) 13.",
             "Cm13 = 1 b3 5 b7 (9) (11) 13.",
@@ -3793,21 +3793,21 @@ window.APP_DATA = {
           "id": 84,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C disminuido con séptima disminuida y b13.",
+          "prompt": "Seleccione la opción con las notas correctas para un acorde de C disminuido con séptima disminuida y b13.",
           "choices": [
-            "C°7 = 1 b3 b5 bb7.",
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13.",
-            "C°∆(b13) = 1 b3 b5 7 (9) (11) b13.",
-            "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
+            "C°7 = C Eb Gb Bbb.",
+            "Cøb13 = C Eb Gb Bb D opcional F opcional Ab.",
+            "C°∆(b13) = C Eb Gb B D opcional F opcional Ab.",
+            "C°7(b13) = C Eb Gb Bbb D opcional F opcional Ab."
           ],
           "answer": 3,
-          "sampleAnswer": "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
+          "sampleAnswer": "C°7(b13) = C Eb Gb Bbb D opcional F opcional Ab."
         },
         {
           "id": 85,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "Construya un acorde de C mayor con séptima mayor y #11.",
+          "prompt": "Seleccione la opción con los intervalos correctos para un acorde de C mayor con séptima mayor y #11.",
           "choices": [
             "C∆9 = 1 3 5 7 9.",
             "C7(#11) = 1 3 5 b7 (9) #11.",
@@ -3821,7 +3821,7 @@ window.APP_DATA = {
           "id": 86,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 5 b7 9 13, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 5 b7 9 13, seleccione el cifrado correspondiente.",
           "choices": [
             "C∆13.",
             "C13(b9).",
@@ -3835,7 +3835,7 @@ window.APP_DATA = {
           "id": 87,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 5 b7 9 11 13, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 5 b7 9 11 13, seleccione el cifrado correspondiente.",
           "choices": [
             "Cm13.",
             "Cm∆13.",
@@ -3849,7 +3849,7 @@ window.APP_DATA = {
           "id": 88,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 b5 b7 b9 13, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 b5 b7 b9 13, seleccione el cifrado correspondiente.",
           "choices": [
             "C13(b5).",
             "C13(#9)b5.",
@@ -3863,7 +3863,7 @@ window.APP_DATA = {
           "id": 89,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 4 5 b7 b9 13, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 4 5 b7 b9 13, seleccione el cifrado correspondiente.",
           "choices": [
             "C13sus4.",
             "C7sus4(b9).",
@@ -3877,7 +3877,7 @@ window.APP_DATA = {
           "id": 90,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 b5 b7 9, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 b5 b7 9, seleccione el cifrado correspondiente.",
           "choices": [
             "C°9.",
             "Cm9(b5).",
@@ -3891,7 +3891,7 @@ window.APP_DATA = {
           "id": 91,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 #5 7 9 #11, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 #5 7 9 #11, seleccione el cifrado correspondiente.",
           "choices": [
             "C+∆9.",
             "C+∆(#11).",
@@ -3905,7 +3905,7 @@ window.APP_DATA = {
           "id": 92,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 5 7 9 11 13, escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 5 7 9 11 13, seleccione el cifrado correspondiente.",
           "choices": [
             "Cm13.",
             "Cm∆11.",

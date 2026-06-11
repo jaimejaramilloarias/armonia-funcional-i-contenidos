@@ -1707,57 +1707,57 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "Mayor:": "1 3 5 (C E G)",
-            "Menor:": "1 b3 5 (C Eb G)",
-            "Aumentada:": "1 3 #5 (C E G#)",
-            "Disminuida:": "1 b3 b5 (C Eb Gb)",
-            "Suspendida 4:": "1 4 5 (C F G)",
-            "Suspendida 2:": "1 2 5 (C D G)",
-            "Mayor con quinta disminuida:": "1 3 b5 (C E Gb)"
+            "Mayor:": "1 3 5",
+            "Menor:": "1 b3 5",
+            "Aumentada:": "1 3 #5",
+            "Disminuida:": "1 b3 b5",
+            "Suspendida 4:": "1 4 5",
+            "Suspendida 2:": "1 2 5",
+            "Mayor con quinta disminuida:": "1 3 b5"
           },
-          "sampleAnswer": "Mayor: 1 3 5 (C E G); Menor: 1 b3 5 (C Eb G); Aumentada: 1 3 #5 (C E G#); Disminuida: 1 b3 b5 (C Eb Gb); Suspendida 4: 1 4 5 (C F G); Suspendida 2: 1 2 5 (C D G); Mayor con quinta disminuida: 1 3 b5 (C E Gb)",
+          "sampleAnswer": "Mayor: 1 3 5; Menor: 1 b3 5; Aumentada: 1 3 #5; Disminuida: 1 b3 b5; Suspendida 4: 1 4 5; Suspendida 2: 1 2 5; Mayor con quinta disminuida: 1 3 b5",
           "optionsByItem": {
             "Mayor:": [
-              "1 3 #5 (C E G#)",
-              "1 2 5 (C D G)",
-              "1 3 5 (C E G)",
-              "1 3 b5 (C E Gb)"
+              "1 3 #5",
+              "1 2 5",
+              "1 3 5",
+              "1 3 b5"
             ],
             "Menor:": [
-              "1 4 5 (C F G)",
-              "1 2 5 (C D G)",
-              "1 3 5 (C E G)",
-              "1 b3 5 (C Eb G)"
+              "1 4 5",
+              "1 2 5",
+              "1 3 5",
+              "1 b3 5"
             ],
             "Aumentada:": [
-              "1 3 #5 (C E G#)",
-              "1 3 5 (C E G)",
-              "1 3 b5 (C E Gb)",
-              "1 2 5 (C D G)"
+              "1 3 #5",
+              "1 3 5",
+              "1 3 b5",
+              "1 2 5"
             ],
             "Disminuida:": [
-              "1 b3 5 (C Eb G)",
-              "1 2 5 (C D G)",
-              "1 b3 b5 (C Eb Gb)",
-              "1 3 b5 (C E Gb)"
+              "1 b3 5",
+              "1 2 5",
+              "1 b3 b5",
+              "1 3 b5"
             ],
             "Suspendida 4:": [
-              "1 4 5 (C F G)",
-              "1 b3 5 (C Eb G)",
-              "1 2 5 (C D G)",
-              "1 3 5 (C E G)"
+              "1 4 5",
+              "1 b3 5",
+              "1 2 5",
+              "1 3 5"
             ],
             "Suspendida 2:": [
-              "1 4 5 (C F G)",
-              "1 3 5 (C E G)",
-              "1 2 5 (C D G)",
-              "1 b3 5 (C Eb G)"
+              "1 4 5",
+              "1 3 5",
+              "1 2 5",
+              "1 b3 5"
             ],
             "Mayor con quinta disminuida:": [
-              "1 3 b5 (C E Gb)",
-              "1 3 #5 (C E G#)",
-              "1 3 5 (C E G)",
-              "1 b3 b5 (C Eb Gb)"
+              "1 3 b5",
+              "1 3 #5",
+              "1 3 5",
+              "1 b3 b5"
             ]
           }
         },
@@ -2004,50 +2004,50 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C6": "1 3 5 6 (C E G A)",
-            "Cm6": "1 b3 5 6 (C Eb G A)",
-            "C°7": "1 b3 b5 bb7(6) (C Eb Gb Bbb)",
-            "C6sus4": "1 4 5 6 (C F G A)",
-            "C6sus2": "1 2 5 6 (C D G A)",
-            "C6(b5)": "1 3 b5 6 (C E Gb A)"
+            "C6": "1 3 5 6",
+            "Cm6": "1 b3 5 6",
+            "C°7": "1 b3 b5 bb7(6)",
+            "C6sus4": "1 4 5 6",
+            "C6sus2": "1 2 5 6",
+            "C6(b5)": "1 3 b5 6"
           },
-          "sampleAnswer": "C6: 1 3 5 6 (C E G A); Cm6: 1 b3 5 6 (C Eb G A); C°7: 1 b3 b5 bb7(6) (C Eb Gb Bbb); C6sus4: 1 4 5 6 (C F G A); C6sus2: 1 2 5 6 (C D G A); C6(b5): 1 3 b5 6 (C E Gb A)",
+          "sampleAnswer": "C6: 1 3 5 6; Cm6: 1 b3 5 6; C°7: 1 b3 b5 bb7(6); C6sus4: 1 4 5 6; C6sus2: 1 2 5 6; C6(b5): 1 3 b5 6",
           "optionsByItem": {
             "C6": [
-              "1 3 b5 6 (C E Gb A)",
-              "1 4 5 6 (C F G A)",
-              "1 3 5 6 (C E G A)",
-              "1 2 5 6 (C D G A)"
+              "1 3 b5 6",
+              "1 4 5 6",
+              "1 3 5 6",
+              "1 2 5 6"
             ],
             "Cm6": [
-              "1 3 5 6 (C E G A)",
-              "1 b3 5 6 (C Eb G A)",
-              "1 2 5 6 (C D G A)",
-              "1 4 5 6 (C F G A)"
+              "1 3 5 6",
+              "1 b3 5 6",
+              "1 2 5 6",
+              "1 4 5 6"
             ],
             "C°7": [
-              "1 b3 5 6 (C Eb G A)",
-              "1 3 b5 6 (C E Gb A)",
-              "1 b3 b5 bb7(6) (C Eb Gb Bbb)",
-              "1 2 5 6 (C D G A)"
+              "1 b3 5 6",
+              "1 3 b5 6",
+              "1 b3 b5 bb7(6)",
+              "1 2 5 6"
             ],
             "C6sus4": [
-              "1 4 5 6 (C F G A)",
-              "1 b3 5 6 (C Eb G A)",
-              "1 2 5 6 (C D G A)",
-              "1 3 5 6 (C E G A)"
+              "1 4 5 6",
+              "1 b3 5 6",
+              "1 2 5 6",
+              "1 3 5 6"
             ],
             "C6sus2": [
-              "1 2 5 6 (C D G A)",
-              "1 3 5 6 (C E G A)",
-              "1 4 5 6 (C F G A)",
-              "1 b3 5 6 (C Eb G A)"
+              "1 2 5 6",
+              "1 3 5 6",
+              "1 4 5 6",
+              "1 b3 5 6"
             ],
             "C6(b5)": [
-              "1 2 5 6 (C D G A)",
-              "1 3 b5 6 (C E Gb A)",
-              "1 4 5 6 (C F G A)",
-              "1 3 5 6 (C E G A)"
+              "1 2 5 6",
+              "1 3 b5 6",
+              "1 4 5 6",
+              "1 3 5 6"
             ]
           }
         },
@@ -2095,57 +2095,57 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C7": "1 3 5 b7 (C E G Bb)",
-            "Cm7 / C-7 / Cmi7 / Cmin7": "1 b3 5 b7 (C Eb G Bb)",
-            "C+7 / Caug7 / C7(#5)": "1 3 #5 b7 (C E G# Bb)",
-            "Cø / Cm7(b5)": "1 b3 b5 b7 (C Eb Gb Bb)",
-            "C7sus4": "1 4 5 b7 (C F G Bb)",
-            "C7sus2": "1 2 5 b7 (C D G Bb)",
-            "C7(b5)": "1 3 b5 b7 (C E Gb Bb)"
+            "C7": "1 3 5 b7",
+            "Cm7 / C-7 / Cmi7 / Cmin7": "1 b3 5 b7",
+            "C+7 / Caug7 / C7(#5)": "1 3 #5 b7",
+            "Cø / Cm7(b5)": "1 b3 b5 b7",
+            "C7sus4": "1 4 5 b7",
+            "C7sus2": "1 2 5 b7",
+            "C7(b5)": "1 3 b5 b7"
           },
-          "sampleAnswer": "C7: 1 3 5 b7 (C E G Bb); Cm7 / C-7 / Cmi7 / Cmin7: 1 b3 5 b7 (C Eb G Bb); C+7 / Caug7 / C7(#5): 1 3 #5 b7 (C E G# Bb); Cø / Cm7(b5): 1 b3 b5 b7 (C Eb Gb Bb); C7sus4: 1 4 5 b7 (C F G Bb); C7sus2: 1 2 5 b7 (C D G Bb); C7(b5): 1 3 b5 b7 (C E Gb Bb)",
+          "sampleAnswer": "C7: 1 3 5 b7; Cm7 / C-7 / Cmi7 / Cmin7: 1 b3 5 b7; C+7 / Caug7 / C7(#5): 1 3 #5 b7; Cø / Cm7(b5): 1 b3 b5 b7; C7sus4: 1 4 5 b7; C7sus2: 1 2 5 b7; C7(b5): 1 3 b5 b7",
           "optionsByItem": {
             "C7": [
-              "1 3 b5 b7 (C E Gb Bb)",
-              "1 2 5 b7 (C D G Bb)",
-              "1 3 5 b7 (C E G Bb)",
-              "1 3 #5 b7 (C E G# Bb)"
+              "1 3 b5 b7",
+              "1 2 5 b7",
+              "1 3 5 b7",
+              "1 3 #5 b7"
             ],
             "Cm7 / C-7 / Cmi7 / Cmin7": [
-              "1 3 5 b7 (C E G Bb)",
-              "1 2 5 b7 (C D G Bb)",
-              "1 b3 5 b7 (C Eb G Bb)",
-              "1 4 5 b7 (C F G Bb)"
+              "1 3 5 b7",
+              "1 2 5 b7",
+              "1 b3 5 b7",
+              "1 4 5 b7"
             ],
             "C+7 / Caug7 / C7(#5)": [
-              "1 3 b5 b7 (C E Gb Bb)",
-              "1 3 5 b7 (C E G Bb)",
-              "1 3 #5 b7 (C E G# Bb)",
-              "1 2 5 b7 (C D G Bb)"
+              "1 3 b5 b7",
+              "1 3 5 b7",
+              "1 3 #5 b7",
+              "1 2 5 b7"
             ],
             "Cø / Cm7(b5)": [
-              "1 b3 5 b7 (C Eb G Bb)",
-              "1 3 b5 b7 (C E Gb Bb)",
-              "1 b3 b5 b7 (C Eb Gb Bb)",
-              "1 2 5 b7 (C D G Bb)"
+              "1 b3 5 b7",
+              "1 3 b5 b7",
+              "1 b3 b5 b7",
+              "1 2 5 b7"
             ],
             "C7sus4": [
-              "1 3 5 b7 (C E G Bb)",
-              "1 2 5 b7 (C D G Bb)",
-              "1 4 5 b7 (C F G Bb)",
-              "1 b3 5 b7 (C Eb G Bb)"
+              "1 3 5 b7",
+              "1 2 5 b7",
+              "1 4 5 b7",
+              "1 b3 5 b7"
             ],
             "C7sus2": [
-              "1 b3 5 b7 (C Eb G Bb)",
-              "1 3 5 b7 (C E G Bb)",
-              "1 2 5 b7 (C D G Bb)",
-              "1 4 5 b7 (C F G Bb)"
+              "1 b3 5 b7",
+              "1 3 5 b7",
+              "1 2 5 b7",
+              "1 4 5 b7"
             ],
             "C7(b5)": [
-              "1 3 b5 b7 (C E Gb Bb)",
-              "1 3 5 b7 (C E G Bb)",
-              "1 3 #5 b7 (C E G# Bb)",
-              "1 b3 b5 b7 (C Eb Gb Bb)"
+              "1 3 b5 b7",
+              "1 3 5 b7",
+              "1 3 #5 b7",
+              "1 b3 b5 b7"
             ]
           }
         },
@@ -2175,7 +2175,7 @@ window.APP_DATA = {
             "Ambos usan b7; la diferencia está en la quinta."
           ],
           "answer": 1,
-          "sampleAnswer": "C°7 usa bb7 (Bbb en C); Cø usa b7 (Bb en C)."
+          "sampleAnswer": "C°7 usa bb7; Cø usa b7."
         },
         {
           "id": 22,
@@ -2193,57 +2193,57 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C∆ / Cmaj7 / Cma7": "1 3 5 7 (C E G B)",
-            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "1 b3 5 7 (C Eb G B)",
-            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "1 3 #5 7 (C E G# B)",
-            "C°∆ / Cdim∆ / C°maj7": "1 b3 b5 7 (C Eb Gb B)",
-            "C∆sus4 / Cmaj7(sus4)": "1 4 5 7 (C F G B)",
-            "C∆sus2 / Cmaj7(sus2)": "1 2 5 7 (C D G B)",
-            "C∆(b5) / Cmaj7(b5)": "1 3 b5 7 (C E Gb B)"
+            "C∆ / Cmaj7 / Cma7": "1 3 5 7",
+            "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": "1 b3 5 7",
+            "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": "1 3 #5 7",
+            "C°∆ / Cdim∆ / C°maj7": "1 b3 b5 7",
+            "C∆sus4 / Cmaj7(sus4)": "1 4 5 7",
+            "C∆sus2 / Cmaj7(sus2)": "1 2 5 7",
+            "C∆(b5) / Cmaj7(b5)": "1 3 b5 7"
           },
-          "sampleAnswer": "C∆ / Cmaj7 / Cma7: 1 3 5 7 (C E G B); Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): 1 b3 5 7 (C Eb G B); C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): 1 3 #5 7 (C E G# B); C°∆ / Cdim∆ / C°maj7: 1 b3 b5 7 (C Eb Gb B); C∆sus4 / Cmaj7(sus4): 1 4 5 7 (C F G B); C∆sus2 / Cmaj7(sus2): 1 2 5 7 (C D G B); C∆(b5) / Cmaj7(b5): 1 3 b5 7 (C E Gb B)",
+          "sampleAnswer": "C∆ / Cmaj7 / Cma7: 1 3 5 7; Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7): 1 b3 5 7; C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5): 1 3 #5 7; C°∆ / Cdim∆ / C°maj7: 1 b3 b5 7; C∆sus4 / Cmaj7(sus4): 1 4 5 7; C∆sus2 / Cmaj7(sus2): 1 2 5 7; C∆(b5) / Cmaj7(b5): 1 3 b5 7",
           "optionsByItem": {
             "C∆ / Cmaj7 / Cma7": [
-              "1 3 5 7 (C E G B)",
-              "1 3 #5 7 (C E G# B)",
-              "1 2 5 7 (C D G B)",
-              "1 3 b5 7 (C E Gb B)"
+              "1 3 5 7",
+              "1 3 #5 7",
+              "1 2 5 7",
+              "1 3 b5 7"
             ],
             "Cm∆ / Cmi∆ / C-∆ / Cmin∆ / C-(maj7)": [
-              "1 2 5 7 (C D G B)",
-              "1 b3 5 7 (C Eb G B)",
-              "1 4 5 7 (C F G B)",
-              "1 3 5 7 (C E G B)"
+              "1 2 5 7",
+              "1 b3 5 7",
+              "1 4 5 7",
+              "1 3 5 7"
             ],
             "C+∆ / C+maj7 / C∆(#5) / Cmaj7(#5)": [
-              "1 3 #5 7 (C E G# B)",
-              "1 3 5 7 (C E G B)",
-              "1 3 b5 7 (C E Gb B)",
-              "1 2 5 7 (C D G B)"
+              "1 3 #5 7",
+              "1 3 5 7",
+              "1 3 b5 7",
+              "1 2 5 7"
             ],
             "C°∆ / Cdim∆ / C°maj7": [
-              "1 2 5 7 (C D G B)",
-              "1 b3 5 7 (C Eb G B)",
-              "1 3 b5 7 (C E Gb B)",
-              "1 b3 b5 7 (C Eb Gb B)"
+              "1 2 5 7",
+              "1 b3 5 7",
+              "1 3 b5 7",
+              "1 b3 b5 7"
             ],
             "C∆sus4 / Cmaj7(sus4)": [
-              "1 4 5 7 (C F G B)",
-              "1 3 5 7 (C E G B)",
-              "1 2 5 7 (C D G B)",
-              "1 b3 5 7 (C Eb G B)"
+              "1 4 5 7",
+              "1 3 5 7",
+              "1 2 5 7",
+              "1 b3 5 7"
             ],
             "C∆sus2 / Cmaj7(sus2)": [
-              "1 4 5 7 (C F G B)",
-              "1 2 5 7 (C D G B)",
-              "1 3 5 7 (C E G B)",
-              "1 b3 5 7 (C Eb G B)"
+              "1 4 5 7",
+              "1 2 5 7",
+              "1 3 5 7",
+              "1 b3 5 7"
             ],
             "C∆(b5) / Cmaj7(b5)": [
-              "1 3 5 7 (C E G B)",
-              "1 b3 b5 7 (C Eb Gb B)",
-              "1 3 b5 7 (C E Gb B)",
-              "1 3 #5 7 (C E G# B)"
+              "1 3 5 7",
+              "1 b3 b5 7",
+              "1 3 b5 7",
+              "1 3 #5 7"
             ]
           }
         },
@@ -2428,36 +2428,36 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C7(b9)": "1 3 5 b7 b9 (C E G Bb Db)",
-            "C+7(b9)": "1 3 #5 b7 b9 (C E G# Bb Db)",
-            "C7sus4(b9)": "1 4 5 b7 b9 (C F G Bb Db)",
-            "C7(b9)b5": "1 3 b5 b7 b9 (C E Gb Bb Db)"
+            "C7(b9)": "1 3 5 b7 b9",
+            "C+7(b9)": "1 3 #5 b7 b9",
+            "C7sus4(b9)": "1 4 5 b7 b9",
+            "C7(b9)b5": "1 3 b5 b7 b9"
           },
-          "sampleAnswer": "C7(b9): 1 3 5 b7 b9 (C E G Bb Db); C+7(b9): 1 3 #5 b7 b9 (C E G# Bb Db); C7sus4(b9): 1 4 5 b7 b9 (C F G Bb Db); C7(b9)b5: 1 3 b5 b7 b9 (C E Gb Bb Db)",
+          "sampleAnswer": "C7(b9): 1 3 5 b7 b9; C+7(b9): 1 3 #5 b7 b9; C7sus4(b9): 1 4 5 b7 b9; C7(b9)b5: 1 3 b5 b7 b9",
           "optionsByItem": {
             "C7(b9)": [
-              "1 4 5 b7 b9 (C F G Bb Db)",
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 b5 b7 b9 (C E Gb Bb Db)",
-              "1 3 #5 b7 b9 (C E G# Bb Db)"
+              "1 4 5 b7 b9",
+              "1 3 5 b7 b9",
+              "1 3 b5 b7 b9",
+              "1 3 #5 b7 b9"
             ],
             "C+7(b9)": [
-              "1 3 b5 b7 b9 (C E Gb Bb Db)",
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 #5 b7 b9 (C E G# Bb Db)",
-              "1 4 5 b7 b9 (C F G Bb Db)"
+              "1 3 b5 b7 b9",
+              "1 3 5 b7 b9",
+              "1 3 #5 b7 b9",
+              "1 4 5 b7 b9"
             ],
             "C7sus4(b9)": [
-              "1 4 5 b7 b9 (C F G Bb Db)",
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 #5 b7 b9 (C E G# Bb Db)",
-              "1 3 b5 b7 b9 (C E Gb Bb Db)"
+              "1 4 5 b7 b9",
+              "1 3 5 b7 b9",
+              "1 3 #5 b7 b9",
+              "1 3 b5 b7 b9"
             ],
             "C7(b9)b5": [
-              "1 3 b5 b7 b9 (C E Gb Bb Db)",
-              "1 3 #5 b7 b9 (C E G# Bb Db)",
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 4 5 b7 b9 (C F G Bb Db)"
+              "1 3 b5 b7 b9",
+              "1 3 #5 b7 b9",
+              "1 3 5 b7 b9",
+              "1 4 5 b7 b9"
             ]
           }
         },
@@ -2475,43 +2475,43 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C6(9)": "1 3 5 6 9 (C E G A D)",
-            "Cm6(9)": "1 b3 5 6 9 (C Eb G A D)",
-            "C°7(9)": "1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D)",
-            "C6sus4(9)": "1 4 5 6 9 (C F G A D)",
-            "C6(9)b5": "1 3 b5 6 9 (C E Gb A D)"
+            "C6(9)": "1 3 5 6 9",
+            "Cm6(9)": "1 b3 5 6 9",
+            "C°7(9)": "1 b3 b5 bb7(6) 9",
+            "C6sus4(9)": "1 4 5 6 9",
+            "C6(9)b5": "1 3 b5 6 9"
           },
-          "sampleAnswer": "C6(9): 1 3 5 6 9 (C E G A D); Cm6(9): 1 b3 5 6 9 (C Eb G A D); C°7(9): 1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D); C6sus4(9): 1 4 5 6 9 (C F G A D); C6(9)b5: 1 3 b5 6 9 (C E Gb A D)",
+          "sampleAnswer": "C6(9): 1 3 5 6 9; Cm6(9): 1 b3 5 6 9; C°7(9): 1 b3 b5 bb7(6) 9; C6sus4(9): 1 4 5 6 9; C6(9)b5: 1 3 b5 6 9",
           "optionsByItem": {
             "C6(9)": [
-              "1 4 5 6 9 (C F G A D)",
-              "1 3 b5 6 9 (C E Gb A D)",
-              "1 b3 5 6 9 (C Eb G A D)",
-              "1 3 5 6 9 (C E G A D)"
+              "1 4 5 6 9",
+              "1 3 b5 6 9",
+              "1 b3 5 6 9",
+              "1 3 5 6 9"
             ],
             "Cm6(9)": [
-              "1 4 5 6 9 (C F G A D)",
-              "1 3 5 6 9 (C E G A D)",
-              "1 b3 5 6 9 (C Eb G A D)",
-              "1 3 b5 6 9 (C E Gb A D)"
+              "1 4 5 6 9",
+              "1 3 5 6 9",
+              "1 b3 5 6 9",
+              "1 3 b5 6 9"
             ],
             "C°7(9)": [
-              "1 b3 5 6 9 (C Eb G A D)",
-              "1 b3 b5 bb7(6) 9 (C Eb Gb Bbb D)",
-              "1 3 b5 6 9 (C E Gb A D)",
-              "1 3 5 6 9 (C E G A D)"
+              "1 b3 5 6 9",
+              "1 b3 b5 bb7(6) 9",
+              "1 3 b5 6 9",
+              "1 3 5 6 9"
             ],
             "C6sus4(9)": [
-              "1 4 5 6 9 (C F G A D)",
-              "1 3 5 6 9 (C E G A D)",
-              "1 b3 5 6 9 (C Eb G A D)",
-              "1 3 b5 6 9 (C E Gb A D)"
+              "1 4 5 6 9",
+              "1 3 5 6 9",
+              "1 b3 5 6 9",
+              "1 3 b5 6 9"
             ],
             "C6(9)b5": [
-              "1 4 5 6 9 (C F G A D)",
-              "1 3 5 6 9 (C E G A D)",
-              "1 3 b5 6 9 (C E Gb A D)",
-              "1 b3 5 6 9 (C Eb G A D)"
+              "1 4 5 6 9",
+              "1 3 5 6 9",
+              "1 3 b5 6 9",
+              "1 b3 5 6 9"
             ]
           }
         },
@@ -2532,64 +2532,64 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C7(b9)": "1 3 5 b7 b9 (C E G Bb Db)",
-            "C9": "1 3 5 b7 9 (C E G Bb D)",
-            "C7(#9)": "1 3 5 b7 #9 (C E G Bb D#)",
-            "Cm9": "1 b3 5 b7 9 (C Eb G Bb D)",
-            "C+9": "1 3 #5 b7 9 (C E G# Bb D)",
-            "Cø9": "1 b3 b5 b7 9 (C Eb Gb Bb D)",
-            "C9sus4": "1 4 5 b7 9 (C F G Bb D)",
-            "C9(b5)": "1 3 b5 b7 9 (C E Gb Bb D)"
+            "C7(b9)": "1 3 5 b7 b9",
+            "C9": "1 3 5 b7 9",
+            "C7(#9)": "1 3 5 b7 #9",
+            "Cm9": "1 b3 5 b7 9",
+            "C+9": "1 3 #5 b7 9",
+            "Cø9": "1 b3 b5 b7 9",
+            "C9sus4": "1 4 5 b7 9",
+            "C9(b5)": "1 3 b5 b7 9"
           },
-          "sampleAnswer": "C7(b9): 1 3 5 b7 b9 (C E G Bb Db); C9: 1 3 5 b7 9 (C E G Bb D); C7(#9): 1 3 5 b7 #9 (C E G Bb D#); Cm9: 1 b3 5 b7 9 (C Eb G Bb D); C+9: 1 3 #5 b7 9 (C E G# Bb D); Cø9: 1 b3 b5 b7 9 (C Eb Gb Bb D); C9sus4: 1 4 5 b7 9 (C F G Bb D); C9(b5): 1 3 b5 b7 9 (C E Gb Bb D)",
+          "sampleAnswer": "C7(b9): 1 3 5 b7 b9; C9: 1 3 5 b7 9; C7(#9): 1 3 5 b7 #9; Cm9: 1 b3 5 b7 9; C+9: 1 3 #5 b7 9; Cø9: 1 b3 b5 b7 9; C9sus4: 1 4 5 b7 9; C9(b5): 1 3 b5 b7 9",
           "optionsByItem": {
             "C7(b9)": [
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 #5 b7 9 (C E G# Bb D)",
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 5 b7 #9 (C E G Bb D#)"
+              "1 3 5 b7 b9",
+              "1 3 #5 b7 9",
+              "1 3 5 b7 9",
+              "1 3 5 b7 #9"
             ],
             "C9": [
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 5 b7 #9 (C E G Bb D#)",
-              "1 3 #5 b7 9 (C E G# Bb D)"
+              "1 3 5 b7 9",
+              "1 3 5 b7 b9",
+              "1 3 5 b7 #9",
+              "1 3 #5 b7 9"
             ],
             "C7(#9)": [
-              "1 3 5 b7 b9 (C E G Bb Db)",
-              "1 3 5 b7 #9 (C E G Bb D#)",
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 #5 b7 9 (C E G# Bb D)"
+              "1 3 5 b7 b9",
+              "1 3 5 b7 #9",
+              "1 3 5 b7 9",
+              "1 3 #5 b7 9"
             ],
             "Cm9": [
-              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 b3 5 b7 9 (C Eb G Bb D)",
-              "1 4 5 b7 9 (C F G Bb D)"
+              "1 b3 b5 b7 9",
+              "1 3 5 b7 9",
+              "1 b3 5 b7 9",
+              "1 4 5 b7 9"
             ],
             "C+9": [
-              "1 3 #5 b7 9 (C E G# Bb D)",
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 b5 b7 9 (C E Gb Bb D)",
-              "1 3 5 b7 #9 (C E G Bb D#)"
+              "1 3 #5 b7 9",
+              "1 3 5 b7 9",
+              "1 3 b5 b7 9",
+              "1 3 5 b7 #9"
             ],
             "Cø9": [
-              "1 b3 5 b7 9 (C Eb G Bb D)",
-              "1 3 #5 b7 9 (C E G# Bb D)",
-              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
-              "1 3 b5 b7 9 (C E Gb Bb D)"
+              "1 b3 5 b7 9",
+              "1 3 #5 b7 9",
+              "1 b3 b5 b7 9",
+              "1 3 b5 b7 9"
             ],
             "C9sus4": [
-              "1 b3 5 b7 9 (C Eb G Bb D)",
-              "1 4 5 b7 9 (C F G Bb D)",
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 #5 b7 9 (C E G# Bb D)"
+              "1 b3 5 b7 9",
+              "1 4 5 b7 9",
+              "1 3 5 b7 9",
+              "1 3 #5 b7 9"
             ],
             "C9(b5)": [
-              "1 3 5 b7 9 (C E G Bb D)",
-              "1 3 b5 b7 9 (C E Gb Bb D)",
-              "1 b3 b5 b7 9 (C Eb Gb Bb D)",
-              "1 3 #5 b7 9 (C E G# Bb D)"
+              "1 3 5 b7 9",
+              "1 3 b5 b7 9",
+              "1 b3 b5 b7 9",
+              "1 3 #5 b7 9"
             ]
           }
         },
@@ -2610,64 +2610,64 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C∆9": "1 3 5 7 9 (C E G B D)",
-            "C∆(#9)": "1 3 5 7 #9 (C E G B D#)",
-            "Cm∆(9)": "1 b3 5 7 9 (C Eb G B D)",
-            "C+∆(9)": "1 3 #5 7 9 (C E G# B D)",
-            "C+∆(#9)": "1 3 #5 7 #9 (C E G# B D#)",
-            "C°∆9": "1 b3 b5 7 9 (C Eb Gb B D)",
-            "C∆sus4(9)": "1 4 5 7 9 (C F G B D)",
-            "C∆(b5)9": "1 3 b5 7 9 (C E Gb B D)"
+            "C∆9": "1 3 5 7 9",
+            "C∆(#9)": "1 3 5 7 #9",
+            "Cm∆(9)": "1 b3 5 7 9",
+            "C+∆(9)": "1 3 #5 7 9",
+            "C+∆(#9)": "1 3 #5 7 #9",
+            "C°∆9": "1 b3 b5 7 9",
+            "C∆sus4(9)": "1 4 5 7 9",
+            "C∆(b5)9": "1 3 b5 7 9"
           },
-          "sampleAnswer": "C∆9: 1 3 5 7 9 (C E G B D); C∆(#9): 1 3 5 7 #9 (C E G B D#); Cm∆(9): 1 b3 5 7 9 (C Eb G B D); C+∆(9): 1 3 #5 7 9 (C E G# B D); C+∆(#9): 1 3 #5 7 #9 (C E G# B D#); C°∆9: 1 b3 b5 7 9 (C Eb Gb B D); C∆sus4(9): 1 4 5 7 9 (C F G B D); C∆(b5)9: 1 3 b5 7 9 (C E Gb B D)",
+          "sampleAnswer": "C∆9: 1 3 5 7 9; C∆(#9): 1 3 5 7 #9; Cm∆(9): 1 b3 5 7 9; C+∆(9): 1 3 #5 7 9; C+∆(#9): 1 3 #5 7 #9; C°∆9: 1 b3 b5 7 9; C∆sus4(9): 1 4 5 7 9; C∆(b5)9: 1 3 b5 7 9",
           "optionsByItem": {
             "C∆9": [
-              "1 3 5 7 #9 (C E G B D#)",
-              "1 3 #5 7 9 (C E G# B D)",
-              "1 3 5 7 9 (C E G B D)",
-              "1 3 b5 7 9 (C E Gb B D)"
+              "1 3 5 7 #9",
+              "1 3 #5 7 9",
+              "1 3 5 7 9",
+              "1 3 b5 7 9"
             ],
             "C∆(#9)": [
-              "1 3 5 7 9 (C E G B D)",
-              "1 3 5 7 #9 (C E G B D#)",
-              "1 3 #5 7 #9 (C E G# B D#)",
-              "1 3 #5 7 9 (C E G# B D)"
+              "1 3 5 7 9",
+              "1 3 5 7 #9",
+              "1 3 #5 7 #9",
+              "1 3 #5 7 9"
             ],
             "Cm∆(9)": [
-              "1 4 5 7 9 (C F G B D)",
-              "1 b3 5 7 9 (C Eb G B D)",
-              "1 3 5 7 9 (C E G B D)",
-              "1 b3 b5 7 9 (C Eb Gb B D)"
+              "1 4 5 7 9",
+              "1 b3 5 7 9",
+              "1 3 5 7 9",
+              "1 b3 b5 7 9"
             ],
             "C+∆(9)": [
-              "1 3 #5 7 9 (C E G# B D)",
-              "1 3 #5 7 #9 (C E G# B D#)",
-              "1 3 b5 7 9 (C E Gb B D)",
-              "1 3 5 7 9 (C E G B D)"
+              "1 3 #5 7 9",
+              "1 3 #5 7 #9",
+              "1 3 b5 7 9",
+              "1 3 5 7 9"
             ],
             "C+∆(#9)": [
-              "1 3 5 7 9 (C E G B D)",
-              "1 3 #5 7 9 (C E G# B D)",
-              "1 3 #5 7 #9 (C E G# B D#)",
-              "1 3 5 7 #9 (C E G B D#)"
+              "1 3 5 7 9",
+              "1 3 #5 7 9",
+              "1 3 #5 7 #9",
+              "1 3 5 7 #9"
             ],
             "C°∆9": [
-              "1 b3 b5 7 9 (C Eb Gb B D)",
-              "1 b3 5 7 9 (C Eb G B D)",
-              "1 3 b5 7 9 (C E Gb B D)",
-              "1 3 #5 7 9 (C E G# B D)"
+              "1 b3 b5 7 9",
+              "1 b3 5 7 9",
+              "1 3 b5 7 9",
+              "1 3 #5 7 9"
             ],
             "C∆sus4(9)": [
-              "1 4 5 7 9 (C F G B D)",
-              "1 3 5 7 9 (C E G B D)",
-              "1 b3 5 7 9 (C Eb G B D)",
-              "1 3 #5 7 9 (C E G# B D)"
+              "1 4 5 7 9",
+              "1 3 5 7 9",
+              "1 b3 5 7 9",
+              "1 3 #5 7 9"
             ],
             "C∆(b5)9": [
-              "1 3 b5 7 9 (C E Gb B D)",
-              "1 3 5 7 9 (C E G B D)",
-              "1 3 #5 7 9 (C E G# B D)",
-              "1 b3 b5 7 9 (C Eb Gb B D)"
+              "1 3 b5 7 9",
+              "1 3 5 7 9",
+              "1 3 #5 7 9",
+              "1 b3 b5 7 9"
             ]
           }
         },
@@ -2755,43 +2755,43 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "Cm6(11)": "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
-            "Cm11": "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
-            "Cm∆11": "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
-            "C°7(11)": "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)",
-            "Cø11": "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
+            "Cm6(11)": "1 b3 5 6 (9 opcional) 11",
+            "Cm11": "1 b3 5 b7 (9) 11",
+            "Cm∆11": "1 b3 5 7 (9) 11",
+            "C°7(11)": "1 b3 b5 bb7(6) (9) 11",
+            "Cø11": "1 b3 b5 b7 (9) 11"
           },
-          "sampleAnswer": "Cm6(11): 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F); Cm11: 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F); Cm∆11: 1 b3 5 7 (9) 11 (C Eb G B (D) F); C°7(11): 1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F); Cø11: 1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
+          "sampleAnswer": "Cm6(11): 1 b3 5 6 (9 opcional) 11; Cm11: 1 b3 5 b7 (9) 11; Cm∆11: 1 b3 5 7 (9) 11; C°7(11): 1 b3 b5 bb7(6) (9) 11; Cø11: 1 b3 b5 b7 (9) 11",
           "optionsByItem": {
             "Cm6(11)": [
-              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
-              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
-              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
-              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
+              "1 b3 5 6 (9 opcional) 11",
+              "1 b3 5 7 (9) 11",
+              "1 b3 5 b7 (9) 11",
+              "1 b3 b5 b7 (9) 11"
             ],
             "Cm11": [
-              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
-              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
-              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
-              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)"
+              "1 b3 5 7 (9) 11",
+              "1 b3 5 6 (9 opcional) 11",
+              "1 b3 5 b7 (9) 11",
+              "1 b3 b5 b7 (9) 11"
             ],
             "Cm∆11": [
-              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
-              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
-              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
-              "1 b3 5 7 (9) 11 (C Eb G B (D) F)"
+              "1 b3 b5 b7 (9) 11",
+              "1 b3 5 b7 (9) 11",
+              "1 b3 5 6 (9 opcional) 11",
+              "1 b3 5 7 (9) 11"
             ],
             "C°7(11)": [
-              "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)",
-              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
-              "1 b3 5 7 (9) 11 (C Eb G B (D) F)",
-              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)"
+              "1 b3 b5 bb7(6) (9) 11",
+              "1 b3 b5 b7 (9) 11",
+              "1 b3 5 7 (9) 11",
+              "1 b3 5 6 (9 opcional) 11"
             ],
             "Cø11": [
-              "1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)",
-              "1 b3 5 b7 (9) 11 (C Eb G Bb (D) F)",
-              "1 b3 b5 b7 (9) 11 (C Eb Gb Bb (D) F)",
-              "1 b3 b5 bb7(6) (9) 11 (C Eb Gb Bbb (D) F)"
+              "1 b3 5 6 (9 opcional) 11",
+              "1 b3 5 b7 (9) 11",
+              "1 b3 b5 b7 (9) 11",
+              "1 b3 b5 bb7(6) (9) 11"
             ]
           }
         },
@@ -2845,99 +2845,99 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C6(#11)": "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
-            "C7(b9)#11": "1 3 5 b7 b9 #11 (C E G Bb Db F#)",
-            "C9(#11)": "1 3 5 b7 9 #11 (C E G Bb D F#)",
-            "C7(#9)#11": "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
-            "C∆(#11)": "1 3 5 7 (9) #11 (C E G B (D) F#)",
-            "Cm6(#11)": "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
-            "Cm7(#11)": "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)",
-            "Cm∆(#11)": "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
-            "C+7(#11)": "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-            "C+7(b9)#11": "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
-            "C+9(#11)": "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
-            "C+7(#9)#11": "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
-            "C+∆(#11)": "1 3 #5 7 9 #11 (C E G# B D F#)"
+            "C6(#11)": "1 3 5 6 (9 opcional) #11(#4)",
+            "C7(b9)#11": "1 3 5 b7 b9 #11",
+            "C9(#11)": "1 3 5 b7 9 #11",
+            "C7(#9)#11": "1 3 5 b7 #9 #11",
+            "C∆(#11)": "1 3 5 7 (9) #11",
+            "Cm6(#11)": "1 b3 5 6 (9) #11",
+            "Cm7(#11)": "1 b3 5 b7 (9) #11",
+            "Cm∆(#11)": "1 b3 5 7 (9) #11",
+            "C+7(#11)": "1 3 #5 b7 (9) #11",
+            "C+7(b9)#11": "1 3 #5 b7 b9 #11",
+            "C+9(#11)": "1 3 #5 b7 9 #11",
+            "C+7(#9)#11": "1 3 #5 b7 #9 #11",
+            "C+∆(#11)": "1 3 #5 7 9 #11"
           },
-          "sampleAnswer": "C6(#11): 1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#); C7(b9)#11: 1 3 5 b7 b9 #11 (C E G Bb Db F#); C9(#11): 1 3 5 b7 9 #11 (C E G Bb D F#); C7(#9)#11: 1 3 5 b7 #9 #11 (C E G Bb D# F#); C∆(#11): 1 3 5 7 (9) #11 (C E G B (D) F#); Cm6(#11): 1 b3 5 6 (9) #11 (C Eb G A (D) F#); Cm7(#11): 1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#); Cm∆(#11): 1 b3 5 7 (9) #11 (C Eb G B (D) F#); C+7(#11): 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#); C+7(b9)#11: 1 3 #5 b7 b9 #11 (C E G# Bb Db F#); C+9(#11): 1 3 #5 b7 9 #11 (C E G# Bb D F#); C+7(#9)#11: 1 3 #5 b7 #9 #11 (C E G# Bb D# F#); C+∆(#11): 1 3 #5 7 9 #11 (C E G# B D F#)",
+          "sampleAnswer": "C6(#11): 1 3 5 6 (9 opcional) #11(#4); C7(b9)#11: 1 3 5 b7 b9 #11; C9(#11): 1 3 5 b7 9 #11; C7(#9)#11: 1 3 5 b7 #9 #11; C∆(#11): 1 3 5 7 (9) #11; Cm6(#11): 1 b3 5 6 (9) #11; Cm7(#11): 1 b3 5 b7 (9) #11; Cm∆(#11): 1 b3 5 7 (9) #11; C+7(#11): 1 3 #5 b7 (9) #11; C+7(b9)#11: 1 3 #5 b7 b9 #11; C+9(#11): 1 3 #5 b7 9 #11; C+7(#9)#11: 1 3 #5 b7 #9 #11; C+∆(#11): 1 3 #5 7 9 #11",
           "optionsByItem": {
             "C6(#11)": [
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
-              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
-              "1 3 5 7 (9) #11 (C E G B (D) F#)"
+              "1 3 #5 b7 (9) #11",
+              "1 3 5 6 (9 opcional) #11(#4)",
+              "1 b3 5 6 (9) #11",
+              "1 3 5 7 (9) #11"
             ],
             "C7(b9)#11": [
-              "1 3 5 b7 b9 #11 (C E G Bb Db F#)",
-              "1 3 5 b7 9 #11 (C E G Bb D F#)",
-              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
-              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)"
+              "1 3 5 b7 b9 #11",
+              "1 3 5 b7 9 #11",
+              "1 3 5 b7 #9 #11",
+              "1 3 #5 b7 b9 #11"
             ],
             "C9(#11)": [
-              "1 3 5 b7 9 #11 (C E G Bb D F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
-              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
-              "1 3 5 b7 b9 #11 (C E G Bb Db F#)"
+              "1 3 5 b7 9 #11",
+              "1 3 #5 b7 9 #11",
+              "1 3 5 b7 #9 #11",
+              "1 3 5 b7 b9 #11"
             ],
             "C7(#9)#11": [
-              "1 3 5 b7 #9 #11 (C E G Bb D# F#)",
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
-              "1 3 5 b7 9 #11 (C E G Bb D F#)",
-              "1 3 5 b7 b9 #11 (C E G Bb Db F#)"
+              "1 3 5 b7 #9 #11",
+              "1 3 #5 b7 #9 #11",
+              "1 3 5 b7 9 #11",
+              "1 3 5 b7 b9 #11"
             ],
             "C∆(#11)": [
-              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
-              "1 3 #5 7 9 #11 (C E G# B D F#)",
-              "1 3 5 7 (9) #11 (C E G B (D) F#)",
-              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)"
+              "1 b3 5 7 (9) #11",
+              "1 3 #5 7 9 #11",
+              "1 3 5 7 (9) #11",
+              "1 3 5 6 (9 opcional) #11(#4)"
             ],
             "Cm6(#11)": [
-              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
-              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
-              "1 3 5 6 (9 opcional) #11(#4) (C E G A (D opcional) F#)",
-              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)"
+              "1 b3 5 6 (9) #11",
+              "1 b3 5 7 (9) #11",
+              "1 3 5 6 (9 opcional) #11(#4)",
+              "1 b3 5 b7 (9) #11"
             ],
             "Cm7(#11)": [
-              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
-              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)"
+              "1 b3 5 b7 (9) #11",
+              "1 3 #5 b7 (9) #11",
+              "1 b3 5 7 (9) #11",
+              "1 b3 5 6 (9) #11"
             ],
             "Cm∆(#11)": [
-              "1 b3 5 7 (9) #11 (C Eb G B (D) F#)",
-              "1 3 5 7 (9) #11 (C E G B (D) F#)",
-              "1 b3 5 6 (9) #11 (C Eb G A (D) F#)",
-              "1 b3 5 b7 (9) #11 (C Eb G Bb (D) F#)"
+              "1 b3 5 7 (9) #11",
+              "1 3 5 7 (9) #11",
+              "1 b3 5 6 (9) #11",
+              "1 b3 5 b7 (9) #11"
             ],
             "C+7(#11)": [
-              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)"
+              "1 3 #5 b7 b9 #11",
+              "1 3 #5 b7 (9) #11",
+              "1 3 #5 b7 9 #11",
+              "1 3 #5 b7 #9 #11"
             ],
             "C+7(b9)#11": [
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)"
+              "1 3 #5 b7 #9 #11",
+              "1 3 #5 b7 (9) #11",
+              "1 3 #5 b7 b9 #11",
+              "1 3 #5 b7 9 #11"
             ],
             "C+9(#11)": [
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 #5 7 9 #11 (C E G# B D F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)"
+              "1 3 #5 b7 #9 #11",
+              "1 3 #5 b7 (9) #11",
+              "1 3 #5 7 9 #11",
+              "1 3 #5 b7 9 #11"
             ],
             "C+7(#9)#11": [
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 #5 b7 b9 #11 (C E G# Bb Db F#)"
+              "1 3 #5 b7 #9 #11",
+              "1 3 #5 b7 9 #11",
+              "1 3 #5 b7 (9) #11",
+              "1 3 #5 b7 b9 #11"
             ],
             "C+∆(#11)": [
-              "1 3 #5 7 9 #11 (C E G# B D F#)",
-              "1 3 #5 b7 9 #11 (C E G# Bb D F#)",
-              "1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)",
-              "1 3 #5 b7 #9 #11 (C E G# Bb D# F#)"
+              "1 3 #5 7 9 #11",
+              "1 3 #5 b7 9 #11",
+              "1 3 #5 b7 (9) #11",
+              "1 3 #5 b7 #9 #11"
             ]
           }
         },
@@ -3016,78 +3016,78 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C7(b9)b13": "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
-            "C9(b13)": "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
-            "C7(#9)b13": "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
-            "C°7(b13)": "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
-            "Cøb13": "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
-            "C7sus4(9)b13": "1 4 5 b7 9 b13 (C F G Bb D Ab)",
-            "C7sus4(b9)b13": "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
-            "C7(b5)b9(b13)": "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
-            "C9(b5)b13": "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
-            "C7(#9)b5(b13)": "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)"
+            "C7(b9)b13": "1 3 5 b7 b9 (#11 opcional) b13",
+            "C9(b13)": "1 3 5 b7 9 (#11) b13",
+            "C7(#9)b13": "1 3 5 b7 #9 (#11) b13",
+            "C°7(b13)": "1 b3 b5 bb7 (9) (11) b13",
+            "Cøb13": "1 b3 b5 b7 (9) (11) b13",
+            "C7sus4(9)b13": "1 4 5 b7 9 b13",
+            "C7sus4(b9)b13": "1 4 5 b7 b9 b13",
+            "C7(b5)b9(b13)": "1 3 b5 b7 b9 b13",
+            "C9(b5)b13": "1 3 b5 b7 9 b13",
+            "C7(#9)b5(b13)": "1 3 b5 b7 #9 b13"
           },
-          "sampleAnswer": "C7(b9)b13: 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab); C9(b13): 1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab); C7(#9)b13: 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab); C°7(b13): 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab); Cøb13: 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab); C7sus4(9)b13: 1 4 5 b7 9 b13 (C F G Bb D Ab); C7sus4(b9)b13: 1 4 5 b7 b9 b13 (C F G Bb Db Ab); C7(b5)b9(b13): 1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab); C9(b5)b13: 1 3 b5 b7 9 b13 (C E Gb Bb D Ab); C7(#9)b5(b13): 1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
+          "sampleAnswer": "C7(b9)b13: 1 3 5 b7 b9 (#11 opcional) b13; C9(b13): 1 3 5 b7 9 (#11) b13; C7(#9)b13: 1 3 5 b7 #9 (#11) b13; C°7(b13): 1 b3 b5 bb7 (9) (11) b13; Cøb13: 1 b3 b5 b7 (9) (11) b13; C7sus4(9)b13: 1 4 5 b7 9 b13; C7sus4(b9)b13: 1 4 5 b7 b9 b13; C7(b5)b9(b13): 1 3 b5 b7 b9 b13; C9(b5)b13: 1 3 b5 b7 9 b13; C7(#9)b5(b13): 1 3 b5 b7 #9 b13",
           "optionsByItem": {
             "C7(b9)b13": [
-              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
-              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
-              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
-              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)"
+              "1 3 b5 b7 b9 b13",
+              "1 3 5 b7 #9 (#11) b13",
+              "1 3 5 b7 b9 (#11 opcional) b13",
+              "1 3 5 b7 9 (#11) b13"
             ],
             "C9(b13)": [
-              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
-              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
-              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+              "1 3 5 b7 b9 (#11 opcional) b13",
+              "1 3 5 b7 #9 (#11) b13",
+              "1 3 5 b7 9 (#11) b13",
+              "1 3 b5 b7 9 b13"
             ],
             "C7(#9)b13": [
-              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
-              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)",
-              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)"
+              "1 3 5 b7 b9 (#11 opcional) b13",
+              "1 3 5 b7 #9 (#11) b13",
+              "1 3 5 b7 9 (#11) b13",
+              "1 3 b5 b7 #9 b13"
             ],
             "C°7(b13)": [
-              "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
-              "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+              "1 b3 b5 bb7 (9) (11) b13",
+              "1 b3 b5 b7 (9) (11) b13",
+              "1 3 b5 b7 #9 b13",
+              "1 3 b5 b7 9 b13"
             ],
             "Cøb13": [
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
-              "1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)",
-              "1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+              "1 3 b5 b7 #9 b13",
+              "1 b3 b5 bb7 (9) (11) b13",
+              "1 b3 b5 b7 (9) (11) b13",
+              "1 3 b5 b7 9 b13"
             ],
             "C7sus4(9)b13": [
-              "1 4 5 b7 9 b13 (C F G Bb D Ab)",
-              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)",
-              "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)"
+              "1 4 5 b7 9 b13",
+              "1 3 5 b7 9 (#11) b13",
+              "1 4 5 b7 b9 b13",
+              "1 3 b5 b7 9 b13"
             ],
             "C7sus4(b9)b13": [
-              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)",
-              "1 4 5 b7 9 b13 (C F G Bb D Ab)",
-              "1 4 5 b7 b9 b13 (C F G Bb Db Ab)",
-              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)"
+              "1 3 5 b7 b9 (#11 opcional) b13",
+              "1 4 5 b7 9 b13",
+              "1 4 5 b7 b9 b13",
+              "1 3 b5 b7 b9 b13"
             ],
             "C7(b5)b9(b13)": [
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
-              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
-              "1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)"
+              "1 3 b5 b7 9 b13",
+              "1 3 b5 b7 #9 b13",
+              "1 3 b5 b7 b9 b13",
+              "1 3 5 b7 b9 (#11 opcional) b13"
             ],
             "C9(b5)b13": [
-              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
-              "1 3 5 b7 9 (#11) b13 (C E G Bb D (F#) Ab)"
+              "1 3 b5 b7 b9 b13",
+              "1 3 b5 b7 #9 b13",
+              "1 3 b5 b7 9 b13",
+              "1 3 5 b7 9 (#11) b13"
             ],
             "C7(#9)b5(b13)": [
-              "1 3 b5 b7 #9 b13 (C E Gb Bb D# Ab)",
-              "1 3 b5 b7 9 b13 (C E Gb Bb D Ab)",
-              "1 3 b5 b7 b9 b13 (C E Gb Bb Db Ab)",
-              "1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)"
+              "1 3 b5 b7 #9 b13",
+              "1 3 b5 b7 9 b13",
+              "1 3 b5 b7 b9 b13",
+              "1 3 5 b7 #9 (#11) b13"
             ]
           }
         },
@@ -3126,92 +3126,92 @@ window.APP_DATA = {
           ],
           "options": [],
           "answers": {
-            "C13": "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
-            "C13(b9)": "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
-            "C13(#9)": "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-            "C∆13": "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
-            "Cm13": "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
-            "Cm∆13": "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)",
-            "C13sus4": "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
-            "C13sus2": "1 2 5 b7 13 (C D G Bb A)",
-            "C13sus4(b9)": "1 4 5 b7 b9 13 (C F G Bb Db A)",
-            "C13(b5)": "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
-            "C13(b5)b9": "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
-            "C13(b5)#9": "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
+            "C13": "1 3 5 b7 9 (#11) 13",
+            "C13(b9)": "1 3 5 b7 b9 (#11) 13",
+            "C13(#9)": "1 3 5 b7 #9 (#11) 13",
+            "C∆13": "1 3 5 7 (9) (#11) 13",
+            "Cm13": "1 b3 5 b7 (9) (11) 13",
+            "Cm∆13": "1 b3 5 7 (9) (11) 13",
+            "C13sus4": "1 4 5 b7 (9) 13",
+            "C13sus2": "1 2 5 b7 13",
+            "C13sus4(b9)": "1 4 5 b7 b9 13",
+            "C13(b5)": "1 3 b5 b7 (9) 13",
+            "C13(b5)b9": "1 3 b5 b7 b9 13",
+            "C13(b5)#9": "1 3 b5 b7 #9 13"
           },
-          "sampleAnswer": "C13: 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A); C13(b9): 1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A); C13(#9): 1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A); C∆13: 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A); Cm13: 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A); Cm∆13: 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A); C13sus4: 1 4 5 b7 (9) 13 (C F G Bb (D) A); C13sus2: 1 2 5 b7 13 (C D G Bb A); C13sus4(b9): 1 4 5 b7 b9 13 (C F G Bb Db A); C13(b5): 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A); C13(b5)b9: 1 3 b5 b7 b9 13 (C E Gb Bb Db A); C13(b5)#9: 1 3 b5 b7 #9 13 (C E Gb Bb D# A)",
+          "sampleAnswer": "C13: 1 3 5 b7 9 (#11) 13; C13(b9): 1 3 5 b7 b9 (#11) 13; C13(#9): 1 3 5 b7 #9 (#11) 13; C∆13: 1 3 5 7 (9) (#11) 13; Cm13: 1 b3 5 b7 (9) (11) 13; Cm∆13: 1 b3 5 7 (9) (11) 13; C13sus4: 1 4 5 b7 (9) 13; C13sus2: 1 2 5 b7 13; C13sus4(b9): 1 4 5 b7 b9 13; C13(b5): 1 3 b5 b7 (9) 13; C13(b5)b9: 1 3 b5 b7 b9 13; C13(b5)#9: 1 3 b5 b7 #9 13",
           "optionsByItem": {
             "C13": [
-              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
-              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)"
+              "1 3 5 b7 b9 (#11) 13",
+              "1 3 5 b7 #9 (#11) 13",
+              "1 3 5 7 (9) (#11) 13",
+              "1 3 5 b7 9 (#11) 13"
             ],
             "C13(b9)": [
-              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
-              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
-              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)"
+              "1 3 5 b7 9 (#11) 13",
+              "1 3 5 b7 b9 (#11) 13",
+              "1 3 5 7 (9) (#11) 13",
+              "1 3 5 b7 #9 (#11) 13"
             ],
             "C13(#9)": [
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
-              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
-              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)"
+              "1 3 5 b7 #9 (#11) 13",
+              "1 3 5 b7 9 (#11) 13",
+              "1 3 5 b7 b9 (#11) 13",
+              "1 3 5 7 (9) (#11) 13"
             ],
             "C∆13": [
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A)",
-              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
-              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)"
+              "1 3 5 b7 #9 (#11) 13",
+              "1 3 5 b7 9 (#11) 13",
+              "1 3 5 7 (9) (#11) 13",
+              "1 b3 5 7 (9) (11) 13"
             ],
             "Cm13": [
-              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
-              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)"
+              "1 b3 5 b7 (9) (11) 13",
+              "1 4 5 b7 (9) 13",
+              "1 3 5 b7 #9 (#11) 13",
+              "1 b3 5 7 (9) (11) 13"
             ],
             "Cm∆13": [
-              "1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)",
-              "1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A)",
-              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)",
-              "1 4 5 b7 (9) 13 (C F G Bb (D) A)"
+              "1 b3 5 7 (9) (11) 13",
+              "1 3 5 7 (9) (#11) 13",
+              "1 b3 5 b7 (9) (11) 13",
+              "1 4 5 b7 (9) 13"
             ],
             "C13sus4": [
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 4 5 b7 b9 13 (C F G Bb Db A)",
-              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
-              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)"
+              "1 3 5 b7 #9 (#11) 13",
+              "1 4 5 b7 b9 13",
+              "1 4 5 b7 (9) 13",
+              "1 b3 5 b7 (9) (11) 13"
             ],
             "C13sus2": [
-              "1 2 5 b7 13 (C D G Bb A)",
-              "1 4 5 b7 b9 13 (C F G Bb Db A)",
-              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
-              "1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A)"
+              "1 2 5 b7 13",
+              "1 4 5 b7 b9 13",
+              "1 4 5 b7 (9) 13",
+              "1 b3 5 b7 (9) (11) 13"
             ],
             "C13sus4(b9)": [
-              "1 4 5 b7 b9 13 (C F G Bb Db A)",
-              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)",
-              "1 4 5 b7 (9) 13 (C F G Bb (D) A)",
-              "1 2 5 b7 13 (C D G Bb A)"
+              "1 4 5 b7 b9 13",
+              "1 3 5 b7 b9 (#11) 13",
+              "1 4 5 b7 (9) 13",
+              "1 2 5 b7 13"
             ],
             "C13(b5)": [
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
-              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
-              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
+              "1 3 5 b7 #9 (#11) 13",
+              "1 3 b5 b7 (9) 13",
+              "1 3 b5 b7 b9 13",
+              "1 3 b5 b7 #9 13"
             ],
             "C13(b5)b9": [
-              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)",
-              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
-              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
-              "1 3 5 b7 b9 (#11) 13 (C E G Bb Db (F#) A)"
+              "1 3 b5 b7 #9 13",
+              "1 3 b5 b7 (9) 13",
+              "1 3 b5 b7 b9 13",
+              "1 3 5 b7 b9 (#11) 13"
             ],
             "C13(b5)#9": [
-              "1 3 5 b7 #9 (#11) 13 (C E G Bb D# (F#) A)",
-              "1 3 b5 b7 b9 13 (C E Gb Bb Db A)",
-              "1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)",
-              "1 3 b5 b7 #9 13 (C E Gb Bb D# A)"
+              "1 3 5 b7 #9 (#11) 13",
+              "1 3 b5 b7 b9 13",
+              "1 3 b5 b7 (9) 13",
+              "1 3 b5 b7 #9 13"
             ]
           }
         },
@@ -3529,13 +3529,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "¿Qué significa C(b5)?",
           "choices": [
-            "C menor con quinta disminuida: 1 b3 b5 (C Eb Gb).",
-            "C mayor con quinta disminuida: 1 3 b5 (C E Gb).",
-            "C mayor con quinta aumentada: 1 3 #5 (C E G#).",
-            "C suspendido con quinta disminuida: 1 4 b5 (C F Gb)."
+            "C menor con quinta disminuida: 1 b3 b5.",
+            "C mayor con quinta disminuida: 1 3 b5.",
+            "C mayor con quinta aumentada: 1 3 #5.",
+            "C suspendido con quinta disminuida: 1 4 b5."
           ],
           "answer": 1,
-          "sampleAnswer": "C mayor con quinta disminuida: 1 3 b5 (C E Gb)."
+          "sampleAnswer": "C mayor con quinta disminuida: 1 3 b5."
         },
         {
           "id": 66,
@@ -3683,13 +3683,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con sexta y novena.",
           "choices": [
-            "C6 = 1 3 5 6 (C E G A).",
-            "C9 = 1 3 5 b7 9 (C E G Bb D).",
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "C6(9) = 1 3 5 6 9 (C E G A D)."
+            "C6 = 1 3 5 6.",
+            "C9 = 1 3 5 b7 9.",
+            "Cm6(9) = 1 b3 5 6 9.",
+            "C6(9) = 1 3 5 6 9."
           ],
           "answer": 3,
-          "sampleAnswer": "C6(9) = 1 3 5 6 9 (C E G A D)."
+          "sampleAnswer": "C6(9) = 1 3 5 6 9."
         },
         {
           "id": 77,
@@ -3697,13 +3697,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C menor con sexta y onceava.",
           "choices": [
-            "Cm6(9) = 1 b3 5 6 9 (C Eb G A D).",
-            "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F).",
-            "Cm11 = 1 b3 5 b7 (9) 11 (C Eb G Bb (D) F).",
-            "C6sus4(11) = 1 4 5 6 11 (C F G A F)."
+            "Cm6(9) = 1 b3 5 6 9.",
+            "Cm6(11) = 1 b3 5 6 (9 opcional) 11.",
+            "Cm11 = 1 b3 5 b7 (9) 11.",
+            "C6sus4(11) = 1 4 5 6 11."
           ],
           "answer": 1,
-          "sampleAnswer": "Cm6(11) = 1 b3 5 6 (9 opcional) 11 (C Eb G A (D opcional) F)."
+          "sampleAnswer": "Cm6(11) = 1 b3 5 6 (9 opcional) 11."
         },
         {
           "id": 78,
@@ -3711,13 +3711,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C dominante con b9 y b13.",
           "choices": [
-            "C7(b9) = 1 3 5 b7 b9 (C E G Bb Db).",
-            "C7(b13) = 1 3 5 b7 (9) b13 (C E G Bb (D) Ab).",
-            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab).",
-            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13 (C E G Bb D# (F#) Ab)."
+            "C7(b9) = 1 3 5 b7 b9.",
+            "C7(b13) = 1 3 5 b7 (9) b13.",
+            "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13.",
+            "C7(#9)b13 = 1 3 5 b7 #9 (#11) b13."
           ],
           "answer": 2,
-          "sampleAnswer": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13 (C E G Bb Db (F# opcional) Ab)."
+          "sampleAnswer": "C7(b9)b13 = 1 3 5 b7 b9 (#11 opcional) b13."
         },
         {
           "id": 79,
@@ -3725,13 +3725,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C aumentado con séptima menor y #11.",
           "choices": [
-            "C+7 = 1 3 #5 b7 (C E G# Bb).",
-            "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
-            "C+∆(#11) = 1 3 #5 7 (9) #11 (C E G# B (D) F#).",
-            "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
+            "C+7 = 1 3 #5 b7.",
+            "C∆(#11) = 1 3 5 7 (9) #11.",
+            "C+∆(#11) = 1 3 #5 7 (9) #11.",
+            "C+7(#11) = 1 3 #5 b7 (9) #11."
           ],
           "answer": 3,
-          "sampleAnswer": "C+7(#11) = 1 3 #5 b7 (9) #11 (C E G# Bb (D) F#)."
+          "sampleAnswer": "C+7(#11) = 1 3 #5 b7 (9) #11."
         },
         {
           "id": 80,
@@ -3739,13 +3739,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C semidisminuido con novena.",
           "choices": [
-            "C°9 = 1 b3 b5 bb7 9 (C Eb Gb Bbb D).",
-            "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D).",
-            "Cm9 = 1 b3 5 b7 9 (C Eb G Bb D).",
-            "Cø = 1 b3 b5 b7 (C Eb Gb Bb)."
+            "C°9 = 1 b3 b5 bb7 9.",
+            "Cø9 = 1 b3 b5 b7 9.",
+            "Cm9 = 1 b3 5 b7 9.",
+            "Cø = 1 b3 b5 b7."
           ],
           "answer": 1,
-          "sampleAnswer": "Cø9 = 1 b3 b5 b7 9 (C Eb Gb Bb D)."
+          "sampleAnswer": "Cø9 = 1 b3 b5 b7 9."
         },
         {
           "id": 81,
@@ -3753,13 +3753,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C suspendido 4 con séptima menor, b9 y b13.",
           "choices": [
-            "C7sus4(b9) = 1 4 5 b7 b9 (C F G Bb Db).",
-            "C7sus4(9)b13 = 1 4 5 b7 9 b13 (C F G Bb D Ab).",
-            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab).",
-            "C13sus4(b9) = 1 4 5 b7 b9 13 (C F G Bb Db A)."
+            "C7sus4(b9) = 1 4 5 b7 b9.",
+            "C7sus4(9)b13 = 1 4 5 b7 9 b13.",
+            "C7sus4(b9)b13 = 1 4 5 b7 b9 b13.",
+            "C13sus4(b9) = 1 4 5 b7 b9 13."
           ],
           "answer": 2,
-          "sampleAnswer": "C7sus4(b9)b13 = 1 4 5 b7 b9 b13 (C F G Bb Db Ab)."
+          "sampleAnswer": "C7sus4(b9)b13 = 1 4 5 b7 b9 b13."
         },
         {
           "id": 82,
@@ -3767,13 +3767,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con quinta disminuida, séptima menor y treceava.",
           "choices": [
-            "C7(b5) = 1 3 b5 b7 (C E Gb Bb).",
-            "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A).",
-            "C13 = 1 3 5 b7 9 (#11) 13 (C E G Bb D (F#) A).",
-            "C13(b5)b9 = 1 3 b5 b7 b9 13 (C E Gb Bb Db A)."
+            "C7(b5) = 1 3 b5 b7.",
+            "C13(b5) = 1 3 b5 b7 (9) 13.",
+            "C13 = 1 3 5 b7 9 (#11) 13.",
+            "C13(b5)b9 = 1 3 b5 b7 b9 13."
           ],
           "answer": 1,
-          "sampleAnswer": "C13(b5) = 1 3 b5 b7 (9) 13 (C E Gb Bb (D) A)."
+          "sampleAnswer": "C13(b5) = 1 3 b5 b7 (9) 13."
         },
         {
           "id": 83,
@@ -3781,13 +3781,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C menor con séptima mayor y treceava.",
           "choices": [
-            "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A).",
-            "Cm13 = 1 b3 5 b7 (9) (11) 13 (C Eb G Bb (D) (F) A).",
-            "C∆13 = 1 3 5 7 (9) (#11) 13 (C E G B (D) (F#) A).",
-            "Cm∆11 = 1 b3 5 7 (9) 11 (C Eb G B (D) F)."
+            "Cm∆13 = 1 b3 5 7 (9) (11) 13.",
+            "Cm13 = 1 b3 5 b7 (9) (11) 13.",
+            "C∆13 = 1 3 5 7 (9) (#11) 13.",
+            "Cm∆11 = 1 b3 5 7 (9) 11."
           ],
           "answer": 0,
-          "sampleAnswer": "Cm∆13 = 1 b3 5 7 (9) (11) 13 (C Eb G B (D) (F) A)."
+          "sampleAnswer": "Cm∆13 = 1 b3 5 7 (9) (11) 13."
         },
         {
           "id": 84,
@@ -3795,13 +3795,13 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C disminuido con séptima disminuida y b13.",
           "choices": [
-            "C°7 = 1 b3 b5 bb7 (C Eb Gb Bbb).",
-            "Cøb13 = 1 b3 b5 b7 (9) (11) b13 (C Eb Gb Bb (D) (F) Ab).",
-            "C°∆(b13) = 1 b3 b5 7 (9) (11) b13 (C Eb Gb B (D) (F) Ab).",
-            "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)."
+            "C°7 = 1 b3 b5 bb7.",
+            "Cøb13 = 1 b3 b5 b7 (9) (11) b13.",
+            "C°∆(b13) = 1 b3 b5 7 (9) (11) b13.",
+            "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
           ],
           "answer": 3,
-          "sampleAnswer": "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13 (C Eb Gb Bbb (D) (F) Ab)."
+          "sampleAnswer": "C°7(b13) = 1 b3 b5 bb7 (9) (11) b13."
         },
         {
           "id": 85,
@@ -3809,19 +3809,19 @@ window.APP_DATA = {
           "type": "multipleChoice",
           "prompt": "Construya un acorde de C mayor con séptima mayor y #11.",
           "choices": [
-            "C∆9 = 1 3 5 7 9 (C E G B D).",
-            "C7(#11) = 1 3 5 b7 (9) #11 (C E G Bb (D) F#).",
-            "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#).",
-            "C+∆(#11) = 1 3 #5 7 (9) #11 (C E G# B (D) F#)."
+            "C∆9 = 1 3 5 7 9.",
+            "C7(#11) = 1 3 5 b7 (9) #11.",
+            "C∆(#11) = 1 3 5 7 (9) #11.",
+            "C+∆(#11) = 1 3 #5 7 (9) #11."
           ],
           "answer": 2,
-          "sampleAnswer": "C∆(#11) = 1 3 5 7 (9) #11 (C E G B (D) F#)."
+          "sampleAnswer": "C∆(#11) = 1 3 5 7 (9) #11."
         },
         {
           "id": 86,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 5 b7 9 13 (C E G Bb D A), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 5 b7 9 13, escriba el cifrado correspondiente.",
           "choices": [
             "C∆13.",
             "C13(b9).",
@@ -3835,7 +3835,7 @@ window.APP_DATA = {
           "id": 87,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 5 b7 9 11 13 (C Eb G Bb D F A), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 5 b7 9 11 13, escriba el cifrado correspondiente.",
           "choices": [
             "Cm13.",
             "Cm∆13.",
@@ -3849,7 +3849,7 @@ window.APP_DATA = {
           "id": 88,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 b5 b7 b9 13 (C E Gb Bb Db A), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 b5 b7 b9 13, escriba el cifrado correspondiente.",
           "choices": [
             "C13(b5).",
             "C13(#9)b5.",
@@ -3863,7 +3863,7 @@ window.APP_DATA = {
           "id": 89,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 4 5 b7 b9 13 (C F G Bb Db A), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 4 5 b7 b9 13, escriba el cifrado correspondiente.",
           "choices": [
             "C13sus4.",
             "C7sus4(b9).",
@@ -3877,7 +3877,7 @@ window.APP_DATA = {
           "id": 90,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 b5 b7 9 (C Eb Gb Bb D), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 b5 b7 9, escriba el cifrado correspondiente.",
           "choices": [
             "C°9.",
             "Cm9(b5).",
@@ -3891,7 +3891,7 @@ window.APP_DATA = {
           "id": 91,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 3 #5 7 9 #11 (C E G# B D F#), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 3 #5 7 9 #11, escriba el cifrado correspondiente.",
           "choices": [
             "C+∆9.",
             "C+∆(#11).",
@@ -3905,7 +3905,7 @@ window.APP_DATA = {
           "id": 92,
           "section": "XI. Aplicación",
           "type": "multipleChoice",
-          "prompt": "A partir de los intervalos 1 b3 5 7 9 11 13 (C Eb G B D F A), escriba el cifrado correspondiente.",
+          "prompt": "A partir de los intervalos 1 b3 5 7 9 11 13, escriba el cifrado correspondiente.",
           "choices": [
             "Cm13.",
             "Cm∆11.",
@@ -3943,7 +3943,7 @@ window.APP_DATA = {
           "id": 96,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada mayor está formada por 1 b3 5 (C Eb G).",
+          "prompt": "La triada mayor está formada por 1 b3 5.",
           "answer": false,
           "sampleAnswer": "F"
         },
@@ -3951,7 +3951,7 @@ window.APP_DATA = {
           "id": 97,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada aumentada está formada por 1 3 #5 (C E G#).",
+          "prompt": "La triada aumentada está formada por 1 3 #5.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3959,7 +3959,7 @@ window.APP_DATA = {
           "id": 98,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada disminuida está formada por 1 b3 b5 (C Eb Gb).",
+          "prompt": "La triada disminuida está formada por 1 b3 b5.",
           "answer": true,
           "sampleAnswer": "V"
         },
@@ -3967,7 +3967,7 @@ window.APP_DATA = {
           "id": 99,
           "section": "XII. Verdadero o falso",
           "type": "trueFalse",
-          "prompt": "La triada suspendida 4 está formada por 1 4 5 (C F G).",
+          "prompt": "La triada suspendida 4 está formada por 1 4 5.",
           "answer": true,
           "sampleAnswer": "V"
         },

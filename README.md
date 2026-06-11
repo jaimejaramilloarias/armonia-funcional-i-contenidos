@@ -1,6 +1,6 @@
 # Armonía Funcional I
 
-Página de contenidos teóricos con cuestionario autocalificable para Armonía Funcional I.
+Página de contenidos teóricos por niveles con cuestionarios autocalificables para Armonía Funcional.
 
 ## Ver localmente
 
@@ -16,7 +16,7 @@ Abre `index.html` en un navegador moderno.
 
 ## Estructura
 
-- `index.html`: entrada principal de la pagina.
+- `index.html`: entrada principal de la página.
 - `assets/styles.css`: estilos visuales.
-- `assets/data.js`: contenido teórico y banco de preguntas.
-- `assets/app.js`: lógica del módulo, bloqueo del cuestionario, calificación y descarga de resultados.
+- `assets/data.js`: niveles, contenidos teóricos y bancos de preguntas.
+- `assets/app.js`: lógica de selección de nivel, módulo teórico, bloqueo del cuestionario, calificación y descarga de resultados.

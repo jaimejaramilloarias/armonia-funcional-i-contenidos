@@ -278,6 +278,71 @@ main {
   margin-top: 24px;
 }
 
+.module-picker {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: minmax(240px, .42fr) 1fr;
+  gap: 18px;
+  align-items: start;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, .88);
+  box-shadow: var(--shadow);
+}
+
+.module-picker h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+}
+
+.module-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.module-tab {
+  min-height: 86px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.module-tab.active {
+  border-color: rgba(15, 118, 110, .4);
+  background: var(--accent-soft);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.module-tab span,
+.module-tab small,
+.module-tab em {
+  display: block;
+}
+
+.module-tab em {
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: .72rem;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.module-tab span {
+  font-weight: 850;
+}
+
+.module-tab small {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
 .overview-panel {
   padding: 18px;
   display: grid;
@@ -818,6 +883,7 @@ select:focus {
 
 @media (max-width: 920px) {
   .hero,
+  .module-picker,
   .theory-layout,
   .quiz-start,
   .result-score {
@@ -845,6 +911,7 @@ select:focus {
   }
 
   .topic-grid,
+  .module-tabs,
   .form-grid,
   .stats-grid {
     grid-template-columns: 1fr;

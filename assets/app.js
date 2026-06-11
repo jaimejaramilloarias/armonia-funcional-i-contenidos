@@ -1,12 +1,30 @@
 const DATA = window.APP_DATA;
+normalizeData();
 const LS_KEY = "teoria_musical_local_app_v1";
 let state = loadState();
 let currentView = "home";
 let quizResults = null;
 let activeTheoryId = initialTheoryId();
 
+function normalizeData() {
+  if (!DATA.modules) {
+    DATA.modules = [{
+      id: "armonia-funcional-i",
+      title: "Armonía Funcional I",
+      subtitle: "Escalas, intervalos, acordes, enlace, tonalidad y rearmonización.",
+      theory: DATA.theory || [],
+      quiz: DATA.quiz || []
+    }];
+  }
+}
+function activeModule() {
+  return DATA.modules.find(module => module.id === state.moduleId) || DATA.modules[0];
+}
+function moduleTheory() { return activeModule()?.theory || []; }
+function moduleQuiz() { return activeModule()?.quiz || []; }
 function defaultState() {
   return {
+    moduleId: DATA.modules?.[0]?.id || "armonia-funcional-i",
     studied: {},
     quiz: {
       active: false,
@@ -24,7 +42,12 @@ function loadState() {
   try {
     const raw = localStorage.getItem(LS_KEY);
     if (!raw) return defaultState();
-    return Object.assign(defaultState(), JSON.parse(raw));
+    const loaded = Object.assign(defaultState(), JSON.parse(raw));
+    if (!DATA.modules.some(module => module.id === loaded.moduleId)) {
+      loaded.moduleId = DATA.modules[0]?.id || defaultState().moduleId;
+      loaded.quiz = defaultState().quiz;
+    }
+    return loaded;
   } catch (e) { return defaultState(); }
 }
 function saveState() { localStorage.setItem(LS_KEY, JSON.stringify(state)); }
@@ -66,10 +89,11 @@ function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
 function percent(n) { return Math.round(n * 100); }
 function initialTheoryId() {
   const hashId = decodeURIComponent(location.hash || "").replace(/^#topic-/, "");
-  return DATA.theory.some(section => section.id === hashId) ? hashId : DATA.theory[0]?.id;
+  return moduleTheory().some(section => section.id === hashId) ? hashId : moduleTheory()[0]?.id;
 }
 
 function init() {
+  renderModules();
   renderHome();
   renderTheory();
   updateProgress();
@@ -144,14 +168,49 @@ function applyQuizLock(on) {
   $("lockBanner").classList.toggle("hidden", !on);
 }
 function renderHome() {
-  setText("topicCount", DATA.theory.length);
-  setText("questionCount", DATA.quiz.length);
+  const module = activeModule();
+  setText("topicCount", moduleTheory().length);
+  setText("questionCount", moduleQuiz().length);
   setText("autoGrade", "0–5.0");
-  setText("sourceCount", "2");
+  setText("sourceCount", String(module.sourceCount || 1));
+  setText("moduleIntro", module.subtitle || "Lectura guiada y cuestionario autocorregible con nota final de 0 a 5.0.");
+}
+function renderModules() {
+  const wrap = $("moduleTabs");
+  if (!wrap) return;
+  wrap.innerHTML = DATA.modules.map(module => {
+    const active = module.id === state.moduleId;
+    return `<button class="module-tab ${active ? "active" : ""}" data-module="${escapeAttr(module.id)}" type="button">
+      <em>${escapeHtml(module.level || "Módulo")}</em>
+      <span>${escapeHtml(module.title)}</span>
+      <small>${module.theory.length} temas · ${module.quiz.length} preguntas</small>
+    </button>`;
+  }).join("");
+  wrap.querySelectorAll("[data-module]").forEach(btn => {
+    btn.addEventListener("click", () => selectModule(btn.dataset.module));
+  });
+}
+function selectModule(id) {
+  if (state.quiz.active && !state.quiz.submitted) {
+    alert("Debe entregar el cuestionario activo antes de cambiar de módulo.");
+    showView("quiz");
+    return;
+  }
+  if (!DATA.modules.some(module => module.id === id) || state.moduleId === id) return;
+  state.moduleId = id;
+  state.quiz = defaultState().quiz;
+  activeTheoryId = moduleTheory()[0]?.id;
+  history.replaceState(history.state, "", location.pathname);
+  saveState();
+  renderModules();
+  renderHome();
+  renderTheory();
+  hydrateStudentFields();
+  showView("home");
 }
 function renderTheory() {
   const wrap = $("topicGrid");
-  wrap.innerHTML = DATA.theory.map(section => {
+  wrap.innerHTML = moduleTheory().map(section => {
     const learned = !!state.studied[section.id];
     const active = section.id === activeTheoryId;
     return `<button class="topic-link ${learned ? "done" : ""} ${active ? "active" : ""}" data-topic-select="${escapeAttr(section.id)}" type="button">
@@ -177,27 +236,29 @@ function renderTheory() {
   });
 }
 function selectTheoryTopic(id) {
-  if (!DATA.theory.some(section => section.id === id)) return;
+  if (!moduleTheory().some(section => section.id === id)) return;
   activeTheoryId = id;
   history.replaceState(history.state, "", `#topic-${id}`);
   renderTheory();
   $("theoryDetail").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 function selectTheoryStep(delta) {
-  const index = DATA.theory.findIndex(section => section.id === activeTheoryId);
-  const next = DATA.theory[index + delta];
+  const theory = moduleTheory();
+  const index = theory.findIndex(section => section.id === activeTheoryId);
+  const next = theory[index + delta];
   if (next) selectTheoryTopic(next.id);
 }
 function renderTheoryDetail() {
   const wrap = $("theoryDetail");
-  const index = Math.max(0, DATA.theory.findIndex(section => section.id === activeTheoryId));
-  const section = DATA.theory[index] || DATA.theory[0];
+  const theory = moduleTheory();
+  const index = Math.max(0, theory.findIndex(section => section.id === activeTheoryId));
+  const section = theory[index] || theory[0];
   if (!section) {
     wrap.innerHTML = "";
     return;
   }
-  const prev = DATA.theory[index - 1];
-  const next = DATA.theory[index + 1];
+  const prev = theory[index - 1];
+  const next = theory[index + 1];
   wrap.innerHTML = `
     <article class="theory-section panel" id="topic-${escapeAttr(section.id)}">
       <header class="theory-section-head">
@@ -222,15 +283,18 @@ function renderTheoryDetail() {
     </article>`;
 }
 function updateProgress() {
-  const done = DATA.theory.filter(s => state.studied[s.id]).length;
-  const total = DATA.theory.length;
+  const done = moduleTheory().filter(s => state.studied[s.id]).length;
+  const total = moduleTheory().length;
   const pct = total ? done / total : 0;
   $("studyBar").style.width = `${pct * 100}%`;
   setText("studyProgressText", `${done}/${total} temas estudiados`);
 }
 function resetStudy() {
   if (!confirm("¿Borrar el progreso de estudio marcado?")) return;
-  state.studied = {};
+  const currentIds = new Set(moduleTheory().map(section => section.id));
+  Object.keys(state.studied).forEach(id => {
+    if (currentIds.has(id)) delete state.studied[id];
+  });
   saveState(); renderTheory(); updateProgress();
 }
 function hydrateStudentFields() {
@@ -281,9 +345,9 @@ function renderQuiz() {
   setText("activeStudent", state.quiz.student.name || "Sin nombre");
   setText("focusWarnings", state.quiz.focusWarnings || 0);
   const answered = countAnswered();
-  setText("answeredCount", `${answered}/${DATA.quiz.length} respondidas`);
-  $("quizBar").style.width = `${(answered / DATA.quiz.length) * 100}%`;
-  $("questionList").innerHTML = DATA.quiz.map(renderQuestion).join("");
+  setText("answeredCount", `${answered}/${moduleQuiz().length} respondidas`);
+  $("quizBar").style.width = `${(answered / moduleQuiz().length) * 100}%`;
+  $("questionList").innerHTML = moduleQuiz().map(renderQuestion).join("");
   bindAnswerEvents();
 }
 function renderQuestion(q) {
@@ -334,11 +398,11 @@ function saveAnswer(e) {
     state.quiz.answers[key] = e.currentTarget.value;
   }
   saveState();
-  setText("answeredCount", `${countAnswered()}/${DATA.quiz.length} respondidas`);
-  $("quizBar").style.width = `${(countAnswered() / DATA.quiz.length) * 100}%`;
+  setText("answeredCount", `${countAnswered()}/${moduleQuiz().length} respondidas`);
+  $("quizBar").style.width = `${(countAnswered() / moduleQuiz().length) * 100}%`;
 }
 function countAnswered() {
-  return DATA.quiz.filter(q => isAnswered(q)).length;
+  return moduleQuiz().filter(q => isAnswered(q)).length;
 }
 function isAnswered(q) {
   if (q.type === "selectBlanks") return q.answers.some((_,i)=> String(val(q.id,`_${i}`)).trim());
@@ -347,7 +411,7 @@ function isAnswered(q) {
   return String(val(q.id)).trim() !== "";
 }
 function submitQuiz() {
-  const unanswered = DATA.quiz.length - countAnswered();
+  const unanswered = moduleQuiz().length - countAnswered();
   if (unanswered > 0 && !confirm(`Faltan ${unanswered} preguntas por responder. ¿Entregar de todos modos?`)) return;
   const result = gradeQuiz();
   state.quiz.submitted = true;
@@ -360,9 +424,9 @@ function submitQuiz() {
   renderQuizResult(result);
 }
 function gradeQuiz() {
-  const details = DATA.quiz.map(q => gradeQuestion(q));
+  const details = moduleQuiz().map(q => gradeQuestion(q));
   const raw = details.reduce((sum, d) => sum + d.points, 0);
-  const max = DATA.quiz.length;
+  const max = moduleQuiz().length;
   const score = (raw / max) * 5;
   return { details, raw, max, score, percent: raw / max, student: state.quiz.student, focusWarnings: state.quiz.focusWarnings || 0, startedAt: state.quiz.startedAt, submittedAt: new Date().toISOString() };
 }
@@ -456,8 +520,10 @@ function downloadCSV() {
 function newAttempt() {
   if (!confirm("¿Crear un nuevo intento? Se borrarán las respuestas actuales y el resultado guardado en este navegador.")) return;
   const studied = state.studied;
+  const moduleId = state.moduleId;
   state = defaultState();
   state.studied = studied;
+  state.moduleId = moduleId;
   saveState(); hydrateStudentFields(); renderQuiz(); showView("quiz");
 }
 function escapeHtml(value) {

@@ -37,7 +37,7 @@
         <div class="hero-copy">
           <div class="kicker">Prof. Jaime Jaramillo Arias · Universidad de Caldas</div>
           <h1>Teoría musical con estudio guiado y evaluación automática.</h1>
-          <p>App web local para trabajar escalas, intervalos, acordes, enlace, tonalidad y rearmonización. Incluye módulo teórico por temas y cuestionario autocorregible con nota final de 0 a 5.0.</p>
+          <p id="moduleIntro">App web local para trabajar contenidos teóricos por módulos, con lectura guiada y cuestionarios autocorregibles con nota final de 0 a 5.0.</p>
           <div class="hero-actions">
             <button id="goTheoryBtn" class="primary-btn">Entrar al módulo teórico</button>
             <button id="startQuizBtn2" class="ghost-btn">Ir al cuestionario</button>
@@ -56,6 +56,13 @@
           </div>
         </aside>
       </div>
+      <section class="module-picker" aria-labelledby="modulePickerTitle">
+        <div>
+          <p class="kicker">Niveles disponibles</p>
+          <h2 id="modulePickerTitle">Elige el nivel que quieres estudiar</h2>
+        </div>
+        <div id="moduleTabs" class="module-tabs"></div>
+      </section>
     </section>
 
     <section id="theoryView" class="view hidden">

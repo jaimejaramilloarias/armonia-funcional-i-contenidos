@@ -3,7 +3,7 @@ window.APP_DATA = {
     {
       "id": "nivel-1-armonia-funcional",
       "level": "Nivel 1",
-      "title": "Armonía Funcional I",
+      "title": "Conocimientos esenciales",
       "subtitle": "Escalas, intervalos, acordes, enlace, tonalidad y rearmonización.",
       "sourceCount": 2,
       "theory": [

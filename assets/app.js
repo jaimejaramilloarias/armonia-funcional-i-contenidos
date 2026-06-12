@@ -19,15 +19,15 @@ const MODULE_3_PIANO_PROMPTS = {
   15: "Seleccione en el teclado un shell válido para C∆9.",
   16: "Seleccione en el teclado un shell válido para C∆.",
   17: "Seleccione una posición cerrada de C∆9.",
-  18: "Seleccione el resultado de aplicar Skip 2 a F∆9 desde A3-C4-E4-G4.",
+  18: "Seleccione un skip de F∆9 desde A como base.",
   19: "Seleccione una posición cerrada de Dm9 sin bajo.",
-  20: "Seleccione un Skip 2 básico para C∆9.",
-  21: "Seleccione un skip con duplicación de mano derecha para C∆9.",
-  22: "Seleccione un skip con voz interior en mano derecha para C∆9.",
-  23: "Seleccione el resultado de aplicar Skip 2 a Gm9 desde Bb3-D4-F4-A4.",
+  20: "Seleccione un skip de C∆9 desde E como base.",
+  21: "Seleccione un skip con duplicación de mano derecha para C∆9 desde E como base.",
+  22: "Seleccione un skip con voz interior en mano derecha para C∆9 desde E como base.",
+  23: "Seleccione un skip de Gm9 desde Bb como base.",
   24: "Seleccione una posición cerrada completa de C∆9 con nota interna agregada.",
-  25: "Seleccione un skip con triada en mano derecha para C∆9.",
-  26: "Seleccione un skip con 9a y triada en la mano derecha para C∆13(#11).",
+  25: "Seleccione un skip con triada en mano derecha para C∆9 desde E como base.",
+  26: "Seleccione un skip con 9a y triada en la mano derecha para C∆13(#11) desde E como base.",
   27: "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
   28: "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
   29: "Para Ab7, seleccione la nota del acorde ubicada justo debajo de Ab3.",
@@ -47,7 +47,7 @@ const MODULE_3_PIANO_PROMPTS = {
   43: "Seleccione las notas de F13 sin quinta.",
   44: "Para Bb13(#11), seleccione las dos extensiones superiores del acorde.",
   45: "Seleccione las notas de E13(b9) sin quinta.",
-  46: "Seleccione el resultado de aplicar Skip 2 a Am6(9) desde C4-E4-F#4-B4.",
+  46: "Seleccione un skip de Am6(9) desde C como base.",
   47: "Seleccione bajo/acorde cerrado n.1 para Dm7.",
   48: "Seleccione bajo/acorde cerrado n.1 para G7.",
   49: "Seleccione bajo/acorde cerrado n.2 para Dm7.",
@@ -124,7 +124,7 @@ function buildPianoAcceptance(question) {
   const answers = Array.isArray(question.answers) ? question.answers : [];
   const prompt = question.prompt || "";
   const sensitiveSingle = answers.length === 1 && /registro ideal|ubicada justo|ubicado justo|justo debajo|justo encima/i.test(prompt);
-  const shapeSensitive = /Shell|Skip 2|posición cerrada|disposición|separación|voicing|bajo\/acorde|soporte grave|registro medio|comenzando debajo/i.test(prompt);
+  const shapeSensitive = /Shell|\bskip\b|Skip 2|posición cerrada|disposición|separación|voicing|bajo\/acorde|soporte grave|registro medio|comenzando debajo/i.test(prompt);
   const mode = sensitiveSingle
     ? "exact"
     : answers.length === 1 || !shapeSensitive

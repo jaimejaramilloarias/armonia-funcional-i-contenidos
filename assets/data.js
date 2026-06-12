@@ -4341,6 +4341,5760 @@ window.APP_DATA = {
           "sampleAnswer": "Bb∆(#11)"
         }
       ]
+    },
+    {
+      "id": "nivel-3-principios-voicing",
+      "level": "Nivel 3",
+      "title": "Principios de voicing",
+      "subtitle": "Registros, shell voicings, posición cerrada, Skip 2, extensiones y acompañamiento bajo/acorde.",
+      "theory": [
+        {
+          "id": "nivel-3-registros-zonas",
+          "title": "1. Registros y zonas de trabajo",
+          "subtitle": "Regiones recomendadas para bajo, acordes, posición abierta y notas guía.",
+          "items": [
+            {
+              "term": "Registro ideal del bajo",
+              "body": "Registro ideal del bajo; no tiene que ser exacto, es más una región del registro que un rango absoluto.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B2": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Registro ideal de posición cerrada",
+              "body": "Registro ideal de los acordes en posición cerrada; no tiene que ser exacto, es más una región del registro que un rango absoluto.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Registro ideal de posición abierta",
+              "body": "Registro ideal de los acordes en posición abierta; no tiene que ser exacto, es más una región del registro que un rango absoluto, no incluye el bajo.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B5": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C6": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Registro ideal de notas guía",
+              "body": "Registro ideal de las notas guía (tercera y séptima); no tiene que ser exacto, es más una región del registro que un rango absoluto.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#22c55e",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nivel-3-shell-voicings",
+          "title": "2. Shell voicings y notas guía",
+          "subtitle": "Disposiciones básicas de fundamental, tercera, séptima, quinta y novena.",
+          "items": [
+            {
+              "term": "Shell n.1: fundamental y tercera",
+              "body": "Shell voicing n.1 para la mano izquierda, fundamental y tercera (C mayor).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M\n",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Shell n.1: fundamental y séptima",
+              "body": "Shell voicing n.1 para la mano izquierda, fundamental y séptima (C∆).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Shell n.2: tercera y séptima",
+              "body": "Shell voicing n.2 para la mano izquierda, tercera y séptima sin bajo (C∆).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Shell n.2: séptima y tercera",
+              "body": "Shell voicing n.2 para la mano izquierda, séptima y tercera sin bajo (C∆).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Shell n.3: tercera, séptima y novena",
+              "body": "Shell voicing n.3 para la mano izquierda, tercera, séptima y novena, sin bajo (C∆).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Shell n.3: séptima, tercera y quinta",
+              "body": "Shell voicing n.3 para la mano izquierda, séptima tercera y quinta, sin bajo (C∆).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nivel-3-posicion-cerrada-skip-2",
+          "title": "3. Posición cerrada y Skip 2",
+          "subtitle": "Aperturas progresivas desde posición cerrada hacia disposiciones semiabiertas.",
+          "items": [
+            {
+              "term": "Posición cerrada completa: quinta agregada",
+              "body": "Posición cerrada completa para la mano izquierda: al Shell n.3 se le agrega una 5a o una 9a entre las dos notas inferiores (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Posición cerrada completa: quinta en registro superior",
+              "body": "Posición cerrada completa para la mano izquierda: al Shell n.3 se le agrega una 5a o una 9a entre las dos notas inferiores (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2 desde posición cerrada",
+              "body": "Acorde semiabierto \"Skip 2\", a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2 con novena arriba",
+              "body": "Acorde semiabierto \"Skip 2\", a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 1",
+              "body": "Variación 1 del Skip 2: octavación de la nota superior en la mano derecha (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 1 con novena",
+              "body": "Variación 1 del Skip 2: octavación de la nota superior en la mano derecha (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D6": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 2",
+              "body": "Variación 2 del Skip 2: mano derecha con octava del Skip 2 y una cuarta o quinta en el medio (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 2 con novena",
+              "body": "Variación 2 del Skip 2: mano derecha con octava del Skip 2 y una cuarta o quinta en el medio (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D6": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 3",
+              "body": "Variación 3 del Skip 2: mano derecha con octava del Skip 2 y dos notas dentro de la octava formando una triada con sonidos estructurales o extensiones (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j\n",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j\n",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 3 con novena",
+              "body": "Variación 3 del Skip 2: mano derecha con octava del Skip 2 y dos notas dentro de la octava formando una triada con sonidos estructurales o extensiones (C∆9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G5": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B5": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D6": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 4",
+              "body": "Variación 4 del Skip 2: el Skip 2 ya no se duplica a la octava sino que se busca una novena mayor, ya sea bajando la nota inferior de la mano derecha o subiendo la superior, siempre a notas disponibles, y en el centro agregando dos notas disponibles (C∆13(#11)).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "E3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11+",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Skip 2, variación 4 con tercera alta",
+              "body": "Variación 4 del Skip 2: el Skip 2 ya no se duplica a la octava sino que se busca una novena mayor, ya sea bajando la nota inferior de la mano derecha o subiendo la superior, siempre a notas disponibles, y en el centro agregando dos notas disponibles (C∆13(#11)).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E6": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11+",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nivel-3-registro-grave-extensiones",
+          "title": "4. Registro grave y ubicación rápida de extensiones",
+          "subtitle": "Advertencias de registro y referencias visuales para 7, 9, 11 y 13.",
+          "items": [
+            {
+              "term": "Evitar triadas graves cerradas",
+              "body": "NO haga triadas por debajo del C3, en ningún estado, ni fundamental, ni en inversión (F/C).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "C#2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D#2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "E2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "F#2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "G#2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "B2": {
+                    "color": "#ef4444",
+                    "opacity": 50,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Triadas graves semiabiertas",
+              "body": "Si quiere hacer triadas comenzando debajo del C3 (en cualquier estado), hágalas semiabiertas, con Skip 2 de la posición cerrada (Bb/F).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "D3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  },
+                  "A#3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4,
+                      "verticalOffset": 13
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Ubicar séptimas y sexta",
+              "body": "Para ubicar rápidamente las séptimas (y la sexta), búsquelas justo debajo de la fundamental.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B3": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "7M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A#3": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A3": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "6M\n",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Ubicar novenas",
+              "body": "Para ubicar rápidamente las novenas, búsquelas justo encima de la fundamental.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C#4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "9m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D#4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "9+",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Ubicar onceavas",
+              "body": "Para ubicar rápidamente las onceavas, búsquelas justo debajo de la quinta justa.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "11j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F#4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "11+",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Ubicar treceavas",
+              "body": "Para ubicar rápidamente las treceavas, búsquelas justo encima de la quinta justa.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "G4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G#4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "13m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#f97316",
+                    "opacity": 50,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nivel-3-construccion-acordes-extendidos",
+          "title": "5. Construcción de acordes extendidos",
+          "subtitle": "Procedimientos visuales para formar C13, Dm11, G13(b9) y Am6(9).",
+          "items": [
+            {
+              "term": "Visualizar la triada básica",
+              "body": "Para formar un acorde con extensiones, visualice primero el acorde triada básico en el registro medio. Por ejemplo, piense que vamos a construir un C13. ",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Agregar la séptima",
+              "body": "Identifique la séptima justo debajo de la fundamental y agréguela.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A#3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Reemplazar fundamental por novena",
+              "body": "Reemplace la fundamental por la novena; si no quiere \"perder\" la fundamental, póngala una o dos octavas abajo.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "A#3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 30,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Reemplazar quinta por treceava",
+              "body": "Reemplace la quinta justa por la treceava mayor; si no quiere \"perder\" la quinta, póngala una o dos octavas abajo, y listo!!! C13. Le recuerdo: visualice la triada, agregue la séptima, reemplace la fundamental por la novena y la quinta por la onceava y/o la treceava. Si no quiere perder las notas reemplazadas, bájelas una octava o dos, manteniendo siempre la fundamental en el bajo.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "C2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A#3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Dm11: visualizar la triada",
+              "body": "Formemos Dm11. Primer paso, visualizar la triada en el registro medio.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Dm11: agregar la séptima",
+              "body": "Agregar la séptima.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "D4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Dm11: reemplazar fundamental y quinta",
+              "body": "Reemplazo la fundamental por la novena, y la quinta por la onceava.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Dm11 con soporte grave",
+              "body": "Si necesito un soporte grave pongo las notas reemplazadas abajo.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Analizar G13(b9)",
+              "body": "Analice el acorde G13(b9)",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "G2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G#3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Am6(9) en posición cerrada",
+              "body": "Am6(9) en posición cerrada.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F#3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "6M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Am6(9) con Skip 2",
+              "body": "Mismo acorde, Am6(9), con Skip 2.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "F#3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "6M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F#5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "6M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nivel-3-acompanamiento-bajo-acorde",
+          "title": "6. Acompañamiento bajo/acorde",
+          "subtitle": "Modelos cerrados y abiertos para acompañar con bajo, notas guía y extensiones.",
+          "items": [
+            {
+              "term": "Bajo/acorde cerrado: notas guía",
+              "body": "Acompañamiento bajo/acorde cerrado: 1. fundamental en el bajo, notas guía enlazadas en la mano derecha (Dm7).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Bajo/acorde cerrado: voz superior",
+              "body": "Acompañamiento bajo/acorde cerrado: 2. fundamental en el bajo, notas guía enlazadas en la mano derecha y quintas o novenas en la voz superior (Dm7).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Bajo/acorde cerrado: posición cerrada",
+              "body": "Acompañamiento bajo/acorde cerrado: 3. fundamental en el bajo, acordes en posición cerrada enlazados en la mano derecha (Dm9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Bajo/acorde abierto: shell y guía faltante",
+              "body": "Acompañamiento bajo/acorde abierto: 1. Shell F-3 o F-7 en la mano izquierda, y la nota guía faltante en la derecha (Dm7); opcionalmente puede duplicar a la octava la nota de la mano derecha.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F5": {
+                    "color": "#38bdf8",
+                    "opacity": 30,
+                    "label": {
+                      "text": "",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Bajo/acorde abierto: guía con quinta",
+              "body": "Acompañamiento bajo/acorde abierto: 2. Shell F-3 o F-7 en la mano izquierda, nota guía y quinta o novena en la derecha (Dm7).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Bajo/acorde abierto: guía con quinta y novena",
+              "body": "Acompañamiento bajo/acorde abierto: 3. Shell F-3 o F-7 en la mano izquierda, nota guía con quinta y novena en la derecha (Dm9).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Acordes con 11",
+              "body": "Si el acorde tiene 11, reemplace la 5a por la 11 (Dm11); si no quiere perder la quinta, bájela una octava.",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "D3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C4": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "G4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E5": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "5j",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "term": "Acordes con 11 y 13",
+              "body": "En acordes con 11 y 13 al mismo tiempo se agregan ambas notas en vez de la quinta, fíjese como queda G13(#11).",
+              "diagram": {
+                "range": {
+                  "from": "C2",
+                  "to": "C7",
+                  "extraSemitonesAboveC6": 12
+                },
+                "keys": {
+                  "G2": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "F",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "F3": {
+                    "color": "#facc15",
+                    "opacity": 100,
+                    "label": {
+                      "text": "7m",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "B3": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "3M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "C#4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "11+",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "E4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "13M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  },
+                  "A4": {
+                    "color": "#38bdf8",
+                    "opacity": 100,
+                    "label": {
+                      "text": "9M",
+                      "fontSize": 13,
+                      "fontFamily": "'Arial Black', Arial, sans-serif",
+                      "verticalOffset": 13,
+                      "textColor": "#111827",
+                      "background": "#ffffff",
+                      "borderColor": "#111827",
+                      "borderWidth": 2,
+                      "borderRadius": 4
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": 1,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una fundamental en registro ideal de bajo para Dm7.",
+          "range": {
+            "from": "C1",
+            "to": "C4"
+          },
+          "answers": [
+            "D2"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D2."
+        },
+        {
+          "id": 2,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una fundamental en registro ideal de bajo para F7.",
+          "range": {
+            "from": "C1",
+            "to": "C4"
+          },
+          "answers": [
+            "F2"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F2."
+        },
+        {
+          "id": 3,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione las notas guía de G7 en registro medio: 3M y 7m.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "B3",
+            "F4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "B3 y F4."
+        },
+        {
+          "id": 4,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una posición cerrada en registro medio para C∆9 sin bajo: 3M, 5j, 7M y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E3",
+            "G3",
+            "B3",
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, G3, B3 y D4."
+        },
+        {
+          "id": 5,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una disposición abierta para Dm9: fundamental en bajo, 3m, 7m y 9M en registro medio.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D2",
+            "F3",
+            "C4",
+            "E4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D2, F3, C4 y E4."
+        },
+        {
+          "id": 6,
+          "section": "I. Registros y zonas de trabajo",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una separación clara entre bajo y notas guía para Bb∆: fundamental en bajo, 3M y 7M en registro medio.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "A#2",
+            "D4",
+            "A4"
+          ],
+          "noteLabels": {
+            "A#2": "Bb2"
+          },
+          "sampleAnswer": "Bb2, D4 y A4."
+        },
+        {
+          "id": 7,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.1 para F mayor: fundamental y 3M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F3",
+            "A3"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F3 y A3."
+        },
+        {
+          "id": 8,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.1 para D∆: fundamental y 7M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D3",
+            "C#4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D3 y C#4."
+        },
+        {
+          "id": 9,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.2 para G7, sin bajo: 3M y 7m.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "B3",
+            "F4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "B3 y F4."
+        },
+        {
+          "id": 10,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.2 para A-7, sin bajo: 7m y 3m.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "G3",
+            "C4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G3 y C4."
+        },
+        {
+          "id": 11,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.3 para E∆9, sin bajo: 3M, 7M y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "G#3",
+            "D#4",
+            "F#4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G#3, D#4 y F#4."
+        },
+        {
+          "id": 12,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.1 de Bb mayor: fundamental y 3M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "A#2",
+            "D3"
+          ],
+          "noteLabels": {
+            "A#2": "Bb2"
+          },
+          "sampleAnswer": "Bb2 y D3."
+        },
+        {
+          "id": 13,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.2 de D7: 3M y 7m.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F#3",
+            "C4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F#3 y C4."
+        },
+        {
+          "id": 14,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.2 de Db7: 3M y 7m.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F3",
+            "B3"
+          ],
+          "noteLabels": {
+            "B3": "Cb4"
+          },
+          "sampleAnswer": "F3 y Cb4."
+        },
+        {
+          "id": 15,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.3 de C∆9 sin bajo: 3M, 7M y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3 y D4."
+        },
+        {
+          "id": 16,
+          "section": "II. Shell voicings y notas guía",
+          "type": "pianoSelect",
+          "prompt": "Seleccione en el teclado un Shell n.3 de C∆ con el orden 7M, 3M y 5j.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "B3",
+            "E4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "B3, E4 y G4."
+        },
+        {
+          "id": 17,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una posición cerrada de C∆9: 3M, 5j, 7M y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E3",
+            "G3",
+            "B3",
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, G3, B3 y D4."
+        },
+        {
+          "id": 18,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione el resultado de aplicar Skip 2 a F∆9 en posición cerrada A3-C4-E4-G4.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "A3",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "A3, E4, G4 y C5."
+        },
+        {
+          "id": 19,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una posición cerrada de Dm9 sin bajo: 3m, 5j, 7m y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "F3",
+            "A3",
+            "C4",
+            "E4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F3, A3, C4 y E4."
+        },
+        {
+          "id": 20,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione un Skip 2 básico para C∆9 desde la posición cerrada 3M-5j-7M-9M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3, D4 y G4."
+        },
+        {
+          "id": 21,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione la variación 1 de Skip 2 para C∆9: agregue la octavación de la nota superior.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4",
+            "G4",
+            "G5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3, D4, G4 y G5."
+        },
+        {
+          "id": 22,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione la variación 2 de Skip 2 para C∆9: octava del Skip 2 con una 4j o 5j interna.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4",
+            "G4",
+            "C5",
+            "G5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3, D4, G4, C5 y G5."
+        },
+        {
+          "id": 23,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione el resultado de aplicar Skip 2 a Gm9 en posición cerrada Bb3-D4-F4-A4.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "A#3",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "noteLabels": {
+            "A#3": "Bb3"
+          },
+          "sampleAnswer": "Bb3, F4, A4 y D5."
+        },
+        {
+          "id": 24,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una posición cerrada completa de C∆9 agregando 5j entre las dos notas inferiores del Shell n.3.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E3",
+            "G3",
+            "B3",
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, G3, B3 y D4."
+        },
+        {
+          "id": 25,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione la variación 3 de Skip 2 para C∆9: octava del Skip 2 con dos notas internas.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4",
+            "G4",
+            "B4",
+            "D5",
+            "G5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3, D4, G4, B4, D5 y G5."
+        },
+        {
+          "id": 26,
+          "section": "III. Posición cerrada y Skip 2",
+          "type": "pianoSelect",
+          "prompt": "Seleccione la variación 4 de Skip 2 para C∆13(#11): voces externas a distancia de 9M y dos notas internas disponibles.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "E3",
+            "B3",
+            "D4",
+            "A4",
+            "C#5",
+            "F#5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E3, B3, D4, A4, C#5 y F#5."
+        },
+        {
+          "id": 27,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F2",
+            "C3",
+            "A3"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F2, C3 y A3."
+        },
+        {
+          "id": 28,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F2",
+            "D3",
+            "A#3"
+          ],
+          "noteLabels": {
+            "A#3": "Bb3"
+          },
+          "sampleAnswer": "F2, D3 y Bb3."
+        },
+        {
+          "id": 29,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para Ab7, seleccione la 7m ubicada justo debajo de Ab3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F#3"
+          ],
+          "noteLabels": {
+            "F#3": "Gb3"
+          },
+          "sampleAnswer": "Gb3."
+        },
+        {
+          "id": 30,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para E9, seleccione la 9M ubicada justo encima de E3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "F#3"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "F#3."
+        },
+        {
+          "id": 31,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para E11, seleccione la 11j ubicada justo debajo de la quinta justa B3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "A3"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "A3."
+        },
+        {
+          "id": 32,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para E13, seleccione la 13M ubicada justo encima de la quinta justa B3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "C#4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "C#4."
+        },
+        {
+          "id": 33,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para Db7, seleccione la 7m ubicada justo debajo de Db3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "B2"
+          ],
+          "noteLabels": {
+            "B2": "Cb3"
+          },
+          "sampleAnswer": "Cb3."
+        },
+        {
+          "id": 34,
+          "section": "IV. Registro grave y ubicación rápida de extensiones",
+          "type": "pianoSelect",
+          "prompt": "Para Bb13, seleccione la 13M ubicada justo encima de la quinta justa F3.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G3"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G3."
+        },
+        {
+          "id": 35,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione la triada básica de C mayor en registro medio como primer paso para construir C13.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "C4, E4 y G4."
+        },
+        {
+          "id": 36,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "En C13, seleccione la 9M que reemplaza rápidamente a la fundamental.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D4."
+        },
+        {
+          "id": 37,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "En F13, seleccione la 13M que reemplaza rápidamente a la quinta justa C.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "D4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D4."
+        },
+        {
+          "id": 38,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione las notas que pertenecen a Dm11: fundamental, 3m, 5j, 7m, 9M y 11j.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D3",
+            "F3",
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D, F, A, C, E y G."
+        },
+        {
+          "id": 39,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione las notas de G13(b9) sin quinta: fundamental, 3M, 7m, b9 y 13M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G2",
+            "B3",
+            "F4",
+            "G#4",
+            "E4"
+          ],
+          "noteLabels": {
+            "G#4": "Ab4"
+          },
+          "sampleAnswer": "G2, B3, F4, Ab4 y E4."
+        },
+        {
+          "id": 40,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione el voicing de G13(b9) mostrado por la fórmula: fundamental, 7m, 3M, b9 y 13M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G2",
+            "F3",
+            "B3",
+            "G#4",
+            "E4"
+          ],
+          "noteLabels": {
+            "G#4": "Ab4"
+          },
+          "sampleAnswer": "G2, F3, B3, Ab4 y E4."
+        },
+        {
+          "id": 41,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "En Dm11, seleccione la 11j que reemplaza rápidamente a la quinta A.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G4."
+        },
+        {
+          "id": 42,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione Dm11 con soporte grave de fundamental: fundamental grave, 3m, 7m, 9M y 11j.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D2",
+            "F3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D2, F3, C4, E4 y G4."
+        },
+        {
+          "id": 43,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione las notas de F13 sin quinta: fundamental, 3M, 7m, 9M y 13M.",
+          "range": {
+            "from": "C2",
+            "to": "C6"
+          },
+          "answers": [
+            "F2",
+            "A3",
+            "D#4",
+            "G4",
+            "D5"
+          ],
+          "noteLabels": {
+            "D#4": "Eb4"
+          },
+          "sampleAnswer": "F2, A3, Eb4, G4 y D5."
+        },
+        {
+          "id": 44,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Para Bb13(#11), seleccione las extensiones #11 y 13M.",
+          "range": {
+            "from": "C3",
+            "to": "C5"
+          },
+          "answers": [
+            "E4",
+            "G4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E4 y G4."
+        },
+        {
+          "id": 45,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione las notas de E13(b9) sin quinta: fundamental, 3M, 7m, b9 y 13M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "E2",
+            "G#3",
+            "D4",
+            "F4",
+            "C#4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E, G#, D, F y C#."
+        },
+        {
+          "id": 46,
+          "section": "V. Construcción de acordes extendidos",
+          "type": "pianoSelect",
+          "prompt": "Seleccione el resultado de aplicar Skip 2 a Am6(9) en posición cerrada C4-E4-F#4-B4: 3m, 5j, 6M y 9M.",
+          "range": {
+            "from": "C3",
+            "to": "C6"
+          },
+          "answers": [
+            "C4",
+            "F#4",
+            "B4",
+            "E5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "C4, F#4, B4 y E5."
+        },
+        {
+          "id": 47,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione bajo/acorde cerrado n.1 para Dm7: fundamental en bajo, 3m y 7m en la mano derecha.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D2",
+            "F3",
+            "C4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D2, F3 y C4."
+        },
+        {
+          "id": 48,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione bajo/acorde cerrado n.1 para G7: fundamental en bajo, 3M y 7m en la mano derecha.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G2",
+            "B3",
+            "F4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G2, B3 y F4."
+        },
+        {
+          "id": 49,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione bajo/acorde cerrado n.2 para Dm7: fundamental en bajo, 3m, 7m y 5j en voz superior.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D2",
+            "F3",
+            "C4",
+            "A4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D2, F3, C4 y A4."
+        },
+        {
+          "id": 50,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione bajo/acorde abierto de Gm7: fundamental y 7m en la izquierda, 3m en la derecha.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G2",
+            "F3",
+            "A#3"
+          ],
+          "noteLabels": {
+            "A#3": "Bb3"
+          },
+          "sampleAnswer": "G2, F3 y Bb3."
+        },
+        {
+          "id": 51,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione bajo/acorde abierto de Dm7: fundamental y 7m en la izquierda, 3m en la derecha.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "D3",
+            "C4",
+            "F4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D3, C4 y F4."
+        },
+        {
+          "id": 52,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione Dm11 reemplazando la 5j por la 11j: fundamental, 7m, 3m, 11j y 9M.",
+          "range": {
+            "from": "C2",
+            "to": "C6"
+          },
+          "answers": [
+            "D3",
+            "C4",
+            "F4",
+            "G4",
+            "E5"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "D3, C4, F4, G4 y E5."
+        },
+        {
+          "id": 53,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione Em11 con fundamental, 7m, 3m, 11j y 9M, sin quinta.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "E2",
+            "D3",
+            "G3",
+            "A3",
+            "F#4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "E2, D3, G3, A3 y F#4."
+        },
+        {
+          "id": 54,
+          "section": "VI. Acompañamiento bajo/acorde",
+          "type": "pianoSelect",
+          "prompt": "Seleccione G13(#11): fundamental, 7m, 3M, #11, 13M y 9M.",
+          "range": {
+            "from": "C2",
+            "to": "C5"
+          },
+          "answers": [
+            "G2",
+            "F3",
+            "B3",
+            "C#4",
+            "E4",
+            "A4"
+          ],
+          "noteLabels": {},
+          "sampleAnswer": "G2, F3, B3, C#4, E4 y A4."
+        }
+      ]
     }
   ]
 };

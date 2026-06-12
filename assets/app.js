@@ -1,4 +1,74 @@
 const DATA = window.APP_DATA;
+const PIANO_NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+const PIANO_SELECT_DEFAULT_RANGE = { from: "C1", to: "C6" };
+const MODULE_3_PIANO_PROMPTS = {
+  1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
+  2: "Seleccione una fundamental en registro ideal de bajo para F7.",
+  3: "Seleccione las notas guía de G7 en registro medio.",
+  4: "Seleccione una posición cerrada en registro medio para C∆9 sin bajo.",
+  5: "Seleccione una disposición abierta para Dm9.",
+  6: "Seleccione una separación clara entre bajo y notas guía para Bb∆.",
+  7: "Seleccione en el teclado un shell válido para F mayor.",
+  8: "Seleccione en el teclado un shell válido para D∆.",
+  9: "Seleccione en el teclado un shell válido para G7.",
+  10: "Seleccione en el teclado un shell válido para A-7.",
+  11: "Seleccione en el teclado un shell válido para E∆9.",
+  12: "Seleccione en el teclado un shell válido para Bb mayor.",
+  13: "Seleccione en el teclado un shell válido para D7.",
+  14: "Seleccione en el teclado un shell válido para Db7.",
+  15: "Seleccione en el teclado un shell válido para C∆9.",
+  16: "Seleccione en el teclado un shell válido para C∆.",
+  17: "Seleccione una posición cerrada de C∆9.",
+  18: "Seleccione el resultado de aplicar Skip 2 a F∆9 desde A3-C4-E4-G4.",
+  19: "Seleccione una posición cerrada de Dm9 sin bajo.",
+  20: "Seleccione un Skip 2 básico para C∆9.",
+  21: "Seleccione un skip con duplicación de mano derecha para C∆9.",
+  22: "Seleccione un skip con voz interior en mano derecha para C∆9.",
+  23: "Seleccione el resultado de aplicar Skip 2 a Gm9 desde Bb3-D4-F4-A4.",
+  24: "Seleccione una posición cerrada completa de C∆9 con nota interna agregada.",
+  25: "Seleccione un skip con triada en mano derecha para C∆9.",
+  26: "Seleccione un skip con 9a y triada en la mano derecha para C∆13(#11).",
+  27: "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
+  28: "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
+  29: "Para Ab7, seleccione la nota del acorde ubicada justo debajo de Ab3.",
+  30: "Para E9, seleccione la extensión ubicada justo encima de E3.",
+  31: "Para E11, seleccione la extensión ubicada justo debajo de B3.",
+  32: "Para E13, seleccione la extensión ubicada justo encima de B3.",
+  33: "Para Db7, seleccione la nota del acorde ubicada justo debajo de Db3.",
+  34: "Para Bb13, seleccione la extensión ubicada justo encima de F3.",
+  35: "Seleccione la triada básica de C mayor como primer paso para construir C13.",
+  36: "En C13, seleccione la nota que puede reemplazar a la fundamental.",
+  37: "En F13, seleccione la nota que puede reemplazar a la quinta justa.",
+  38: "Seleccione las notas que pertenecen a Dm11.",
+  39: "Seleccione las notas de G13(b9) sin quinta.",
+  40: "Seleccione un voicing de G13(b9).",
+  41: "En Dm11, seleccione la nota que puede reemplazar a la quinta justa.",
+  42: "Seleccione Dm11 con soporte grave de fundamental.",
+  43: "Seleccione las notas de F13 sin quinta.",
+  44: "Para Bb13(#11), seleccione las dos extensiones superiores del acorde.",
+  45: "Seleccione las notas de E13(b9) sin quinta.",
+  46: "Seleccione el resultado de aplicar Skip 2 a Am6(9) desde C4-E4-F#4-B4.",
+  47: "Seleccione bajo/acorde cerrado n.1 para Dm7.",
+  48: "Seleccione bajo/acorde cerrado n.1 para G7.",
+  49: "Seleccione bajo/acorde cerrado n.2 para Dm7.",
+  50: "Seleccione bajo/acorde abierto de Gm7.",
+  51: "Seleccione bajo/acorde abierto de Dm7.",
+  52: "Seleccione Dm11 con reemplazo de quinta por oncena.",
+  53: "Seleccione Em11 sin quinta.",
+  54: "Seleccione G13(#11)."
+};
+const MODULE_3_SHELL_ALTERNATIVES = {
+  7: [["F3", "A3"]],
+  8: [["D3", "F#3"], ["D3", "C#4"], ["F#3", "C#4"], ["C#4", "F#4", "A4"]],
+  9: [["G3", "B3"], ["G3", "F4"], ["B3", "F4"], ["F3", "B3", "D4"], ["B3", "F4", "A4"]],
+  10: [["A3", "C4"], ["A3", "G4"], ["C4", "G4"], ["G3", "C4", "E4"], ["C4", "G4", "B4"]],
+  11: [["E3", "G#3"], ["E3", "D#4"], ["G#3", "D#4"], ["G#3", "D#4", "F#4"], ["D#4", "G#4", "B4"]],
+  12: [["A#2", "D3"]],
+  13: [["D3", "F#3"], ["D3", "C4"], ["F#3", "C4"], ["C4", "F#4", "A4"], ["F#3", "C4", "E4"]],
+  14: [["C#3", "F3"], ["C#3", "B3"], ["F3", "B3"], ["B3", "F4", "G#4"], ["F3", "B3", "D#4"]],
+  15: [["C3", "E3"], ["C3", "B3"], ["E3", "B3"], ["E3", "B3", "D4"], ["B3", "E4", "G4"]],
+  16: [["C3", "E3"], ["C3", "B3"], ["E3", "B3"], ["B3", "E4", "G4"]]
+};
 normalizeData();
 const LS_KEY = "teoria_musical_local_app_v1";
 let state = loadState();
@@ -16,6 +86,56 @@ function normalizeData() {
       quiz: DATA.quiz || []
     }];
   }
+  normalizePianoSelectQuestions();
+}
+function normalizePianoSelectQuestions() {
+  DATA.modules.forEach(module => {
+    module.quiz.forEach(question => {
+      if (question.type !== "pianoSelect") return;
+      question.keyboardRange = question.keyboardRange || Object.assign({}, PIANO_SELECT_DEFAULT_RANGE);
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_PIANO_PROMPTS[question.id]) {
+        question.prompt = MODULE_3_PIANO_PROMPTS[question.id];
+      }
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[question.id]) {
+        question.accept = buildShellAcceptance(question.id);
+        question.sampleAnswer = shellSampleAnswer(question.id);
+      } else {
+        question.accept = question.accept || buildPianoAcceptance(question);
+      }
+    });
+  });
+}
+function buildShellAcceptance(id) {
+  return {
+    mode: "oneOf",
+    alternatives: MODULE_3_SHELL_ALTERNATIVES[id].map(expected => ({
+      mode: "pitchClass",
+      expected,
+      pitchClasses: uniqueSorted(expected.map(notePitchClass)),
+      pattern: pianoIntervalPattern(expected)
+    }))
+  };
+}
+function shellSampleAnswer(id) {
+  const examples = MODULE_3_SHELL_ALTERNATIVES[id].map(notes => notes.join(", "));
+  return `Cualquier shell válido del acorde. Ejemplos: ${examples.join(" / ")}.`;
+}
+function buildPianoAcceptance(question) {
+  const answers = Array.isArray(question.answers) ? question.answers : [];
+  const prompt = question.prompt || "";
+  const sensitiveSingle = answers.length === 1 && /registro ideal|ubicada justo|ubicado justo|justo debajo|justo encima/i.test(prompt);
+  const shapeSensitive = /Shell|Skip 2|posición cerrada|disposición|separación|voicing|bajo\/acorde|soporte grave|registro medio|comenzando debajo/i.test(prompt);
+  const mode = sensitiveSingle
+    ? "exact"
+    : answers.length === 1 || !shapeSensitive
+      ? "pitchClass"
+      : "shape";
+  return {
+    mode,
+    expected: answers,
+    pitchClasses: uniqueSorted(answers.map(notePitchClass)),
+    pattern: pianoIntervalPattern(answers)
+  };
 }
 function activeModule() {
   return DATA.modules.find(module => module.id === state.moduleId) || DATA.modules[0];
@@ -270,9 +390,9 @@ function renderTheoryDetail() {
         <span class="study-badge ${state.studied[section.id] ? "done" : ""}">${state.studied[section.id] ? "Estudiado" : "Pendiente"}</span>
       </header>
       <div class="concept-list">
-        ${section.items.map(item => `<section class="concept-item">
+        ${section.items.map(item => `<section class="concept-item ${item.diagram ? "has-diagram" : ""}">
           <h4>${escapeHtml(item.term)}</h4>
-          ${renderConceptBody(item.body)}
+          ${renderConceptBody(item)}
         </section>`).join("")}
       </div>
       <footer class="theory-actions">
@@ -282,15 +402,17 @@ function renderTheoryDetail() {
       </footer>
     </article>`;
 }
-function renderConceptBody(body) {
+function renderConceptBody(item) {
+  const body = typeof item === "string" ? item : item?.body || "";
   const blocks = conceptBlocks(body);
-  if (!blocks.some(block => block.type === "table")) {
-    return `<div class="concept-body"><p>${escapeHtml(body)}</p></div>`;
-  }
-  return `<div class="concept-body">${blocks.map(block => {
+  const bodyHtml = !blocks.some(block => block.type === "table")
+    ? (body ? `<p>${escapeHtml(body)}</p>` : "")
+    : blocks.map(block => {
     if (block.type === "table") return renderChordTable(block.rows);
     return `<p>${escapeHtml(block.text)}</p>`;
-  }).join("")}</div>`;
+  }).join("");
+  const diagramHtml = item?.diagram ? renderPianoDiagram(item.diagram) : "";
+  return `<div class="concept-body">${bodyHtml}${diagramHtml}</div>`;
 }
 function conceptBlocks(body) {
   const chunks = splitConceptChunks(body);
@@ -386,6 +508,146 @@ function renderChordTable(rows) {
     </tr>`).join("")}</tbody>
   </table></div>`;
 }
+function renderPianoDiagram(diagram) {
+  const range = diagram.range || { from: "C2", to: "C6" };
+  const notes = buildPianoNotes(range.from || "C2", range.to || "C6");
+  const whiteCount = notes.filter(note => !note.isBlack).length;
+  const keys = diagram.keys || {};
+  return `<figure class="piano-diagram">
+    <div class="piano-diagram-scroll">
+      <div class="piano-diagram-keyboard" style="--white-count:${whiteCount};">
+        ${notes.map(note => renderPianoKey(note, keys[note.note], whiteCount)).join("")}
+        ${notes.map(note => renderPianoFloatingLabel(note, keys[note.note], whiteCount)).join("")}
+      </div>
+    </div>
+  </figure>`;
+}
+
+function buildPianoNotes(fromNote, toNote) {
+  const start = noteStep(fromNote);
+  const end = noteStep(toNote);
+  const built = [];
+  let whiteIndex = 0;
+  for (let step = start; step <= end; step += 1) {
+    const name = PIANO_NOTE_NAMES[((step % 12) + 12) % 12];
+    const octave = Math.floor(step / 12) - 1;
+    const isBlack = name.includes("#");
+    built.push({
+      note: `${name}${octave}`,
+      name,
+      octave,
+      isBlack,
+      whiteIndex: isBlack ? null : whiteIndex,
+      leftWhiteIndex: isBlack ? whiteIndex - 1 : null
+    });
+    if (!isBlack) whiteIndex += 1;
+  }
+  return built;
+}
+
+function renderPianoKey(note, key, whiteCount) {
+  const left = note.isBlack
+    ? ((note.leftWhiteIndex + 1) / whiteCount) * 100
+    : (note.whiteIndex / whiteCount) * 100;
+  const width = note.isBlack ? 60 / whiteCount : 100 / whiteCount;
+  const transform = note.isBlack ? " translateX(-50%)" : "";
+  const active = !!key;
+  const style = active
+    ? `background:${escapeAttr(pianoKeyBackground(note, key))};`
+    : "";
+  const cName = note.name === "C" ? `<span class="piano-note-name">${escapeHtml(note.note)}</span>` : "";
+  return `<span class="piano-key ${note.isBlack ? "black" : "white"} ${active ? "marked" : ""}"
+      style="left:${left}%;width:${width}%;transform:${transform};${style}">
+      ${cName}
+    </span>`;
+}
+
+function renderPianoFloatingLabel(note, key, whiteCount) {
+  const labelText = String(key?.label?.text || "").replace(/\s+/g, " ").trim();
+  if (!labelText) return "";
+  const center = note.isBlack
+    ? ((note.leftWhiteIndex + 1) / whiteCount) * 100
+    : ((note.whiteIndex + .5) / whiteCount) * 100;
+  return `<span class="piano-floating-label ${note.isBlack ? "black-label" : "white-label"}"
+      style="left:${center}%;${pianoLabelStyle(key.label)}">${escapeHtml(labelText)}</span>`;
+}
+
+function pianoLabelStyle(label) {
+  return [
+    `font-size:${Number(label.fontSize) || 13}px`,
+    `font-family:${escapeAttr(label.fontFamily || "'Arial Black', Arial, sans-serif")}`,
+    `color:${escapeAttr(label.textColor || "#111827")}`,
+    `background:${escapeAttr(label.background || "#ffffff")}`,
+    `border:${Number(label.borderWidth ?? 2)}px solid ${escapeAttr(label.borderColor || "#111827")}`,
+    `border-radius:${Number(label.borderRadius ?? 4)}px`,
+    `bottom:${Number(label.verticalOffset ?? 13)}px`
+  ].join(";");
+}
+
+function pianoKeyBackground(note, key) {
+  const color = hexToRgb(key?.color || "#facc15");
+  const base = note.isBlack ? hexToRgb("#111827") : hexToRgb("#ffffff");
+  const fill = note.isBlack ? darkenRgb(color, .52) : color;
+  const opacity = clamp(Number(key?.opacity ?? 100), 0, 100) / 100;
+  return rgbToCss({
+    r: Math.round(base.r + (fill.r - base.r) * opacity),
+    g: Math.round(base.g + (fill.g - base.g) * opacity),
+    b: Math.round(base.b + (fill.b - base.b) * opacity)
+  });
+}
+
+function noteStep(noteName) {
+  const match = String(noteName || "").match(/^([A-G]#?)(-?\d+)$/);
+  if (!match) return 48;
+  const nameIndex = PIANO_NOTE_NAMES.indexOf(match[1]);
+  return ((Number(match[2]) + 1) * 12) + nameIndex;
+}
+
+function notePitchClass(noteName) {
+  return ((noteStep(noteName) % 12) + 12) % 12;
+}
+
+function uniqueSorted(values) {
+  return [...new Set(values.map(value => Number(value)).filter(value => Number.isFinite(value)))]
+    .sort((a, b) => a - b);
+}
+
+function pianoIntervalPattern(notes) {
+  const midis = notes
+    .map(noteStep)
+    .filter(value => Number.isFinite(value))
+    .sort((a, b) => a - b);
+  if (!midis.length) return [];
+  const base = midis[0];
+  return midis.map(midi => midi - base);
+}
+
+function sameNumberList(a, b) {
+  return a.length === b.length && a.every((value, index) => Number(value) === Number(b[index]));
+}
+
+function hexToRgb(hex) {
+  const clean = String(hex || "#000000").replace("#", "");
+  const full = clean.length === 3 ? clean.split("").map(char => char + char).join("") : clean.padEnd(6, "0").slice(0, 6);
+  const value = Number.parseInt(full, 16);
+  return {
+    r: (value >> 16) & 255,
+    g: (value >> 8) & 255,
+    b: value & 255
+  };
+}
+
+function darkenRgb(rgb, factor) {
+  return {
+    r: Math.round(rgb.r * factor),
+    g: Math.round(rgb.g * factor),
+    b: Math.round(rgb.b * factor)
+  };
+}
+
+function rgbToCss(rgb) {
+  return `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
+}
 function updateProgress() {
   const done = moduleTheory().filter(s => state.studied[s.id]).length;
   const total = moduleTheory().length;
@@ -416,6 +678,11 @@ function updateStudentMeta() {
   saveState();
 }
 function startQuiz() {
+  if (!moduleQuiz().length) {
+    alert("Este módulo todavía no tiene cuestionario. Primero estudia el módulo teórico.");
+    showView("theory");
+    return;
+  }
   updateStudentMeta();
   if (!state.quiz.student.name) {
     alert("Ingrese el nombre del estudiante antes de iniciar.");
@@ -456,9 +723,11 @@ function renderQuiz() {
 }
 function renderQuestion(q) {
   const body = renderQuestionBody(q);
+  const diagram = q.diagram ? `<div class="question-diagram">${renderPianoDiagram(q.diagram)}</div>` : "";
   return `<article class="question-card" id="q-${q.id}">
     <div class="section-label">${escapeHtml(q.section || "")}</div>
     <div class="question-head"><div class="qnum">${q.id}.</div><h3>${escapeHtml(q.prompt)}</h3></div>
+    ${diagram}
     ${body}
   </article>`;
 }
@@ -473,10 +742,13 @@ function renderQuestionBody(q) {
     return `<div class="inline-grid">${q.labels.map((label,i) => `<label class="field"><span>${escapeHtml(label)}</span><select data-answer="q${q.id}_${i}"><option value="">Seleccione</option>${q.options.map(opt => `<option value="${escapeHtml(optionValue(opt))}" ${val(q.id,`_${i}`)===optionValue(opt)?"selected":""}>${escapeHtml(optionLabel(opt))}</option>`).join("")}</select></label>`).join("")}</div>`;
   }
   if (q.type === "multipleChoice") {
-    return `<div class="options">${q.choices.map((choice,i) => `<label class="option"><input type="radio" name="q${q.id}" data-answer="q${q.id}" value="${i}" ${String(val(q.id))===String(i)?"checked":""}><span>${String.fromCharCode(97+i)}) ${escapeHtml(choice)}</span></label>`).join("")}</div>`;
+    return renderMultipleChoice(q);
   }
   if (q.type === "multiSelect") {
     return `<div class="multi-note">Seleccione todas las respuestas correctas.</div><div class="options">${q.choices.map((choice,i) => `<label class="option"><input type="checkbox" data-answer="q${q.id}_${i}" value="${escapeHtml(choice)}" ${val(q.id,`_${i}`) ? "checked" : ""}><span>${escapeHtml(choice)}</span></label>`).join("")}</div>`;
+  }
+  if (q.type === "pianoSelect") {
+    return renderPianoSelect(q);
   }
   if (q.type === "classify") {
     return `<div>${q.items.map(item => `<label class="classify-row"><span>${escapeHtml(item)}</span><select data-answer="q${q.id}_${escapeAttr(item)}"><option value="">Seleccione</option>${dropdownOptions(q, item).map(opt => `<option value="${escapeHtml(opt)}" ${val(q.id,`_${item}`)===opt?"selected":""}>${escapeHtml(opt)}</option>`).join("")}</select></label>`).join("")}</div>`;
@@ -489,10 +761,62 @@ function renderQuestionBody(q) {
   }
   return "";
 }
+
+function renderMultipleChoice(q) {
+  return `<div class="options">${q.choices.map((choice,i) => {
+    const checked = String(val(q.id)) === String(i);
+    const hasDiagram = !!choice?.diagram;
+    return `<label class="option ${hasDiagram ? "choice-with-diagram" : ""}">
+      <input type="radio" name="q${q.id}" data-answer="q${q.id}" value="${i}" ${checked ? "checked" : ""}>
+      ${renderChoiceContent(choice, i)}
+    </label>`;
+  }).join("")}</div>`;
+}
+
+function renderChoiceContent(choice, index) {
+  const diagram = choice?.diagram ? `<div class="option-diagram">${renderPianoDiagram(choice.diagram)}</div>` : "";
+  return `<div class="choice-copy"><span class="choice-text">${String.fromCharCode(97 + index)}) ${escapeHtml(optionLabel(choice))}</span>${diagram}</div>`;
+}
+
+function renderPianoSelect(q) {
+  const range = pianoQuestionRange(q);
+  const notes = buildPianoNotes(range.from || "C2", range.to || "C6");
+  const whiteCount = notes.filter(note => !note.isBlack).length;
+  return `<div class="multi-note">Seleccione todas las teclas correctas.</div>
+    <div class="piano-select-wrap">
+      <div class="piano-select-keyboard" style="--white-count:${whiteCount};">
+        ${notes.map(note => renderPianoToggleKey(q, note, whiteCount)).join("")}
+      </div>
+    </div>`;
+}
+
+function renderPianoToggleKey(q, note, whiteCount) {
+  const left = note.isBlack
+    ? ((note.leftWhiteIndex + 1) / whiteCount) * 100
+    : (note.whiteIndex / whiteCount) * 100;
+  const width = note.isBlack ? 60 / whiteCount : 100 / whiteCount;
+  const transform = note.isBlack ? " translateX(-50%)" : "";
+  const selected = !!val(q.id, `_${note.note}`);
+  const cName = note.name === "C" ? `<span class="piano-note-name">${escapeHtml(note.note)}</span>` : "";
+  return `<button type="button"
+      class="piano-answer-key ${note.isBlack ? "black" : "white"} ${selected ? "selected" : ""}"
+      data-piano-toggle
+      data-answer="q${q.id}_${escapeAttr(note.note)}"
+      data-value="${escapeAttr(note.note)}"
+      aria-label="${escapeAttr(note.note)}"
+      aria-pressed="${selected}"
+      title="${escapeAttr(note.note)}"
+      style="left:${left}%;width:${width}%;transform:${transform};">
+      ${cName}
+    </button>`;
+}
 function bindAnswerEvents() {
-  document.querySelectorAll("[data-answer]").forEach(el => {
+  document.querySelectorAll("[data-answer]:not([data-piano-toggle])").forEach(el => {
     el.addEventListener("input", saveAnswer);
     el.addEventListener("change", saveAnswer);
+  });
+  document.querySelectorAll("[data-piano-toggle]").forEach(el => {
+    el.addEventListener("click", savePianoToggle);
   });
 }
 function saveAnswer(e) {
@@ -508,12 +832,25 @@ function saveAnswer(e) {
   setText("answeredCount", `${countAnswered()}/${moduleQuiz().length} respondidas`);
   $("quizBar").style.width = `${(countAnswered() / moduleQuiz().length) * 100}%`;
 }
+function savePianoToggle(e) {
+  const key = e.currentTarget.dataset.answer;
+  const value = e.currentTarget.dataset.value;
+  const selected = !state.quiz.answers[key];
+  if (selected) state.quiz.answers[key] = value;
+  else delete state.quiz.answers[key];
+  e.currentTarget.classList.toggle("selected", selected);
+  e.currentTarget.setAttribute("aria-pressed", String(selected));
+  saveState();
+  setText("answeredCount", `${countAnswered()}/${moduleQuiz().length} respondidas`);
+  $("quizBar").style.width = `${(countAnswered() / moduleQuiz().length) * 100}%`;
+}
 function countAnswered() {
   return moduleQuiz().filter(q => isAnswered(q)).length;
 }
 function isAnswered(q) {
   if (q.type === "selectBlanks") return q.answers.some((_,i)=> String(val(q.id,`_${i}`)).trim());
   if (q.type === "multiSelect") return q.choices.some((_,i)=> String(val(q.id,`_${i}`)).trim());
+  if (q.type === "pianoSelect") return pianoSelectedNotes(q).length > 0;
   if (q.type === "classify" || q.type === "match") return q.items.some(item => String(val(q.id,`_${item}`)).trim());
   return String(val(q.id)).trim() !== "";
 }
@@ -554,6 +891,11 @@ function gradeQuestion(q) {
     const extra = selected.filter(choice => !expected.includes(choice)).length;
     given = selected.length ? selected.join(" | ") : "";
     points = clamp((correct - extra) / expected.length, 0, 1);
+  } else if (q.type === "pianoSelect") {
+    const selected = pianoSelectedNotes(q);
+    const evaluation = gradePianoSelection(q, selected);
+    given = selected.length ? selected.map(note => pianoAnswerLabel(q, note)).join(" | ") : "";
+    points = evaluation.points;
   } else if (q.type === "classify" || q.type === "match") {
     const scores = q.items.map(item => val(q.id,`_${item}`) === q.answers[item] ? 1 : 0);
     given = q.items.map(item => `${item}: ${val(q.id,`_${item}`)}`).join(" | ");
@@ -569,6 +911,55 @@ function gradeQuestion(q) {
   points = Math.round(points * 1000) / 1000;
   return { id: q.id, prompt: q.prompt, points, given, sampleAnswer: q.sampleAnswer, status: points >= .999 ? "correct" : points > 0 ? "partial" : "wrong" };
 }
+function pianoSelectedNotes(q) {
+  const range = pianoQuestionRange(q);
+  return buildPianoNotes(range.from || "C2", range.to || "C6")
+    .map(note => note.note)
+    .filter(note => String(val(q.id, `_${note}`)).trim());
+}
+function pianoQuestionRange(q) {
+  return q.keyboardRange || PIANO_SELECT_DEFAULT_RANGE;
+}
+function gradePianoSelection(q, selected) {
+  const accept = q.accept || buildPianoAcceptance(q);
+  if (accept.mode === "oneOf") {
+    const alternatives = Array.isArray(accept.alternatives) ? accept.alternatives : [];
+    if (!alternatives.length) return { points: 0 };
+    return alternatives
+      .map(alternative => gradePianoSelection(Object.assign({}, q, { accept: alternative }), selected))
+      .reduce((best, current) => current.points > best.points ? current : best, { points: 0 });
+  }
+  const expected = accept.expected || q.answers || [];
+  if (!expected.length || !selected.length) return { points: 0 };
+
+  if (accept.mode === "exact") {
+    const correct = selected.filter(note => expected.includes(note)).length;
+    const extra = selected.filter(note => !expected.includes(note)).length;
+    return { points: clamp((correct - extra) / expected.length, 0, 1) };
+  }
+
+  const selectedPcs = uniqueSorted(selected.map(notePitchClass));
+  const expectedPcs = accept.pitchClasses || uniqueSorted(expected.map(notePitchClass));
+  const pcCorrect = selectedPcs.filter(pc => expectedPcs.includes(pc)).length;
+  const pcExtra = selectedPcs.filter(pc => !expectedPcs.includes(pc)).length;
+  const duplicateExtra = Math.max(0, selected.length - expected.length);
+  const pcScore = expectedPcs.length ? clamp((pcCorrect - pcExtra - duplicateExtra) / expectedPcs.length, 0, 1) : 0;
+
+  if (accept.mode === "pitchClass") {
+    return { points: pcScore };
+  }
+
+  const expectedPattern = accept.pattern || pianoIntervalPattern(expected);
+  const selectedPattern = pianoIntervalPattern(selected);
+  const patternOk = sameNumberList(expectedPattern, selectedPattern);
+  const points = patternOk && pcScore >= .999
+    ? 1
+    : clamp((pcScore * .45) + (patternOk ? .55 : 0), 0, 1);
+  return { points };
+}
+function pianoAnswerLabel(q, note) {
+  return q.noteLabels?.[note] || note;
+}
 function uniqueHits(text, terms) {
   const clean = normalizeText(text);
   const hits = new Set();
@@ -582,7 +973,7 @@ function choiceLabel(q, value) {
   if (value === "" || value === undefined) return "";
   const i = Number(value);
   if (Number.isNaN(i) || !q.choices[i]) return "";
-  return `${String.fromCharCode(97+i)}) ${q.choices[i]}`;
+  return `${String.fromCharCode(97+i)}) ${optionLabel(q.choices[i])}`;
 }
 function renderQuizResult(result) {
   $("quizStartPanel").classList.add("hidden");

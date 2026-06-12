@@ -582,6 +582,101 @@ main {
   line-height: 1.65;
 }
 
+.concept-item.has-diagram {
+  grid-template-columns: minmax(150px, .24fr) minmax(0, 1fr);
+}
+
+.piano-diagram {
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.piano-diagram-scroll {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 8px;
+  background: linear-gradient(180deg, #f8fafc, #edf4f8);
+}
+
+.piano-diagram-keyboard {
+  position: relative;
+  isolation: isolate;
+  overflow: visible;
+  width: max(100%, calc(var(--white-count) * 34px));
+  min-width: 100%;
+  height: 104px;
+}
+
+.piano-key {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border: 1px solid #a8b3c3;
+  user-select: none;
+}
+
+.piano-key.white {
+  z-index: 1;
+  height: 96px;
+  border-radius: 0 0 4px 4px;
+  background: #fff;
+}
+
+.piano-key.black {
+  z-index: 3;
+  height: 64px;
+  border-color: #0f172a;
+  border-radius: 0 0 3px 3px;
+  background: #111827;
+  color: #fff;
+}
+
+.piano-key.marked {
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, .24);
+}
+
+.piano-note-name {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  color: rgba(15, 23, 42, .72);
+  font-size: .52rem;
+  font-weight: 850;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.piano-key.black .piano-note-name {
+  color: rgba(255, 255, 255, .82);
+}
+
+.piano-floating-label {
+  position: absolute;
+  z-index: 12;
+  min-width: 30px;
+  max-width: none;
+  padding: 2px 5px;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.1;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.piano-floating-label.black-label {
+  min-width: 30px;
+  padding: 2px 5px;
+}
+
 .chord-table-wrap {
   overflow-x: auto;
   border: 1px solid var(--line);
@@ -784,6 +879,10 @@ select:focus {
   line-height: 1.45;
 }
 
+.question-diagram {
+  margin: 0 0 14px 56px;
+}
+
 .section-label {
   margin: 0 0 6px 56px;
   color: var(--muted);
@@ -807,6 +906,41 @@ select:focus {
   background: #ffffff;
 }
 
+.choice-with-diagram {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.choice-copy {
+  min-width: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.choice-text {
+  font-weight: 750;
+}
+
+.option-diagram .piano-diagram-scroll,
+.question-diagram .piano-diagram-scroll {
+  padding: 6px;
+}
+
+.option-diagram .piano-diagram-keyboard,
+.question-diagram .piano-diagram-keyboard {
+  height: 92px;
+}
+
+.option-diagram .piano-key.white,
+.question-diagram .piano-key.white {
+  height: 84px;
+}
+
+.option-diagram .piano-key.black,
+.question-diagram .piano-key.black {
+  height: 56px;
+}
+
 .option input {
   margin-top: 4px;
 }
@@ -816,6 +950,60 @@ select:focus {
   color: var(--muted);
   font-size: .9rem;
   font-weight: 750;
+}
+
+.piano-select-wrap {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 7px;
+  background: linear-gradient(180deg, #f8fafc, #edf4f8);
+}
+
+.piano-select-keyboard {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  min-width: 0;
+  height: 106px;
+}
+
+.piano-answer-key {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border: 1px solid #a8b3c3;
+  cursor: pointer;
+  user-select: none;
+}
+
+.piano-answer-key.white {
+  z-index: 1;
+  height: 98px;
+  border-radius: 0 0 4px 4px;
+  background: #ffffff;
+}
+
+.piano-answer-key.black {
+  z-index: 3;
+  height: 65px;
+  border-color: #0f172a;
+  border-radius: 0 0 3px 3px;
+  background: #111827;
+}
+
+.piano-answer-key.selected {
+  z-index: 8;
+  background: #facc15;
+  box-shadow: inset 0 0 0 2px rgba(15, 23, 42, .32), 0 0 0 2px rgba(250, 204, 21, .34);
+}
+
+.piano-answer-key.black.selected {
+  background: #8f6f08;
 }
 
 .inline-grid {

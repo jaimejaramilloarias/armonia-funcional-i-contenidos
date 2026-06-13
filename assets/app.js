@@ -1,6 +1,7 @@
 const DATA = window.APP_DATA;
 const PIANO_NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 const PIANO_SELECT_DEFAULT_RANGE = { from: "C1", to: "C6" };
+const MODULE_3_REMOVED_QUESTION_IDS = new Set([29, 30, 31, 32, 33, 34]);
 const MODULE_3_PIANO_PROMPTS = {
   1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
@@ -86,19 +87,33 @@ function normalizeData() {
       quiz: DATA.quiz || []
     }];
   }
+  normalizeVoicingQuiz();
   normalizePianoSelectQuestions();
+}
+function normalizeVoicingQuiz() {
+  const module = DATA.modules.find(item => item.id === "nivel-3-principios-voicing");
+  if (!module || module.__normalizedVoicingQuiz) return;
+  module.quiz = module.quiz
+    .filter(question => !MODULE_3_REMOVED_QUESTION_IDS.has(question.id))
+    .map((question, index) => {
+      question.sourceId = question.sourceId || question.id;
+      question.id = index + 1;
+      return question;
+    });
+  module.__normalizedVoicingQuiz = true;
 }
 function normalizePianoSelectQuestions() {
   DATA.modules.forEach(module => {
     module.quiz.forEach(question => {
       if (question.type !== "pianoSelect") return;
+      const sourceId = question.sourceId || question.id;
       question.keyboardRange = question.keyboardRange || Object.assign({}, PIANO_SELECT_DEFAULT_RANGE);
-      if (module.id === "nivel-3-principios-voicing" && MODULE_3_PIANO_PROMPTS[question.id]) {
-        question.prompt = MODULE_3_PIANO_PROMPTS[question.id];
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_PIANO_PROMPTS[sourceId]) {
+        question.prompt = MODULE_3_PIANO_PROMPTS[sourceId];
       }
-      if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[question.id]) {
-        question.accept = buildShellAcceptance(question.id);
-        question.sampleAnswer = shellSampleAnswer(question.id);
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[sourceId]) {
+        question.accept = buildShellAcceptance(sourceId);
+        question.sampleAnswer = shellSampleAnswer(sourceId);
       } else {
         question.accept = question.accept || buildPianoAcceptance(question);
       }

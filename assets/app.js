@@ -6,7 +6,7 @@ const MODULE_3_PIANO_PROMPTS = {
   1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
   3: "Seleccione las notas guía de G7 en registro medio.",
-  4: "Seleccione una posición cerrada en registro medio para C∆9 sin bajo.",
+  4: "Seleccione una posición cerrada en registro medio para A∆9 sin bajo.",
   5: "Seleccione una disposición abierta para Dm9.",
   6: "Seleccione una separación clara entre bajo y notas guía para Bb∆.",
   7: "Seleccione en el teclado un shell válido para F mayor.",
@@ -17,18 +17,18 @@ const MODULE_3_PIANO_PROMPTS = {
   12: "Seleccione en el teclado un shell válido para Bb mayor.",
   13: "Seleccione en el teclado un shell válido para D7.",
   14: "Seleccione en el teclado un shell válido para Db7.",
-  15: "Seleccione en el teclado un shell válido para C∆9.",
-  16: "Seleccione en el teclado un shell válido para C∆.",
+  15: "Seleccione en el teclado un shell válido para A∆9.",
+  16: "Seleccione en el teclado un shell válido para G∆.",
   17: "Seleccione una posición cerrada de C∆9.",
   18: "Seleccione un skip de F∆9 desde A como base.",
   19: "Seleccione una posición cerrada de Dm9 sin bajo.",
-  20: "Seleccione un skip de C∆9 desde E como base.",
-  21: "Seleccione un skip con duplicación de mano derecha para C∆9 desde E como base.",
-  22: "Seleccione un skip con voz interior en mano derecha para C∆9 desde E como base.",
+  20: "Seleccione un skip de D∆9 desde F# como base.",
+  21: "Seleccione un skip con duplicación de mano derecha para A∆9 desde C# como base.",
+  22: "Seleccione un skip con voz interior en mano derecha para Eb∆9 desde G como base.",
   23: "Seleccione un skip de Gm9 desde Bb como base.",
   24: "Seleccione una posición cerrada completa de C∆9 con nota interna agregada.",
-  25: "Seleccione un skip con triada en mano derecha para C∆9 desde E como base.",
-  26: "Seleccione un skip con 9a y triada en la mano derecha para C∆13(#11) desde E como base.",
+  25: "Seleccione un skip con triada en mano derecha para Bb∆9 desde D como base.",
+  26: "Seleccione un skip con 9a y triada en la mano derecha para F∆13(#11) desde A como base.",
   27: "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
   28: "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
   29: "Para Ab7, seleccione la nota del acorde ubicada justo debajo de Ab3.",
@@ -37,24 +37,24 @@ const MODULE_3_PIANO_PROMPTS = {
   32: "Para E13, seleccione la extensión ubicada justo encima de B3.",
   33: "Para Db7, seleccione la nota del acorde ubicada justo debajo de Db3.",
   34: "Para Bb13, seleccione la extensión ubicada justo encima de F3.",
-  35: "Seleccione la triada básica de C mayor como primer paso para construir C13.",
-  36: "En C13, seleccione la nota que puede reemplazar a la fundamental.",
+  35: "Seleccione la triada básica de E mayor como primer paso para construir E13.",
+  36: "En G13, seleccione la nota que puede reemplazar a la fundamental.",
   37: "En F13, seleccione la nota que puede reemplazar a la quinta justa.",
-  38: "Seleccione las notas que pertenecen a Dm11.",
+  38: "Seleccione las notas que pertenecen a Bbm11.",
   39: "Seleccione las notas de G13(b9) sin quinta.",
   40: "Seleccione un voicing de G13(b9).",
-  41: "En Dm11, seleccione la nota que puede reemplazar a la quinta justa.",
-  42: "Seleccione Dm11 con soporte grave de fundamental.",
+  41: "En Gm11, seleccione la nota que puede reemplazar a la quinta justa.",
+  42: "Seleccione Cm11 con soporte grave de fundamental.",
   43: "Seleccione las notas de F13 sin quinta.",
   44: "Para Bb13(#11), seleccione las dos extensiones superiores del acorde.",
   45: "Seleccione las notas de E13(b9) sin quinta.",
   46: "Seleccione un skip de Am6(9) desde C como base.",
-  47: "Seleccione bajo/acorde cerrado n.1 para Dm7.",
-  48: "Seleccione bajo/acorde cerrado n.1 para G7.",
-  49: "Seleccione bajo/acorde cerrado n.2 para Dm7.",
-  50: "Seleccione bajo/acorde abierto de Gm7.",
-  51: "Seleccione bajo/acorde abierto de Dm7.",
-  52: "Seleccione Dm11 con reemplazo de quinta por oncena.",
+  47: "Seleccione un bajo/acorde cerrado para Am7 con fundamental grave y notas guía en la mano derecha.",
+  48: "Seleccione un bajo/acorde cerrado para G7 con fundamental grave y notas guía en la mano derecha.",
+  49: "Seleccione un bajo/acorde cerrado para A7 con fundamental grave, notas guía en mano derecha y quinta en voz superior.",
+  50: "Seleccione bajo/acorde abierto para Gm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
+  51: "Seleccione bajo/acorde abierto de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
+  52: "Seleccione F#m11 en bajo/acorde con reemplazo de quinta por oncena.",
   53: "Seleccione Em11 sin quinta.",
   54: "Seleccione G13(#11)."
 };
@@ -65,16 +65,88 @@ const MODULE_3_QUESTION_OVERRIDES = {
     noteLabels: { "A#3": "Bb3" },
     sampleAnswer: "E3 y Bb3."
   },
+  4: {
+    answers: ["C#4", "E4", "G#4", "B4"],
+    sampleAnswer: "C#4, E4, G#4 y B4."
+  },
+  15: {
+    keyboardRange: { from: "C3", to: "C6" }
+  },
+  16: {
+    keyboardRange: { from: "C3", to: "C6" }
+  },
+  20: {
+    answers: ["F#3", "C#4", "E4", "A4"],
+    sampleAnswer: "F#3, C#4, E4 y A4."
+  },
+  21: {
+    answers: ["C#3", "G#3", "B3", "E4", "E5"],
+    sampleAnswer: "C#3, G#3, B3, E4 y E5."
+  },
+  22: {
+    answers: ["G3", "D4", "F4", "A#4", "D#5", "A#5"],
+    noteLabels: { "A#4": "Bb4", "D#5": "Eb5", "A#5": "Bb5" },
+    sampleAnswer: "G3, D4, F4, Bb4, Eb5 y Bb5."
+  },
+  25: {
+    answers: ["D3", "A3", "C4", "F4", "A4", "C5", "F5"],
+    sampleAnswer: "D3, A3, C4, F4, A4, C5 y F5."
+  },
+  26: {
+    answers: ["A3", "E4", "G4", "D5", "F#5", "B5"],
+    sampleAnswer: "A3, E4, G4, D5, F#5 y B5."
+  },
+  35: {
+    answers: ["E3", "G#3", "B3"],
+    sampleAnswer: "E3, G#3 y B3."
+  },
+  36: {
+    answers: ["A4"],
+    sampleAnswer: "A4."
+  },
   37: {
-    prompt: "En Ab13, seleccione la 13M que reemplaza rápidamente a la quinta justa Eb.",
+    prompt: "En Ab13, seleccione la nota que reemplaza a Eb en el procedimiento de construcción.",
     answers: ["F4"],
     sampleAnswer: "F4."
   },
+  38: {
+    answers: ["A#2", "C#3", "F3", "G#3", "C4", "D#4"],
+    noteLabels: { "A#2": "Bb2", "C#3": "Db3", "G#3": "Ab3", "D#4": "Eb4" },
+    sampleAnswer: "Bb2, Db3, F3, Ab3, C4 y Eb4."
+  },
   40: {
-    prompt: "Seleccione un voicing de Db13(b9): fundamental, 7m, 3M, b9 y 13M.",
+    prompt: "Seleccione un voicing de Db13(b9).",
     answers: ["C#2", "B2", "F3", "D4", "A#4"],
     noteLabels: { "C#2": "Db2", "B2": "Cb3", "D4": "Ebb4", "A#4": "Bb4" },
     sampleAnswer: "Db2, Cb3, F3, Ebb4 y Bb4."
+  },
+  41: {
+    prompt: "En Gm11, seleccione la nota que reemplaza a D en el procedimiento de construcción.",
+    answers: ["C4"],
+    sampleAnswer: "C4."
+  },
+  42: {
+    answers: ["C2", "D#3", "A#3", "D4", "F4"],
+    noteLabels: { "D#3": "Eb3", "A#3": "Bb3" },
+    sampleAnswer: "C2, Eb3, Bb3, D4 y F4."
+  },
+  47: {
+    answers: ["A2", "C4", "G4"],
+    sampleAnswer: "A2, C4 y G4."
+  },
+  49: {
+    keyboardRange: { from: "C2", to: "C6" },
+    answers: ["A2", "C#4", "G4", "E5"],
+    sampleAnswer: "A2, C#4, G4 y E5."
+  },
+  51: {
+    answers: ["C3", "A#3", "D#4"],
+    noteLabels: { "A#3": "Bb3", "D#4": "Eb4" },
+    sampleAnswer: "C3, Bb3 y Eb4."
+  },
+  52: {
+    answers: ["F#2", "E3", "A3", "B3", "G#4"],
+    sampleAnswer: "F#2, E3, A3, B3 y G#4."
   }
 };
 const MODULE_3_ANALYSIS_BASS = {
@@ -86,15 +158,15 @@ const MODULE_3_ANALYSIS_BASS = {
   12: "A#2",
   13: "D2",
   14: "C#2",
-  15: "C2",
-  16: "C2",
+  15: "A2",
+  16: "G2",
   18: "F2",
-  20: "C2",
-  21: "C2",
-  22: "C2",
+  20: "D2",
+  21: "A2",
+  22: "D#2",
   23: "G2",
-  25: "C2",
-  26: "C2",
+  25: "A#2",
+  26: "F2",
   46: "A2"
 };
 const MODULE_3_SHELL_ALTERNATIVES = {
@@ -106,8 +178,8 @@ const MODULE_3_SHELL_ALTERNATIVES = {
   12: [["A#2", "D3"]],
   13: [["D3", "F#3"], ["D3", "C4"], ["F#3", "C4"], ["C4", "F#4", "A4"], ["F#3", "C4", "E4"]],
   14: [["C#3", "F3"], ["C#3", "B3"], ["F3", "B3"], ["B3", "F4", "G#4"], ["F3", "B3", "D#4"]],
-  15: [["C3", "E3"], ["C3", "B3"], ["E3", "B3"], ["E3", "B3", "D4"], ["B3", "E4", "G4"]],
-  16: [["C3", "E3"], ["C3", "B3"], ["E3", "B3"], ["B3", "E4", "G4"]]
+  15: [["A3", "C#4"], ["A3", "G#4"], ["C#4", "G#4"], ["C#4", "G#4", "B4"], ["G#4", "C#5", "E5"]],
+  16: [["G3", "B3"], ["G3", "F#4"], ["B3", "F#4"], ["F#4", "B4", "D5"]]
 };
 normalizeData();
 const LS_KEY = "teoria_musical_local_app_v1";

@@ -597,7 +597,7 @@ main {
   width: 100%;
   max-width: 100%;
   min-width: 0;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -609,8 +609,8 @@ main {
   position: relative;
   isolation: isolate;
   overflow: visible;
-  width: max(100%, calc(var(--white-count) * 34px));
-  min-width: 100%;
+  width: 100%;
+  min-width: 0;
   height: 104px;
 }
 

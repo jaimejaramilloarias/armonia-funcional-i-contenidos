@@ -1,6 +1,7 @@
 const DATA = window.APP_DATA;
 const PIANO_NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
-const PIANO_SELECT_DEFAULT_RANGE = { from: "C1", to: "C6" };
+const PIANO_FULL_RANGE = Object.freeze({ from: "C1", to: "C7" });
+const PIANO_SELECT_DEFAULT_RANGE = PIANO_FULL_RANGE;
 const MODULE_3_REMOVED_QUESTION_IDS = new Set([17, 24, 29, 30, 31, 32, 33, 34]);
 const MODULE_3_PIANO_PROMPTS = {
   1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
@@ -147,6 +148,11 @@ const MODULE_3_QUESTION_OVERRIDES = {
   52: {
     answers: ["F#2", "E3", "A3", "B3", "G#4"],
     sampleAnswer: "F#2, E3, A3, B3 y G#4."
+  },
+  54: {
+    noteLabels: { "C#4": "C#/Db4" },
+    parserCiphers: ["G13(#11)", "G13(b5)"],
+    sampleAnswer: "G2, F3, B3, C#/Db4, E4 y A4."
   }
 };
 const MODULE_3_ANALYSIS_BASS = {
@@ -167,7 +173,8 @@ const MODULE_3_ANALYSIS_BASS = {
   23: "G2",
   25: "A#2",
   26: "F2",
-  46: "A2"
+  46: "A2",
+  54: "G2"
 };
 const MODULE_3_SHELL_ALTERNATIVES = {
   7: [["F3", "A3"]],
@@ -218,7 +225,7 @@ function normalizePianoSelectQuestions() {
     module.quiz.forEach(question => {
       if (question.type !== "pianoSelect") return;
       const sourceId = question.sourceId || question.id;
-      question.keyboardRange = question.keyboardRange || Object.assign({}, PIANO_SELECT_DEFAULT_RANGE);
+      question.keyboardRange = fullPianoRange();
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_PIANO_PROMPTS[sourceId]) {
         question.prompt = MODULE_3_PIANO_PROMPTS[sourceId];
       }
@@ -228,6 +235,7 @@ function normalizePianoSelectQuestions() {
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_ANALYSIS_BASS[sourceId]) {
         question.analysisBass = MODULE_3_ANALYSIS_BASS[sourceId];
       }
+      question.keyboardRange = fullPianoRange();
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[sourceId]) {
         question.accept = buildShellAcceptance(sourceId);
         question.sampleAnswer = shellSampleAnswer(sourceId);
@@ -236,6 +244,9 @@ function normalizePianoSelectQuestions() {
       }
     });
   });
+}
+function fullPianoRange() {
+  return { from: PIANO_FULL_RANGE.from, to: PIANO_FULL_RANGE.to };
 }
 function applyQuestionOverride(question, override) {
   Object.assign(question, override);
@@ -272,7 +283,8 @@ function buildPianoAcceptance(question) {
     expected: answers,
     pitchClasses: uniqueSorted(answers.map(notePitchClass)),
     pattern: pianoIntervalPattern(answers),
-    analysis: pianoAnalysisHint(question.analysisBass, answers)
+    analysis: pianoAnalysisHint(question.analysisBass, answers),
+    parserCiphers: question.parserCiphers || null
   };
 }
 function pianoAnalysisHint(analysisBass, expected) {
@@ -657,8 +669,8 @@ function renderChordTable(rows) {
   </table></div>`;
 }
 function renderPianoDiagram(diagram) {
-  const range = diagram.range || { from: "C2", to: "C6" };
-  const notes = buildPianoNotes(range.from || "C2", range.to || "C6");
+  const range = fullPianoRange();
+  const notes = buildPianoNotes(range.from, range.to);
   const whiteCount = notes.filter(note => !note.isBlack).length;
   const keys = diagram.keys || {};
   return `<figure class="piano-diagram">
@@ -928,7 +940,7 @@ function renderChoiceContent(choice, index) {
 
 function renderPianoSelect(q) {
   const range = pianoQuestionRange(q);
-  const notes = buildPianoNotes(range.from || "C2", range.to || "C6");
+  const notes = buildPianoNotes(range.from, range.to);
   const whiteCount = notes.filter(note => !note.isBlack).length;
   return `<div class="multi-note">Seleccione todas las teclas correctas.</div>
     <div class="piano-select-wrap">
@@ -1061,12 +1073,12 @@ function gradeQuestion(q) {
 }
 function pianoSelectedNotes(q) {
   const range = pianoQuestionRange(q);
-  return buildPianoNotes(range.from || "C2", range.to || "C6")
+  return buildPianoNotes(range.from, range.to)
     .map(note => note.note)
     .filter(note => String(val(q.id, `_${note}`)).trim());
 }
 function pianoQuestionRange(q) {
-  return q.keyboardRange || PIANO_SELECT_DEFAULT_RANGE;
+  return fullPianoRange();
 }
 function gradePianoSelection(q, selected) {
   const accept = q.accept || buildPianoAcceptance(q);

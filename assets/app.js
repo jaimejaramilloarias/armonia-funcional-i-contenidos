@@ -55,8 +55,8 @@ const MODULE_3_PIANO_PROMPTS = {
   49: "Seleccione un bajo/acorde cerrado para A7 con fundamental grave, notas guía en mano derecha y quinta en voz superior.",
   50: "Seleccione bajo/acorde abierto para Gm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
   51: "Seleccione bajo/acorde abierto de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
-  52: "Seleccione F#m11 en bajo/acorde con reemplazo de quinta por oncena.",
-  53: "Seleccione Em11 sin quinta.",
+  52: "Seleccione F#m11 en bajo/acorde.",
+  53: "Seleccione Em11 en disposición bajo/acorde.",
   54: "Seleccione G13(#11)."
 };
 const MODULE_3_QUESTION_OVERRIDES = {
@@ -68,7 +68,16 @@ const MODULE_3_QUESTION_OVERRIDES = {
   },
   4: {
     answers: ["C#4", "E4", "G#4", "B4"],
-    sampleAnswer: "C#4, E4, G#4 y B4."
+    acceptedAnswers: [["G#3", "B3", "C#4", "E4"]],
+    sampleAnswer: "C#4, E4, G#4 y B4; también una inversión cerrada equivalente."
+  },
+  5: {
+    acceptedAnswers: [["D3", "C4", "F4", "A4", "E5"]],
+    sampleAnswer: "D2, F3, C4 y E4; también una disposición abierta equivalente con quinta."
+  },
+  6: {
+    acceptedAnswers: [["A#2", "A3", "D4"]],
+    sampleAnswer: "Bb2, D4 y A4; también Bb2, A3 y D4."
   },
   15: {
     keyboardRange: { from: "C3", to: "C6" }
@@ -87,15 +96,16 @@ const MODULE_3_QUESTION_OVERRIDES = {
   22: {
     answers: ["G3", "D4", "F4", "A#4", "D#5", "A#5"],
     noteLabels: { "A#4": "Bb4", "D#5": "Eb5", "A#5": "Bb5" },
-    sampleAnswer: "G3, D4, F4, Bb4, Eb5 y Bb5."
+    acceptedAnswers: [["G3", "D4", "F4", "A#4", "F5", "A#5"]],
+    sampleAnswer: "G3, D4, F4, Bb4, Eb5 y Bb5; también es válida la voz interna F5."
   },
   25: {
     answers: ["D3", "A3", "C4", "F4", "A4", "C5", "F5"],
     sampleAnswer: "D3, A3, C4, F4, A4, C5 y F5."
   },
   26: {
-    answers: ["A3", "E4", "G4", "D5", "F#5", "B5"],
-    sampleAnswer: "A3, E4, G4, D5, F#5 y B5."
+    answers: ["A3", "E4", "G4", "C5", "G5", "B5", "D6"],
+    sampleAnswer: "A3, E4, G4, C5, G5, B5 y D6."
   },
   35: {
     answers: ["E3", "G#3", "B3"],
@@ -113,12 +123,18 @@ const MODULE_3_QUESTION_OVERRIDES = {
   38: {
     answers: ["A#2", "C#3", "F3", "G#3", "C4", "D#4"],
     noteLabels: { "A#2": "Bb2", "C#3": "Db3", "G#3": "Ab3", "D#4": "Eb4" },
+    acceptedAnswers: [["C#4", "D#4", "G#4", "C5"]],
     sampleAnswer: "Bb2, Db3, F3, Ab3, C4 y Eb4."
+  },
+  39: {
+    acceptedAnswers: [["F3", "G#3", "B3", "E4"]],
+    sampleAnswer: "G2, B3, F4, Ab4 y E4; también el voicing rootless F, Ab, B y E."
   },
   40: {
     prompt: "Seleccione un voicing de Db13(b9).",
     answers: ["C#2", "B2", "F3", "D4", "A#4"],
     noteLabels: { "C#2": "Db2", "B2": "Cb3", "D4": "Ebb4", "A#4": "Bb4" },
+    acceptedAnswers: [["F3", "A#3", "B3", "D4"]],
     sampleAnswer: "Db2, Cb3, F3, Ebb4 y Bb4."
   },
   41: {
@@ -129,25 +145,39 @@ const MODULE_3_QUESTION_OVERRIDES = {
   42: {
     answers: ["C2", "D#3", "A#3", "D4", "F4"],
     noteLabels: { "D#3": "Eb3", "A#3": "Bb3" },
+    acceptedAnswers: [["C2", "D#3", "F3", "A#3", "D4"]],
     sampleAnswer: "C2, Eb3, Bb3, D4 y F4."
   },
   47: {
     answers: ["A2", "C4", "G4"],
+    acceptedAnswers: [["A2", "G3", "C4"]],
     sampleAnswer: "A2, C4 y G4."
+  },
+  48: {
+    acceptedAnswers: [["G2", "F3", "B3"]],
+    sampleAnswer: "G2, B3 y F4; también G2, F3 y B3."
   },
   49: {
     keyboardRange: { from: "C2", to: "C6" },
     answers: ["A2", "C#4", "G4", "E5"],
+    acceptedAnswers: [["A2", "G3", "C#4", "E4"]],
     sampleAnswer: "A2, C#4, G4 y E5."
   },
   51: {
+    prompt: "Seleccione bajo/acorde abierto de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha y duplicación opcional de la nota guía superior.",
     answers: ["C3", "A#3", "D#4"],
     noteLabels: { "A#3": "Bb3", "D#4": "Eb4" },
-    sampleAnswer: "C3, Bb3 y Eb4."
+    acceptedAnswers: [["C3", "A#3", "D#4", "D#5"]],
+    sampleAnswer: "C3, Bb3 y Eb4; opcionalmente Eb5 duplicada."
   },
   52: {
     answers: ["F#2", "E3", "A3", "B3", "G#4"],
-    sampleAnswer: "F#2, E3, A3, B3 y G#4."
+    acceptedAnswers: [["F#2", "E3", "G#3", "A3", "B3"]],
+    sampleAnswer: "F#2, E3, A3, B3 y G#4; la 9 puede ubicarse en otra octava."
+  },
+  53: {
+    acceptedAnswers: [["E2", "G3", "A3", "D4", "F#4"]],
+    sampleAnswer: "E2, D3, G3, A3 y F#4; también E2, G3, A3, D4 y F#4."
   },
   54: {
     noteLabels: { "C#4": "C#/Db4" },
@@ -173,8 +203,28 @@ const MODULE_3_ANALYSIS_BASS = {
   23: "G2",
   25: "A#2",
   26: "F2",
+  27: "F2",
+  38: "A#2",
+  39: "G2",
+  40: "C#2",
+  42: "C2",
+  43: "F2",
+  45: "E2",
   46: "A2",
+  52: "F#2",
+  53: "E2",
   54: "G2"
+};
+const MODULE_3_PARSER_CIPHERS = {
+  38: ["Bbm11"],
+  39: ["G13(b9)"],
+  40: ["Db13(b9)"],
+  42: ["Cm11"],
+  43: ["F13"],
+  45: ["E13(b9)"],
+  52: ["F#m11"],
+  53: ["Em11"],
+  54: ["G13(#11)", "G13(b5)"]
 };
 const MODULE_3_SHELL_ALTERNATIVES = {
   7: [["F3", "A3"]],
@@ -235,6 +285,9 @@ function normalizePianoSelectQuestions() {
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_ANALYSIS_BASS[sourceId]) {
         question.analysisBass = MODULE_3_ANALYSIS_BASS[sourceId];
       }
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_PARSER_CIPHERS[sourceId]) {
+        question.parserCiphers = MODULE_3_PARSER_CIPHERS[sourceId];
+      }
       question.keyboardRange = fullPianoRange();
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[sourceId]) {
         question.accept = buildShellAcceptance(sourceId);
@@ -278,13 +331,32 @@ function buildPianoAcceptance(question) {
     : answers.length === 1 || !shapeSensitive
       ? "pitchClass"
       : "shape";
-  return {
+  const base = pianoAcceptanceFromExpected(answers, {
     mode,
-    expected: answers,
-    pitchClasses: uniqueSorted(answers.map(notePitchClass)),
-    pattern: pianoIntervalPattern(answers),
-    analysis: pianoAnalysisHint(question.analysisBass, answers),
-    parserCiphers: question.parserCiphers || null
+    analysisBass: question.analysisBass,
+    parserCiphers: question.parserCiphers
+  });
+  const extra = (question.acceptedAnswers || []).map(item => {
+    const notes = Array.isArray(item) ? item : item.notes;
+    return pianoAcceptanceFromExpected(notes || [], {
+      mode: Array.isArray(item) ? mode : item.mode || mode,
+      analysisBass: question.analysisBass,
+      parserCiphers: question.parserCiphers
+    });
+  });
+  if (extra.length) {
+    return { mode: "oneOf", alternatives: [base].concat(extra) };
+  }
+  return base;
+}
+function pianoAcceptanceFromExpected(expected, options) {
+  return {
+    mode: options.mode,
+    expected,
+    pitchClasses: uniqueSorted(expected.map(notePitchClass)),
+    pattern: pianoIntervalPattern(expected),
+    analysis: pianoAnalysisHint(options.analysisBass, expected),
+    parserCiphers: options.parserCiphers || null
   };
 }
 function pianoAnalysisHint(analysisBass, expected) {
@@ -296,6 +368,104 @@ function pianoAnalysisHint(analysisBass, expected) {
     rootless: !hasFundamental,
     parserNotes: [analysisBass].concat(expected.filter(note => note !== analysisBass))
   };
+}
+const CHORD_ROOT_BASE_PCS = Object.freeze({ C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 });
+const CHORD_QUALITY_PATTERNS = Object.freeze({
+  "": { required: [0, 4, 7], optional: [] },
+  "m": { required: [0, 3, 7], optional: [] },
+  "7": { required: [0, 4, 10], optional: [7] },
+  "∆": { required: [0, 4, 11], optional: [7] },
+  "∆9": { required: [0, 4, 11, 2], optional: [7] },
+  "m7": { required: [0, 3, 10], optional: [7] },
+  "m7(b5)": { required: [0, 3, 6, 10], optional: [] },
+  "m9": { required: [0, 3, 10, 2], optional: [7] },
+  "m11": { required: [0, 3, 10, 5], optional: [2, 7] },
+  "ø9": { required: [0, 3, 6, 10, 2], optional: [] },
+  "m6(9)": { required: [0, 3, 9, 2], optional: [7] },
+  "13": { required: [0, 2, 4, 9, 10], optional: [7] },
+  "13(b9)": { required: [0, 4, 10, 1, 9], optional: [7] },
+  "13(b5)": { required: [0, 4, 6, 10, 9], optional: [2, 7] },
+  "13(b5)b9": { required: [0, 4, 6, 10, 1, 9], optional: [7] },
+  "13(#11)": { required: [0, 4, 7, 10, 6, 9], optional: [2] },
+  "∆13": { required: [0, 2, 4, 7, 11, 9], optional: [] },
+  "∆13(#11)": { required: [0, 4, 7, 11, 6, 9], optional: [2] }
+});
+function gradeChordParserSelection(accept, selected) {
+  const ciphers = Array.isArray(accept.parserCiphers) ? accept.parserCiphers : [];
+  if (!ciphers.length || !selected.length) return null;
+  const notes = parserNotesForSelection(accept.analysis, selected);
+  return ciphers.reduce((best, cipher) => Math.max(best, scoreSelectionAsCipher(notes, cipher)), 0);
+}
+function parserNotesForSelection(analysis, selected) {
+  const notes = selected.slice();
+  const bass = analysis?.bass;
+  if (bass) {
+    const bassPc = notePitchClass(bass);
+    const hasBassPc = notes.some(note => notePitchClass(note) === bassPc);
+    if (!hasBassPc) notes.unshift(bass);
+  }
+  return notes;
+}
+function scoreSelectionAsCipher(notes, cipher) {
+  const parsed = parseChordCipher(cipher);
+  if (!parsed) return 0;
+  const pcs = uniqueSorted(notes.map(notePitchClass));
+  const intervals = uniqueSorted(pcs.map(pc => (pc - parsed.rootPc + 12) % 12));
+  const required = parsed.pattern.required;
+  const optional = parsed.pattern.optional || [];
+  const allowed = new Set(required.concat(optional));
+  const presentRequired = required.filter(interval => intervals.includes(interval)).length;
+  const extra = intervals.filter(interval => !allowed.has(interval)).length;
+  if (presentRequired === required.length && extra === 0) return 1;
+  return clamp((presentRequired - extra) / required.length, 0, 1);
+}
+function parseChordCipher(cipher) {
+  const clean = normalizeChordCipher(cipher);
+  const match = clean.match(/^([A-G](?:bb|##|b|#)?)(.*)$/);
+  if (!match) return null;
+  const rootPc = chordRootPitchClass(match[1]);
+  const quality = normalizeChordQuality(match[2]);
+  const pattern = CHORD_QUALITY_PATTERNS[quality];
+  return Number.isFinite(rootPc) && pattern ? { rootPc, quality, pattern } : null;
+}
+function normalizeChordCipher(cipher) {
+  return String(cipher || "")
+    .trim()
+    .replace(/[♭]/g, "b")
+    .replace(/[♯]/g, "#")
+    .replace(/[Δ]/g, "∆")
+    .replace(/\s+/g, "")
+    .split("/")[0];
+}
+function normalizeChordQuality(quality) {
+  let q = String(quality || "")
+    .replace(/^maj13/i, "∆13")
+    .replace(/^ma13/i, "∆13")
+    .replace(/^maj9/i, "∆9")
+    .replace(/^ma9/i, "∆9")
+    .replace(/^maj7/i, "∆")
+    .replace(/^ma7/i, "∆")
+    .replace(/^maj/i, "∆")
+    .replace(/^ma/i, "∆")
+    .replace(/^min/i, "m")
+    .replace(/^mi/i, "m")
+    .replace(/^-/, "m")
+    .replace(/^°/, "º");
+  if (q === "ø") return "m7(b5)";
+  if (q === "ø9") return "ø9";
+  if (q === "maj7") return "∆";
+  if (q === "maj9") return "∆9";
+  return q;
+}
+function chordRootPitchClass(root) {
+  const letter = String(root || "")[0]?.toUpperCase();
+  if (!(letter in CHORD_ROOT_BASE_PCS)) return NaN;
+  let pc = CHORD_ROOT_BASE_PCS[letter];
+  String(root || "").slice(1).split("").forEach(accidental => {
+    if (accidental === "b") pc -= 1;
+    if (accidental === "#") pc += 1;
+  });
+  return ((pc % 12) + 12) % 12;
 }
 function activeModule() {
   return DATA.modules.find(module => module.id === state.moduleId) || DATA.modules[0];
@@ -1089,6 +1259,17 @@ function gradePianoSelection(q, selected) {
       .map(alternative => gradePianoSelection(Object.assign({}, q, { accept: alternative }), selected))
       .reduce((best, current) => current.points > best.points ? current : best, { points: 0 });
   }
+  const structural = gradePianoSelectionStructure(q, selected, accept);
+  const parserScore = gradeChordParserSelection(accept, selected);
+  if (parserScore !== null && parserScore >= .999) {
+    if (accept.mode === "shape") {
+      return { points: Math.max(structural.points, clamp(.6 + (structural.points * .4), 0, 1)) };
+    }
+    return { points: 1 };
+  }
+  return structural;
+}
+function gradePianoSelectionStructure(q, selected, accept) {
   const expected = accept.expected || q.answers || [];
   if (!expected.length || !selected.length) return { points: 0 };
 

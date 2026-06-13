@@ -50,11 +50,11 @@ const MODULE_3_PIANO_PROMPTS = {
   44: "Para Bb13(#11), seleccione las dos extensiones superiores del acorde.",
   45: "Seleccione las notas de E13(b9) sin quinta.",
   46: "Seleccione un skip de Am6(9) desde C como base.",
-  47: "Seleccione un bajo/acorde cerrado para Am7 con fundamental grave y notas guía en la mano derecha.",
-  48: "Seleccione un bajo/acorde cerrado para G7 con fundamental grave y notas guía en la mano derecha.",
-  49: "Seleccione un bajo/acorde cerrado para A7 con fundamental grave, notas guía en mano derecha y quinta en voz superior.",
-  50: "Seleccione bajo/acorde abierto para Gm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
-  51: "Seleccione bajo/acorde abierto de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
+  47: "Seleccione bajo/acorde para Am7 con fundamental grave y notas guía en la mano derecha.",
+  48: "Seleccione bajo/acorde para G7 con fundamental grave y notas guía en la mano derecha.",
+  49: "Seleccione bajo/acorde para A7 con fundamental grave, notas guía en mano derecha y quinta en voz superior.",
+  50: "Seleccione bajo/acorde para Gm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
+  51: "Seleccione bajo/acorde de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha.",
   52: "Seleccione F#m11 en bajo/acorde.",
   53: "Seleccione Em11 en disposición bajo/acorde.",
   54: "Seleccione G13(#11)."
@@ -164,7 +164,7 @@ const MODULE_3_QUESTION_OVERRIDES = {
     sampleAnswer: "A2, C#4, G4 y E5."
   },
   51: {
-    prompt: "Seleccione bajo/acorde abierto de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha y duplicación opcional de la nota guía superior.",
+    prompt: "Seleccione bajo/acorde de Cm7 con fundamental y séptima en la izquierda, tercera en la derecha y duplicación opcional de la nota guía superior.",
     answers: ["C3", "A#3", "D#4"],
     noteLabels: { "A#3": "Bb3", "D#4": "Eb4" },
     acceptedAnswers: [["C3", "A#3", "D#4", "D#5"]],
@@ -1262,9 +1262,6 @@ function gradePianoSelection(q, selected) {
   const structural = gradePianoSelectionStructure(q, selected, accept);
   const parserScore = gradeChordParserSelection(accept, selected);
   if (parserScore !== null && parserScore >= .999) {
-    if (accept.mode === "shape") {
-      return { points: Math.max(structural.points, clamp(.6 + (structural.points * .4), 0, 1)) };
-    }
     return { points: 1 };
   }
   return structural;

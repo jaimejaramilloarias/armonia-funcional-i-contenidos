@@ -8478,11 +8478,11 @@ window.APP_DATA = {
         {
           "id": "nivel-3-acompanamiento-bajo-acorde",
           "title": "6. Acompañamiento bajo/acorde",
-          "subtitle": "Modelos cerrados y abiertos para acompañar con bajo, notas guía y extensiones.",
+          "subtitle": "Modelos para acompañar con bajo, notas guía y extensiones.",
           "items": [
             {
-              "term": "Bajo/acorde cerrado: notas guía",
-              "body": "Acompañamiento bajo/acorde cerrado: 1. fundamental en el bajo, notas guía enlazadas en la mano derecha (Dm7).",
+              "term": "Bajo/acorde: notas guía",
+              "body": "Acompañamiento bajo/acorde: 1. fundamental en el bajo, notas guía enlazadas en la mano derecha (Dm7).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -8539,8 +8539,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Bajo/acorde cerrado: voz superior",
-              "body": "Acompañamiento bajo/acorde cerrado: 2. fundamental en el bajo, notas guía enlazadas en la mano derecha y quintas o novenas en la voz superior (Dm7).",
+              "term": "Bajo/acorde: voz superior",
+              "body": "Acompañamiento bajo/acorde: 2. fundamental en el bajo, notas guía enlazadas en la mano derecha y quintas o novenas en la voz superior (Dm7).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -8700,8 +8700,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Bajo/acorde abierto: shell y guía faltante",
-              "body": "Acompañamiento bajo/acorde abierto: 1. Shell F-3 o F-7 en la mano izquierda, y la nota guía faltante en la derecha (Dm7); opcionalmente puede duplicar a la octava la nota de la mano derecha.",
+              "term": "Bajo/acorde: shell y guía faltante",
+              "body": "Acompañamiento bajo/acorde: 1. Shell F-3 o F-7 en la mano izquierda, y la nota guía faltante en la derecha (Dm7); opcionalmente puede duplicar a la octava la nota de la mano derecha.",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -8773,8 +8773,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Bajo/acorde abierto: guía con quinta",
-              "body": "Acompañamiento bajo/acorde abierto: 2. Shell F-3 o F-7 en la mano izquierda, nota guía y quinta o novena en la derecha (Dm7).",
+              "term": "Bajo/acorde: guía con quinta",
+              "body": "Acompañamiento bajo/acorde: 2. Shell F-3 o F-7 en la mano izquierda, nota guía y quinta o novena en la derecha (Dm7).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -8846,8 +8846,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Bajo/acorde abierto: guía con quinta y novena",
-              "body": "Acompañamiento bajo/acorde abierto: 3. Shell F-3 o F-7 en la mano izquierda, nota guía con quinta y novena en la derecha (Dm9).",
+              "term": "Bajo/acorde: guía con quinta y novena",
+              "body": "Acompañamiento bajo/acorde: 3. Shell F-3 o F-7 en la mano izquierda, nota guía con quinta y novena en la derecha (Dm9).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -9952,7 +9952,7 @@ window.APP_DATA = {
           "id": 47,
           "section": "VI. Acompañamiento bajo/acorde",
           "type": "pianoSelect",
-          "prompt": "Seleccione bajo/acorde cerrado n.1 para Dm7: fundamental en bajo, 3m y 7m en la mano derecha.",
+          "prompt": "Seleccione bajo/acorde para Dm7: fundamental en bajo, 3m y 7m en la mano derecha.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -9969,7 +9969,7 @@ window.APP_DATA = {
           "id": 48,
           "section": "VI. Acompañamiento bajo/acorde",
           "type": "pianoSelect",
-          "prompt": "Seleccione bajo/acorde cerrado n.1 para G7: fundamental en bajo, 3M y 7m en la mano derecha.",
+          "prompt": "Seleccione bajo/acorde para G7: fundamental en bajo, 3M y 7m en la mano derecha.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -9986,7 +9986,7 @@ window.APP_DATA = {
           "id": 49,
           "section": "VI. Acompañamiento bajo/acorde",
           "type": "pianoSelect",
-          "prompt": "Seleccione bajo/acorde cerrado n.2 para Dm7: fundamental en bajo, 3m, 7m y 5j en voz superior.",
+          "prompt": "Seleccione bajo/acorde para Dm7: fundamental en bajo, 3m, 7m y 5j en voz superior.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -10004,7 +10004,7 @@ window.APP_DATA = {
           "id": 50,
           "section": "VI. Acompañamiento bajo/acorde",
           "type": "pianoSelect",
-          "prompt": "Seleccione bajo/acorde abierto de Gm7: fundamental y 7m en la izquierda, 3m en la derecha.",
+          "prompt": "Seleccione bajo/acorde de Gm7: fundamental y 7m en la izquierda, 3m en la derecha.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -10023,7 +10023,7 @@ window.APP_DATA = {
           "id": 51,
           "section": "VI. Acompañamiento bajo/acorde",
           "type": "pianoSelect",
-          "prompt": "Seleccione bajo/acorde abierto de Dm7: fundamental y 7m en la izquierda, 3m en la derecha.",
+          "prompt": "Seleccione bajo/acorde de Dm7: fundamental y 7m en la izquierda, 3m en la derecha.",
           "range": {
             "from": "C2",
             "to": "C5"

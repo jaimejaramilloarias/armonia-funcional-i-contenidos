@@ -8,7 +8,7 @@ const MODULE_3_PIANO_PROMPTS = {
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
   3: "Seleccione las notas guía de G7 en registro medio.",
   4: "Seleccione una posición cerrada en registro medio para A∆9 sin bajo.",
-  5: "Seleccione una disposición abierta para Dm9.",
+  5: "Seleccione un Spread para Dm9.",
   6: "Seleccione una separación clara entre bajo y notas guía para Bb∆.",
   7: "Seleccione en el teclado un shell válido para F mayor.",
   8: "Seleccione en el teclado un shell válido para D∆.",
@@ -30,8 +30,8 @@ const MODULE_3_PIANO_PROMPTS = {
   24: "Seleccione una posición cerrada completa de C∆9 con nota interna agregada.",
   25: "Seleccione un skip con triada en mano derecha para Bb∆9 desde D como base.",
   26: "Seleccione un skip con 9a y triada en la mano derecha para F∆13(#11) desde A como base.",
-  27: "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
-  28: "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
+  27: "Seleccione una triada grave con separación recomendada para F mayor comenzando debajo de C3.",
+  28: "Seleccione una triada grave con separación recomendada para Bb/F comenzando debajo de C3.",
   29: "Para Ab7, seleccione la nota del acorde ubicada justo debajo de Ab3.",
   30: "Para E9, seleccione la extensión ubicada justo encima de E3.",
   31: "Para E11, seleccione la extensión ubicada justo debajo de B3.",
@@ -73,7 +73,7 @@ const MODULE_3_QUESTION_OVERRIDES = {
   },
   5: {
     acceptedAnswers: [["D3", "C4", "F4", "A4", "E5"]],
-    sampleAnswer: "D2, F3, C4 y E4; también una disposición abierta equivalente con quinta."
+    sampleAnswer: "D2, F3, C4 y E4; también un Spread equivalente con quinta."
   },
   6: {
     acceptedAnswers: [["A#2", "A3", "D4"]],
@@ -325,7 +325,7 @@ function buildPianoAcceptance(question) {
   const answers = Array.isArray(question.answers) ? question.answers : [];
   const prompt = question.prompt || "";
   const sensitiveSingle = answers.length === 1 && /registro ideal|ubicada justo|ubicado justo|justo debajo|justo encima/i.test(prompt);
-  const shapeSensitive = /Shell|\bskip\b|Skip 2|posición cerrada|disposición|separación|voicing|bajo\/acorde|soporte grave|registro medio|comenzando debajo/i.test(prompt);
+  const shapeSensitive = /Shell|\bskip\b|Skip 2|Spread|posición cerrada|disposición|separación|voicing|bajo\/acorde|soporte grave|registro medio|comenzando debajo/i.test(prompt);
   const mode = sensitiveSingle
     ? "exact"
     : answers.length === 1 || !shapeSensitive

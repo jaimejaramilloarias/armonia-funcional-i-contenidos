@@ -4346,12 +4346,12 @@ window.APP_DATA = {
       "id": "nivel-3-principios-voicing",
       "level": "Nivel 3",
       "title": "Principios de voicing",
-      "subtitle": "Registros, shell voicings, posición cerrada, Skip 2, extensiones y acompañamiento bajo/acorde.",
+      "subtitle": "Registros, shell voicings, posición cerrada, Spread, Skip 2, extensiones y acompañamiento bajo/acorde.",
       "theory": [
         {
           "id": "nivel-3-registros-zonas",
           "title": "1. Registros y zonas de trabajo",
-          "subtitle": "Regiones recomendadas para bajo, acordes, posición abierta y notas guía.",
+          "subtitle": "Regiones recomendadas para bajo, posición cerrada, Spread y notas guía.",
           "items": [
             {
               "term": "Registro ideal del bajo",
@@ -4830,8 +4830,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Registro ideal de posición abierta",
-              "body": "Registro ideal de los acordes en posición abierta; no tiene que ser exacto, es más una región del registro que un rango absoluto, no incluye el bajo.",
+              "term": "Registro ideal de Spread",
+              "body": "Registro ideal de los acordes Spread: acordes abiertos que no incluyen el bajo. No tiene que ser exacto, es más una región del registro que un rango absoluto.",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -5830,7 +5830,7 @@ window.APP_DATA = {
         {
           "id": "nivel-3-posicion-cerrada-skip-2",
           "title": "3. Posición cerrada y Skip 2",
-          "subtitle": "Aperturas progresivas desde posición cerrada hacia disposiciones semiabiertas.",
+          "subtitle": "Posición cerrada y procedimientos de Skip 2 como recurso independiente del Spread.",
           "items": [
             {
               "term": "Posición cerrada completa: quinta agregada",
@@ -5980,7 +5980,7 @@ window.APP_DATA = {
             },
             {
               "term": "Skip 2 desde posición cerrada",
-              "body": "Acorde semiabierto \"Skip 2\", a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
+              "body": "Procedimiento \"Skip 2\": a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -6053,7 +6053,7 @@ window.APP_DATA = {
             },
             {
               "term": "Skip 2 con novena arriba",
-              "body": "Acorde semiabierto \"Skip 2\", a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
+              "body": "Procedimiento \"Skip 2\": a partir del acorde en posición cerrada, se sube una octava la segunda nota contada de abajo hacia arriba, la nota superior se toca con la mano derecha (C∆9).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -7224,8 +7224,8 @@ window.APP_DATA = {
               }
             },
             {
-              "term": "Triadas graves semiabiertas",
-              "body": "Si quiere hacer triadas comenzando debajo del C3 (en cualquier estado), hágalas semiabiertas, con Skip 2 de la posición cerrada (Bb/F).",
+              "term": "Triadas graves con separación amplia",
+              "body": "Si quiere hacer triadas comenzando debajo del C3 (en cualquier estado), use separación amplia mediante Skip 2 de la posición cerrada (Bb/F).",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -9211,7 +9211,7 @@ window.APP_DATA = {
           "id": 5,
           "section": "I. Registros y zonas de trabajo",
           "type": "pianoSelect",
-          "prompt": "Seleccione una disposición abierta para Dm9: fundamental en bajo, 3m, 7m y 9M en registro medio.",
+          "prompt": "Seleccione un Spread para Dm9: fundamental en bajo, 3m, 7m y 9M en registro medio.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -9605,7 +9605,7 @@ window.APP_DATA = {
           "id": 27,
           "section": "IV. Registro grave y ubicación rápida de extensiones",
           "type": "pianoSelect",
-          "prompt": "Seleccione una disposición semiabierta recomendada para F mayor comenzando debajo de C3.",
+          "prompt": "Seleccione una triada grave con separación recomendada para F mayor comenzando debajo de C3.",
           "range": {
             "from": "C2",
             "to": "C5"
@@ -9622,7 +9622,7 @@ window.APP_DATA = {
           "id": 28,
           "section": "IV. Registro grave y ubicación rápida de extensiones",
           "type": "pianoSelect",
-          "prompt": "Seleccione una disposición semiabierta recomendada para Bb/F comenzando debajo de C3.",
+          "prompt": "Seleccione una triada grave con separación recomendada para Bb/F comenzando debajo de C3.",
           "range": {
             "from": "C2",
             "to": "C5"

@@ -843,14 +843,51 @@ function renderPianoDiagram(diagram) {
   const notes = buildPianoNotes(range.from, range.to);
   const whiteCount = notes.filter(note => !note.isBlack).length;
   const keys = diagram.keys || {};
+  const labels = pianoFloatingLabels(notes, keys, whiteCount);
   return `<figure class="piano-diagram">
     <div class="piano-diagram-scroll">
       <div class="piano-diagram-keyboard" style="--white-count:${whiteCount};">
         ${notes.map(note => renderPianoKey(note, keys[note.note], whiteCount)).join("")}
-        ${notes.map(note => renderPianoFloatingLabel(note, keys[note.note], whiteCount)).join("")}
+        ${labels.map(item => renderPianoFloatingLabel(item)).join("")}
       </div>
     </div>
   </figure>`;
+}
+
+function pianoFloatingLabels(notes, keys, whiteCount) {
+  const labels = notes.map(note => {
+    const key = keys[note.note];
+    const labelText = String(key?.label?.text || "").replace(/\s+/g, " ").trim();
+    if (!labelText) return null;
+    const centerUnits = note.isBlack ? note.leftWhiteIndex + 1 : note.whiteIndex + .5;
+    return {
+      note,
+      key,
+      text: labelText,
+      center: (centerUnits / whiteCount) * 100,
+      centerUnits,
+      widthUnits: pianoLabelWidthUnits(labelText, key.label)
+    };
+  }).filter(Boolean).sort((a, b) => a.centerUnits - b.centerUnits);
+
+  const lastByLevel = [];
+  labels.forEach(label => {
+    let level = 0;
+    while (lastByLevel[level] && pianoLabelsCollide(lastByLevel[level], label)) level += 1;
+    label.level = level;
+    lastByLevel[level] = label;
+  });
+  return labels;
+}
+
+function pianoLabelWidthUnits(labelText, label) {
+  const fontSize = Number(label?.fontSize) || 13;
+  return Math.max(1.25, ((labelText.length * fontSize * .62) + 14) / 24);
+}
+
+function pianoLabelsCollide(previous, current) {
+  const minDistance = ((previous.widthUnits + current.widthUnits) / 2) + .16;
+  return current.centerUnits - previous.centerUnits < minDistance;
 }
 
 function buildPianoNotes(fromNote, toNote) {
@@ -892,17 +929,15 @@ function renderPianoKey(note, key, whiteCount) {
     </span>`;
 }
 
-function renderPianoFloatingLabel(note, key, whiteCount) {
-  const labelText = String(key?.label?.text || "").replace(/\s+/g, " ").trim();
-  if (!labelText) return "";
-  const center = note.isBlack
-    ? ((note.leftWhiteIndex + 1) / whiteCount) * 100
-    : ((note.whiteIndex + .5) / whiteCount) * 100;
+function renderPianoFloatingLabel(item) {
+  const note = item.note;
   return `<span class="piano-floating-label ${note.isBlack ? "black-label" : "white-label"}"
-      style="left:${center}%;${pianoLabelStyle(key.label)}">${escapeHtml(labelText)}</span>`;
+      style="left:${item.center}%;${pianoLabelStyle(item.key.label, item.level)}">${escapeHtml(item.text)}</span>`;
 }
 
-function pianoLabelStyle(label) {
+function pianoLabelStyle(label, level = 0) {
+  const baseOffset = Number(label.verticalOffset ?? 13);
+  const verticalOffset = baseOffset + (level * 28);
   return [
     `font-size:${Number(label.fontSize) || 13}px`,
     `font-family:${escapeAttr(label.fontFamily || "'Arial Black', Arial, sans-serif")}`,
@@ -910,7 +945,7 @@ function pianoLabelStyle(label) {
     `background:${escapeAttr(label.background || "#ffffff")}`,
     `border:${Number(label.borderWidth ?? 2)}px solid ${escapeAttr(label.borderColor || "#111827")}`,
     `border-radius:${Number(label.borderRadius ?? 4)}px`,
-    `bottom:${Number(label.verticalOffset ?? 13)}px`
+    `bottom:${verticalOffset}px`
   ].join(";");
 }
 

@@ -614,6 +614,17 @@ main {
   height: 104px;
 }
 
+.theory-section .piano-diagram-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.theory-section .piano-diagram-keyboard {
+  width: calc(var(--white-count) * 24px);
+  min-width: calc(var(--white-count) * 24px);
+}
+
 .piano-key {
   position: absolute;
   top: 0;

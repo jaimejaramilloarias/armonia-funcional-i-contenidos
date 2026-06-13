@@ -1,7 +1,7 @@
 const DATA = window.APP_DATA;
 const PIANO_NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 const PIANO_SELECT_DEFAULT_RANGE = { from: "C1", to: "C6" };
-const MODULE_3_REMOVED_QUESTION_IDS = new Set([29, 30, 31, 32, 33, 34]);
+const MODULE_3_REMOVED_QUESTION_IDS = new Set([17, 24, 29, 30, 31, 32, 33, 34]);
 const MODULE_3_PIANO_PROMPTS = {
   1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
@@ -58,6 +58,45 @@ const MODULE_3_PIANO_PROMPTS = {
   53: "Seleccione Em11 sin quinta.",
   54: "Seleccione G13(#11)."
 };
+const MODULE_3_QUESTION_OVERRIDES = {
+  3: {
+    prompt: "Seleccione las notas guía de C7 en registro medio.",
+    answers: ["E3", "A#3"],
+    noteLabels: { "A#3": "Bb3" },
+    sampleAnswer: "E3 y Bb3."
+  },
+  37: {
+    prompt: "En Ab13, seleccione la 13M que reemplaza rápidamente a la quinta justa Eb.",
+    answers: ["F4"],
+    sampleAnswer: "F4."
+  },
+  40: {
+    prompt: "Seleccione un voicing de Db13(b9): fundamental, 7m, 3M, b9 y 13M.",
+    answers: ["C#2", "B2", "F3", "D4", "A#4"],
+    noteLabels: { "C#2": "Db2", "B2": "Cb3", "D4": "Ebb4", "A#4": "Bb4" },
+    sampleAnswer: "Db2, Cb3, F3, Ebb4 y Bb4."
+  }
+};
+const MODULE_3_ANALYSIS_BASS = {
+  7: "F2",
+  8: "D2",
+  9: "G2",
+  10: "A2",
+  11: "E2",
+  12: "A#2",
+  13: "D2",
+  14: "C#2",
+  15: "C2",
+  16: "C2",
+  18: "F2",
+  20: "C2",
+  21: "C2",
+  22: "C2",
+  23: "G2",
+  25: "C2",
+  26: "C2",
+  46: "A2"
+};
 const MODULE_3_SHELL_ALTERNATIVES = {
   7: [["F3", "A3"]],
   8: [["D3", "F#3"], ["D3", "C#4"], ["F#3", "C#4"], ["C#4", "F#4", "A4"]],
@@ -111,6 +150,12 @@ function normalizePianoSelectQuestions() {
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_PIANO_PROMPTS[sourceId]) {
         question.prompt = MODULE_3_PIANO_PROMPTS[sourceId];
       }
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_QUESTION_OVERRIDES[sourceId]) {
+        applyQuestionOverride(question, MODULE_3_QUESTION_OVERRIDES[sourceId]);
+      }
+      if (module.id === "nivel-3-principios-voicing" && MODULE_3_ANALYSIS_BASS[sourceId]) {
+        question.analysisBass = MODULE_3_ANALYSIS_BASS[sourceId];
+      }
       if (module.id === "nivel-3-principios-voicing" && MODULE_3_SHELL_ALTERNATIVES[sourceId]) {
         question.accept = buildShellAcceptance(sourceId);
         question.sampleAnswer = shellSampleAnswer(sourceId);
@@ -120,6 +165,10 @@ function normalizePianoSelectQuestions() {
     });
   });
 }
+function applyQuestionOverride(question, override) {
+  Object.assign(question, override);
+  question.accept = null;
+}
 function buildShellAcceptance(id) {
   return {
     mode: "oneOf",
@@ -127,7 +176,8 @@ function buildShellAcceptance(id) {
       mode: "pitchClass",
       expected,
       pitchClasses: uniqueSorted(expected.map(notePitchClass)),
-      pattern: pianoIntervalPattern(expected)
+      pattern: pianoIntervalPattern(expected),
+      analysis: pianoAnalysisHint(MODULE_3_ANALYSIS_BASS[id], expected)
     }))
   };
 }
@@ -149,7 +199,18 @@ function buildPianoAcceptance(question) {
     mode,
     expected: answers,
     pitchClasses: uniqueSorted(answers.map(notePitchClass)),
-    pattern: pianoIntervalPattern(answers)
+    pattern: pianoIntervalPattern(answers),
+    analysis: pianoAnalysisHint(question.analysisBass, answers)
+  };
+}
+function pianoAnalysisHint(analysisBass, expected) {
+  if (!analysisBass) return null;
+  const bassPitchClass = notePitchClass(analysisBass);
+  const hasFundamental = expected.some(note => notePitchClass(note) === bassPitchClass);
+  return {
+    bass: analysisBass,
+    rootless: !hasFundamental,
+    parserNotes: [analysisBass].concat(expected.filter(note => note !== analysisBass))
   };
 }
 function activeModule() {

@@ -4831,7 +4831,7 @@ window.APP_DATA = {
             },
             {
               "term": "Registro ideal de Spread",
-              "body": "Registro ideal de los acordes Spread: acordes abiertos que no incluyen el bajo. No tiene que ser exacto, es más una región del registro que un rango absoluto.",
+              "body": "El Spread completo incluye el bajo. El registro ideal de Spread se refiere a las voces superiores que se suman al bajo, porque el registro ideal del bajo ya está indicado aparte.",
               "diagram": {
                 "range": {
                   "from": "C2",
@@ -9211,7 +9211,7 @@ window.APP_DATA = {
           "id": 5,
           "section": "I. Registros y zonas de trabajo",
           "type": "pianoSelect",
-          "prompt": "Seleccione un Spread para Dm9: fundamental en bajo, 3m, 7m y 9M en registro medio.",
+          "prompt": "Seleccione un Spread completo para Dm9: fundamental en bajo; 3m, 7m y 9M en registro de Spread.",
           "range": {
             "from": "C2",
             "to": "C5"

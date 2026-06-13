@@ -8,7 +8,7 @@ const MODULE_3_PIANO_PROMPTS = {
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
   3: "Seleccione las notas guía de G7 en registro medio.",
   4: "Seleccione una posición cerrada en registro medio para A∆9 sin bajo.",
-  5: "Seleccione un Spread para Dm9.",
+  5: "Seleccione un Spread completo para Dm9.",
   6: "Seleccione una separación clara entre bajo y notas guía para Bb∆.",
   7: "Seleccione en el teclado un shell válido para F mayor.",
   8: "Seleccione en el teclado un shell válido para D∆.",

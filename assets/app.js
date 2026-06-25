@@ -2,7 +2,7 @@ const DATA = window.APP_DATA;
 const PIANO_NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 const PIANO_FULL_RANGE = Object.freeze({ from: "C1", to: "C7" });
 const PIANO_SELECT_DEFAULT_RANGE = PIANO_FULL_RANGE;
-const MODULE_3_REMOVED_QUESTION_IDS = new Set([17, 24, 29, 30, 31, 32, 33, 34]);
+const MODULE_3_REMOVED_QUESTION_IDS = new Set([17, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 46]);
 const MODULE_3_PIANO_PROMPTS = {
   1: "Seleccione una fundamental en registro ideal de bajo para Dm7.",
   2: "Seleccione una fundamental en registro ideal de bajo para F7.",
@@ -21,15 +21,9 @@ const MODULE_3_PIANO_PROMPTS = {
   15: "Seleccione en el teclado un shell válido para A∆9.",
   16: "Seleccione en el teclado un shell válido para G∆.",
   17: "Seleccione una posición cerrada de C∆9.",
-  18: "Seleccione un skip de F∆9 desde A como base.",
+  18: "Seleccione Skip 2 desde posición cerrada para F∆9 desde A como base.",
   19: "Seleccione una posición cerrada de Dm9 sin bajo.",
-  20: "Seleccione un skip de D∆9 desde F# como base.",
-  21: "Seleccione un skip con duplicación de mano derecha para A∆9 desde C# como base.",
-  22: "Seleccione un skip con voz interior en mano derecha para Eb∆9 desde G como base.",
-  23: "Seleccione un skip de Gm9 desde Bb como base.",
   24: "Seleccione una posición cerrada completa de C∆9 con nota interna agregada.",
-  25: "Seleccione un skip con triada en mano derecha para Bb∆9 desde D como base.",
-  26: "Seleccione un skip con 9a y triada en la mano derecha para F∆13(#11) desde A como base.",
   27: "Seleccione una triada grave con separación recomendada para F mayor comenzando debajo de C3.",
   28: "Seleccione una triada grave con separación recomendada para Bb/F comenzando debajo de C3.",
   29: "Para Ab7, seleccione la nota del acorde ubicada justo debajo de Ab3.",
@@ -49,7 +43,6 @@ const MODULE_3_PIANO_PROMPTS = {
   43: "Seleccione las notas de F13 sin quinta.",
   44: "Para Bb13(#11), seleccione las dos extensiones superiores del acorde.",
   45: "Seleccione las notas de E13(b9) sin quinta.",
-  46: "Seleccione un skip de Am6(9) desde C como base.",
   47: "Seleccione bajo/acorde para Am7 con fundamental grave y notas guía en la mano derecha.",
   48: "Seleccione bajo/acorde para G7 con fundamental grave y notas guía en la mano derecha.",
   49: "Seleccione bajo/acorde para A7 con fundamental grave, notas guía en mano derecha y quinta en voz superior.",
@@ -84,28 +77,6 @@ const MODULE_3_QUESTION_OVERRIDES = {
   },
   16: {
     keyboardRange: { from: "C3", to: "C6" }
-  },
-  20: {
-    answers: ["F#3", "C#4", "E4", "A4"],
-    sampleAnswer: "F#3, C#4, E4 y A4."
-  },
-  21: {
-    answers: ["C#3", "G#3", "B3", "E4", "E5"],
-    sampleAnswer: "C#3, G#3, B3, E4 y E5."
-  },
-  22: {
-    answers: ["G3", "D4", "F4", "A#4", "D#5", "A#5"],
-    noteLabels: { "A#4": "Bb4", "D#5": "Eb5", "A#5": "Bb5" },
-    acceptedAnswers: [["G3", "D4", "F4", "A#4", "F5", "A#5"]],
-    sampleAnswer: "G3, D4, F4, Bb4, Eb5 y Bb5; también es válida la voz interna F5."
-  },
-  25: {
-    answers: ["D3", "A3", "C4", "F4", "A4", "C5", "F5"],
-    sampleAnswer: "D3, A3, C4, F4, A4, C5 y F5."
-  },
-  26: {
-    answers: ["A3", "E4", "G4", "C5", "G5", "B5", "D6"],
-    sampleAnswer: "A3, E4, G4, C5, G5, B5 y D6."
   },
   35: {
     answers: ["E3", "G#3", "B3"],
@@ -197,12 +168,6 @@ const MODULE_3_ANALYSIS_BASS = {
   15: "A2",
   16: "G2",
   18: "F2",
-  20: "D2",
-  21: "A2",
-  22: "D#2",
-  23: "G2",
-  25: "A#2",
-  26: "F2",
   27: "F2",
   38: "A#2",
   39: "G2",
@@ -210,7 +175,6 @@ const MODULE_3_ANALYSIS_BASS = {
   42: "C2",
   43: "F2",
   45: "E2",
-  46: "A2",
   52: "F#2",
   53: "E2",
   54: "G2"
